@@ -1,0 +1,872 @@
+﻿Colname,Type,Value,Label,Description,자료층,단위,상태
+document_id,identifier,허용 형식,Free text,"판결문ID | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,판결문,사용가능
+court,text,허용 형식,Free text,"판결법원 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,판결문,사용가능
+case_no,text,허용 형식,Free text,"사건번호 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,판결문,사용가능
+judgment_date,date,YYYY-MM-DD,YYYY-MM-DD = Date string,"선고일자 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,판결문,기존 기준 유지
+final_instance,text,허용 형식,Free text,"확정심급 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,판결문,기존 기준 유지
+merged,binary_code,0,아니오/해당없음,병합여부 | v1.4 일반 유무의 0=검토범위 미확인. 명시 부정과 사유를 구별. 근거 상충·정의보류·구조적 비해당은 상태를 동반한 빈칸.,621 기본층,판결문,조건부
+merged,binary_code,1,예/해당있음,병합여부 | v1.4 일반 유무의 0=검토범위 미확인. 명시 부정과 사유를 구별. 근거 상충·정의보류·구조적 비해당은 상태를 동반한 빈칸.,621 기본층,판결문,조건부
+total_victims,number,허용 형식,Numeric,"전체피해자수 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,판결문,조건부
+disposition,text,허용 형식,Free text,"처리결과 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,판결문,기존 기준 유지
+disposition_code,categorical_code,1,징역실형,"처리결과코드 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,판결문,최초20건 승인 기준 · 개별 적용 범위 확인
+disposition_code,categorical_code,2,징역집유,"처리결과코드 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,판결문,최초20건 승인 기준 · 개별 적용 범위 확인
+disposition_code,categorical_code,3,벌금,"처리결과코드 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,판결문,최초20건 승인 기준 · 개별 적용 범위 확인
+disposition_code,categorical_code,4,무죄,"처리결과코드 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,판결문,최초20건 승인 기준 · 개별 적용 범위 확인
+disposition_code,categorical_code,5,선고유예,"처리결과코드 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,판결문,최초20건 승인 기준 · 개별 적용 범위 확인
+disposition_code,categorical_code,6,공소기각,"처리결과코드 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,판결문,최초20건 승인 기준 · 개별 적용 범위 확인
+prison_months,number,허용 형식,Numeric,"징역(월) | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,판결문,조건부
+probation_months,number,허용 형식,Numeric,"집유(월) | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,판결문,조건부
+fine_10k,number,허용 형식,Numeric,"벌금(만원) | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,판결문,조건부
+sentencing_text,text,허용 형식,Free text,"양형이유원문 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,판결문,사용가능
+disposition_1st,text,허용 형식,Free text,"1심처리결과 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,판결문,기존 기준 유지
+disposition_code_1st,categorical_code,1,징역실형,"1심처리결과코드 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,판결문,최초20건 승인 기준 · 개별 적용 범위 확인
+disposition_code_1st,categorical_code,2,징역집유,"1심처리결과코드 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,판결문,최초20건 승인 기준 · 개별 적용 범위 확인
+disposition_code_1st,categorical_code,3,벌금,"1심처리결과코드 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,판결문,최초20건 승인 기준 · 개별 적용 범위 확인
+disposition_code_1st,categorical_code,4,무죄,"1심처리결과코드 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,판결문,최초20건 승인 기준 · 개별 적용 범위 확인
+disposition_code_1st,categorical_code,5,선고유예,"1심처리결과코드 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,판결문,최초20건 승인 기준 · 개별 적용 범위 확인
+disposition_code_1st,categorical_code,6,공소기각,"1심처리결과코드 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,판결문,최초20건 승인 기준 · 개별 적용 범위 확인
+prison_months_1st,number,허용 형식,Numeric,"1심징역(월) | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,판결문,조건부
+probation_months_1st,number,허용 형식,Numeric,"1심집유(월) | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,판결문,조건부
+fine_10k_1st,number,허용 형식,Numeric,"1심벌금(만원) | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,판결문,조건부
+judgment_id,identifier,문자열,기존 case_id와 구분한다.,"통합 등록표의 판결문 고유키 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,판결문,최초20건 승인 기준 · 개별 적용 범위 확인
+offender_id,identifier,허용 형식,Free text,"가해자ID | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,피고인,기존 기준 유지
+offender_sex,text,허용 형식,Free text,"가해자성별 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,피고인,조건부
+offender_sex_code,binary_code,0,남성,"가해자 성별코드 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,피고인,기존 기준 유지
+offender_sex_code,binary_code,1,여성,"가해자 성별코드 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,피고인,기존 기준 유지
+offender_age,number,허용 형식,Numeric,"가해자연령 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,피고인,최초20건 승인 기준 · 개별 적용 범위 확인
+offender_employed,binary_code,0,아니오/해당없음,가해자직업유무 | v1.4 일반 유무의 0=검토범위 미확인. 명시 부정과 사유를 구별. 근거 상충·정의보류·구조적 비해당은 상태를 동반한 빈칸.,621 기본층,피고인,조건부
+offender_employed,binary_code,1,예/해당있음,가해자직업유무 | v1.4 일반 유무의 0=검토범위 미확인. 명시 부정과 사유를 구별. 근거 상충·정의보류·구조적 비해당은 상태를 동반한 빈칸.,621 기본층,피고인,조건부
+offender_nationality,text,허용 형식,Free text,"가해자국적 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,피고인,사용가능
+offender_disability,binary_code,0,아니오/해당없음,가해자장애여부 | v1.4 일반 유무의 0=검토범위 미확인. 명시 부정과 사유를 구별. 근거 상충·정의보류·구조적 비해당은 상태를 동반한 빈칸.,621 기본층,피고인,조건부
+offender_disability,binary_code,1,예/해당있음,가해자장애여부 | v1.4 일반 유무의 0=검토범위 미확인. 명시 부정과 사유를 구별. 근거 상충·정의보류·구조적 비해당은 상태를 동반한 빈칸.,621 기본층,피고인,조건부
+juvenile,binary_code,0,아니오/해당없음,소년범여부 | v1.4 일반 유무의 0=검토범위 미확인. 명시 부정과 사유를 구별. 근거 상충·정의보류·구조적 비해당은 상태를 동반한 빈칸.,621 기본층,피고인,조건부
+juvenile,binary_code,1,예/해당있음,소년범여부 | v1.4 일반 유무의 0=검토범위 미확인. 명시 부정과 사유를 구별. 근거 상충·정의보류·구조적 비해당은 상태를 동반한 빈칸.,621 기본층,피고인,조건부
+prior_any,binary_code,0,아니오/해당없음,전과유무 | v1.4 일반 유무의 0=검토범위 미확인. 명시 부정과 사유를 구별. 근거 상충·정의보류·구조적 비해당은 상태를 동반한 빈칸.,621 기본층,피고인,기존 기준 유지
+prior_any,binary_code,1,예/해당있음,전과유무 | v1.4 일반 유무의 0=검토범위 미확인. 명시 부정과 사유를 구별. 근거 상충·정의보류·구조적 비해당은 상태를 동반한 빈칸.,621 기본층,피고인,기존 기준 유지
+prior_same,binary_code,0,아니오/해당없음,동종전과 | v1.4 일반 유무의 0=검토범위 미확인. 명시 부정과 사유를 구별. 근거 상충·정의보류·구조적 비해당은 상태를 동반한 빈칸.,621 기본층,피고인,조건부: 명시 근거 범위 운영
+prior_same,binary_code,1,예/해당있음,동종전과 | v1.4 일반 유무의 0=검토범위 미확인. 명시 부정과 사유를 구별. 근거 상충·정의보류·구조적 비해당은 상태를 동반한 빈칸.,621 기본층,피고인,조건부: 명시 근거 범위 운영
+prior_incarceration,binary_code,0,아니오/해당없음,범행 전 교정시설 수용경험 | v1.4 일반 유무의 0=검토범위 미확인. 명시 부정과 사유를 구별. 근거 상충·정의보류·구조적 비해당은 상태를 동반한 빈칸.,621 기본층,피고인,승인 기준 적용 · 11/3 일부 셀 정비
+prior_incarceration,binary_code,1,예/해당있음,범행 전 교정시설 수용경험 | v1.4 일반 유무의 0=검토범위 미확인. 명시 부정과 사유를 구별. 근거 상충·정의보류·구조적 비해당은 상태를 동반한 빈칸.,621 기본층,피고인,승인 기준 적용 · 11/3 일부 셀 정비
+admit,text,허용 형식,Free text,"범행인정 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,피고인,조건부: 명시 근거 범위 운영
+admit_code,categorical_code,0,미기재/불명,"자백코드 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,피고인,조건부: 명시 근거 범위 운영
+admit_code,categorical_code,1,인정,"자백코드 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,피고인,조건부: 명시 근거 범위 운영
+admit_code,categorical_code,2,일부인정,"자백코드 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,피고인,조건부: 명시 근거 범위 운영
+admit_code,categorical_code,3,부인,"자백코드 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,피고인,조건부: 명시 근거 범위 운영
+remorse,binary_code,0,아니오/해당없음,반성 | v1.4 일반 유무의 0=검토범위 미확인. 명시 부정과 사유를 구별. 근거 상충·정의보류·구조적 비해당은 상태를 동반한 빈칸.,621 기본층,피고인,조건부: 명시 근거 범위 운영
+remorse,binary_code,1,예/해당있음,반성 | v1.4 일반 유무의 0=검토범위 미확인. 명시 부정과 사유를 구별. 근거 상충·정의보류·구조적 비해당은 상태를 동반한 빈칸.,621 기본층,피고인,조건부: 명시 근거 범위 운영
+aggravating_other,text,허용 형식,Free text,"불리한정상 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,피고인,조건부: 법원 명시 문장 전사
+mitigating_other,text,허용 형식,Free text,"유리한정상 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,피고인,조건부: 법원 명시 문장 전사
+offender_key,identifier,문자열,judgment_id_D순번,"판결문 내 피고인 연결키 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,피고인,최초20건 승인 기준 · 개별 적용 범위 확인
+victim_id,identifier,허용 형식,Free text,"피해자ID | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,피해자,기존 기준 유지
+victim_sex,text,허용 형식,Free text,"피해자성별 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,피해자,기존 기준 유지
+victim_sex_code,binary_code,0,남성,"피해자 성별코드 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,피해자,기존 기준 유지
+victim_sex_code,binary_code,1,여성,"피해자 성별코드 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,피해자,기존 기준 유지
+victim_age,number,허용 형식,Numeric,"피해자연령 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,피해자,최초20건 승인 기준 · 개별 적용 범위 확인
+victim_key,identifier,문자열,judgment_id_V순번,"판결문 내 피해자 연결키 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,피해자,최초20건 승인 기준 · 개별 적용 범위 확인
+key,identifier,허용 형식,Free text,"고유키 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,관계쌍,최초20건 승인 기준 · 개별 적용 범위 확인
+rel_type,text,허용 형식,Free text,"관계유형 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,관계쌍,기존 기준 유지
+rel_type_code,categorical_code,1,연인,"관계유형코드 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,관계쌍,최초20건 승인 기준 · 개별 적용 범위 확인
+rel_type_code,categorical_code,2,배우자(법률혼),"관계유형코드 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,관계쌍,최초20건 승인 기준 · 개별 적용 범위 확인
+rel_type_code,categorical_code,3,전배우자,"관계유형코드 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,관계쌍,최초20건 승인 기준 · 개별 적용 범위 확인
+rel_type_code,categorical_code,4,사실혼,"관계유형코드 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,관계쌍,최초20건 승인 기준 · 개별 적용 범위 확인
+rel_type_code,categorical_code,5,내연,"관계유형코드 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,관계쌍,최초20건 승인 기준 · 개별 적용 범위 확인
+rel_type_code,categorical_code,6,전연인,"관계유형코드 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,관계쌍,최초20건 승인 기준 · 개별 적용 범위 확인
+rel_type_code,categorical_code,7,친자녀,"관계유형코드 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,관계쌍,최초20건 승인 기준 · 개별 적용 범위 확인
+rel_type_code,categorical_code,8,연관피해자,"관계유형코드 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,관계쌍,최초20건 승인 기준 · 개별 적용 범위 확인
+rel_subtype_first,text,허용 형식,Free text,"최초범행시관계 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,관계쌍,기존 기준 유지
+rel_type_first_code,categorical_code,1,연인,"최초관계유형코드 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,관계쌍,최초20건 승인 기준 · 개별 적용 범위 확인
+rel_type_first_code,categorical_code,2,배우자(법률혼),"최초관계유형코드 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,관계쌍,최초20건 승인 기준 · 개별 적용 범위 확인
+rel_type_first_code,categorical_code,3,전배우자,"최초관계유형코드 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,관계쌍,최초20건 승인 기준 · 개별 적용 범위 확인
+rel_type_first_code,categorical_code,4,사실혼,"최초관계유형코드 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,관계쌍,최초20건 승인 기준 · 개별 적용 범위 확인
+rel_type_first_code,categorical_code,5,내연,"최초관계유형코드 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,관계쌍,최초20건 승인 기준 · 개별 적용 범위 확인
+rel_type_first_code,categorical_code,6,전연인,"최초관계유형코드 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,관계쌍,최초20건 승인 기준 · 개별 적용 범위 확인
+rel_type_first_code,categorical_code,7,친자녀,"최초관계유형코드 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,관계쌍,최초20건 승인 기준 · 개별 적용 범위 확인
+rel_type_first_code,categorical_code,8,연관피해자,"최초관계유형코드 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,관계쌍,최초20건 승인 기준 · 개별 적용 범위 확인
+rel_status_first,categorical_code,1,교제중/동거중,"최초관계상태 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,관계쌍,최초20건 승인 기준 · 개별 적용 범위 확인
+rel_status_first,categorical_code,2,이별후/이혼후,"최초관계상태 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,관계쌍,최초20건 승인 기준 · 개별 적용 범위 확인
+rel_status_first,categorical_code,3,별거중,"최초관계상태 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,관계쌍,최초20건 승인 기준 · 개별 적용 범위 확인
+rel_status_first,categorical_code,4,재동거중,"최초관계상태 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,관계쌍,최초20건 승인 기준 · 개별 적용 범위 확인
+cohabit_at_first,binary_code,0,아니오/해당없음,최초범행시동거 | v1.4 일반 유무의 0=검토범위 미확인. 명시 부정과 사유를 구별. 근거 상충·정의보류·구조적 비해당은 상태를 동반한 빈칸.,621 기본층,관계쌍,기존 기준 유지
+cohabit_at_first,binary_code,1,예/해당있음,최초범행시동거 | v1.4 일반 유무의 0=검토범위 미확인. 명시 부정과 사유를 구별. 근거 상충·정의보류·구조적 비해당은 상태를 동반한 빈칸.,621 기본층,관계쌍,기존 기준 유지
+cohabit_ever,binary_code,0,아니오/해당없음,동거경험 | v1.4 일반 유무의 0=검토범위 미확인. 명시 부정과 사유를 구별. 근거 상충·정의보류·구조적 비해당은 상태를 동반한 빈칸.,621 기본층,관계쌍,기존 기준 유지
+cohabit_ever,binary_code,1,예/해당있음,동거경험 | v1.4 일반 유무의 0=검토범위 미확인. 명시 부정과 사유를 구별. 근거 상충·정의보류·구조적 비해당은 상태를 동반한 빈칸.,621 기본층,관계쌍,기존 기준 유지
+rel_start_date,date,YYYY-MM-DD,YYYY-MM-DD = Date string,"관계시작일 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,관계쌍,기존 기준 유지
+rel_end_date,date,YYYY-MM-DD,YYYY-MM-DD = Date string,"관계종료일 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,관계쌍,기존 기준 유지
+rel_duration_days,number,허용 형식,Numeric,"관계유지기간(일) | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,관계쌍,조건부
+rel_end_type,text,허용 형식,Free text,"관계종료유형 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,관계쌍,기존 기준 유지
+rel_end_type_code,categorical_code,1,이별통보(피해자),"관계종료유형코드 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,관계쌍,최초20건 승인 기준 · 개별 적용 범위 확인
+rel_end_type_code,categorical_code,2,이별통보(피고인),"관계종료유형코드 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,관계쌍,최초20건 승인 기준 · 개별 적용 범위 확인
+rel_end_type_code,categorical_code,3,이별,"관계종료유형코드 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,관계쌍,최초20건 승인 기준 · 개별 적용 범위 확인
+rel_end_type_code,categorical_code,4,상호합의이별,"관계종료유형코드 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,관계쌍,최초20건 승인 기준 · 개별 적용 범위 확인
+rel_end_type_code,categorical_code,5,협의이혼,"관계종료유형코드 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,관계쌍,최초20건 승인 기준 · 개별 적용 범위 확인
+rel_end_type_code,categorical_code,6,별거(이혼소송중),"관계종료유형코드 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,관계쌍,최초20건 승인 기준 · 개별 적용 범위 확인
+rel_end_type_code,categorical_code,7,별거(협의이혼조율중),"관계종료유형코드 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,관계쌍,최초20건 승인 기준 · 개별 적용 범위 확인
+rel_end_type_code,categorical_code,8,별거,"관계종료유형코드 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,관계쌍,최초20건 승인 기준 · 개별 적용 범위 확인
+rel_end_context,text,허용 형식,Free text,"결별경위요약 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,관계쌍,최초20건 승인 기준 · 개별 적용 범위 확인
+child_offender_only,binary_code,0,아니오/해당없음,가해자만자녀 | v1.4 일반 유무의 0=검토범위 미확인. 명시 부정과 사유를 구별. 근거 상충·정의보류·구조적 비해당은 상태를 동반한 빈칸.,621 기본층,관계쌍,조건부
+child_offender_only,binary_code,1,예/해당있음,가해자만자녀 | v1.4 일반 유무의 0=검토범위 미확인. 명시 부정과 사유를 구별. 근거 상충·정의보류·구조적 비해당은 상태를 동반한 빈칸.,621 기본층,관계쌍,조건부
+child_victim_only,binary_code,0,아니오/해당없음,피해자만자녀 | v1.4 일반 유무의 0=검토범위 미확인. 명시 부정과 사유를 구별. 근거 상충·정의보류·구조적 비해당은 상태를 동반한 빈칸.,621 기본층,관계쌍,조건부
+child_victim_only,binary_code,1,예/해당있음,피해자만자녀 | v1.4 일반 유무의 0=검토범위 미확인. 명시 부정과 사유를 구별. 근거 상충·정의보류·구조적 비해당은 상태를 동반한 빈칸.,621 기본층,관계쌍,조건부
+child_joint,binary_code,0,아니오/해당없음,공동자녀 | v1.4 일반 유무의 0=검토범위 미확인. 명시 부정과 사유를 구별. 근거 상충·정의보류·구조적 비해당은 상태를 동반한 빈칸.,621 기본층,관계쌍,조건부
+child_joint,binary_code,1,예/해당있음,공동자녀 | v1.4 일반 유무의 0=검토범위 미확인. 명시 부정과 사유를 구별. 근거 상충·정의보류·구조적 비해당은 상태를 동반한 빈칸.,621 기본층,관계쌍,조건부
+protect_pre_first,binary_code,0,아니오/해당없음,1차이전보호조치 | v1.4 일반 유무의 0=검토범위 미확인. 명시 부정과 사유를 구별. 근거 상충·정의보류·구조적 비해당은 상태를 동반한 빈칸.,621 기본층,관계쌍,정의 보완·근거 확인 사례에 적용 가능
+protect_pre_first,binary_code,1,예/해당있음,1차이전보호조치 | v1.4 일반 유무의 0=검토범위 미확인. 명시 부정과 사유를 구별. 근거 상충·정의보류·구조적 비해당은 상태를 동반한 빈칸.,621 기본층,관계쌍,정의 보완·근거 확인 사례에 적용 가능
+protect_any,binary_code,0,아니오/해당없음,보호조치유무 | v1.4 일반 유무의 0=검토범위 미확인. 명시 부정과 사유를 구별. 근거 상충·정의보류·구조적 비해당은 상태를 동반한 빈칸.,621 기본층,관계쌍,정의 보완·근거 확인 사례에 적용 가능
+protect_any,binary_code,1,예/해당있음,보호조치유무 | v1.4 일반 유무의 0=검토범위 미확인. 명시 부정과 사유를 구별. 근거 상충·정의보류·구조적 비해당은 상태를 동반한 빈칸.,621 기본층,관계쌍,정의 보완·근거 확인 사례에 적용 가능
+protect_breach,binary_code,0,아니오/해당없음,보호조치위반 | v1.4 일반 유무의 0=검토범위 미확인. 명시 부정과 사유를 구별. 근거 상충·정의보류·구조적 비해당은 상태를 동반한 빈칸.,621 기본층,관계쌍,정의 보완·근거 확인 사례에 적용 가능
+protect_breach,binary_code,1,예/해당있음,보호조치위반 | v1.4 일반 유무의 0=검토범위 미확인. 명시 부정과 사유를 구별. 근거 상충·정의보류·구조적 비해당은 상태를 동반한 빈칸.,621 기본층,관계쌍,정의 보완·근거 확인 사례에 적용 가능
+protect_to_next_days,number,허용 형식,Numeric,"보호조치→범행(일) | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,관계쌍,최초20건 승인 기준 · 개별 적용 범위 확인
+rel_start_to_first_days,number,허용 형식,Numeric,"관계시작→1차(일) | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,관계쌍,조건부
+breakup_to_first_days,number,허용 형식,Numeric,"종료→1차(일) | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,관계쌍,최초20건 승인 기준 · 개별 적용 범위 확인
+gap_1to2,number,허용 형식,Numeric,"1→2차(일) | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,관계쌍,기존 기준 유지
+gap_2to3,number,허용 형식,Numeric,"2→3차(일) | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,관계쌍,기존 기준 유지
+gap_3to4,number,허용 형식,Numeric,"3→4차(일) | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,관계쌍,기존 기준 유지
+gap_4to5,number,허용 형식,Numeric,"4→5차(일) | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,관계쌍,기존 기준 유지
+gap_5to6,number,허용 형식,Numeric,"5→6차(일) | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,관계쌍,기존 기준 유지
+total_offense_span,number,허용 형식,Numeric,"총범행기간(일) | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,관계쌍,조건부
+total_offense_count,number,허용 형식,Numeric,"총범행횟수 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,관계쌍,최초20건 승인 기준 · 개별 적용 범위 확인
+max_event_seq,number,허용 형식,Numeric,"옛 wide 양식에서 표시하는 최종 차수 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,관계쌍,최초20건 승인 기준 · 개별 적용 범위 확인
+breakup_to_last_days,number,허용 형식,Numeric,"종료→최종범행(일) | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,관계쌍,최초20건 승인 기준 · 개별 적용 범위 확인
+mean_gap_days,number,허용 형식,Numeric,"평균간격(일) | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,관계쌍,최초20건 승인 기준 · 개별 적용 범위 확인
+gap_trend,text,허용 형식,Free text,"간격추세 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,관계쌍,기존 기준 유지
+gap_trend_code,categorical_code,0,해당없음,"간격추세코드 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,관계쌍,기존 기준 유지
+gap_trend_code,categorical_code,1,감소,"간격추세코드 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,관계쌍,기존 기준 유지
+gap_trend_code,categorical_code,2,증가,"간격추세코드 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,관계쌍,기존 기준 유지
+gap_trend_code,categorical_code,3,불규칙,"간격추세코드 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,관계쌍,기존 기준 유지
+cc_surveillance,binary_code,0,아니오/해당없음,감시 | v1.4 일반 유무의 0=검토범위 미확인. 명시 부정과 사유를 구별. 근거 상충·정의보류·구조적 비해당은 상태를 동반한 빈칸.,621 기본층,관계쌍,최초20건 승인 기준 · 개별 적용 범위 확인
+cc_surveillance,binary_code,1,예/해당있음,감시 | v1.4 일반 유무의 0=검토범위 미확인. 명시 부정과 사유를 구별. 근거 상충·정의보류·구조적 비해당은 상태를 동반한 빈칸.,621 기본층,관계쌍,최초20건 승인 기준 · 개별 적용 범위 확인
+cc_isolation,binary_code,0,아니오/해당없음,고립 | v1.4 일반 유무의 0=검토범위 미확인. 명시 부정과 사유를 구별. 근거 상충·정의보류·구조적 비해당은 상태를 동반한 빈칸.,621 기본층,관계쌍,기존 기준 유지
+cc_isolation,binary_code,1,예/해당있음,고립 | v1.4 일반 유무의 0=검토범위 미확인. 명시 부정과 사유를 구별. 근거 상충·정의보류·구조적 비해당은 상태를 동반한 빈칸.,621 기본층,관계쌍,기존 기준 유지
+cc_intimidation,binary_code,0,아니오/해당없음,위협겁줌 | v1.4 일반 유무의 0=검토범위 미확인. 명시 부정과 사유를 구별. 근거 상충·정의보류·구조적 비해당은 상태를 동반한 빈칸.,621 기본층,관계쌍,기존 기준 유지
+cc_intimidation,binary_code,1,예/해당있음,위협겁줌 | v1.4 일반 유무의 0=검토범위 미확인. 명시 부정과 사유를 구별. 근거 상충·정의보류·구조적 비해당은 상태를 동반한 빈칸.,621 기본층,관계쌍,기존 기준 유지
+cc_emotional_abuse,binary_code,0,아니오/해당없음,정서학대 | v1.4 일반 유무의 0=검토범위 미확인. 명시 부정과 사유를 구별. 근거 상충·정의보류·구조적 비해당은 상태를 동반한 빈칸.,621 기본층,관계쌍,기존 기준 유지
+cc_emotional_abuse,binary_code,1,예/해당있음,정서학대 | v1.4 일반 유무의 0=검토범위 미확인. 명시 부정과 사유를 구별. 근거 상충·정의보류·구조적 비해당은 상태를 동반한 빈칸.,621 기본층,관계쌍,기존 기준 유지
+cc_digital_control,binary_code,0,아니오/해당없음,디지털통제 | v1.4 일반 유무의 0=검토범위 미확인. 명시 부정과 사유를 구별. 근거 상충·정의보류·구조적 비해당은 상태를 동반한 빈칸.,621 기본층,관계쌍,기존 기준 유지
+cc_digital_control,binary_code,1,예/해당있음,디지털통제 | v1.4 일반 유무의 0=검토범위 미확인. 명시 부정과 사유를 구별. 근거 상충·정의보류·구조적 비해당은 상태를 동반한 빈칸.,621 기본층,관계쌍,기존 기준 유지
+cc_reputation_threat,binary_code,0,아니오/해당없음,평판위협 | v1.4 일반 유무의 0=검토범위 미확인. 명시 부정과 사유를 구별. 근거 상충·정의보류·구조적 비해당은 상태를 동반한 빈칸.,621 기본층,관계쌍,기존 기준 유지
+cc_reputation_threat,binary_code,1,예/해당있음,평판위협 | v1.4 일반 유무의 0=검토범위 미확인. 명시 부정과 사유를 구별. 근거 상충·정의보류·구조적 비해당은 상태를 동반한 빈칸.,621 기본층,관계쌍,기존 기준 유지
+cc_refusal_to_separate,binary_code,0,아니오/해당없음,이별거부 | v1.4 일반 유무의 0=검토범위 미확인. 명시 부정과 사유를 구별. 근거 상충·정의보류·구조적 비해당은 상태를 동반한 빈칸.,621 기본층,관계쌍,기존 기준 유지
+cc_refusal_to_separate,binary_code,1,예/해당있음,이별거부 | v1.4 일반 유무의 0=검토범위 미확인. 명시 부정과 사유를 구별. 근거 상충·정의보류·구조적 비해당은 상태를 동반한 빈칸.,621 기본층,관계쌍,기존 기준 유지
+cc_physical_control,binary_code,0,아니오/해당없음,신체통제 | v1.4 일반 유무의 0=검토범위 미확인. 명시 부정과 사유를 구별. 근거 상충·정의보류·구조적 비해당은 상태를 동반한 빈칸.,621 기본층,관계쌍,기존 기준 유지
+cc_physical_control,binary_code,1,예/해당있음,신체통제 | v1.4 일반 유무의 0=검토범위 미확인. 명시 부정과 사유를 구별. 근거 상충·정의보류·구조적 비해당은 상태를 동반한 빈칸.,621 기본층,관계쌍,기존 기준 유지
+cc_economic_control,binary_code,0,아니오/해당없음,경제통제 | v1.4 일반 유무의 0=검토범위 미확인. 명시 부정과 사유를 구별. 근거 상충·정의보류·구조적 비해당은 상태를 동반한 빈칸.,621 기본층,관계쌍,기존 기준 유지
+cc_economic_control,binary_code,1,예/해당있음,경제통제 | v1.4 일반 유무의 0=검토범위 미확인. 명시 부정과 사유를 구별. 근거 상충·정의보류·구조적 비해당은 상태를 동반한 빈칸.,621 기본층,관계쌍,기존 기준 유지
+cc_total,number,허용 형식,Numeric,통제총점 | 하위 항목 미확정 시 합계 빈칸. 확인된 하위 항목을 유지.,621 기본층,관계쌍,최초20건 승인 기준 · 개별 적용 범위 확인
+escalation_present,binary_code,0,아니오/해당없음,관계쌍 내 폭력 심화 유무 | 빈칸+held_definition. 정의 보류 유지.,621 기본층,관계쌍,승인 결정: 정의 보류 유지
+escalation_present,binary_code,1,예/해당있음,관계쌍 내 폭력 심화 유무 | 빈칸+held_definition. 정의 보류 유지.,621 기본층,관계쌍,승인 결정: 정의 보류 유지
+escalation_detail,text,허용 형식,Free text,관계쌍 내 폭력 심화 경로 | 빈칸+held_definition. 정의 보류 유지.,621 기본층,관계쌍,승인 결정: 정의 보류 유지
+severity_first,number,허용 형식,Numeric,"최초심각도 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,관계쌍,승인 기준 적용 · 11/3 일부 셀 정비
+severity_last,number,허용 형식,Numeric,"최종심각도 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,관계쌍,승인 기준 적용 · 11/3 일부 셀 정비
+severity_max,number,허용 형식,Numeric,"최고심각도 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,관계쌍,승인 기준 적용 · 11/3 일부 셀 정비
+charges_all,text,허용 형식,Free text,"전체죄명 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,관계쌍,최초20건 승인 기준 · 개별 적용 범위 확인
+has_sex_crime,binary_code,0,아니오/해당없음,성범죄 | v1.4 일반 유무의 0=검토범위 미확인. 명시 부정과 사유를 구별. 근거 상충·정의보류·구조적 비해당은 상태를 동반한 빈칸.,621 기본층,관계쌍,최초20건 승인 기준 · 개별 적용 범위 확인
+has_sex_crime,binary_code,1,예/해당있음,성범죄 | v1.4 일반 유무의 0=검토범위 미확인. 명시 부정과 사유를 구별. 근거 상충·정의보류·구조적 비해당은 상태를 동반한 빈칸.,621 기본층,관계쌍,최초20건 승인 기준 · 개별 적용 범위 확인
+has_stalking,binary_code,0,아니오/해당없음,스토킹 | v1.4 일반 유무의 0=검토범위 미확인. 명시 부정과 사유를 구별. 근거 상충·정의보류·구조적 비해당은 상태를 동반한 빈칸.,621 기본층,관계쌍,최초20건 승인 기준 · 개별 적용 범위 확인
+has_stalking,binary_code,1,예/해당있음,스토킹 | v1.4 일반 유무의 0=검토범위 미확인. 명시 부정과 사유를 구별. 근거 상충·정의보류·구조적 비해당은 상태를 동반한 빈칸.,621 기본층,관계쌍,최초20건 승인 기준 · 개별 적용 범위 확인
+has_homicide_intent,binary_code,1,법원이 인정한 살해위협·시도·살인 (11/3 정정셀),"법원 인정 살해위협·시도·살인 (정비분, 구키 보존) | v1.4 일반 유무의 0=검토범위 미확인. 명시 부정과 사유를 구별. 근거 상충·정의보류·구조적 비해당은 상태를 동반한 빈칸.",621 기본층,관계쌍,승인 기준 적용 · 11/3 일부 셀 정비
+has_homicide_intent,binary_code,0,판정 버전·사유 확인; 미확정과 구별,"법원 인정 살해위협·시도·살인 (정비분, 구키 보존) | v1.4 일반 유무의 0=검토범위 미확인. 명시 부정과 사유를 구별. 근거 상충·정의보류·구조적 비해당은 상태를 동반한 빈칸.",621 기본층,관계쌍,승인 기준 적용 · 11/3 일부 셀 정비
+has_physical_force,binary_code,0,아니오/해당없음,유형력 | v1.4 일반 유무의 0=검토범위 미확인. 명시 부정과 사유를 구별. 근거 상충·정의보류·구조적 비해당은 상태를 동반한 빈칸.,621 기본층,관계쌍,기존 기준 유지
+has_physical_force,binary_code,1,예/해당있음,유형력 | v1.4 일반 유무의 0=검토범위 미확인. 명시 부정과 사유를 구별. 근거 상충·정의보류·구조적 비해당은 상태를 동반한 빈칸.,621 기본층,관계쌍,기존 기준 유지
+is_ipv,binary_code,0,아니오/해당없음,IPV여부 | v1.4 일반 유무의 0=검토범위 미확인. 명시 부정과 사유를 구별. 근거 상충·정의보류·구조적 비해당은 상태를 동반한 빈칸.,621 기본층,관계쌍,기존 기준 유지
+is_ipv,binary_code,1,예/해당있음,IPV여부 | v1.4 일반 유무의 0=검토범위 미확인. 명시 부정과 사유를 구별. 근거 상충·정의보류·구조적 비해당은 상태를 동반한 빈칸.,621 기본층,관계쌍,기존 기준 유지
+prior_against_victim,binary_code,0,아니오/해당없음,피해자대상전과 | v1.4 일반 유무의 0=검토범위 미확인. 명시 부정과 사유를 구별. 근거 상충·정의보류·구조적 비해당은 상태를 동반한 빈칸.,621 기본층,관계쌍,최초20건 승인 기준 · 개별 적용 범위 확인
+prior_against_victim,binary_code,1,예/해당있음,피해자대상전과 | v1.4 일반 유무의 0=검토범위 미확인. 명시 부정과 사유를 구별. 근거 상충·정의보류·구조적 비해당은 상태를 동반한 빈칸.,621 기본층,관계쌍,최초20건 승인 기준 · 개별 적용 범위 확인
+deposit,binary_code,0,아니오/해당없음,공탁 | v1.4 일반 유무의 0=검토범위 미확인. 명시 부정과 사유를 구별. 근거 상충·정의보류·구조적 비해당은 상태를 동반한 빈칸.,621 기본층,관계쌍,조건부: 명시 근거 범위 운영
+deposit,binary_code,1,예/해당있음,공탁 | v1.4 일반 유무의 0=검토범위 미확인. 명시 부정과 사유를 구별. 근거 상충·정의보류·구조적 비해당은 상태를 동반한 빈칸.,621 기본층,관계쌍,조건부: 명시 근거 범위 운영
+deposit_amount,number,허용 형식,Numeric,"공탁금(만원) | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,관계쌍,조건부: 명시 근거 범위 운영
+victim_punishment_wish,categorical_code,0,판결문에 언급 없음,"피해자 처벌의사(사망사건의 확인된 유족 포함) | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,관계쌍,승인 기준 적용 · 11/3 일부 셀 정비
+victim_punishment_wish,categorical_code,1,처벌 요구,"피해자 처벌의사(사망사건의 확인된 유족 포함) | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,관계쌍,승인 기준 적용 · 11/3 일부 셀 정비
+victim_punishment_wish,categorical_code,2,처벌불원,"피해자 처벌의사(사망사건의 확인된 유족 포함) | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,관계쌍,승인 기준 적용 · 11/3 일부 셀 정비
+victim_punishment_wish,categorical_code,3,선처 등 관용 의사,"피해자 처벌의사(사망사건의 확인된 유족 포함) | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,관계쌍,승인 기준 적용 · 11/3 일부 셀 정비
+victim_punishment_wish,categorical_code,빈칸,미코딩/격리(상태 구분),"피해자 처벌의사(사망사건의 확인된 유족 포함) | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,관계쌍,승인 기준 적용 · 11/3 일부 셀 정비
+settlement,binary_code,0,아니오/해당없음,합의 | v1.4 일반 유무의 0=검토범위 미확인. 명시 부정과 사유를 구별. 근거 상충·정의보류·구조적 비해당은 상태를 동반한 빈칸.,621 기본층,관계쌍,조건부: 명시 근거 범위 운영
+settlement,binary_code,1,예/해당있음,합의 | v1.4 일반 유무의 0=검토범위 미확인. 명시 부정과 사유를 구별. 근거 상충·정의보류·구조적 비해당은 상태를 동반한 빈칸.,621 기본층,관계쌍,조건부: 명시 근거 범위 운영
+notes,text,허용 형식,Free text,"코딩메모 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,관계쌍,사용가능
+is_ipv_direct,binary_code,0,아니오/해당없음,직접IPV여부 | v1.4 일반 유무의 0=검토범위 미확인. 명시 부정과 사유를 구별. 근거 상충·정의보류·구조적 비해당은 상태를 동반한 빈칸.,621 기본층,관계쌍,기존 기준 유지
+is_ipv_direct,binary_code,1,예/해당있음,직접IPV여부 | v1.4 일반 유무의 0=검토범위 미확인. 명시 부정과 사유를 구별. 근거 상충·정의보류·구조적 비해당은 상태를 동반한 빈칸.,621 기본층,관계쌍,기존 기준 유지
+gap_6to7,number,허용 형식,Numeric,"6→7차(일) | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,관계쌍,기존 기준 유지
+gap_7to8,number,허용 형식,Numeric,"7→8차(일) | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,관계쌍,기존 기준 유지
+gap_8to9,number,허용 형식,Numeric,"8→9차(일) | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,관계쌍,기존 기준 유지
+gap_9to10,number,허용 형식,Numeric,"9→10차(일) | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,관계쌍,기존 기준 유지
+cc_surveillance_digital,binary_code,0,아니오/해당없음,디지털 경로를 사용한 감시 | v1.4 일반 유무의 0=검토범위 미확인. 명시 부정과 사유를 구별. 근거 상충·정의보류·구조적 비해당은 상태를 동반한 빈칸.,621 기본층,관계쌍,기존 기준 유지
+cc_surveillance_digital,binary_code,1,예/해당있음,디지털 경로를 사용한 감시 | v1.4 일반 유무의 0=검토범위 미확인. 명시 부정과 사유를 구별. 근거 상충·정의보류·구조적 비해당은 상태를 동반한 빈칸.,621 기본층,관계쌍,기존 기준 유지
+cc_intimidation_digital,binary_code,0,아니오/해당없음,디지털 경로를 사용한 위협 | v1.4 일반 유무의 0=검토범위 미확인. 명시 부정과 사유를 구별. 근거 상충·정의보류·구조적 비해당은 상태를 동반한 빈칸.,621 기본층,관계쌍,기존 기준 유지
+cc_intimidation_digital,binary_code,1,예/해당있음,디지털 경로를 사용한 위협 | v1.4 일반 유무의 0=검토범위 미확인. 명시 부정과 사유를 구별. 근거 상충·정의보류·구조적 비해당은 상태를 동반한 빈칸.,621 기본층,관계쌍,기존 기준 유지
+cc_reputation_digital,binary_code,0,아니오/해당없음,디지털 경로를 사용한 평판 위협 | v1.4 일반 유무의 0=검토범위 미확인. 명시 부정과 사유를 구별. 근거 상충·정의보류·구조적 비해당은 상태를 동반한 빈칸.,621 기본층,관계쌍,기존 기준 유지
+cc_reputation_digital,binary_code,1,예/해당있음,디지털 경로를 사용한 평판 위협 | v1.4 일반 유무의 0=검토범위 미확인. 명시 부정과 사유를 구별. 근거 상충·정의보류·구조적 비해당은 상태를 동반한 빈칸.,621 기본층,관계쌍,기존 기준 유지
+cc_refusal_digital,binary_code,0,아니오/해당없음,디지털 경로를 사용한 분리 거부 | v1.4 일반 유무의 0=검토범위 미확인. 명시 부정과 사유를 구별. 근거 상충·정의보류·구조적 비해당은 상태를 동반한 빈칸.,621 기본층,관계쌍,기존 기준 유지
+cc_refusal_digital,binary_code,1,예/해당있음,디지털 경로를 사용한 분리 거부 | v1.4 일반 유무의 0=검토범위 미확인. 명시 부정과 사유를 구별. 근거 상충·정의보류·구조적 비해당은 상태를 동반한 빈칸.,621 기본층,관계쌍,기존 기준 유지
+cc_emotional_digital,binary_code,0,아니오/해당없음,디지털 경로를 사용한 정서적 학대 | v1.4 일반 유무의 0=검토범위 미확인. 명시 부정과 사유를 구별. 근거 상충·정의보류·구조적 비해당은 상태를 동반한 빈칸.,621 기본층,관계쌍,기존 기준 유지
+cc_emotional_digital,binary_code,1,예/해당있음,디지털 경로를 사용한 정서적 학대 | v1.4 일반 유무의 0=검토범위 미확인. 명시 부정과 사유를 구별. 근거 상충·정의보류·구조적 비해당은 상태를 동반한 빈칸.,621 기본층,관계쌍,기존 기준 유지
+cc_digital_control_detail,binary_code,0,아니오/해당없음,디지털 통제의 디지털 경로 세부항목 | v1.4 일반 유무의 0=검토범위 미확인. 명시 부정과 사유를 구별. 근거 상충·정의보류·구조적 비해당은 상태를 동반한 빈칸.,621 기본층,관계쌍,기존 기준 유지
+cc_digital_control_detail,binary_code,1,예/해당있음,디지털 통제의 디지털 경로 세부항목 | v1.4 일반 유무의 0=검토범위 미확인. 명시 부정과 사유를 구별. 근거 상충·정의보류·구조적 비해당은 상태를 동반한 빈칸.,621 기본층,관계쌍,기존 기준 유지
+cc_isolation_digital,binary_code,0,아니오/해당없음,디지털 경로를 사용한 고립 | v1.4 일반 유무의 0=검토범위 미확인. 명시 부정과 사유를 구별. 근거 상충·정의보류·구조적 비해당은 상태를 동반한 빈칸.,621 기본층,관계쌍,기존 기준 유지
+cc_isolation_digital,binary_code,1,예/해당있음,디지털 경로를 사용한 고립 | v1.4 일반 유무의 0=검토범위 미확인. 명시 부정과 사유를 구별. 근거 상충·정의보류·구조적 비해당은 상태를 동반한 빈칸.,621 기본층,관계쌍,기존 기준 유지
+cc_economic_digital,binary_code,0,아니오/해당없음,디지털 경로를 사용한 경제적 통제 | v1.4 일반 유무의 0=검토범위 미확인. 명시 부정과 사유를 구별. 근거 상충·정의보류·구조적 비해당은 상태를 동반한 빈칸.,621 기본층,관계쌍,기존 기준 유지
+cc_economic_digital,binary_code,1,예/해당있음,디지털 경로를 사용한 경제적 통제 | v1.4 일반 유무의 0=검토범위 미확인. 명시 부정과 사유를 구별. 근거 상충·정의보류·구조적 비해당은 상태를 동반한 빈칸.,621 기본층,관계쌍,기존 기준 유지
+cc_physical_control_digital,binary_code,0,아니오/해당없음,디지털 경로를 사용한 신체적 통제 | v1.4 일반 유무의 0=검토범위 미확인. 명시 부정과 사유를 구별. 근거 상충·정의보류·구조적 비해당은 상태를 동반한 빈칸.,621 기본층,관계쌍,기존 기준 유지
+cc_physical_control_digital,binary_code,1,예/해당있음,디지털 경로를 사용한 신체적 통제 | v1.4 일반 유무의 0=검토범위 미확인. 명시 부정과 사유를 구별. 근거 상충·정의보류·구조적 비해당은 상태를 동반한 빈칸.,621 기본층,관계쌍,기존 기준 유지
+cc_digital_total,number,허용 형식,Numeric,디지털 경로를 사용한 통제 영역 수 | 하위 항목 미확정 시 합계 빈칸. 확인된 하위 항목을 유지.,621 기본층,관계쌍,기존 기준 유지
+dyad_key,identifier,문자열,judgment_id_D순번_V순번,"판결문·피고인·피해자의 관계 연결키 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,관계쌍,최초20건 승인 기준 · 개별 적용 범위 확인
+n_events_total,number,0 이상의 정수 또는 빈칸,0 이상의 정수; 빈칸=공소사실 차수 전체를 확정할 수 없음. 무죄·공소기각 자체는 보류 사유가 아님.,"관계쌍의 확정 C 차수 총수 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,관계쌍,최초20건 승인 기준 · 개별 적용 범위 확인
+events_truncated,text,1,실제 총차수>10,"wide 10차 상한으로 뒤 사건이 제외되는지 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,관계쌍,최초20건 승인 기준 · 개별 적용 범위 확인
+events_truncated,text,0,전체확인 후 총차수≤10,"wide 10차 상한으로 뒤 사건이 제외되는지 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,관계쌍,최초20건 승인 기준 · 개별 적용 범위 확인
+events_truncated,text,빈칸,전체 미확인,"wide 10차 상한으로 뒤 사건이 제외되는지 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,관계쌍,최초20건 승인 기준 · 개별 적용 범위 확인
+severe_punishment_plea,binary_code,1,엄벌탄원 명시,엄벌탄원 명시 | 개별 값 레이블에서 정한 0·빈칸의 조건 적용.,621 기본층,관계쌍,기존 기준 유지
+severe_punishment_plea,binary_code,0,명시적 부재,엄벌탄원 명시 | 개별 값 레이블에서 정한 0·빈칸의 조건 적용.,621 기본층,관계쌍,기존 기준 유지
+severe_punishment_plea,binary_code,빈칸,미확인,엄벌탄원 명시 | 개별 값 레이블에서 정한 0·빈칸의 조건 적용.,621 기본층,관계쌍,기존 기준 유지
+punishment_wish_reversed,binary_code,1,번복·부인·위조 확인,처벌의사 번복·합의서 부인·위조 | 개별 값 레이블에서 정한 0·빈칸의 조건 적용.,621 기본층,관계쌍,기존 기준 유지
+punishment_wish_reversed,binary_code,0,명시적 부재,처벌의사 번복·합의서 부인·위조 | 개별 값 레이블에서 정한 0·빈칸의 조건 적용.,621 기본층,관계쌍,기존 기준 유지
+punishment_wish_reversed,binary_code,빈칸,미확인,처벌의사 번복·합의서 부인·위조 | 개별 값 레이블에서 정한 0·빈칸의 조건 적용.,621 기본층,관계쌍,기존 기준 유지
+third_party_involved,binary_code,1,원문 근거로 확인됨,"주변인 관련 행위 확인 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,관계쌍,기준 사용 가능·원문 판정 전
+third_party_involved,binary_code,0,해당 관계쌍의 판결문 검토를 마쳤으나 확인되지 않음,"주변인 관련 행위 확인 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,관계쌍,기준 사용 가능·원문 판정 전
+third_party_involved,binary_code,빈칸,미코딩 또는 판단 보류. 0은 실제 부재의 증명이 아님. 판단 보류는 third_party_evidence에 사유를 남김.,"주변인 관련 행위 확인 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,관계쌍,기준 사용 가능·원문 판정 전
+third_party_count,number,0 이상의 정수; 빈칸=미코딩·인원 특정 불가(사유 구분),0 이상의 정수; 빈칸=미코딩·인원 특정 불가(사유 구분),"관련 주변인 수 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,관계쌍,기준 사용 가능·원문 판정 전
+third_party_type_codes,multi_code,1,피해자의 친밀관계자,"주변인 관계 유형 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,관계쌍,기준 사용 가능·원문 판정 전
+third_party_type_codes,multi_code,2,피해자 또는 공동의 자녀,"주변인 관계 유형 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,관계쌍,기준 사용 가능·원문 판정 전
+third_party_type_codes,multi_code,3,피해자 부모,"주변인 관계 유형 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,관계쌍,기준 사용 가능·원문 판정 전
+third_party_type_codes,multi_code,4,피해자 형제자매,"주변인 관계 유형 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,관계쌍,기준 사용 가능·원문 판정 전
+third_party_type_codes,multi_code,5,피해자 직장관계자,"주변인 관계 유형 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,관계쌍,기준 사용 가능·원문 판정 전
+third_party_type_codes,multi_code,6,피해자 친구·친척 등 기타 지인,"주변인 관계 유형 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,관계쌍,기준 사용 가능·원문 판정 전
+third_party_type_codes,multi_code,7,피고인의 친밀관계자,"주변인 관계 유형 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,관계쌍,기준 사용 가능·원문 판정 전
+third_party_type_codes,multi_code,8,피고인 부모,"주변인 관계 유형 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,관계쌍,기준 사용 가능·원문 판정 전
+third_party_type_codes,multi_code,9,피고인 형제자매,"주변인 관계 유형 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,관계쌍,기준 사용 가능·원문 판정 전
+third_party_type_codes,multi_code,10,피고인 직장관계자,"주변인 관계 유형 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,관계쌍,기준 사용 가능·원문 판정 전
+third_party_type_codes,multi_code,11,피고인 친구·친척 등 기타 지인 (v1.4 §12).,"주변인 관계 유형 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,관계쌍,기준 사용 가능·원문 판정 전
+third_party_type_codes,multi_code,빈칸,없음·미코딩·분류 미대응 구분은 involved/evidence 확인,"주변인 관계 유형 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,관계쌍,기준 사용 가능·원문 판정 전
+third_party_type_codes,multi_code,복수응답,1–11 중 고유한 코드를 세미콜론(;)으로 구분,"주변인 관계 유형 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,관계쌍,기준 사용 가능·원문 판정 전
+third_party_type_text,text,비식별 관계 서술; 빈칸=미코딩 또는 해당 관계 기재 없음,비식별 관계 서술; 빈칸=미코딩 또는 해당 관계 기재 없음,"주변인 관계 원문 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,관계쌍,기준 사용 가능·원문 판정 전
+third_party_direct_harm,binary_code,1,원문 근거로 확인됨,"주변인에 대한 직접 피해 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,관계쌍,기준 사용 가능·원문 판정 전
+third_party_direct_harm,binary_code,0,해당 관계쌍의 판결문 검토를 마쳤으나 확인되지 않음,"주변인에 대한 직접 피해 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,관계쌍,기준 사용 가능·원문 판정 전
+third_party_direct_harm,binary_code,빈칸,미코딩 또는 판단 보류. 0은 실제 부재의 증명이 아님. 판단 보류는 third_party_evidence에 사유를 남김.,"주변인에 대한 직접 피해 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,관계쌍,기준 사용 가능·원문 판정 전
+third_party_control_route,binary_code,1,원문 근거로 확인됨,"주변인을 통한 통제 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,관계쌍,기준 사용 가능·원문 판정 전
+third_party_control_route,binary_code,0,해당 관계쌍의 판결문 검토를 마쳤으나 확인되지 않음,"주변인을 통한 통제 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,관계쌍,기준 사용 가능·원문 판정 전
+third_party_control_route,binary_code,빈칸,미코딩 또는 판단 보류. 0은 실제 부재의 증명이 아님. 판단 보류는 third_party_evidence에 사유를 남김.,"주변인을 통한 통제 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,관계쌍,기준 사용 가능·원문 판정 전
+third_party_physical_harm,binary_code,1,원문 근거로 확인됨,"주변인 신체 피해 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,관계쌍,기준 사용 가능·원문 판정 전
+third_party_physical_harm,binary_code,0,해당 관계쌍의 판결문 검토를 마쳤으나 확인되지 않음,"주변인 신체 피해 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,관계쌍,기준 사용 가능·원문 판정 전
+third_party_physical_harm,binary_code,빈칸,미코딩 또는 판단 보류. 0은 실제 부재의 증명이 아님. 판단 보류는 third_party_evidence에 사유를 남김.,"주변인 신체 피해 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,관계쌍,기준 사용 가능·원문 판정 전
+third_party_mental_suffering,binary_code,1,원문 근거로 확인됨,"주변인 정신적 고통 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,관계쌍,기준 사용 가능·원문 판정 전
+third_party_mental_suffering,binary_code,0,해당 관계쌍의 판결문 검토를 마쳤으나 확인되지 않음,"주변인 정신적 고통 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,관계쌍,기준 사용 가능·원문 판정 전
+third_party_mental_suffering,binary_code,빈칸,미코딩 또는 판단 보류. 0은 실제 부재의 증명이 아님. 판단 보류는 third_party_evidence에 사유를 남김.,"주변인 정신적 고통 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,관계쌍,기준 사용 가능·원문 판정 전
+third_party_property_harm,binary_code,1,원문 근거로 확인됨,"주변인 재산 피해 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,관계쌍,기준 사용 가능·원문 판정 전
+third_party_property_harm,binary_code,0,해당 관계쌍의 판결문 검토를 마쳤으나 확인되지 않음,"주변인 재산 피해 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,관계쌍,기준 사용 가능·원문 판정 전
+third_party_property_harm,binary_code,빈칸,미코딩 또는 판단 보류. 0은 실제 부재의 증명이 아님. 판단 보류는 third_party_evidence에 사유를 남김.,"주변인 재산 피해 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,관계쌍,기준 사용 가능·원문 판정 전
+third_party_threat_target,binary_code,1,원문 근거로 확인됨,"주변인을 겨냥한 위해 위협 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,관계쌍,기준 사용 가능·원문 판정 전
+third_party_threat_target,binary_code,0,해당 관계쌍의 판결문 검토를 마쳤으나 확인되지 않음,"주변인을 겨냥한 위해 위협 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,관계쌍,기준 사용 가능·원문 판정 전
+third_party_threat_target,binary_code,빈칸,미코딩 또는 판단 보류. 0은 실제 부재의 증명이 아님. 판단 보류는 third_party_evidence에 사유를 남김.,"주변인을 겨냥한 위해 위협 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,관계쌍,기준 사용 가능·원문 판정 전
+third_party_harm_detail,text,비식별 서술; 빈칸=미코딩 또는 해당 없음(상위값으로 구분),비식별 서술; 빈칸=미코딩 또는 해당 없음(상위값으로 구분),"주변인 피해 내용·회복 기록 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,관계쌍,기준 사용 가능·원문 판정 전
+third_party_evidence,text,근거/검토상태 서술 또는 보조표 참조 ID,근거/검토상태 서술 또는 보조표 참조 ID,"주변인 판정·근거 연결 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,관계쌍,기준 사용 가능·원문 판정 전
+linked_dyad_key,identifier,본문·연결표 정의 참조; 미검토 빈칸,본문·연결표 정의 참조; 미검토 빈칸,"주 친밀관계 관계쌍 연결키 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,관계쌍,기준 사용 가능·원문 판정 전
+related_link_status,text,본문·연결표 정의 참조; 미검토 빈칸,본문·연결표 정의 참조; 미검토 빈칸,"주 관계쌍 연결 검토상태 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,관계쌍,최초20건 승인 기준 · 개별 적용 범위 확인
+related_row_role,text,본문·연결표 정의 참조; 미검토 빈칸,본문·연결표 정의 참조; 미검토 빈칸,"31행 검토에서 확인한 행 역할 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,관계쌍,기준 사용 가능·원문 판정 전
+exclude_as_associated_row,binary_code,1,별도 주변인 행으로 제외,"주변인 행의 파트너 분석 제외표시 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,관계쌍,기준 사용 가능·원문 판정 전
+exclude_as_associated_row,binary_code,0,해당 제외 표시 없음,"주변인 행의 파트너 분석 제외표시 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,관계쌍,기준 사용 가능·원문 판정 전
+exclude_as_associated_row,binary_code,빈칸,미검토 등. 직접 IPV 여부와 관계 근거를 함께 확인 (v1.4 §12).,"주변인 행의 파트너 분석 제외표시 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,관계쌍,기준 사용 가능·원문 판정 전
+related_link_basis,text,본문·연결표 정의 참조; 미검토 빈칸,본문·연결표 정의 참조; 미검토 빈칸,"주 관계쌍 연결 근거 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,관계쌍,기준 사용 가능·원문 판정 전
+original_source_row,identifier,본문·연결표 정의 참조; 미검토 빈칸,본문·연결표 정의 참조; 미검토 빈칸,"0611 Original 연결행 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,관계쌍,기준 사용 가능·원문 판정 전
+original_link_status,text,본문·연결표 정의 참조; 미검토 빈칸,본문·연결표 정의 참조; 미검토 빈칸,"Original 이관 연결상태 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,관계쌍,기준 사용 가능·원문 판정 전
+original_link_evidence,text,본문·연결표 정의 참조; 미검토 빈칸,본문·연결표 정의 참조; 미검토 빈칸,"Original 행 연결 근거 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,관계쌍,기준 사용 가능·원문 판정 전
+main_charge_n,text,허용 형식,Free text,"대표죄명_N차 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,사건차수,최초20건 승인 기준 · 개별 적용 범위 확인
+charge_cat_n,text,허용 형식,Free text,"중분류_N차 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,사건차수,기존 기준 유지
+charge_cat_na,text,허용 형식,Free text,"죄명a_N차 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,사건차수,최초20건 승인 기준 · 개별 적용 범위 확인
+charge_code_na,categorical_code,1,폭행,"죄명코드a_N차 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,사건차수,승인 기준 적용 · 11/3 일부 셀 정비
+charge_code_na,categorical_code,2,상해,"죄명코드a_N차 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,사건차수,승인 기준 적용 · 11/3 일부 셀 정비
+charge_code_na,categorical_code,3,특수상해,"죄명코드a_N차 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,사건차수,승인 기준 적용 · 11/3 일부 셀 정비
+charge_code_na,categorical_code,4,특수중상해,"죄명코드a_N차 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,사건차수,승인 기준 적용 · 11/3 일부 셀 정비
+charge_code_na,categorical_code,5,특수폭행,"죄명코드a_N차 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,사건차수,승인 기준 적용 · 11/3 일부 셀 정비
+charge_code_na,categorical_code,6,협박,"죄명코드a_N차 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,사건차수,승인 기준 적용 · 11/3 일부 셀 정비
+charge_code_na,categorical_code,7,존속협박,"죄명코드a_N차 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,사건차수,승인 기준 적용 · 11/3 일부 셀 정비
+charge_code_na,categorical_code,8,특수협박,"죄명코드a_N차 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,사건차수,승인 기준 적용 · 11/3 일부 셀 정비
+charge_code_na,categorical_code,9,강요,"죄명코드a_N차 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,사건차수,승인 기준 적용 · 11/3 일부 셀 정비
+charge_code_na,categorical_code,10,강간,"죄명코드a_N차 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,사건차수,승인 기준 적용 · 11/3 일부 셀 정비
+charge_code_na,categorical_code,11,유사강간,"죄명코드a_N차 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,사건차수,승인 기준 적용 · 11/3 일부 셀 정비
+charge_code_na,categorical_code,12,강제추행,"죄명코드a_N차 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,사건차수,승인 기준 적용 · 11/3 일부 셀 정비
+charge_code_na,categorical_code,13,불법촬영,"죄명코드a_N차 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,사건차수,승인 기준 적용 · 11/3 일부 셀 정비
+charge_code_na,categorical_code,14,촬영물이용협박,"죄명코드a_N차 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,사건차수,승인 기준 적용 · 11/3 일부 셀 정비
+charge_code_na,categorical_code,15,촬영물반포,"죄명코드a_N차 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,사건차수,승인 기준 적용 · 11/3 일부 셀 정비
+charge_code_na,categorical_code,16,스토킹,"죄명코드a_N차 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,사건차수,승인 기준 적용 · 11/3 일부 셀 정비
+charge_code_na,categorical_code,17,스토킹(가중),"죄명코드a_N차 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,사건차수,승인 기준 적용 · 11/3 일부 셀 정비
+charge_code_na,categorical_code,18,잠정조치위반,"죄명코드a_N차 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,사건차수,승인 기준 적용 · 11/3 일부 셀 정비
+charge_code_na,categorical_code,19,감금,"죄명코드a_N차 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,사건차수,승인 기준 적용 · 11/3 일부 셀 정비
+charge_code_na,categorical_code,20,특수감금,"죄명코드a_N차 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,사건차수,승인 기준 적용 · 11/3 일부 셀 정비
+charge_code_na,categorical_code,21,주거침입,"죄명코드a_N차 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,사건차수,승인 기준 적용 · 11/3 일부 셀 정비
+charge_code_na,categorical_code,22,퇴거불응,"죄명코드a_N차 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,사건차수,승인 기준 적용 · 11/3 일부 셀 정비
+charge_code_na,categorical_code,23,사기,"죄명코드a_N차 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,사건차수,승인 기준 적용 · 11/3 일부 셀 정비
+charge_code_na,categorical_code,24,컴퓨터등사용사기,"죄명코드a_N차 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,사건차수,승인 기준 적용 · 11/3 일부 셀 정비
+charge_code_na,categorical_code,25,재물손괴,"죄명코드a_N차 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,사건차수,승인 기준 적용 · 11/3 일부 셀 정비
+charge_code_na,categorical_code,26,절도,"죄명코드a_N차 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,사건차수,승인 기준 적용 · 11/3 일부 셀 정비
+charge_code_na,categorical_code,27,아동학대(신체),"죄명코드a_N차 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,사건차수,승인 기준 적용 · 11/3 일부 셀 정비
+charge_code_na,categorical_code,28,아동학대(정서),"죄명코드a_N차 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,사건차수,승인 기준 적용 · 11/3 일부 셀 정비
+charge_code_na,categorical_code,29,보호명령위반,"죄명코드a_N차 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,사건차수,승인 기준 적용 · 11/3 일부 셀 정비
+charge_code_na,categorical_code,30,임시조치위반,"죄명코드a_N차 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,사건차수,승인 기준 적용 · 11/3 일부 셀 정비
+charge_code_na,categorical_code,31,방화,"죄명코드a_N차 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,사건차수,승인 기준 적용 · 11/3 일부 셀 정비
+charge_code_na,categorical_code,32,방화미수,"죄명코드a_N차 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,사건차수,승인 기준 적용 · 11/3 일부 셀 정비
+charge_code_na,categorical_code,33,모욕,"죄명코드a_N차 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,사건차수,승인 기준 적용 · 11/3 일부 셀 정비
+charge_code_na,categorical_code,34,명예훼손,"죄명코드a_N차 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,사건차수,승인 기준 적용 · 11/3 일부 셀 정비
+charge_code_na,categorical_code,35,업무방해,"죄명코드a_N차 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,사건차수,승인 기준 적용 · 11/3 일부 셀 정비
+charge_code_na,categorical_code,36,살인,"죄명코드a_N차 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,사건차수,승인 기준 적용 · 11/3 일부 셀 정비
+charge_cat_nb,text,허용 형식,Free text,"죄명b_N차 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,사건차수,최초20건 승인 기준 · 개별 적용 범위 확인
+charge_code_nb,categorical_code,1,폭행,"죄명코드b_N차 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,사건차수,최초20건 승인 기준 · 개별 적용 범위 확인
+charge_code_nb,categorical_code,2,상해,"죄명코드b_N차 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,사건차수,최초20건 승인 기준 · 개별 적용 범위 확인
+charge_code_nb,categorical_code,3,특수상해,"죄명코드b_N차 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,사건차수,최초20건 승인 기준 · 개별 적용 범위 확인
+charge_code_nb,categorical_code,4,특수중상해,"죄명코드b_N차 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,사건차수,최초20건 승인 기준 · 개별 적용 범위 확인
+charge_code_nb,categorical_code,5,특수폭행,"죄명코드b_N차 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,사건차수,최초20건 승인 기준 · 개별 적용 범위 확인
+charge_code_nb,categorical_code,6,협박,"죄명코드b_N차 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,사건차수,최초20건 승인 기준 · 개별 적용 범위 확인
+charge_code_nb,categorical_code,7,존속협박,"죄명코드b_N차 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,사건차수,최초20건 승인 기준 · 개별 적용 범위 확인
+charge_code_nb,categorical_code,8,특수협박,"죄명코드b_N차 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,사건차수,최초20건 승인 기준 · 개별 적용 범위 확인
+charge_code_nb,categorical_code,9,강요,"죄명코드b_N차 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,사건차수,최초20건 승인 기준 · 개별 적용 범위 확인
+charge_code_nb,categorical_code,10,강간,"죄명코드b_N차 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,사건차수,최초20건 승인 기준 · 개별 적용 범위 확인
+charge_code_nb,categorical_code,11,유사강간,"죄명코드b_N차 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,사건차수,최초20건 승인 기준 · 개별 적용 범위 확인
+charge_code_nb,categorical_code,12,강제추행,"죄명코드b_N차 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,사건차수,최초20건 승인 기준 · 개별 적용 범위 확인
+charge_code_nb,categorical_code,13,불법촬영,"죄명코드b_N차 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,사건차수,최초20건 승인 기준 · 개별 적용 범위 확인
+charge_code_nb,categorical_code,14,촬영물이용협박,"죄명코드b_N차 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,사건차수,최초20건 승인 기준 · 개별 적용 범위 확인
+charge_code_nb,categorical_code,15,촬영물반포,"죄명코드b_N차 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,사건차수,최초20건 승인 기준 · 개별 적용 범위 확인
+charge_code_nb,categorical_code,16,스토킹,"죄명코드b_N차 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,사건차수,최초20건 승인 기준 · 개별 적용 범위 확인
+charge_code_nb,categorical_code,17,스토킹(가중),"죄명코드b_N차 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,사건차수,최초20건 승인 기준 · 개별 적용 범위 확인
+charge_code_nb,categorical_code,18,잠정조치위반,"죄명코드b_N차 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,사건차수,최초20건 승인 기준 · 개별 적용 범위 확인
+charge_code_nb,categorical_code,19,감금,"죄명코드b_N차 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,사건차수,최초20건 승인 기준 · 개별 적용 범위 확인
+charge_code_nb,categorical_code,20,특수감금,"죄명코드b_N차 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,사건차수,최초20건 승인 기준 · 개별 적용 범위 확인
+charge_code_nb,categorical_code,21,주거침입,"죄명코드b_N차 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,사건차수,최초20건 승인 기준 · 개별 적용 범위 확인
+charge_code_nb,categorical_code,22,퇴거불응,"죄명코드b_N차 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,사건차수,최초20건 승인 기준 · 개별 적용 범위 확인
+charge_code_nb,categorical_code,23,사기,"죄명코드b_N차 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,사건차수,최초20건 승인 기준 · 개별 적용 범위 확인
+charge_code_nb,categorical_code,24,컴퓨터등사용사기,"죄명코드b_N차 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,사건차수,최초20건 승인 기준 · 개별 적용 범위 확인
+charge_code_nb,categorical_code,25,재물손괴,"죄명코드b_N차 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,사건차수,최초20건 승인 기준 · 개별 적용 범위 확인
+charge_code_nb,categorical_code,26,절도,"죄명코드b_N차 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,사건차수,최초20건 승인 기준 · 개별 적용 범위 확인
+charge_code_nb,categorical_code,27,아동학대(신체),"죄명코드b_N차 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,사건차수,최초20건 승인 기준 · 개별 적용 범위 확인
+charge_code_nb,categorical_code,28,아동학대(정서),"죄명코드b_N차 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,사건차수,최초20건 승인 기준 · 개별 적용 범위 확인
+charge_code_nb,categorical_code,29,보호명령위반,"죄명코드b_N차 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,사건차수,최초20건 승인 기준 · 개별 적용 범위 확인
+charge_code_nb,categorical_code,30,임시조치위반,"죄명코드b_N차 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,사건차수,최초20건 승인 기준 · 개별 적용 범위 확인
+charge_code_nb,categorical_code,31,방화,"죄명코드b_N차 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,사건차수,최초20건 승인 기준 · 개별 적용 범위 확인
+charge_code_nb,categorical_code,32,방화미수,"죄명코드b_N차 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,사건차수,최초20건 승인 기준 · 개별 적용 범위 확인
+charge_code_nb,categorical_code,33,모욕,"죄명코드b_N차 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,사건차수,최초20건 승인 기준 · 개별 적용 범위 확인
+charge_code_nb,categorical_code,34,명예훼손,"죄명코드b_N차 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,사건차수,최초20건 승인 기준 · 개별 적용 범위 확인
+charge_code_nb,categorical_code,35,업무방해,"죄명코드b_N차 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,사건차수,최초20건 승인 기준 · 개별 적용 범위 확인
+charge_code_nb,categorical_code,36,살인,"죄명코드b_N차 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,사건차수,최초20건 승인 기준 · 개별 적용 범위 확인
+rel_at_event_n,text,허용 형식,Free text,"범행시관계_N차 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,사건차수,기존 기준 유지
+rel_type_at_n,categorical_code,1,연인,"범행시관계유형_N차 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,사건차수,최초20건 승인 기준 · 개별 적용 범위 확인
+rel_type_at_n,categorical_code,2,배우자(법률혼),"범행시관계유형_N차 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,사건차수,최초20건 승인 기준 · 개별 적용 범위 확인
+rel_type_at_n,categorical_code,3,전배우자,"범행시관계유형_N차 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,사건차수,최초20건 승인 기준 · 개별 적용 범위 확인
+rel_type_at_n,categorical_code,4,사실혼,"범행시관계유형_N차 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,사건차수,최초20건 승인 기준 · 개별 적용 범위 확인
+rel_type_at_n,categorical_code,5,내연,"범행시관계유형_N차 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,사건차수,최초20건 승인 기준 · 개별 적용 범위 확인
+rel_type_at_n,categorical_code,6,전연인,"범행시관계유형_N차 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,사건차수,최초20건 승인 기준 · 개별 적용 범위 확인
+rel_type_at_n,categorical_code,7,친자녀,"범행시관계유형_N차 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,사건차수,최초20건 승인 기준 · 개별 적용 범위 확인
+rel_type_at_n,categorical_code,8,연관피해자,"범행시관계유형_N차 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,사건차수,최초20건 승인 기준 · 개별 적용 범위 확인
+rel_active_n,binary_code,0,종료후,"범행시관계지속_N차 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,사건차수,기존 기준 유지
+rel_active_n,binary_code,1,관계중,"범행시관계지속_N차 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,사건차수,기존 기준 유지
+event_start_n,date,YYYY-MM-DD,YYYY-MM-DD = Date string,"범행시작일_N차 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,사건차수,기존 기준 유지
+event_end_n,date,YYYY-MM-DD,YYYY-MM-DD = Date string,"범행종료일_N차 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,사건차수,기존 기준 유지
+event_location_cat_n,text,허용 형식,Free text,"장소구분_N차 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,사건차수,기존 기준 유지
+loc_na,text,허용 형식,Free text,"장소a_N차 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,사건차수,최초20건 승인 기준 · 개별 적용 범위 확인
+loc_code_na,categorical_code,1,공동주거지,"장소코드a_N차 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,사건차수,최초20건 승인 기준 · 개별 적용 범위 확인
+loc_code_na,categorical_code,2,가해자주거지,"장소코드a_N차 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,사건차수,최초20건 승인 기준 · 개별 적용 범위 확인
+loc_code_na,categorical_code,3,피해자주거지,"장소코드a_N차 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,사건차수,최초20건 승인 기준 · 개별 적용 범위 확인
+loc_code_na,categorical_code,4,피해자직장,"장소코드a_N차 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,사건차수,최초20건 승인 기준 · 개별 적용 범위 확인
+loc_code_na,categorical_code,5,가해자직장,"장소코드a_N차 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,사건차수,최초20건 승인 기준 · 개별 적용 범위 확인
+loc_code_na,categorical_code,6,노상,"장소코드a_N차 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,사건차수,최초20건 승인 기준 · 개별 적용 범위 확인
+loc_code_na,categorical_code,7,온라인,"장소코드a_N차 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,사건차수,최초20건 승인 기준 · 개별 적용 범위 확인
+loc_code_na,categorical_code,8,전화(원격),"장소코드a_N차 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,사건차수,최초20건 승인 기준 · 개별 적용 범위 확인
+loc_code_na,categorical_code,9,기타,"장소코드a_N차 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,사건차수,최초20건 승인 기준 · 개별 적용 범위 확인
+loc_nb,text,허용 형식,Free text,"장소b_N차 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,사건차수,최초20건 승인 기준 · 개별 적용 범위 확인
+loc_code_nb,categorical_code,1,공동주거지,"장소코드b_N차 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,사건차수,최초20건 승인 기준 · 개별 적용 범위 확인
+loc_code_nb,categorical_code,2,가해자주거지,"장소코드b_N차 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,사건차수,최초20건 승인 기준 · 개별 적용 범위 확인
+loc_code_nb,categorical_code,3,피해자주거지,"장소코드b_N차 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,사건차수,최초20건 승인 기준 · 개별 적용 범위 확인
+loc_code_nb,categorical_code,4,피해자직장,"장소코드b_N차 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,사건차수,최초20건 승인 기준 · 개별 적용 범위 확인
+loc_code_nb,categorical_code,5,가해자직장,"장소코드b_N차 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,사건차수,최초20건 승인 기준 · 개별 적용 범위 확인
+loc_code_nb,categorical_code,6,노상,"장소코드b_N차 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,사건차수,최초20건 승인 기준 · 개별 적용 범위 확인
+loc_code_nb,categorical_code,7,온라인,"장소코드b_N차 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,사건차수,최초20건 승인 기준 · 개별 적용 범위 확인
+loc_code_nb,categorical_code,8,전화(원격),"장소코드b_N차 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,사건차수,최초20건 승인 기준 · 개별 적용 범위 확인
+loc_code_nb,categorical_code,9,기타,"장소코드b_N차 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,사건차수,최초20건 승인 기준 · 개별 적용 범위 확인
+trigger_cat_n,text,허용 형식,Free text,"촉발사유_N차 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,사건차수,기존 기준 유지
+trigger_broad_n,categorical_code,1,이별관련,"촉발대분류_N차 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,사건차수,기존 기준 유지
+trigger_broad_n,categorical_code,2,다툼,"촉발대분류_N차 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,사건차수,기존 기준 유지
+trigger_broad_n,categorical_code,3,질투/외도,"촉발대분류_N차 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,사건차수,기존 기준 유지
+trigger_broad_n,categorical_code,4,통제저항,"촉발대분류_N차 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,사건차수,기존 기준 유지
+trigger_broad_n,categorical_code,5,보호조치관련,"촉발대분류_N차 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,사건차수,기존 기준 유지
+trigger_broad_n,categorical_code,6,기타,"촉발대분류_N차 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,사건차수,기존 기준 유지
+premeditated_n,binary_code,0,아니오/해당없음,계획성_N차 | v1.4 일반 유무의 0=검토범위 미확인. 명시 부정과 사유를 구별. 근거 상충·정의보류·구조적 비해당은 상태를 동반한 빈칸.,621 기본층,사건차수,승인 기준 적용 · 11/3 일부 셀 정비
+premeditated_n,binary_code,1,예/해당있음,계획성_N차 | v1.4 일반 유무의 0=검토범위 미확인. 명시 부정과 사유를 구별. 근거 상충·정의보류·구조적 비해당은 상태를 동반한 빈칸.,621 기본층,사건차수,승인 기준 적용 · 11/3 일부 셀 정비
+offender_drunk_n,binary_code,0,아니오/해당없음,가해자음주_N차 | v1.4 일반 유무의 0=검토범위 미확인. 명시 부정과 사유를 구별. 근거 상충·정의보류·구조적 비해당은 상태를 동반한 빈칸.,621 기본층,사건차수,기존 기준 유지
+offender_drunk_n,binary_code,1,예/해당있음,가해자음주_N차 | v1.4 일반 유무의 0=검토범위 미확인. 명시 부정과 사유를 구별. 근거 상충·정의보류·구조적 비해당은 상태를 동반한 빈칸.,621 기본층,사건차수,기존 기준 유지
+injury_n,binary_code,1,해당 차수 법원 인정 신체상해 확인,차수별 신체상해 유무 | 미기재는 빈칸. 0은 개별 상해·의료 근거 기준을 충족할 때만 부여.,621 기본층,사건차수,승인 기준 적용 · 11/3 일부 셀 정비
+injury_n,binary_code,0,명시적 무상해,차수별 신체상해 유무 | 미기재는 빈칸. 0은 개별 상해·의료 근거 기준을 충족할 때만 부여.,621 기본층,사건차수,승인 기준 적용 · 11/3 일부 셀 정비
+injury_n,binary_code,빈칸,근거 미확인·공소사실만 확인 등,차수별 신체상해 유무 | 미기재는 빈칸. 0은 개별 상해·의료 근거 기준을 충족할 때만 부여.,621 기본층,사건차수,승인 기준 적용 · 11/3 일부 셀 정비
+treatment_days_n,number,양의 정수,일 단위; 원문 확인 상태 별도,"진단서상 치료일수_N차 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,사건차수,기존 기준 유지
+weapon_n,binary_code,0,아니오/해당없음,위험물건_N차 | v1.4 일반 유무의 0=검토범위 미확인. 명시 부정과 사유를 구별. 근거 상충·정의보류·구조적 비해당은 상태를 동반한 빈칸.,621 기본층,사건차수,기존 기준 유지
+weapon_n,binary_code,1,예/해당있음,위험물건_N차 | v1.4 일반 유무의 0=검토범위 미확인. 명시 부정과 사유를 구별. 근거 상충·정의보류·구조적 비해당은 상태를 동반한 빈칸.,621 기본층,사건차수,기존 기준 유지
+body_force_n,binary_code,0,아니오/해당없음,신체폭력_N차 | v1.4 일반 유무의 0=검토범위 미확인. 명시 부정과 사유를 구별. 근거 상충·정의보류·구조적 비해당은 상태를 동반한 빈칸.,621 기본층,사건차수,기존 기준 유지
+body_force_n,binary_code,1,예/해당있음,신체폭력_N차 | v1.4 일반 유무의 0=검토범위 미확인. 명시 부정과 사유를 구별. 근거 상충·정의보류·구조적 비해당은 상태를 동반한 빈칸.,621 기본층,사건차수,기존 기준 유지
+body_force_type_n,text,허용 형식,Free text,"폭력방식_N차 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,사건차수,기존 기준 유지
+stalk_type1_n,text,허용 형식,Free text,"스토킹유형1_N차 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,사건차수,기존 기준 유지
+threat_type1_n,text,허용 형식,Free text,"협박유형1_N차 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,사건차수,기존 기준 유지
+severity_n,categorical_code,1,2년 이하,"심각도_N차 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,사건차수,승인 기준 적용 · 11/3 일부 셀 정비
+severity_n,categorical_code,2,3~6년,"심각도_N차 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,사건차수,승인 기준 적용 · 11/3 일부 셀 정비
+severity_n,categorical_code,3,7~9년/경계사안,"심각도_N차 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,사건차수,승인 기준 적용 · 11/3 일부 셀 정비
+severity_n,categorical_code,4,10년 이상/무기,"심각도_N차 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,사건차수,승인 기준 적용 · 11/3 일부 셀 정비
+in_relationship_n,binary_code,0,이별후,"관계중_N차 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,사건차수,기존 기준 유지
+in_relationship_n,binary_code,1,관계중,"관계중_N차 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,사건차수,기존 기준 유지
+days_from_breakup_n,number,허용 형식,Numeric,"이별후경과일_N차 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,사건차수,최초20건 승인 기준 · 개별 적용 범위 확인
+digital_means_n,binary_code,0,아니오/해당없음,디지털수단_N차 | v1.4 일반 유무의 0=검토범위 미확인. 명시 부정과 사유를 구별. 근거 상충·정의보류·구조적 비해당은 상태를 동반한 빈칸.,621 기본층,사건차수,기존 기준 유지
+digital_means_n,binary_code,1,예/해당있음,디지털수단_N차 | v1.4 일반 유무의 0=검토범위 미확인. 명시 부정과 사유를 구별. 근거 상충·정의보류·구조적 비해당은 상태를 동반한 빈칸.,621 기본층,사건차수,기존 기준 유지
+charge_law_n,text,허용 형식,Free text,"적용법조_N차 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,사건차수,조건부: 명시 사실 기록 가능·미정 경계만 보류
+harm_level_n,categorical_code,0,상해 없음,피해수준_N차: 신규는 원재료 파생 | 미기재는 빈칸. 0은 개별 상해·의료 근거 기준을 충족할 때만 부여.,621 기본층,사건차수,v1.4 확정 기준 적용 가능
+harm_level_n,categorical_code,1,경상,피해수준_N차: 신규는 원재료 파생 | 미기재는 빈칸. 0은 개별 상해·의료 근거 기준을 충족할 때만 부여.,621 기본층,사건차수,v1.4 확정 기준 적용 가능
+harm_level_n,categorical_code,2,중상,피해수준_N차: 신규는 원재료 파생 | 미기재는 빈칸. 0은 개별 상해·의료 근거 기준을 충족할 때만 부여.,621 기본층,사건차수,v1.4 확정 기준 적용 가능
+harm_level_n,categorical_code,3,치명적,피해수준_N차: 신규는 원재료 파생 | 미기재는 빈칸. 0은 개별 상해·의료 근거 기준을 충족할 때만 부여.,621 기본층,사건차수,v1.4 확정 기준 적용 가능
+harm_level_n,categorical_code,4,사망,피해수준_N차: 신규는 원재료 파생 | 미기재는 빈칸. 0은 개별 상해·의료 근거 기준을 충족할 때만 부여.,621 기본층,사건차수,v1.4 확정 기준 적용 가능
+harm_level_n,categorical_code,5,정신적 상해만,피해수준_N차: 신규는 원재료 파생 | 미기재는 빈칸. 0은 개별 상해·의료 근거 기준을 충족할 때만 부여.,621 기본층,사건차수,v1.4 확정 기준 적용 가능
+event_duration_n,number,허용 형식,Numeric,"범행기간_N차 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,사건차수,기존 기준 유지
+date_imputed_n,text,허용 형식,Free text,"일자추정_N차 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,사건차수,기존 기준 유지
+event_key,identifier,문자열,dyad_key_E순번,"dyad 사건차수 연결키 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,사건차수,최초20건 승인 기준 · 개별 적용 범위 확인
+event_seq,number,양의 정수,"1 이상, long 상한 없음","공소사실 기준 사건 순번 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,사건차수,최초20건 승인 기준 · 개별 적용 범위 확인
+treatment_duration_raw_n,text,문자열,원문 그대로,"진단기간 원문_N차 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,사건차수,기존 기준 유지
+treatment_days_converted_n,binary_code,1,주×7 환산 수행,주→일 환산 여부_N차 | 개별 값 레이블에서 정한 0·빈칸의 조건 적용.,621 기본층,사건차수,기존 기준 유지
+treatment_days_converted_n,binary_code,0,원 일수 확인,주→일 환산 여부_N차 | 개별 값 레이블에서 정한 0·빈칸의 조건 적용.,621 기본층,사건차수,기존 기준 유지
+treatment_days_converted_n,binary_code,빈칸,경위 미확인,주→일 환산 여부_N차 | 개별 값 레이블에서 정한 0·빈칸의 조건 적용.,621 기본층,사건차수,기존 기준 유지
+physical_injury_confirmed_n,binary_code,1,신체상해 명시,신체 상해 명시 확인_N차 | 미기재는 빈칸. 0은 개별 상해·의료 근거 기준을 충족할 때만 부여.,621 기본층,사건차수,기존 기준 유지
+physical_injury_confirmed_n,binary_code,0,명시적 부재,신체 상해 명시 확인_N차 | 미기재는 빈칸. 0은 개별 상해·의료 근거 기준을 충족할 때만 부여.,621 기본층,사건차수,기존 기준 유지
+physical_injury_confirmed_n,binary_code,빈칸,미확인,신체 상해 명시 확인_N차 | 미기재는 빈칸. 0은 개별 상해·의료 근거 기준을 충족할 때만 부여.,621 기본층,사건차수,기존 기준 유지
+loss_of_consciousness_n,binary_code,1,명시,기절·의식소실_N차 | 미기재는 빈칸. 0은 개별 상해·의료 근거 기준을 충족할 때만 부여.,621 기본층,사건차수,기존 기준 유지
+loss_of_consciousness_n,binary_code,0,명시적 부재,기절·의식소실_N차 | 미기재는 빈칸. 0은 개별 상해·의료 근거 기준을 충족할 때만 부여.,621 기본층,사건차수,기존 기준 유지
+loss_of_consciousness_n,binary_code,빈칸,미확인,기절·의식소실_N차 | 미기재는 빈칸. 0은 개별 상해·의료 근거 기준을 충족할 때만 부여.,621 기본층,사건차수,기존 기준 유지
+life_threatening_act_n,binary_code,1,포함행위 확인,치명적 행위 동반_N차 | 개별 값 레이블에서 정한 0·빈칸의 조건 적용.,621 기본층,사건차수,v1.4 좁은 범위 적용 가능
+life_threatening_act_n,binary_code,0,검토한 상해·행위가 포함범주에 해당하지 않음,치명적 행위 동반_N차 | 개별 값 레이블에서 정한 0·빈칸의 조건 적용.,621 기본층,사건차수,v1.4 좁은 범위 적용 가능
+life_threatening_act_n,binary_code,빈칸,자료불충분·경계보류·미코딩(상태구분),치명적 행위 동반_N차 | 개별 값 레이블에서 정한 0·빈칸의 조건 적용.,621 기본층,사건차수,v1.4 좁은 범위 적용 가능
+death_n,binary_code,1,해당 차수 사망 확인,사망_N차 | 미기재는 빈칸. 0은 개별 상해·의료 근거 기준을 충족할 때만 부여.,621 기본층,사건차수,기존 기준 유지
+death_n,binary_code,0,명시적 비사망,사망_N차 | 미기재는 빈칸. 0은 개별 상해·의료 근거 기준을 충족할 때만 부여.,621 기본층,사건차수,기존 기준 유지
+death_n,binary_code,빈칸,미확인,사망_N차 | 미기재는 빈칸. 0은 개별 상해·의료 근거 기준을 충족할 때만 부여.,621 기본층,사건차수,기존 기준 유지
+mental_injury_n,binary_code,1,PTSD 등 정신적 상해 확인,정신적 상해_N차 | 미기재는 빈칸. 0은 개별 상해·의료 근거 기준을 충족할 때만 부여.,621 기본층,사건차수,기존 기준 유지
+mental_injury_n,binary_code,0,명시적 부재,정신적 상해_N차 | 미기재는 빈칸. 0은 개별 상해·의료 근거 기준을 충족할 때만 부여.,621 기본층,사건차수,기존 기준 유지
+mental_injury_n,binary_code,빈칸,미확인,정신적 상해_N차 | 미기재는 빈칸. 0은 개별 상해·의료 근거 기준을 충족할 때만 부여.,621 기본층,사건차수,기존 기준 유지
+ptsd_confirmed_n,binary_code,1,PTSD 확인,PTSD 명시 확인_N차 | 미기재는 빈칸. 0은 개별 상해·의료 근거 기준을 충족할 때만 부여.,621 기본층,사건차수,기존 기준 유지
+ptsd_confirmed_n,binary_code,0,명시적 부재,PTSD 명시 확인_N차 | 미기재는 빈칸. 0은 개별 상해·의료 근거 기준을 충족할 때만 부여.,621 기본층,사건차수,기존 기준 유지
+ptsd_confirmed_n,binary_code,빈칸,미확인,PTSD 명시 확인_N차 | 미기재는 빈칸. 0은 개별 상해·의료 근거 기준을 충족할 때만 부여.,621 기본층,사건차수,기존 기준 유지
+injury_source_note_n,text,문자열,문구·쪽·근거지위·확인상태,"상해 원재료 근거_N차 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,사건차수,기존 기준 유지
+treatment_weeks_n,number,양수,원문 주수; 미확인 빈칸,"진단서 원문 주수_N차 | 변수별 유효 코드와 미기재를 구분. 빈칸의 사유는 long.decision_status, value_reason, evidence_status 참조.",621 기본층,사건차수,기존 기준 유지
+p1_eligible,categorical_code,1,원문 근거로 해당 요건 확인,공적 개입 후 재접근 분석 적격성 | 심화층 9=구체적 근거 판단불가. 빈칸/미수록=비해당·미확인 등 상태 분리. 전체 관계쌍 0으로 채우지 않는다.,621 기본층,관계쌍,심화층 규칙을 관계쌍의 일부 행에 수록
+p1_eligible,categorical_code,0,검토 범위에서 기재·확인되지 않음(실제 부재 증명 아님),공적 개입 후 재접근 분석 적격성 | 심화층 9=구체적 근거 판단불가. 빈칸/미수록=비해당·미확인 등 상태 분리. 전체 관계쌍 0으로 채우지 않는다.,621 기본층,관계쌍,심화층 규칙을 관계쌍의 일부 행에 수록
+p1_eligible,categorical_code,9,구체적 관련 근거의 판단 불가(사유 구분),공적 개입 후 재접근 분석 적격성 | 심화층 9=구체적 근거 판단불가. 빈칸/미수록=비해당·미확인 등 상태 분리. 전체 관계쌍 0으로 채우지 않는다.,621 기본층,관계쌍,심화층 규칙을 관계쌍의 일부 행에 수록
+p1_eligible,categorical_code,빈칸,미코딩·구조적 비해당·정의보류(상태 구분). P는 적격성 규칙 우선.,공적 개입 후 재접근 분석 적격성 | 심화층 9=구체적 근거 판단불가. 빈칸/미수록=비해당·미확인 등 상태 분리. 전체 관계쌍 0으로 채우지 않는다.,621 기본층,관계쌍,심화층 규칙을 관계쌍의 일부 행에 수록
+p2_eligible,categorical_code,1,원문 근거로 해당 요건 확인,보호조치 효력 중 간접접촉 분석 적격성 | 심화층 9=구체적 근거 판단불가. 빈칸/미수록=비해당·미확인 등 상태 분리. 전체 관계쌍 0으로 채우지 않는다.,621 기본층,관계쌍,심화층 규칙을 관계쌍의 일부 행에 수록
+p2_eligible,categorical_code,0,검토 범위에서 기재·확인되지 않음(실제 부재 증명 아님),보호조치 효력 중 간접접촉 분석 적격성 | 심화층 9=구체적 근거 판단불가. 빈칸/미수록=비해당·미확인 등 상태 분리. 전체 관계쌍 0으로 채우지 않는다.,621 기본층,관계쌍,심화층 규칙을 관계쌍의 일부 행에 수록
+p2_eligible,categorical_code,9,구체적 관련 근거의 판단 불가(사유 구분),보호조치 효력 중 간접접촉 분석 적격성 | 심화층 9=구체적 근거 판단불가. 빈칸/미수록=비해당·미확인 등 상태 분리. 전체 관계쌍 0으로 채우지 않는다.,621 기본층,관계쌍,심화층 규칙을 관계쌍의 일부 행에 수록
+p2_eligible,categorical_code,빈칸,미코딩·구조적 비해당·정의보류(상태 구분). P는 적격성 규칙 우선.,보호조치 효력 중 간접접촉 분석 적격성 | 심화층 9=구체적 근거 판단불가. 빈칸/미수록=비해당·미확인 등 상태 분리. 전체 관계쌍 0으로 채우지 않는다.,621 기본층,관계쌍,심화층 규칙을 관계쌍의 일부 행에 수록
+document_id,문자열,허용 형식,문자열. 예 C001,문서 ID | 필수,사건 분석·파생,문서,식별·추적
+dyad_id,문자열,허용 형식,문서코드:관계표기,직접·연관 관계쌍 ID | 일부 제3자 행은 관계 귀속 없음,사건 분석·파생,관계쌍,식별·추적
+event_id,문자열,허용 형식,문자열. 예 C001:C001,차수 기록 ID | 필수,사건 분석·파생,사건,식별·추적
+event_seq,정수,허용 형식,1 이상의 정수,관계 내 사건 차수 | 미확정관계의 일부 관찰기록은 순번 미상. 726사건은 전부 있음,사건 분석·파생,사건,기본층 기입값의 분석용 투영
+event_start_date,날짜(ISO 문자열),허용 형식,YYYY-MM-DD,시작 대표일 | 연월 또는 근거 미확정,사건 분석·파생,사건,재현 가능한 파생값
+event_end_date,날짜(ISO 문자열),허용 형식,YYYY-MM-DD,종료 대표일 | 종료 근거 미확정,사건 분석·파생,사건,재현 가능한 파생값
+event_main_charge,문자열,허용 형식,원 죄명 문자열,사건 대표죄명 | 미정·복수대표 선택 등. 값이 없으면 세부 근거 확인,사건 분석·파생,사건,기본층 기입값의 분석용 투영
+event_evidence_status,범주형 문자열,court_found,법원 인정,사건표 근거 지위 | 필수,사건 분석·파생,사건,기본층 기입값의 분석용 투영
+event_evidence_status,범주형 문자열,prosecution_only,공소사실만,사건표 근거 지위 | 필수,사건 분석·파생,사건,기본층 기입값의 분석용 투영
+event_evidence_status,범주형 문자열,court_found_act_acquitted,행위 인정·해당 죄 무죄,사건표 근거 지위 | 필수,사건 분석·파생,사건,기본층 기입값의 분석용 투영
+event_digital_means,이진 정수,1,사용 기재,사건의 디지털 수단 사용 | 보류. digital_means_N의 decision_status 참조,사건 분석·파생,사건,기본층 기입값의 분석용 투영
+event_digital_means,이진 정수,0,확인된 코드 0 또는 검토 후 사용 미기재,사건의 디지털 수단 사용 | 보류. digital_means_N의 decision_status 참조,사건 분석·파생,사건,기본층 기입값의 분석용 투영
+event_rel_active,이진 정수,1,유지,사건 시점 관계 유지 | 종료시점·재결합 등 확인 불가,사건 분석·파생,사건,기본층 기입값의 분석용 투영
+event_rel_active,이진 정수,0,비유지(종료),사건 시점 관계 유지 | 종료시점·재결합 등 확인 불가,사건 분석·파생,사건,기본층 기입값의 분석용 투영
+event_cc_any,이진 정수,1,확인,사건 강압적 통제 확인 | 양성 없이 하위 미확정,사건 분석·파생,사건,재현 가능한 파생값
+event_cc_any,이진 정수,0,9개 전부 미확인,사건 강압적 통제 확인 | 양성 없이 하위 미확정,사건 분석·파생,사건,재현 가능한 파생값
+event_cc_count,정수,허용 형식,0~9,사건 통제 영역 수 | 하위 1개라도 미확정이면 빈칸,사건 분석·파생,사건,재현 가능한 파생값
+event_cc_surveillance,이진 정수,1,사건 근거에서 확인,사건 감시 | 빈칸=근거 또는 귀속 불충분 등으로 판정 보류,사건 분석·파생,사건,사건층 탐색 판정·독립 이중코딩 전
+event_cc_surveillance,이진 정수,0,검토한 사건 근거에 확인 기재 없음,사건 감시 | 빈칸=근거 또는 귀속 불충분 등으로 판정 보류,사건 분석·파생,사건,사건층 탐색 판정·독립 이중코딩 전
+event_cc_isolation,이진 정수,1,사건 근거에서 확인,사건 고립 | 빈칸=근거 또는 귀속 불충분 등으로 판정 보류,사건 분석·파생,사건,사건층 탐색 판정·독립 이중코딩 전
+event_cc_isolation,이진 정수,0,검토한 사건 근거에 확인 기재 없음,사건 고립 | 빈칸=근거 또는 귀속 불충분 등으로 판정 보류,사건 분석·파생,사건,사건층 탐색 판정·독립 이중코딩 전
+event_cc_intimidation,이진 정수,1,사건 근거에서 확인,사건 위협 | 빈칸=근거 또는 귀속 불충분 등으로 판정 보류,사건 분석·파생,사건,사건층 탐색 판정·독립 이중코딩 전
+event_cc_intimidation,이진 정수,0,검토한 사건 근거에 확인 기재 없음,사건 위협 | 빈칸=근거 또는 귀속 불충분 등으로 판정 보류,사건 분석·파생,사건,사건층 탐색 판정·독립 이중코딩 전
+event_cc_emotional_abuse,이진 정수,1,사건 근거에서 확인,사건 정서적 학대 | 빈칸=근거 또는 귀속 불충분 등으로 판정 보류,사건 분석·파생,사건,사건층 탐색 판정·독립 이중코딩 전
+event_cc_emotional_abuse,이진 정수,0,검토한 사건 근거에 확인 기재 없음,사건 정서적 학대 | 빈칸=근거 또는 귀속 불충분 등으로 판정 보류,사건 분석·파생,사건,사건층 탐색 판정·독립 이중코딩 전
+event_cc_digital_control,이진 정수,1,사건 근거에서 확인,사건 디지털 통제 | 빈칸=근거 또는 귀속 불충분 등으로 판정 보류,사건 분석·파생,사건,사건층 탐색 판정·독립 이중코딩 전
+event_cc_digital_control,이진 정수,0,검토한 사건 근거에 확인 기재 없음,사건 디지털 통제 | 빈칸=근거 또는 귀속 불충분 등으로 판정 보류,사건 분석·파생,사건,사건층 탐색 판정·독립 이중코딩 전
+event_cc_reputation_threat,이진 정수,1,사건 근거에서 확인,사건 평판 위협 | 빈칸=근거 또는 귀속 불충분 등으로 판정 보류,사건 분석·파생,사건,사건층 탐색 판정·독립 이중코딩 전
+event_cc_reputation_threat,이진 정수,0,검토한 사건 근거에 확인 기재 없음,사건 평판 위협 | 빈칸=근거 또는 귀속 불충분 등으로 판정 보류,사건 분석·파생,사건,사건층 탐색 판정·독립 이중코딩 전
+event_cc_refusal_to_separate,이진 정수,1,사건 근거에서 확인,사건 분리 거부 | 빈칸=근거 또는 귀속 불충분 등으로 판정 보류,사건 분석·파생,사건,사건층 탐색 판정·독립 이중코딩 전
+event_cc_refusal_to_separate,이진 정수,0,검토한 사건 근거에 확인 기재 없음,사건 분리 거부 | 빈칸=근거 또는 귀속 불충분 등으로 판정 보류,사건 분석·파생,사건,사건층 탐색 판정·독립 이중코딩 전
+event_cc_physical_control,이진 정수,1,사건 근거에서 확인,사건 신체적 통제 | 빈칸=근거 또는 귀속 불충분 등으로 판정 보류,사건 분석·파생,사건,사건층 탐색 판정·독립 이중코딩 전
+event_cc_physical_control,이진 정수,0,검토한 사건 근거에 확인 기재 없음,사건 신체적 통제 | 빈칸=근거 또는 귀속 불충분 등으로 판정 보류,사건 분석·파생,사건,사건층 탐색 판정·독립 이중코딩 전
+event_cc_economic_control,이진 정수,1,사건 근거에서 확인,사건 경제적 통제 | 빈칸=근거 또는 귀속 불충분 등으로 판정 보류,사건 분석·파생,사건,사건층 탐색 판정·독립 이중코딩 전
+event_cc_economic_control,이진 정수,0,검토한 사건 근거에 확인 기재 없음,사건 경제적 통제 | 빈칸=근거 또는 귀속 불충분 등으로 판정 보류,사건 분석·파생,사건,사건층 탐색 판정·독립 이중코딩 전
+event_life_safety_mobility,이진 정수,1,사건 근거에서 확인,사건 생활 제한 · 안전·이동·거주 | 빈칸=근거 또는 귀속 불충분 등으로 판정 보류,사건 분석·파생,사건,사건층 탐색 판정·독립 이중코딩 전
+event_life_safety_mobility,이진 정수,0,검토한 사건 근거에 확인 기재 없음,사건 생활 제한 · 안전·이동·거주 | 빈칸=근거 또는 귀속 불충분 등으로 판정 보류,사건 분석·파생,사건,사건층 탐색 판정·독립 이중코딩 전
+event_life_relationship_contact,이진 정수,1,사건 근거에서 확인,사건 생활 제한 · 관계·연락·도움 요청 | 빈칸=근거 또는 귀속 불충분 등으로 판정 보류,사건 분석·파생,사건,사건층 탐색 판정·독립 이중코딩 전
+event_life_relationship_contact,이진 정수,0,검토한 사건 근거에 확인 기재 없음,사건 생활 제한 · 관계·연락·도움 요청 | 빈칸=근거 또는 귀속 불충분 등으로 판정 보류,사건 분석·파생,사건,사건층 탐색 판정·독립 이중코딩 전
+event_life_economic,이진 정수,1,사건 근거에서 확인,사건 생활 제한 · 경제 | 빈칸=근거 또는 귀속 불충분 등으로 판정 보류,사건 분석·파생,사건,사건층 탐색 판정·독립 이중코딩 전
+event_life_economic,이진 정수,0,검토한 사건 근거에 확인 기재 없음,사건 생활 제한 · 경제 | 빈칸=근거 또는 귀속 불충분 등으로 판정 보류,사건 분석·파생,사건,사건층 탐색 판정·독립 이중코딩 전
+event_life_work_study,이진 정수,1,사건 근거에서 확인,사건 생활 제한 · 일·학업 | 빈칸=근거 또는 귀속 불충분 등으로 판정 보류,사건 분석·파생,사건,사건층 탐색 판정·독립 이중코딩 전
+event_life_work_study,이진 정수,0,검토한 사건 근거에 확인 기재 없음,사건 생활 제한 · 일·학업 | 빈칸=근거 또는 귀속 불충분 등으로 판정 보류,사건 분석·파생,사건,사건층 탐색 판정·독립 이중코딩 전
+event_life_care_parenting,이진 정수,1,사건 근거에서 확인,사건 생활 제한 · 양육·돌봄 | 빈칸=근거 또는 귀속 불충분 등으로 판정 보류,사건 분석·파생,사건,사건층 탐색 판정·독립 이중코딩 전
+event_life_care_parenting,이진 정수,0,검토한 사건 근거에 확인 기재 없음,사건 생활 제한 · 양육·돌봄 | 빈칸=근거 또는 귀속 불충분 등으로 판정 보류,사건 분석·파생,사건,사건층 탐색 판정·독립 이중코딩 전
+event_life_online,이진 정수,1,사건 근거에서 확인,사건 생활 제한 · 온라인 활동 | 빈칸=근거 또는 귀속 불충분 등으로 판정 보류,사건 분석·파생,사건,사건층 탐색 판정·독립 이중코딩 전
+event_life_online,이진 정수,0,검토한 사건 근거에 확인 기재 없음,사건 생활 제한 · 온라인 활동 | 빈칸=근거 또는 귀속 불충분 등으로 판정 보류,사건 분석·파생,사건,사건층 탐색 판정·독립 이중코딩 전
+event_life_sexual_autonomy,이진 정수,1,사건 근거에서 확인,사건 생활 제한 · 성적 자기결정 | 빈칸=근거 또는 귀속 불충분 등으로 판정 보류,사건 분석·파생,사건,사건층 탐색 판정·독립 이중코딩 전
+event_life_sexual_autonomy,이진 정수,0,검토한 사건 근거에 확인 기재 없음,사건 생활 제한 · 성적 자기결정 | 빈칸=근거 또는 귀속 불충분 등으로 판정 보류,사건 분석·파생,사건,사건층 탐색 판정·독립 이중코딩 전
+event_life_any,이진 정수,1,하나 이상 확인,사건 생활 제한 하나 이상 | 양성 없이 하위 미확정,사건 분석·파생,사건,재현 가능한 파생값
+event_life_any,이진 정수,0,일곱 영역 전부 0,사건 생활 제한 하나 이상 | 양성 없이 하위 미확정,사건 분석·파생,사건,재현 가능한 파생값
+event_help_access,이진 정수,1,지원 방해 확인,사건 지원 접근 방해 | 빈칸=근거 또는 귀속 불충분 등으로 판정 보류,사건 분석·파생,사건,사건층 탐색 판정·독립 이중코딩 전
+event_help_access,이진 정수,0,검토한 근거에 주분석 정의의 양성 기재 없음,사건 지원 접근 방해 | 빈칸=근거 또는 귀속 불충분 등으로 판정 보류,사건 분석·파생,사건,사건층 탐색 판정·독립 이중코딩 전
+event_economic_violence,이진 정수,1,사건 근거에서 확인,사건 경제적 폭력 | 빈칸=근거 또는 귀속 불충분 등으로 판정 보류,사건 분석·파생,사건,사건층 탐색 판정·독립 이중코딩 전
+event_economic_violence,이진 정수,0,검토한 사건 근거에 확인 기재 없음,사건 경제적 폭력 | 빈칸=근거 또는 귀속 불충분 등으로 판정 보류,사건 분석·파생,사건,사건층 탐색 판정·독립 이중코딩 전
+event_life_basis,범주형 문자열,v0.5.9 동일 사건·피해자 연결,v0.5.9 동일 사건·피해자 연결,생활·지원 값의 판정 경로 | 필수,사건 분석·파생,사건,식별·추적
+event_life_basis,범주형 문자열,사건별 판정,사건별 판정,생활·지원 값의 판정 경로 | 필수,사건 분석·파생,사건,식별·추적
+event_legacy_obs_ids_used,문자열,허용 형식,구관찰 ID의 쉼표 목록,발표 계산에 직접 재사용된 구관찰 ID | 직접 재사용 외의 사건은 공란,사건 분석·파생,사건,식별·추적
+event_review_pages,쪽수 목록(문자열),허용 형식,쪽·범위·쪽 목록을 나타내는 원문자열,사건 검토쪽 | 필수,사건 분석·파생,사건,식별·추적
+event_review_note,문자열,허용 형식,자유서술,사건별 근거 메모 | 필수,사건 분석·파생,사건,식별·추적
+dyad_n_events,정수,허용 형식,1 이상의 정수,관계의 확정 총차수 | 총차수 미확정,사건 분석·파생,관계쌍,기본층 기입값의 분석용 투영
+event_date_revision_status,범주형 문자열,기존 대표일 유지,기존 대표일 유지,대표일 보정 상태 | 필수,사건 분석·파생,사건,재현 가능한 파생값
+event_date_revision_status,범주형 문자열,날짜 미확정·차수 순번 유지,날짜 미확정·차수 순번 유지,대표일 보정 상태 | 필수,사건 분석·파생,사건,재현 가능한 파생값
+event_date_revision_status,범주형 문자열,기존 시작 대표일 유지·종료일 미확정,기존 시작 대표일 유지·종료일 미확정,대표일 보정 상태 | 필수,사건 분석·파생,사건,재현 가능한 파생값
+event_date_revision_status,범주형 문자열,말경·하순 30일 대입으로 변경,말경·하순 30일 대입으로 변경,대표일 보정 상태 | 필수,사건 분석·파생,사건,재현 가능한 파생값
+event_start_date_prior,날짜(ISO 문자열),허용 형식,YYYY-MM-DD,이전 시작 대표일 | 기존 자료의 일자 미확정,사건 분석·파생,사건,기본층 기입값의 분석용 투영
+event_date_evidence_pages,쪽수 목록(문자열),허용 형식,쪽 번호 목록,대표일 근거 PDF 쪽 | 쪽수 미상 시 원자료 확인,사건 분석·파생,사건,식별·추적
+event_digital_evidence_pages,쪽수 목록(문자열),허용 형식,쪽 번호 목록,디지털 수단 근거 PDF 쪽 | 쪽수 미상 시 원자료 확인,사건 분석·파생,사건,식별·추적
+event_digital_decision_status,범주형 문자열,coded,값 판정,디지털 수단 셀 판정 상태 | 필수,사건 분석·파생,사건,기본층 기입값의 분석용 투영
+event_digital_decision_status,범주형 문자열,reviewed_not_reported,검토 후 미기재,디지털 수단 셀 판정 상태 | 필수,사건 분석·파생,사건,기본층 기입값의 분석용 투영
+event_digital_decision_status,범주형 문자열,held_source,근거 보류,디지털 수단 셀 판정 상태 | 필수,사건 분석·파생,사건,기본층 기입값의 분석용 투영
+event_digital_decision_status,범주형 문자열,held_definition,정의 보류,디지털 수단 셀 판정 상태 | 필수,사건 분석·파생,사건,기본층 기입값의 분석용 투영
+event_body_force,이진 정수,1,확인,신체력 행사 | 원자료 판단 불가 시 빈칸,사건 분석·파생,사건,기본층 기입값의 분석용 투영
+event_body_force,이진 정수,0,원코딩 0,신체력 행사 | 원자료 판단 불가 시 빈칸,사건 분석·파생,사건,기본층 기입값의 분석용 투영
+event_weapon,이진 정수,1,확인,위험물건 사용 | 빈칸=근거 또는 귀속 불충분 등으로 판정 보류,사건 분석·파생,사건,기본층 기입값의 분석용 투영
+event_weapon,이진 정수,0,원코딩 0,위험물건 사용 | 빈칸=근거 또는 귀속 불충분 등으로 판정 보류,사건 분석·파생,사건,기본층 기입값의 분석용 투영
+event_physical_injury_confirmed,이진 정수,1,상해 확인,신체상해 확인 | 미기재·결과 불명 등. 의학적 부재로 처리 금지,사건 분석·파생,사건,기본층 기입값의 분석용 투영
+event_physical_injury_confirmed,이진 정수,0,근거로 판단한 무상해,신체상해 확인 | 미기재·결과 불명 등. 의학적 부재로 처리 금지,사건 분석·파생,사건,기본층 기입값의 분석용 투영
+event_life_threatening_act,이진 정수,1,승인된 범주 동반,치명적 행위 동반 | 근거·포함경계 불명,사건 분석·파생,사건,기본층 기입값의 분석용 투영
+event_life_threatening_act,이진 정수,0,근거로 범주 미동반 판정,치명적 행위 동반 | 근거·포함경계 불명,사건 분석·파생,사건,기본층 기입값의 분석용 투영
+event_end_date_prior,날짜(ISO 문자열),허용 형식,YYYY-MM-DD,이전 종료 대표일 | 기존 자료의 일자 미확정,사건 분석·파생,사건,기본층 기입값의 분석용 투영
+event_date_imputation_raw,혼합형 원기재(문자열 보존),0,구표 대입표시 0. 원문 날짜가 정확하다는 보증이 아님,원 날짜 대입 표시 | 표시 자체가 없거나 미확정. 실제 일자 결측과 별도,사건 분석·파생,사건,기본층 기입값의 분석용 투영
+event_date_imputation_raw,혼합형 원기재(문자열 보존),1,구표 대입표시 1,원 날짜 대입 표시 | 표시 자체가 없거나 미확정. 실제 일자 결측과 별도,사건 분석·파생,사건,기본층 기입값의 분석용 투영
+event_date_imputation_raw,혼합형 원기재(문자열 보존),원문 문자열,대입·명시일·충돌 등을 설명한 기존 메모 그대로,원 날짜 대입 표시 | 표시 자체가 없거나 미확정. 실제 일자 결측과 별도,사건 분석·파생,사건,기본층 기입값의 분석용 투영
+event_date_imputation_raw,혼합형 원기재(문자열 보존),빈칸,구표 표시 미입력. 날짜와 순번은 별도 확인,원 날짜 대입 표시 | 표시 자체가 없거나 미확정. 실제 일자 결측과 별도,사건 분석·파생,사건,기본층 기입값의 분석용 투영
+qc_review_listed,이진 정수,1,이번 재검토 목록에 있음,생활·지원 재검토 목록 포함 | 필수,사건 분석·파생,사건,자료관리 · 파생
+qc_review_listed,이진 정수,0,이번 재검토 목록에 없음,생활·지원 재검토 목록 포함 | 필수,사건 분석·파생,사건,자료관리 · 파생
+summary_group,문자열,허용 형식,문자열,집단 | 해당되지 않는 지표 행 또는 분모 없음은 빈칸,사건 분석·파생,집단·항목 통계,재현 가능한 파생값
+summary_measure,문자열,허용 형식,문자열,측정항목 | 해당되지 않는 지표 행 또는 분모 없음은 빈칸,사건 분석·파생,집단·항목 통계,재현 가능한 파생값
+summary_n,정수,허용 형식,0 이상 정수,집단 크기 | 해당되지 않는 지표 행 또는 분모 없음은 빈칸,사건 분석·파생,집단·항목 통계,재현 가능한 파생값
+summary_yes,정수,허용 형식,0 이상 정수,확인 수 | 해당되지 않는 지표 행 또는 분모 없음은 빈칸,사건 분석·파생,집단·항목 통계,재현 가능한 파생값
+summary_zero,정수,허용 형식,0 이상 정수,코드 0 수 | 해당되지 않는 지표 행 또는 분모 없음은 빈칸,사건 분석·파생,집단·항목 통계,재현 가능한 파생값
+summary_missing,정수,허용 형식,0 이상 정수,미판정 수 | 해당되지 않는 지표 행 또는 분모 없음은 빈칸,사건 분석·파생,집단·항목 통계,재현 가능한 파생값
+summary_rate_all,실수,허용 형식,0~1,집단전체 확인비율 | 해당되지 않는 지표 행 또는 분모 없음은 빈칸,사건 분석·파생,집단·항목 통계,재현 가능한 파생값
+summary_valid,정수,허용 형식,0 이상 정수,유효분모 | 해당되지 않는 지표 행 또는 분모 없음은 빈칸,사건 분석·파생,집단·항목 통계,재현 가능한 파생값
+summary_rate_valid,실수,허용 형식,0~1,유효분모 확인비율 | 해당되지 않는 지표 행 또는 분모 없음은 빈칸,사건 분석·파생,집단·항목 통계,재현 가능한 파생값
+linked_obs_available,이진 정수,1,연결 검증,구관찰 연결 가능 여부 | 필수,사건 분석·파생,사건,구관찰 연결 부분표본
+linked_obs_available,이진 정수,0,연결되지 않음,구관찰 연결 가능 여부 | 필수,사건 분석·파생,사건,구관찰 연결 부분표본
+linked_life_safety_mobility,이진 정수,1,채택 가능한 양성 기재,구관찰 연결 생활 제한 · 안전·이동·거주 | 미연결 사건은 미측정,사건 분석·파생,사건,구관찰 연결 부분표본
+linked_life_safety_mobility,이진 정수,0,연결 관찰에 채택 가능한 양성 기재 없음,구관찰 연결 생활 제한 · 안전·이동·거주 | 미연결 사건은 미측정,사건 분석·파생,사건,구관찰 연결 부분표본
+linked_life_relationship_contact,이진 정수,1,채택 가능한 양성 기재,구관찰 연결 생활 제한 · 관계·연락·도움 요청 | 미연결 사건은 미측정,사건 분석·파생,사건,구관찰 연결 부분표본
+linked_life_relationship_contact,이진 정수,0,연결 관찰에 채택 가능한 양성 기재 없음,구관찰 연결 생활 제한 · 관계·연락·도움 요청 | 미연결 사건은 미측정,사건 분석·파생,사건,구관찰 연결 부분표본
+linked_life_economic,이진 정수,1,채택 가능한 양성 기재,구관찰 연결 생활 제한 · 경제 | 미연결 사건은 미측정,사건 분석·파생,사건,구관찰 연결 부분표본
+linked_life_economic,이진 정수,0,연결 관찰에 채택 가능한 양성 기재 없음,구관찰 연결 생활 제한 · 경제 | 미연결 사건은 미측정,사건 분석·파생,사건,구관찰 연결 부분표본
+linked_life_any,이진 정수,1,양성 기재,구관찰 연결 생활 제한 하나 이상 | 미연결=빈칸,사건 분석·파생,사건,구관찰 연결 부분표본
+linked_life_any,이진 정수,0,연결 근거에 양성 없음,구관찰 연결 생활 제한 하나 이상 | 미연결=빈칸,사건 분석·파생,사건,구관찰 연결 부분표본
+linked_actual_restriction_any,이진 정수,1,실제 제한 확인,구관찰 연결 실제 제한 명시 | 미연결=빈칸,사건 분석·파생,사건,구관찰 연결 부분표본
+linked_actual_restriction_any,이진 정수,0,연결 근거에서 실제 제한 확인 안 됨,구관찰 연결 실제 제한 명시 | 미연결=빈칸,사건 분석·파생,사건,구관찰 연결 부분표본
+linked_help_access,이진 정수,1,양성 기재,구관찰 연결 지원 접근 방해 | 미연결=빈칸,사건 분석·파생,사건,구관찰 연결 부분표본
+linked_help_access,이진 정수,0,연결 근거에 양성 없음,구관찰 연결 지원 접근 방해 | 미연결=빈칸,사건 분석·파생,사건,구관찰 연결 부분표본
+linked_obs_ids,문자열,허용 형식,구관찰 ID 목록(; 구분),연결된 구관찰 ID | 미연결=빈칸,사건 분석·파생,사건,구관찰 연결 부분표본
+dyad_cc_refusal_to_separate,이진 정수,1,관계에서 확인,관계 전체 분리 거부 | 관계 원코딩 보류,사건 분석·파생,관계쌍,기본층 기입값의 분석용 투영
+dyad_cc_refusal_to_separate,이진 정수,0,관계 원코딩 0,관계 전체 분리 거부 | 관계 원코딩 보류,사건 분석·파생,관계쌍,기본층 기입값의 분석용 투영
+dyad_cc_emotional_abuse,이진 정수,1,관계에서 확인,관계 전체 정서적 학대 | 관계 원코딩 보류,사건 분석·파생,관계쌍,기본층 기입값의 분석용 투영
+dyad_cc_emotional_abuse,이진 정수,0,관계 원코딩 0,관계 전체 정서적 학대 | 관계 원코딩 보류,사건 분석·파생,관계쌍,기본층 기입값의 분석용 투영
+dyad_cc_reputation_threat,이진 정수,1,관계에서 확인,관계 전체 평판 위협 | 관계 원코딩 보류,사건 분석·파생,관계쌍,기본층 기입값의 분석용 투영
+dyad_cc_reputation_threat,이진 정수,0,관계 원코딩 0,관계 전체 평판 위협 | 관계 원코딩 보류,사건 분석·파생,관계쌍,기본층 기입값의 분석용 투영
+dyad_cc_physical_control,이진 정수,1,관계에서 확인,관계 전체 신체적 통제 | 관계 원코딩 보류,사건 분석·파생,관계쌍,기본층 기입값의 분석용 투영
+dyad_cc_physical_control,이진 정수,0,관계 원코딩 0,관계 전체 신체적 통제 | 관계 원코딩 보류,사건 분석·파생,관계쌍,기본층 기입값의 분석용 투영
+dyad_cc_surveillance,이진 정수,1,관계에서 확인,관계 전체 감시 | 관계 원코딩 보류,사건 분석·파생,관계쌍,기본층 기입값의 분석용 투영
+dyad_cc_surveillance,이진 정수,0,관계 원코딩 0,관계 전체 감시 | 관계 원코딩 보류,사건 분석·파생,관계쌍,기본층 기입값의 분석용 투영
+dyad_cc_isolation,이진 정수,1,관계에서 확인,관계 전체 고립 | 관계 원코딩 보류,사건 분석·파생,관계쌍,기본층 기입값의 분석용 투영
+dyad_cc_isolation,이진 정수,0,관계 원코딩 0,관계 전체 고립 | 관계 원코딩 보류,사건 분석·파생,관계쌍,기본층 기입값의 분석용 투영
+dyad_cc_intimidation,이진 정수,1,관계에서 확인,관계 전체 위협 | 관계 원코딩 보류,사건 분석·파생,관계쌍,기본층 기입값의 분석용 투영
+dyad_cc_intimidation,이진 정수,0,관계 원코딩 0,관계 전체 위협 | 관계 원코딩 보류,사건 분석·파생,관계쌍,기본층 기입값의 분석용 투영
+dyad_cc_digital_control,이진 정수,1,관계에서 확인,관계 전체 디지털 통제 | 관계 원코딩 보류,사건 분석·파생,관계쌍,기본층 기입값의 분석용 투영
+dyad_cc_digital_control,이진 정수,0,관계 원코딩 0,관계 전체 디지털 통제 | 관계 원코딩 보류,사건 분석·파생,관계쌍,기본층 기입값의 분석용 투영
+dyad_cc_economic_control,이진 정수,1,관계에서 확인,관계 전체 경제적 통제 | 관계 원코딩 보류,사건 분석·파생,관계쌍,기본층 기입값의 분석용 투영
+dyad_cc_economic_control,이진 정수,0,관계 원코딩 0,관계 전체 경제적 통제 | 관계 원코딩 보류,사건 분석·파생,관계쌍,기본층 기입값의 분석용 투영
+summary_cc_complete,정수,허용 형식,0 이상 정수,통제 9항목 완전판정 수 | 해당되지 않는 지표 행 또는 분모 없음은 빈칸,사건 분석·파생,집단·항목 통계,재현 가능한 파생값
+summary_cc_incomplete,정수,허용 형식,0 이상 정수,통제 9항목 미완결 수 | 해당되지 않는 지표 행 또는 분모 없음은 빈칸,사건 분석·파생,집단·항목 통계,재현 가능한 파생값
+summary_cc_sum,정수,허용 형식,0 이상 정수,통제 영역 수 합 | 해당되지 않는 지표 행 또는 분모 없음은 빈칸,사건 분석·파생,집단·항목 통계,재현 가능한 파생값
+summary_cc_mean,실수,허용 형식,0~9,평균 통제 영역 수 | 해당되지 않는 지표 행 또는 분모 없음은 빈칸,사건 분석·파생,집단·항목 통계,재현 가능한 파생값
+summary_pct_valid,실수,허용 형식,0~100,관계 유효분모 백분율 | 해당되지 않는 지표 행 또는 분모 없음은 빈칸,사건 분석·파생,집단·항목 통계,재현 가능한 파생값
+event_count_scope,범주형 문자열,총차수 확정 관계의 사건,총차수 확정 관계의 사건,확정사건 분석 포함 구분 | 필수,사건 분석·파생,사건,재현 가능한 파생값
+event_count_scope,범주형 문자열,총차수 미확정 관계의 관찰기록,총차수 미확정 관계의 관찰기록,확정사건 분석 포함 구분 | 필수,사건 분석·파생,사건,재현 가능한 파생값
+dyad_n_linked_records,정수,허용 형식,0 이상의 정수,관계 연결 기록 수 | 필수,사건 분석·파생,관계쌍,재현 가능한 파생값
+dyad_digital_group,범주형 문자열,사용 확인,사용 확인,디지털 사용 관계 분류 | 필수,사건 분석·파생,관계쌍,재현 가능한 파생값
+dyad_digital_group,범주형 문자열,관찰 차수 모두 0,관찰 차수 모두 0,디지털 사용 관계 분류 | 필수,사건 분석·파생,관계쌍,재현 가능한 파생값
+dyad_digital_group,범주형 문자열,미확인·자료 불충분,미확인·자료 불충분,디지털 사용 관계 분류 | 필수,사건 분석·파생,관계쌍,재현 가능한 파생값
+dyad_cc_total,정수,허용 형식,0~9,관계 전체 통제 영역 수 | 하위 미확정 시 빈칸,사건 분석·파생,관계쌍,기본층 기입값의 분석용 투영
+dyad_is_ipv_direct,이진 정수,1,직접,직접 IPV 관계의 차수기록 | 필수,사건 분석·파생,연결기록,재현 가능한 파생값
+dyad_is_ipv_direct,이진 정수,0,그 외,직접 IPV 관계의 차수기록 | 필수,사건 분석·파생,연결기록,재현 가능한 파생값
+T1a,범주,1,관찰 근거에서 확인,반복 연락 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+T1a,범주,0,명시적 부재,반복 연락 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+T1a,범주,9,미기재·판정 곤란·정의상 제외 등; value_reason 필수,반복 연락 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+T1a,범주,빈칸,미검토,반복 연락 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+T1b,범주,1,관찰 근거에서 확인,협박·위협 메시지 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+T1b,범주,0,명시적 부재,협박·위협 메시지 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+T1b,범주,9,미기재·판정 곤란·정의상 제외 등; value_reason 필수,협박·위협 메시지 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+T1b,범주,빈칸,미검토,협박·위협 메시지 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+T1c,범주,1,관찰 근거에서 확인,원치 않는 성적 내용 전송 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+T1c,범주,0,명시적 부재,원치 않는 성적 내용 전송 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+T1c,범주,9,미기재·판정 곤란·정의상 제외 등; value_reason 필수,원치 않는 성적 내용 전송 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+T1c,범주,빈칸,미검토,원치 않는 성적 내용 전송 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+T2a,범주,1,관찰 근거에서 확인,다른 번호·계정·기기 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+T2a,범주,0,명시적 부재,다른 번호·계정·기기 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+T2a,범주,9,미기재·판정 곤란·정의상 제외 등; value_reason 필수,다른 번호·계정·기기 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+T2a,범주,빈칸,미검토,다른 번호·계정·기기 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+T2b,범주,1,관찰 근거에서 확인,제3자 연락망(디지털) | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+T2b,범주,0,명시적 부재,제3자 연락망(디지털) | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+T2b,범주,9,미기재·판정 곤란·정의상 제외 등; value_reason 필수,제3자 연락망(디지털) | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+T2b,범주,빈칸,미검토,제3자 연락망(디지털) | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+T2c,범주,1,관찰 근거에서 확인,금융서비스 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+T2c,범주,0,명시적 부재,금융서비스 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+T2c,범주,9,미기재·판정 곤란·정의상 제외 등; value_reason 필수,금융서비스 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+T2c,범주,빈칸,미검토,금융서비스 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+T2d,범주,1,관찰 근거에서 확인,SNS 반응·알림 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+T2d,범주,0,명시적 부재,SNS 반응·알림 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+T2d,범주,9,미기재·판정 곤란·정의상 제외 등; value_reason 필수,SNS 반응·알림 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+T2d,범주,빈칸,미검토,SNS 반응·알림 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+T2e,범주,1,관찰 근거에서 확인,사칭 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+T2e,범주,0,명시적 부재,사칭 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+T2e,범주,9,미기재·판정 곤란·정의상 제외 등; value_reason 필수,사칭 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+T2e,범주,빈칸,미검토,사칭 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+T3a,범주,1,관찰 근거에서 확인,위치 추적 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+T3a,범주,0,명시적 부재,위치 추적 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+T3a,범주,9,미기재·판정 곤란·정의상 제외 등; value_reason 필수,위치 추적 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+T3a,범주,빈칸,미검토,위치 추적 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+T3b,범주,1,관찰 근거에서 확인,기기·계정 무단 접근·조작 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+T3b,범주,0,명시적 부재,기기·계정 무단 접근·조작 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+T3b,범주,9,미기재·판정 곤란·정의상 제외 등; value_reason 필수,기기·계정 무단 접근·조작 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+T3b,범주,빈칸,미검토,기기·계정 무단 접근·조작 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+T3c,범주,1,관찰 근거에서 확인,감시 앱·기기 설치 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+T3c,범주,0,명시적 부재,감시 앱·기기 설치 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+T3c,범주,9,미기재·판정 곤란·정의상 제외 등; value_reason 필수,감시 앱·기기 설치 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+T3c,범주,빈칸,미검토,감시 앱·기기 설치 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+T3d,범주,1,관찰 근거에서 확인,스마트기기 원격 열람 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+T3d,범주,0,명시적 부재,스마트기기 원격 열람 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+T3d,범주,9,미기재·판정 곤란·정의상 제외 등; value_reason 필수,스마트기기 원격 열람 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+T3d,범주,빈칸,미검토,스마트기기 원격 열람 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+T3e,범주,1,관찰 근거에서 확인,잔존 접근권한 악용 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+T3e,범주,0,명시적 부재,잔존 접근권한 악용 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+T3e,범주,9,미기재·판정 곤란·정의상 제외 등; value_reason 필수,잔존 접근권한 악용 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+T3e,범주,빈칸,미검토,잔존 접근권한 악용 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+T3f,범주,1,관찰 근거에서 확인,비당사자 녹음·청취 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+T3f,범주,0,명시적 부재,비당사자 녹음·청취 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+T3f,범주,9,미기재·판정 곤란·정의상 제외 등; value_reason 필수,비당사자 녹음·청취 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+T3f,범주,빈칸,미검토,비당사자 녹음·청취 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+T3g,범주,1,관찰 근거에서 확인,연락 확인 강요 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+T3g,범주,0,명시적 부재,연락 확인 강요 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+T3g,범주,9,미기재·판정 곤란·정의상 제외 등; value_reason 필수,연락 확인 강요 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+T3g,범주,빈칸,미검토,연락 확인 강요 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+T3h,범주,1,관찰 근거에서 확인,감시 과시 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+T3h,범주,0,명시적 부재,감시 과시 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+T3h,범주,9,미기재·판정 곤란·정의상 제외 등; value_reason 필수,감시 과시 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+T3h,범주,빈칸,미검토,감시 과시 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+T4a,범주,1,관찰 근거에서 확인,비동의 촬영 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+T4a,범주,0,명시적 부재,비동의 촬영 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+T4a,범주,9,미기재·판정 곤란·정의상 제외 등; value_reason 필수,비동의 촬영 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+T4a,범주,빈칸,미검토,비동의 촬영 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+T4b,범주,1,관찰 근거에서 확인,"무단 취득·보관, 보관 강요 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.",원관찰 v0.5.9,원관찰,v0.5.9 원정의
+T4b,범주,0,명시적 부재,"무단 취득·보관, 보관 강요 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.",원관찰 v0.5.9,원관찰,v0.5.9 원정의
+T4b,범주,9,미기재·판정 곤란·정의상 제외 등; value_reason 필수,"무단 취득·보관, 보관 강요 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.",원관찰 v0.5.9,원관찰,v0.5.9 원정의
+T4b,범주,빈칸,미검토,"무단 취득·보관, 보관 강요 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.",원관찰 v0.5.9,원관찰,v0.5.9 원정의
+T4c,범주,1,관찰 근거에서 확인,유포 협박 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+T4c,범주,0,명시적 부재,유포 협박 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+T4c,범주,9,미기재·판정 곤란·정의상 제외 등; value_reason 필수,유포 협박 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+T4c,범주,빈칸,미검토,유포 협박 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+T4d1,범주,1,관찰 근거에서 확인,피해자 본인에게 제시·전송 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+T4d1,범주,0,명시적 부재,피해자 본인에게 제시·전송 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+T4d1,범주,9,미기재·판정 곤란·정의상 제외 등; value_reason 필수,피해자 본인에게 제시·전송 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+T4d1,범주,빈칸,미검토,피해자 본인에게 제시·전송 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+T4d2,범주,1,관찰 근거에서 확인,제3자 전송 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+T4d2,범주,0,명시적 부재,제3자 전송 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+T4d2,범주,9,미기재·판정 곤란·정의상 제외 등; value_reason 필수,제3자 전송 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+T4d2,범주,빈칸,미검토,제3자 전송 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+T4d3,범주,1,관찰 근거에서 확인,공개 게시 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+T4d3,범주,0,명시적 부재,공개 게시 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+T4d3,범주,9,미기재·판정 곤란·정의상 제외 등; value_reason 필수,공개 게시 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+T4d3,범주,빈칸,미검토,공개 게시 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+T4e,범주,1,관찰 근거에서 확인,촬영물 이용 추가 요구 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+T4e,범주,0,명시적 부재,촬영물 이용 추가 요구 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+T4e,범주,9,미기재·판정 곤란·정의상 제외 등; value_reason 필수,촬영물 이용 추가 요구 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+T4e,범주,빈칸,미검토,촬영물 이용 추가 요구 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+T4f,범주,1,관찰 근거에서 확인,영상 제작·실시간 시청 강요 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+T4f,범주,0,명시적 부재,영상 제작·실시간 시청 강요 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+T4f,범주,9,미기재·판정 곤란·정의상 제외 등; value_reason 필수,영상 제작·실시간 시청 강요 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+T4f,범주,빈칸,미검토,영상 제작·실시간 시청 강요 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+T5a,범주,1,관찰 근거에서 확인,온라인 공개 게시·게시 협박 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+T5a,범주,0,명시적 부재,온라인 공개 게시·게시 협박 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+T5a,범주,9,미기재·판정 곤란·정의상 제외 등; value_reason 필수,온라인 공개 게시·게시 협박 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+T5a,범주,빈칸,미검토,온라인 공개 게시·게시 협박 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+T5b,범주,1,관찰 근거에서 확인,제3자 대상 디지털 폭로 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+T5b,범주,0,명시적 부재,제3자 대상 디지털 폭로 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+T5b,범주,9,미기재·판정 곤란·정의상 제외 등; value_reason 필수,제3자 대상 디지털 폭로 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+T5b,범주,빈칸,미검토,제3자 대상 디지털 폭로 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+T5c,범주,1,관찰 근거에서 확인,공적 매체 이용 비동의 공개 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+T5c,범주,0,명시적 부재,공적 매체 이용 비동의 공개 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+T5c,범주,9,미기재·판정 곤란·정의상 제외 등; value_reason 필수,공적 매체 이용 비동의 공개 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+T5c,범주,빈칸,미검토,공적 매체 이용 비동의 공개 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+T6a,범주,1,관찰 근거에서 확인,전자 출입권한으로 진입 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+T6a,범주,0,명시적 부재,전자 출입권한으로 진입 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+T6a,범주,9,미기재·판정 곤란·정의상 제외 등; value_reason 필수,전자 출입권한으로 진입 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+T6a,범주,빈칸,미검토,전자 출입권한으로 진입 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+T6b,범주,1,관찰 근거에서 확인,전자 출입 시도 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+T6b,범주,0,명시적 부재,전자 출입 시도 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+T6b,범주,9,미기재·판정 곤란·정의상 제외 등; value_reason 필수,전자 출입 시도 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+T6b,범주,빈칸,미검토,전자 출입 시도 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+T6c,범주,1,관찰 근거에서 확인,접근권한 조작 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+T6c,범주,0,명시적 부재,접근권한 조작 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+T6c,범주,9,미기재·판정 곤란·정의상 제외 등; value_reason 필수,접근권한 조작 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+T6c,범주,빈칸,미검토,접근권한 조작 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+T7a,범주,1,관찰 근거에서 확인,기기 탈취·은닉 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+T7a,범주,0,명시적 부재,기기 탈취·은닉 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+T7a,범주,9,미기재·판정 곤란·정의상 제외 등; value_reason 필수,기기 탈취·은닉 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+T7a,범주,빈칸,미검토,기기 탈취·은닉 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+T7b,범주,1,관찰 근거에서 확인,기기 파손 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+T7b,범주,0,명시적 부재,기기 파손 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+T7b,범주,9,미기재·판정 곤란·정의상 제외 등; value_reason 필수,기기 파손 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+T7b,범주,빈칸,미검토,기기 파손 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+N1,범주,1,관찰 근거에서 확인,비디지털 폭로 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+N1,범주,0,명시적 부재,비디지털 폭로 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+N1,범주,9,미기재·판정 곤란·정의상 제외 등; value_reason 필수,비디지털 폭로 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+N1,범주,빈칸,미검토,비디지털 폭로 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+E1,범주,1,관찰 근거에서 확인,비동의 명의 도용 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+E1,범주,0,명시적 부재,비동의 명의 도용 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+E1,범주,9,미기재·판정 곤란·정의상 제외 등; value_reason 필수,비동의 명의 도용 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+E1,범주,빈칸,미검토,비동의 명의 도용 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+H1,범주,1,관찰 근거에서 확인,신고·도움요청 현장 차단 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+H1,범주,0,명시적 부재,신고·도움요청 현장 차단 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+H1,범주,9,미기재·판정 곤란·정의상 제외 등; value_reason 필수,신고·도움요청 현장 차단 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+H1,범주,빈칸,미검토,신고·도움요청 현장 차단 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+H2,범주,1,관찰 근거에서 확인,권리 행사·도움 요청에 대한 보복 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+H2,범주,0,명시적 부재,권리 행사·도움 요청에 대한 보복 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+H2,범주,9,미기재·판정 곤란·정의상 제외 등; value_reason 필수,권리 행사·도움 요청에 대한 보복 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+H2,범주,빈칸,미검토,권리 행사·도움 요청에 대한 보복 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+H3a,범주,1,관찰 근거에서 확인,향후 신고·도움요청 억제 위협 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+H3a,범주,0,명시적 부재,향후 신고·도움요청 억제 위협 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+H3a,범주,9,미기재·판정 곤란·정의상 제외 등; value_reason 필수,향후 신고·도움요청 억제 위협 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+H3a,범주,빈칸,미검토,향후 신고·도움요청 억제 위협 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+H3b,범주,1,관찰 근거에서 확인,절차 철회·번복 강요 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+H3b,범주,0,명시적 부재,절차 철회·번복 강요 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+H3b,범주,9,미기재·판정 곤란·정의상 제외 등; value_reason 필수,절차 철회·번복 강요 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+H3b,범주,빈칸,미검토,절차 철회·번복 강요 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+H4a,범주,1,관찰 근거에서 확인,자해·자살 위협으로 신고·보호조치 억제 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+H4a,범주,0,명시적 부재,자해·자살 위협으로 신고·보호조치 억제 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+H4a,범주,9,미기재·판정 곤란·정의상 제외 등; value_reason 필수,자해·자살 위협으로 신고·보호조치 억제 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+H4a,범주,빈칸,미검토,자해·자살 위협으로 신고·보호조치 억제 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+H7,범주,1,관찰 근거에서 확인,증거 확보 방해 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+H7,범주,0,명시적 부재,증거 확보 방해 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+H7,범주,9,미기재·판정 곤란·정의상 제외 등; value_reason 필수,증거 확보 방해 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+H7,범주,빈칸,미검토,증거 확보 방해 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+H8,범주,1,관찰 근거에서 확인,주변 도움 차단·알림 금지 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+H8,범주,0,명시적 부재,주변 도움 차단·알림 금지 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+H8,범주,9,미기재·판정 곤란·정의상 제외 등; value_reason 필수,주변 도움 차단·알림 금지 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+H8,범주,빈칸,미검토,주변 도움 차단·알림 금지 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+H9,범주,1,관찰 근거에서 확인,안전 기능 무력화 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+H9,범주,0,명시적 부재,안전 기능 무력화 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+H9,범주,9,미기재·판정 곤란·정의상 제외 등; value_reason 필수,안전 기능 무력화 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+H9,범주,빈칸,미검토,안전 기능 무력화 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+C1,범주,1,관찰 근거에서 확인,자해·자살 위협으로 관계·접촉 압박 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+C1,범주,0,명시적 부재,자해·자살 위협으로 관계·접촉 압박 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+C1,범주,9,미기재·판정 곤란·정의상 제외 등; value_reason 필수,자해·자살 위협으로 관계·접촉 압박 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+C1,범주,빈칸,미검토,자해·자살 위협으로 관계·접촉 압박 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+P1,범주,1,관찰 근거에서 확인,공적 개입 이후 피해행위의 지속·재개 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰(적격 사건 내),v0.5.9 원정의
+P1,범주,0,명시적 부재,공적 개입 이후 피해행위의 지속·재개 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰(적격 사건 내),v0.5.9 원정의
+P1,범주,9,미기재·판정 곤란·정의상 제외 등; value_reason 필수,공적 개입 이후 피해행위의 지속·재개 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰(적격 사건 내),v0.5.9 원정의
+P1,범주,빈칸,미검토,공적 개입 이후 피해행위의 지속·재개 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰(적격 사건 내),v0.5.9 원정의
+P2,범주,1,관찰 근거에서 확인,보호조치 효력 중 대체·간접 경로 접촉 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰(적격 사건 내),v0.5.9 원정의
+P2,범주,0,명시적 부재,보호조치 효력 중 대체·간접 경로 접촉 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰(적격 사건 내),v0.5.9 원정의
+P2,범주,9,미기재·판정 곤란·정의상 제외 등; value_reason 필수,보호조치 효력 중 대체·간접 경로 접촉 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰(적격 사건 내),v0.5.9 원정의
+P2,범주,빈칸,미검토,보호조치 효력 중 대체·간접 경로 접촉 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰(적격 사건 내),v0.5.9 원정의
+p1_eligible,범주,1,적격 기준 확인,P1 분석 적격성 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,구 사건(판결문 표본) 적격성,v0.5.9 원정의
+p1_eligible,범주,0,원관찰 일반 규칙상 명시적 부정. 245문서 P기준정보에서 실제 0은 없음,P1 분석 적격성 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,구 사건(판결문 표본) 적격성,v0.5.9 원정의
+p1_eligible,범주,9,적격 여부 판단 곤란·미기재 등; 이유 보존,P1 분석 적격성 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,구 사건(판결문 표본) 적격성,v0.5.9 원정의
+p1_eligible,범주,빈칸,미검토,P1 분석 적격성 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,구 사건(판결문 표본) 적격성,v0.5.9 원정의
+p2_eligible,범주,1,적격 기준 확인,P2 분석 적격성 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,구 사건(판결문 표본) 적격성,v0.5.9 원정의
+p2_eligible,범주,0,원관찰 일반 규칙상 명시적 부정. 245문서 P기준정보에서 실제 0은 없음,P2 분석 적격성 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,구 사건(판결문 표본) 적격성,v0.5.9 원정의
+p2_eligible,범주,9,적격 여부 판단 곤란·미기재 등; 이유 보존,P2 분석 적격성 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,구 사건(판결문 표본) 적격성,v0.5.9 원정의
+p2_eligible,범주,빈칸,미검토,P2 분석 적격성 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,구 사건(판결문 표본) 적격성,v0.5.9 원정의
+space_economic,범주,1,관찰 근거에서 확인,경제 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+space_economic,범주,0,명시적 부재,경제 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+space_economic,범주,9,미기재·판정 곤란·정의상 제외 등; value_reason 필수,경제 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+space_economic,범주,빈칸,미검토,경제 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+space_safety_mobility,범주,1,관찰 근거에서 확인,안전·이동·거주 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+space_safety_mobility,범주,0,명시적 부재,안전·이동·거주 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+space_safety_mobility,범주,9,미기재·판정 곤란·정의상 제외 등; value_reason 필수,안전·이동·거주 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+space_safety_mobility,범주,빈칸,미검토,안전·이동·거주 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+space_relationship_contact,범주,1,관찰 근거에서 확인,관계·연락·도움요청 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+space_relationship_contact,범주,0,명시적 부재,관계·연락·도움요청 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+space_relationship_contact,범주,9,미기재·판정 곤란·정의상 제외 등; value_reason 필수,관계·연락·도움요청 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+space_relationship_contact,범주,빈칸,미검토,관계·연락·도움요청 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+space_work_study,범주,1,관찰 근거에서 확인,일·학업 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+space_work_study,범주,0,명시적 부재,일·학업 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+space_work_study,범주,9,미기재·판정 곤란·정의상 제외 등; value_reason 필수,일·학업 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+space_work_study,범주,빈칸,미검토,일·학업 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+space_care_parenting,범주,1,관찰 근거에서 확인,양육·돌봄 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+space_care_parenting,범주,0,명시적 부재,양육·돌봄 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+space_care_parenting,범주,9,미기재·판정 곤란·정의상 제외 등; value_reason 필수,양육·돌봄 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+space_care_parenting,범주,빈칸,미검토,양육·돌봄 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+space_online,범주,1,관찰 근거에서 확인,온라인 활동 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+space_online,범주,0,명시적 부재,온라인 활동 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+space_online,범주,9,미기재·판정 곤란·정의상 제외 등; value_reason 필수,온라인 활동 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+space_online,범주,빈칸,미검토,온라인 활동 | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+space_sexual_autonomy,범주,1,관찰 근거에서 확인,성적 자기결정(신설) | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+space_sexual_autonomy,범주,0,명시적 부재,성적 자기결정(신설) | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+space_sexual_autonomy,범주,9,미기재·판정 곤란·정의상 제외 등; value_reason 필수,성적 자기결정(신설) | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+space_sexual_autonomy,범주,빈칸,미검토,성적 자기결정(신설) | 9=판정 곤란·정의상 제외 등; value_reason으로 구분. 원관찰 판정 0=명시적 부재.,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+H2_subtype,범주,a,친밀관계 피해 대응과 연결됨,H2 하위유형 | H2=1일 때만 입력. H2가 0·9이면 '해당 없음'; 미입력과 불명을 구분,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+H2_subtype,범주,b,다른 절차·사안임이 확인됨,H2 하위유형 | H2=1일 때만 입력. H2가 0·9이면 '해당 없음'; 미입력과 불명을 구분,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+H2_subtype,범주,9,대상·피해 대응 연결 판단 곤란,H2 하위유형 | H2=1일 때만 입력. H2가 0·9이면 '해당 없음'; 미입력과 불명을 구분,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+H2_subtype,범주,해당 없음,상위 항목이 0 또는 9,H2 하위유형 | H2=1일 때만 입력. H2가 0·9이면 '해당 없음'; 미입력과 불명을 구분,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+H3b_subtype,범주,a,친밀관계 피해 대응과 연결됨,H3b 꼬리표 | H3b=1일 때만 입력. 0·9이면 '해당 없음'; 미입력과 불명을 구분,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+H3b_subtype,범주,b,다른 절차·사안임이 확인됨,H3b 꼬리표 | H3b=1일 때만 입력. 0·9이면 '해당 없음'; 미입력과 불명을 구분,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+H3b_subtype,범주,9,대상·피해 대응 연결 판단 곤란,H3b 꼬리표 | H3b=1일 때만 입력. 0·9이면 '해당 없음'; 미입력과 불명을 구분,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+H3b_subtype,범주,해당 없음,상위 항목이 0 또는 9,H3b 꼬리표 | H3b=1일 때만 입력. 0·9이면 '해당 없음'; 미입력과 불명을 구분,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+H7_subtype,범주,a,친밀관계 피해 대응과 연결됨,H7 꼬리표 | H7=1일 때만 입력. 0·9이면 '해당 없음'; 미입력과 불명을 구분,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+H7_subtype,범주,b,다른 절차·사안임이 확인됨,H7 꼬리표 | H7=1일 때만 입력. 0·9이면 '해당 없음'; 미입력과 불명을 구분,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+H7_subtype,범주,9,대상·피해 대응 연결 판단 곤란,H7 꼬리표 | H7=1일 때만 입력. 0·9이면 '해당 없음'; 미입력과 불명을 구분,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+H7_subtype,범주,해당 없음,상위 항목이 0 또는 9,H7 꼬리표 | H7=1일 때만 입력. 0·9이면 '해당 없음'; 미입력과 불명을 구분,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+space_economic_status,범주,실제제한,실제제한,경제 제한 상태 | space_economic=1일 때만; 미입력과 불명을 구분,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+space_economic_status,범주,제한시도,제한시도,경제 제한 상태 | space_economic=1일 때만; 미입력과 불명을 구분,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+space_economic_status,범주,위협·요구,위협·요구,경제 제한 상태 | space_economic=1일 때만; 미입력과 불명을 구분,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+space_economic_status,범주,불명,불명,경제 제한 상태 | space_economic=1일 때만; 미입력과 불명을 구분,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+space_economic_scope,범주,장면,장면,경제 제한 범위 | space_economic=1일 때만; 미입력과 불명을 구분,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+space_economic_scope,범주,지속,지속,경제 제한 범위 | space_economic=1일 때만; 미입력과 불명을 구분,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+space_economic_scope,범주,불명,불명,경제 제한 범위 | space_economic=1일 때만; 미입력과 불명을 구분,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+space_safety_mobility_status,범주,실제제한,실제제한,안전·이동·거주 제한 상태 | space_safety_mobility=1일 때만; 미입력과 불명을 구분,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+space_safety_mobility_status,범주,제한시도,제한시도,안전·이동·거주 제한 상태 | space_safety_mobility=1일 때만; 미입력과 불명을 구분,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+space_safety_mobility_status,범주,위협·요구,위협·요구,안전·이동·거주 제한 상태 | space_safety_mobility=1일 때만; 미입력과 불명을 구분,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+space_safety_mobility_status,범주,불명,불명,안전·이동·거주 제한 상태 | space_safety_mobility=1일 때만; 미입력과 불명을 구분,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+space_safety_mobility_scope,범주,장면,장면,안전·이동·거주 제한 범위 | space_safety_mobility=1일 때만; 미입력과 불명을 구분,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+space_safety_mobility_scope,범주,지속,지속,안전·이동·거주 제한 범위 | space_safety_mobility=1일 때만; 미입력과 불명을 구분,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+space_safety_mobility_scope,범주,불명,불명,안전·이동·거주 제한 범위 | space_safety_mobility=1일 때만; 미입력과 불명을 구분,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+space_relationship_contact_status,범주,실제제한,실제제한,관계·연락·도움요청 제한 상태 | space_relationship_contact=1일 때만; 미입력과 불명을 구분,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+space_relationship_contact_status,범주,제한시도,제한시도,관계·연락·도움요청 제한 상태 | space_relationship_contact=1일 때만; 미입력과 불명을 구분,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+space_relationship_contact_status,범주,위협·요구,위협·요구,관계·연락·도움요청 제한 상태 | space_relationship_contact=1일 때만; 미입력과 불명을 구분,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+space_relationship_contact_status,범주,불명,불명,관계·연락·도움요청 제한 상태 | space_relationship_contact=1일 때만; 미입력과 불명을 구분,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+space_relationship_contact_scope,범주,장면,장면,관계·연락·도움요청 제한 범위 | space_relationship_contact=1일 때만; 미입력과 불명을 구분,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+space_relationship_contact_scope,범주,지속,지속,관계·연락·도움요청 제한 범위 | space_relationship_contact=1일 때만; 미입력과 불명을 구분,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+space_relationship_contact_scope,범주,불명,불명,관계·연락·도움요청 제한 범위 | space_relationship_contact=1일 때만; 미입력과 불명을 구분,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+space_work_study_status,범주,실제제한,실제제한,일·학업 제한 상태 | space_work_study=1일 때만; 미입력과 불명을 구분,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+space_work_study_status,범주,제한시도,제한시도,일·학업 제한 상태 | space_work_study=1일 때만; 미입력과 불명을 구분,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+space_work_study_status,범주,위협·요구,위협·요구,일·학업 제한 상태 | space_work_study=1일 때만; 미입력과 불명을 구분,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+space_work_study_status,범주,불명,불명,일·학업 제한 상태 | space_work_study=1일 때만; 미입력과 불명을 구분,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+space_work_study_scope,범주,장면,장면,일·학업 제한 범위 | space_work_study=1일 때만; 미입력과 불명을 구분,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+space_work_study_scope,범주,지속,지속,일·학업 제한 범위 | space_work_study=1일 때만; 미입력과 불명을 구분,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+space_work_study_scope,범주,불명,불명,일·학업 제한 범위 | space_work_study=1일 때만; 미입력과 불명을 구분,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+space_care_parenting_status,범주,실제제한,실제제한,양육·돌봄 제한 상태 | space_care_parenting=1일 때만; 미입력과 불명을 구분,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+space_care_parenting_status,범주,제한시도,제한시도,양육·돌봄 제한 상태 | space_care_parenting=1일 때만; 미입력과 불명을 구분,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+space_care_parenting_status,범주,위협·요구,위협·요구,양육·돌봄 제한 상태 | space_care_parenting=1일 때만; 미입력과 불명을 구분,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+space_care_parenting_status,범주,불명,불명,양육·돌봄 제한 상태 | space_care_parenting=1일 때만; 미입력과 불명을 구분,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+space_care_parenting_scope,범주,장면,장면,양육·돌봄 제한 범위 | space_care_parenting=1일 때만; 미입력과 불명을 구분,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+space_care_parenting_scope,범주,지속,지속,양육·돌봄 제한 범위 | space_care_parenting=1일 때만; 미입력과 불명을 구분,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+space_care_parenting_scope,범주,불명,불명,양육·돌봄 제한 범위 | space_care_parenting=1일 때만; 미입력과 불명을 구분,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+space_online_status,범주,실제제한,실제제한,온라인 활동 제한 상태 | space_online=1일 때만; 미입력과 불명을 구분,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+space_online_status,범주,제한시도,제한시도,온라인 활동 제한 상태 | space_online=1일 때만; 미입력과 불명을 구분,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+space_online_status,범주,위협·요구,위협·요구,온라인 활동 제한 상태 | space_online=1일 때만; 미입력과 불명을 구분,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+space_online_status,범주,불명,불명,온라인 활동 제한 상태 | space_online=1일 때만; 미입력과 불명을 구분,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+space_online_scope,범주,장면,장면,온라인 활동 제한 범위 | space_online=1일 때만; 미입력과 불명을 구분,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+space_online_scope,범주,지속,지속,온라인 활동 제한 범위 | space_online=1일 때만; 미입력과 불명을 구분,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+space_online_scope,범주,불명,불명,온라인 활동 제한 범위 | space_online=1일 때만; 미입력과 불명을 구분,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+space_sexual_autonomy_status,범주,실제제한,실제제한,성적 자기결정(신설) 제한 상태 | space_sexual_autonomy=1일 때만; 미입력과 불명을 구분,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+space_sexual_autonomy_status,범주,제한시도,제한시도,성적 자기결정(신설) 제한 상태 | space_sexual_autonomy=1일 때만; 미입력과 불명을 구분,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+space_sexual_autonomy_status,범주,위협·요구,위협·요구,성적 자기결정(신설) 제한 상태 | space_sexual_autonomy=1일 때만; 미입력과 불명을 구분,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+space_sexual_autonomy_status,범주,불명,불명,성적 자기결정(신설) 제한 상태 | space_sexual_autonomy=1일 때만; 미입력과 불명을 구분,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+space_sexual_autonomy_scope,범주,장면,장면,성적 자기결정(신설) 제한 범위 | space_sexual_autonomy=1일 때만; 미입력과 불명을 구분,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+space_sexual_autonomy_scope,범주,지속,지속,성적 자기결정(신설) 제한 범위 | space_sexual_autonomy=1일 때만; 미입력과 불명을 구분,원관찰 v0.5.9,원관찰,v0.5.9 원정의
+space_sexual_autonomy_scope,범주,불명,불명,성적 자기결정(신설) 제한 범위 | space_sexual_autonomy=1일 때만; 미입력과 불명을 구분,원관찰 v0.5.9,원관찰,v0.5.9 원정의

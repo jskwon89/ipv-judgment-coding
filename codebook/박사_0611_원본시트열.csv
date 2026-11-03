@@ -1,0 +1,2068 @@
+﻿시트,위치,원열,대조표개념,직접 현행키,비고
+Data_Cleaning,1,KEY,B001,key,명칭 대응
+Data_Cleaning,2,판결문,P001,,명칭 대응
+Data_Cleaning,3,피해자성별,B018,victim_sex_code,명칭 대응
+Data_Cleaning,4,피해자연령,B019,victim_age,명칭 대응
+Data_Cleaning,5,피해자연령_구분,P002,,명칭 대응
+Data_Cleaning,6,가해자정신및신체장애진단여부,P003,,명칭 대응
+Data_Cleaning,7,관계시작일,B028,rel_start_date,명칭 대응
+Data_Cleaning,8,관계종료일,B029,rel_end_date,명칭 대응
+Data_Cleaning,9,관계유지기간_일,B030,rel_duration_days,명칭 대응
+Data_Cleaning,10,관계유지기간_구분,P004,,명칭 대응
+Data_Cleaning,11,일차사건일,P005,,명칭 대응
+Data_Cleaning,12,이차사건일,P005,,명칭 대응
+Data_Cleaning,13,삼차사건일,P005,,명칭 대응
+Data_Cleaning,14,사차사건일,P005,,명칭 대응
+Data_Cleaning,15,오차사건일,P005,,명칭 대응
+Data_Cleaning,16,육차사건일,P005,,명칭 대응
+Data_Cleaning,17,관계유형,P006,,명칭 대응
+Data_Cleaning,18,관계유형_구분,P007,,명칭 대응
+Data_Cleaning,19,최초범행시동거유무,B026,cohabit_at_first,명칭 대응
+Data_Cleaning,20,동거경험유무,B027,cohabit_ever,명칭 대응
+Data_Cleaning,21,피해자대상적용법조,P008,,명칭 대응
+Data_Cleaning,22,범행위치_수식,P009,,명칭 대응
+Data_Cleaning,23,성범죄유무_수식,P010,,명칭 대응
+Data_Cleaning,24,스토킹유무_수식,P011,,명칭 대응
+Data_Cleaning,25,살해의도유무_수식,P012,,명칭 대응
+Data_Cleaning,26,유형력행사유무_수식,P013,,명칭 대응
+Data_Cleaning,27,재산및경제범죄유무_수식,P014,,명칭 대응
+Data_Cleaning,28,피해자대상적용법조수,P015,,명칭 대응
+Data_Cleaning,29,피해자대상적용법조수_구분,P016,,명칭 대응
+Data_Cleaning,30,범행위치,P017,,명칭 대응
+Data_Cleaning,31,성범죄유무,B071,has_sex_crime,명칭 대응
+Data_Cleaning,32,스토킹유무,B072,has_stalking,명칭 대응
+Data_Cleaning,33,살해의도유무,B073,has_homicide_intent,명칭 대응
+Data_Cleaning,34,유형력행사유무,B074,has_physical_force,명칭 대응
+Data_Cleaning,35,피해자보호조치유무,B038,protect_any,명칭 대응
+Data_Cleaning,36,재산및경제범죄유무,P018,,명칭 대응
+Data_Cleaning,37,적용법조_1차,P019,,명칭 대응
+Data_Cleaning,38,범행위치_1차,P020,,명칭 대응
+Data_Cleaning,39,성범죄유무_1차,P021,,명칭 대응
+Data_Cleaning,40,스토킹유무_1차,P022,,명칭 대응
+Data_Cleaning,41,살해의도유무_1차,P023,,명칭 대응
+Data_Cleaning,42,유형력행사유무_1차,P024,,명칭 대응
+Data_Cleaning,43,재산및경제범죄유무_1차,P025,,명칭 대응
+Data_Cleaning,44,적용법조수_1차,P026,,명칭 대응
+Data_Cleaning,45,복합범죄유무_1차,P027,,명칭 대응
+Data_Cleaning,46,대표죄명_1차,B097,main_charge_n,명칭 대응
+Data_Cleaning,47,범행시관계_1차,B105,rel_active_n,명칭 대응
+Data_Cleaning,48,범행장소_1차,P028,,명칭 대응
+Data_Cleaning,49,범행장소구분_1차,P029,,명칭 대응
+Data_Cleaning,50,범행시간_1차,P030,,명칭 대응
+Data_Cleaning,51,범행촉발사유_1차,P031,,명칭 대응
+Data_Cleaning,52,범행촉발사유구분_1차,P032,,명칭 대응
+Data_Cleaning,53,무고여부_1차,P033,,명칭 대응
+Data_Cleaning,54,무고범죄유형_1차,P034,,명칭 대응
+Data_Cleaning,55,미수또는예비사건유형_1차,P035,,명칭 대응
+Data_Cleaning,56,가해자음주여부_1차,B116,offender_drunk_n,명칭 대응
+Data_Cleaning,57,피해자음주여부_1차,P036,,명칭 대응
+Data_Cleaning,58,상해여부_1차,P037,,명칭 대응
+Data_Cleaning,59,치료일수_1차,B118,treatment_days_n,명칭 대응
+Data_Cleaning,60,피해수준_1차,P038,,명칭 대응
+Data_Cleaning,61,위험한물건사용여부_1차,B119,weapon_n,명칭 대응
+Data_Cleaning,62,위험한물건사용유형1_1차,P039,,명칭 대응
+Data_Cleaning,63,위험한물건사용유형2_1차,P040,,명칭 대응
+Data_Cleaning,64,위험한물건사용유형3_1차,P041,,명칭 대응
+Data_Cleaning,65,위험한물건을사용한폭행방식_1차,P042,,명칭 대응
+Data_Cleaning,66,위험한물건유형_1차,P043,,명칭 대응
+Data_Cleaning,67,위험한물건사전준비여부_1차,P044,,명칭 대응
+Data_Cleaning,68,신체사용폭력유무_1차,B120,body_force_n,명칭 대응
+Data_Cleaning,69,신체사용폭력방식_1차,P045,,명칭 대응
+Data_Cleaning,70,살해또는살해시도방식_1차,P046,,명칭 대응
+Data_Cleaning,71,제압또는감금방식_1차,P047,,명칭 대응
+Data_Cleaning,72,제압또는감금방식_구체적_1차,P048,,명칭 대응
+Data_Cleaning,73,오프라인침입경로및방법_1차,P049,,명칭 대응
+Data_Cleaning,74,오프라인침입경로및방법_구체적_1차,P050,,명칭 대응
+Data_Cleaning,75,오프라인침입장소_1차,P051,,명칭 대응
+Data_Cleaning,76,정보통신망침해도구_1차,P052,,명칭 대응
+Data_Cleaning,77,정보통신망침해방법_1차,P053,,명칭 대응
+Data_Cleaning,78,정보통신망침해대상_1차,P054,,명칭 대응
+Data_Cleaning,79,손괴재물소유자_1차,P055,,명칭 대응
+Data_Cleaning,80,손괴대상물건1_1차,P056,,명칭 대응
+Data_Cleaning,81,손괴대상물건2_1차,P057,,명칭 대응
+Data_Cleaning,82,강절도대상물건및유형_1차,P058,,명칭 대응
+Data_Cleaning,83,강절도대상물건및유형_구체적_1차,P059,,명칭 대응
+Data_Cleaning,84,사기또는금전범죄유형_1차,P060,,명칭 대응
+Data_Cleaning,85,사기또는금전범죄유형세부_1차,P061,,명칭 대응
+Data_Cleaning,86,금전피해발생여부_1차,P062,,명칭 대응
+Data_Cleaning,87, 피해예상금액또는요구금액_1차,P063,,명칭 대응
+Data_Cleaning,88,오프라인성범죄유형_1차,P064,,명칭 대응
+Data_Cleaning,89,오프라인성범죄유형_구분_1차,P065,,명칭 대응
+Data_Cleaning,90,온라인또는디지털성범죄유형1_1차,P066,,명칭 대응
+Data_Cleaning,91,온라인또는디지털성범죄유형2_1차,P067,,명칭 대응
+Data_Cleaning,92,피해자의항거불능상태여부_1차,P068,,명칭 대응
+Data_Cleaning,93,피해자항거불능시사유_1차,P069,,명칭 대응
+Data_Cleaning,94,신고지연또는미신고사유_1차,P070,,명칭 대응
+Data_Cleaning,95,촬영내용1_1차,P071,,명칭 대응
+Data_Cleaning,96,촬영내용2_1차,P072,,명칭 대응
+Data_Cleaning,97,협박또는공갈유형1_1차,P073,,명칭 대응
+Data_Cleaning,98,협박또는공갈유형구분1_1차,P074,,명칭 대응
+Data_Cleaning,99,협박또는공갈유형2_1차,P075,,명칭 대응
+Data_Cleaning,100,협박또는공갈유형구분2_1차,P076,,명칭 대응
+Data_Cleaning,101,협박또는폭행시금전요구여부_1차,P077,,명칭 대응
+Data_Cleaning,102,협박또는공갈방식_1차,P078,,명칭 대응
+Data_Cleaning,103,금전외협박시요구사항_1차,P079,,명칭 대응
+Data_Cleaning,104,자료이용시출처_1차,P080,,명칭 대응
+Data_Cleaning,105,협박자료내용_1차,P081,,명칭 대응
+Data_Cleaning,106,유포자료내용_1차,P082,,명칭 대응
+Data_Cleaning,107,협박자료유포방식_1차,P083,,명칭 대응
+Data_Cleaning,108,유포목적자료유포방식_1차,P084,,명칭 대응
+Data_Cleaning,109,행위강요방식_1차,P085,,명칭 대응
+Data_Cleaning,110,강요된의무없는일유형1_1차,P086,,명칭 대응
+Data_Cleaning,111,강요된의무없는일유형2_1차,P087,,명칭 대응
+Data_Cleaning,112,퇴거불응장소_1차,P088,,명칭 대응
+Data_Cleaning,113,통신비밀또는정보통신망이용관련위반유형1_1차,P089,,명칭 대응
+Data_Cleaning,114,통신비밀또는정보통신망이용관련위반유형2_1차,P090,,명칭 대응
+Data_Cleaning,115,통신비밀또는정보통신망이용관련위반유형_구체적_1차,P091,,명칭 대응
+Data_Cleaning,116,위치추적기부착장소_1차,P092,,명칭 대응
+Data_Cleaning,117,피해자모욕시위치_1차,P093,,명칭 대응
+Data_Cleaning,118,피해자모욕방식_1차,P094,,명칭 대응
+Data_Cleaning,119,방화또는소훼유형_1차,P095,,명칭 대응
+Data_Cleaning,120,방화또는소훼대상_1차,P096,,명칭 대응
+Data_Cleaning,121,업무방해유형_1차,P097,,명칭 대응
+Data_Cleaning,122,은닉재물유형_1차,P098,,명칭 대응
+Data_Cleaning,123,은닉방식_1차,P099,,명칭 대응
+Data_Cleaning,124,스토킹행위유형1_1차,P100,,명칭 대응
+Data_Cleaning,125,스토킹행위유형2_1차,P101,,명칭 대응
+Data_Cleaning,126,스토킹행위유형3_1차,P102,,명칭 대응
+Data_Cleaning,127,가폭위반유형1_1차,P103,,명칭 대응
+Data_Cleaning,128,가폭위반유형2_1차,P104,,명칭 대응
+Data_Cleaning,129,명예훼손시사실적시여부_1차,P105,,명칭 대응
+Data_Cleaning,130,명예훼손내용_1차,P106,,명칭 대응
+Data_Cleaning,131,명예훼손내용_구체적_1차,P107,,명칭 대응
+Data_Cleaning,132,명예훼손방식_1차,P108,,명칭 대응
+Data_Cleaning,133,수색장소_1차,P109,,명칭 대응
+Data_Cleaning,134,행위횟수_1차,P110,,명칭 대응
+Data_Cleaning,135,범행의계획성여부_1차,B115,premeditated_n,명칭 대응
+Data_Cleaning,136,이차사건여부,P111,,명칭 대응
+Data_Cleaning,137,적용법조_2차,P019,,명칭 대응
+Data_Cleaning,138,범행위치_2차,P020,,명칭 대응
+Data_Cleaning,139,성범죄유무_2차,P021,,명칭 대응
+Data_Cleaning,140,스토킹유무_2차,P022,,명칭 대응
+Data_Cleaning,141,살해의도유무_2차,P023,,명칭 대응
+Data_Cleaning,142,유형력행사유무_2차,P024,,명칭 대응
+Data_Cleaning,143,재산및경제범죄유무_2차,P025,,명칭 대응
+Data_Cleaning,144,적용법조수_2차,P026,,명칭 대응
+Data_Cleaning,145,복합범죄유무_2차,P027,,명칭 대응
+Data_Cleaning,146,대표죄명_2차,B097,main_charge_n,명칭 대응
+Data_Cleaning,147,범행시관계_2차,B105,rel_active_n,명칭 대응
+Data_Cleaning,148,범행장소_2차,P028,,명칭 대응
+Data_Cleaning,149,범행장소구분_2차,P029,,명칭 대응
+Data_Cleaning,150,범행시간_2차,P030,,명칭 대응
+Data_Cleaning,151,범행촉발사유_2차,P031,,명칭 대응
+Data_Cleaning,152,범행촉발사유구분_2차,P032,,명칭 대응
+Data_Cleaning,153,무고여부_2차,P033,,명칭 대응
+Data_Cleaning,154,무고범죄유형_2차,P034,,명칭 대응
+Data_Cleaning,155,미수또는예비사건유형_2차,P035,,명칭 대응
+Data_Cleaning,156,가해자음주여부_2차,B116,offender_drunk_n,명칭 대응
+Data_Cleaning,157,피해자음주여부_2차,P036,,명칭 대응
+Data_Cleaning,158,상해여부_2차,P037,,명칭 대응
+Data_Cleaning,159,치료일수_2차,B118,treatment_days_n,명칭 대응
+Data_Cleaning,160,피해수준_2차,P038,,명칭 대응
+Data_Cleaning,161,위험한물건사용여부_2차,B119,weapon_n,명칭 대응
+Data_Cleaning,162,위험한물건사용유형1_2차,P039,,명칭 대응
+Data_Cleaning,163,위험한물건사용유형2_2차,P040,,명칭 대응
+Data_Cleaning,164,위험한물건사용유형3_2차,P041,,명칭 대응
+Data_Cleaning,165,위험한물건을사용한폭행방식_2차,P042,,명칭 대응
+Data_Cleaning,166,위험한물건유형_2차,P043,,명칭 대응
+Data_Cleaning,167,위험한물건사전준비여부_2차,P044,,명칭 대응
+Data_Cleaning,168,신체사용폭력유무_2차,B120,body_force_n,명칭 대응
+Data_Cleaning,169,신체사용폭력방식_2차,P045,,명칭 대응
+Data_Cleaning,170,살해또는살해시도방식_2차,P046,,명칭 대응
+Data_Cleaning,171,제압또는감금방식_2차,P047,,명칭 대응
+Data_Cleaning,172,제압또는감금방식_구체적_2차,P048,,명칭 대응
+Data_Cleaning,173,오프라인침입경로및방법_2차,P049,,명칭 대응
+Data_Cleaning,174,오프라인침입경로및방법_구체적_2차,P050,,명칭 대응
+Data_Cleaning,175,오프라인침입장소_2차,P051,,명칭 대응
+Data_Cleaning,176,정보통신망침해도구_2차,P052,,명칭 대응
+Data_Cleaning,177,정보통신망침해방법_2차,P053,,명칭 대응
+Data_Cleaning,178,정보통신망침해대상_2차,P054,,명칭 대응
+Data_Cleaning,179,손괴재물소유자_2차,P055,,명칭 대응
+Data_Cleaning,180,손괴대상물건1_2차,P056,,명칭 대응
+Data_Cleaning,181,손괴대상물건2_2차,P057,,명칭 대응
+Data_Cleaning,182,강절도대상물건및유형_2차,P058,,명칭 대응
+Data_Cleaning,183,강절도대상물건및유형_구체적_2차,P059,,명칭 대응
+Data_Cleaning,184,사기또는금전범죄유형_2차,P060,,명칭 대응
+Data_Cleaning,185,사기또는금전범죄유형세부_2차,P061,,명칭 대응
+Data_Cleaning,186,금전피해발생여부_2차,P062,,명칭 대응
+Data_Cleaning,187, 피해예상또는요구금액_2차,P063,,명칭 대응
+Data_Cleaning,188,오프라인성범죄유형_2차,P064,,명칭 대응
+Data_Cleaning,189,오프라인성범죄유형_구분_2차,P065,,명칭 대응
+Data_Cleaning,190,온라인또는디지털성범죄유형1_2차,P066,,명칭 대응
+Data_Cleaning,191,온라인또는디지털성범죄유형2_2차,P067,,명칭 대응
+Data_Cleaning,192,피해자의항거불능상태여부_2차,P068,,명칭 대응
+Data_Cleaning,193,피해자항거불능시사유_2차,P069,,명칭 대응
+Data_Cleaning,194,신고지연또는미신고사유_2차,P070,,명칭 대응
+Data_Cleaning,195,촬영내용1_2차,P071,,명칭 대응
+Data_Cleaning,196,촬영내용2_2차,P072,,명칭 대응
+Data_Cleaning,197,협박또는공갈유형1_2차,P073,,명칭 대응
+Data_Cleaning,198,협박또는공갈유형구분1_2차,P074,,명칭 대응
+Data_Cleaning,199,협박또는공갈유형2_2차,P075,,명칭 대응
+Data_Cleaning,200,협박또는공갈유형구분2_2차,P076,,명칭 대응
+Data_Cleaning,201,협박또는폭행시금전요구여부_2차,P077,,명칭 대응
+Data_Cleaning,202,협박또는공갈방식_2차,P078,,명칭 대응
+Data_Cleaning,203,금전외협박시요구사항_2차,P079,,명칭 대응
+Data_Cleaning,204,자료이용시출처_2차,P080,,명칭 대응
+Data_Cleaning,205,협박자료내용_2차,P081,,명칭 대응
+Data_Cleaning,206,유포자료내용_2차,P082,,명칭 대응
+Data_Cleaning,207,협박자료유포방식_2차,P083,,명칭 대응
+Data_Cleaning,208,유포목적자료유포방식_2차,P084,,명칭 대응
+Data_Cleaning,209,행위강요방식_2차,P085,,명칭 대응
+Data_Cleaning,210,강요된의무없는일유형1_2차,P086,,명칭 대응
+Data_Cleaning,211,강요된의무없는일유형2_2차,P087,,명칭 대응
+Data_Cleaning,212,퇴거불응장소_2차,P088,,명칭 대응
+Data_Cleaning,213,통신비밀또는정보통신망이용관련위반유형1_2차,P089,,명칭 대응
+Data_Cleaning,214,통신비밀또는정보통신망이용관련위반유형2_2차,P090,,명칭 대응
+Data_Cleaning,215,통신비밀또는정보통신망이용관련위반유형_구체적_2차,P091,,명칭 대응
+Data_Cleaning,216,위치추적기부착장소_2차,P092,,명칭 대응
+Data_Cleaning,217,피해자모욕시위치_2차,P093,,명칭 대응
+Data_Cleaning,218,피해자모욕방식_2차,P094,,명칭 대응
+Data_Cleaning,219,방화또는소훼유형_2차,P095,,명칭 대응
+Data_Cleaning,220,방화또는소훼대상_2차,P096,,명칭 대응
+Data_Cleaning,221,업무방해유형_2차,P097,,명칭 대응
+Data_Cleaning,222,은닉재물유형_2차,P098,,명칭 대응
+Data_Cleaning,223,은닉방식_2차,P099,,명칭 대응
+Data_Cleaning,224,스토킹행위유형1_2차,P100,,명칭 대응
+Data_Cleaning,225,스토킹행위유형2_2차,P101,,명칭 대응
+Data_Cleaning,226,스토킹행위유형3_2차,P102,,명칭 대응
+Data_Cleaning,227,가폭위반유형1_2차,P103,,명칭 대응
+Data_Cleaning,228,가폭위반유형2_2차,P104,,명칭 대응
+Data_Cleaning,229,명예훼손시사실적시여부_2차,P105,,명칭 대응
+Data_Cleaning,230,명예훼손내용_2차,P106,,명칭 대응
+Data_Cleaning,231,명예훼손내용_구체적_2차,P107,,명칭 대응
+Data_Cleaning,232,명예훼손방식_2차,P108,,명칭 대응
+Data_Cleaning,233,수색장소_2차,P109,,명칭 대응
+Data_Cleaning,234,행위횟수_2차,P110,,명칭 대응
+Data_Cleaning,235,범행의계획성여부_2차,B115,premeditated_n,명칭 대응
+Data_Cleaning,236,삼차사건여부,P111,,명칭 대응
+Data_Cleaning,237,적용법조_3차,P019,,명칭 대응
+Data_Cleaning,238,범행위치_3차,P020,,명칭 대응
+Data_Cleaning,239,성범죄유무_3차,P021,,명칭 대응
+Data_Cleaning,240,스토킹유무_3차,P022,,명칭 대응
+Data_Cleaning,241,살해의도유무_3차,P023,,명칭 대응
+Data_Cleaning,242,유형력행사유무_3차,P024,,명칭 대응
+Data_Cleaning,243,재산및경제범죄유무_3차,P025,,명칭 대응
+Data_Cleaning,244,적용법조수_3차,P026,,명칭 대응
+Data_Cleaning,245,복합범죄유무_3차,P027,,명칭 대응
+Data_Cleaning,246,대표죄명_3차,B097,main_charge_n,명칭 대응
+Data_Cleaning,247,범행시관계_3차,B105,rel_active_n,명칭 대응
+Data_Cleaning,248,범행장소_3차,P028,,명칭 대응
+Data_Cleaning,249,범행장소구분_3차,P029,,명칭 대응
+Data_Cleaning,250,범행시간_3차,P030,,명칭 대응
+Data_Cleaning,251,범행촉발사유_3차,P031,,명칭 대응
+Data_Cleaning,252,범행촉발사유구분_3차,P032,,명칭 대응
+Data_Cleaning,253,무고여부_3차,P033,,명칭 대응
+Data_Cleaning,254,무고범죄유형_3차,P034,,명칭 대응
+Data_Cleaning,255,미수또는예비사건유형_3차,P035,,명칭 대응
+Data_Cleaning,256,가해자음주여부_3차,B116,offender_drunk_n,명칭 대응
+Data_Cleaning,257,피해자음주여부_3차,P036,,명칭 대응
+Data_Cleaning,258,상해여부_3차,P037,,명칭 대응
+Data_Cleaning,259,치료일수_3차,B118,treatment_days_n,명칭 대응
+Data_Cleaning,260,피해수준_3차,P038,,명칭 대응
+Data_Cleaning,261,위험한물건사용여부_3차,B119,weapon_n,명칭 대응
+Data_Cleaning,262,위험한물건사용유형1_3차,P039,,명칭 대응
+Data_Cleaning,263,위험한물건사용유형2_3차,P040,,명칭 대응
+Data_Cleaning,264,위험한물건사용유형3_3차,P041,,명칭 대응
+Data_Cleaning,265,위험한물건을사용한폭행방식_3차,P042,,명칭 대응
+Data_Cleaning,266,위험한물건유형_3차,P043,,명칭 대응
+Data_Cleaning,267,위험한물건사전준비여부_3차,P044,,명칭 대응
+Data_Cleaning,268,신체사용폭력유무_3차,B120,body_force_n,명칭 대응
+Data_Cleaning,269,신체사용폭력방식_3차,P045,,명칭 대응
+Data_Cleaning,270,살해또는살해시도방식_3차,P046,,명칭 대응
+Data_Cleaning,271,제압또는감금방식_3차,P047,,명칭 대응
+Data_Cleaning,272,제압또는감금방식_구체적_3차,P048,,명칭 대응
+Data_Cleaning,273,오프라인침입경로및방법_3차,P049,,명칭 대응
+Data_Cleaning,274,오프라인침입경로및방법_구체적_3차,P050,,명칭 대응
+Data_Cleaning,275,오프라인침입장소_3차,P051,,명칭 대응
+Data_Cleaning,276,정보통신망침해도구_3차,P052,,명칭 대응
+Data_Cleaning,277,정보통신망침해방법_3차,P053,,명칭 대응
+Data_Cleaning,278,정보통신망침해대상_3차,P054,,명칭 대응
+Data_Cleaning,279,손괴재물소유자_3차,P055,,명칭 대응
+Data_Cleaning,280,손괴대상물건1_3차,P056,,명칭 대응
+Data_Cleaning,281,손괴대상물건2_3차,P057,,명칭 대응
+Data_Cleaning,282,강절도대상물건및유형_3차,P058,,명칭 대응
+Data_Cleaning,283,강절도대상물건및유형_구체적_3차,P059,,명칭 대응
+Data_Cleaning,284,사기또는금전범죄유형_3차,P060,,명칭 대응
+Data_Cleaning,285,사기또는금전범죄유형세부_3차,P061,,명칭 대응
+Data_Cleaning,286,금전피해발생여부_3차,P062,,명칭 대응
+Data_Cleaning,287, 피해예상또는요구금액_3차,P063,,명칭 대응
+Data_Cleaning,288,오프라인성범죄유형_3차,P064,,명칭 대응
+Data_Cleaning,289,오프라인성범죄유형_구분_3차,P065,,명칭 대응
+Data_Cleaning,290,온라인또는디지털성범죄유형1_3차,P066,,명칭 대응
+Data_Cleaning,291,온라인또는디지털성범죄유형2_3차,P067,,명칭 대응
+Data_Cleaning,292,피해자의항거불능상태여부_3차,P068,,명칭 대응
+Data_Cleaning,293,피해자항거불능시사유_3차,P069,,명칭 대응
+Data_Cleaning,294,신고지연또는미신고사유_3차,P070,,명칭 대응
+Data_Cleaning,295,촬영내용1_3차,P071,,명칭 대응
+Data_Cleaning,296,촬영내용2_3차,P072,,명칭 대응
+Data_Cleaning,297,협박또는공갈유형1_3차,P073,,명칭 대응
+Data_Cleaning,298,협박또는공갈유형구분1_3차,P074,,명칭 대응
+Data_Cleaning,299,협박또는공갈유형2_3차,P075,,명칭 대응
+Data_Cleaning,300,협박또는공갈유형구분2_3차,P076,,명칭 대응
+Data_Cleaning,301,협박또는폭행시금전요구여부_3차,P077,,명칭 대응
+Data_Cleaning,302,협박또는공갈방식_3차,P078,,명칭 대응
+Data_Cleaning,303,금전외협박시요구사항_3차,P079,,명칭 대응
+Data_Cleaning,304,자료이용시출처_3차,P080,,명칭 대응
+Data_Cleaning,305,협박자료내용_3차,P081,,명칭 대응
+Data_Cleaning,306,유포자료내용_3차,P082,,명칭 대응
+Data_Cleaning,307,협박자료유포방식_3차,P083,,명칭 대응
+Data_Cleaning,308,유포목적자료유포방식_3차,P084,,명칭 대응
+Data_Cleaning,309,행위강요방식_3차,P085,,명칭 대응
+Data_Cleaning,310,강요된의무없는일유형1_3차,P086,,명칭 대응
+Data_Cleaning,311,강요된의무없는일유형2_3차,P087,,명칭 대응
+Data_Cleaning,312,퇴거불응장소_3차,P088,,명칭 대응
+Data_Cleaning,313,통신비밀또는정보통신망이용관련위반유형1_3차,P089,,명칭 대응
+Data_Cleaning,314,통신비밀또는정보통신망이용관련위반유형2_3차,P090,,명칭 대응
+Data_Cleaning,315,통신비밀또는정보통신망이용관련위반유형_구체적_3차,P091,,명칭 대응
+Data_Cleaning,316,위치추적기부착장소_3차,P092,,명칭 대응
+Data_Cleaning,317,피해자모욕시위치_3차,P093,,명칭 대응
+Data_Cleaning,318,피해자모욕방식_3차,P094,,명칭 대응
+Data_Cleaning,319,방화또는소훼유형_3차,P095,,명칭 대응
+Data_Cleaning,320,방화또는소훼대상_3차,P096,,명칭 대응
+Data_Cleaning,321,업무방해유형_3차,P097,,명칭 대응
+Data_Cleaning,322,은닉재물유형_3차,P098,,명칭 대응
+Data_Cleaning,323,은닉방식_3차,P099,,명칭 대응
+Data_Cleaning,324,스토킹행위유형1_3차,P100,,명칭 대응
+Data_Cleaning,325,스토킹행위유형2_3차,P101,,명칭 대응
+Data_Cleaning,326,스토킹행위유형3_3차,P102,,명칭 대응
+Data_Cleaning,327,가폭위반유형1_3차,P103,,명칭 대응
+Data_Cleaning,328,가폭위반유형2_3차,P104,,명칭 대응
+Data_Cleaning,329,명예훼손시사실적시여부_3차,P105,,명칭 대응
+Data_Cleaning,330,명예훼손내용_3차,P106,,명칭 대응
+Data_Cleaning,331,명예훼손내용_구체적_3차,P107,,명칭 대응
+Data_Cleaning,332,명예훼손방식_3차,P108,,명칭 대응
+Data_Cleaning,333,수색장소_3차,P109,,명칭 대응
+Data_Cleaning,334,행위횟수_3차,P110,,명칭 대응
+Data_Cleaning,335,범행의계획성여부_3차,B115,premeditated_n,명칭 대응
+Data_Cleaning,336,사차사건여부,P111,,명칭 대응
+Data_Cleaning,337,적용법조_4차,P019,,명칭 대응
+Data_Cleaning,338,범행위치_4차,P020,,명칭 대응
+Data_Cleaning,339,성범죄유무_4차,P021,,명칭 대응
+Data_Cleaning,340,스토킹유무_4차,P022,,명칭 대응
+Data_Cleaning,341,살해의도유무_4차,P023,,명칭 대응
+Data_Cleaning,342,유형력행사유무_4차,P024,,명칭 대응
+Data_Cleaning,343,재산및경제범죄유무_4차,P025,,명칭 대응
+Data_Cleaning,344,적용법조수_4차,P026,,명칭 대응
+Data_Cleaning,345,복합범죄유무_4차,P027,,명칭 대응
+Data_Cleaning,346,대표죄명_4차,B097,main_charge_n,명칭 대응
+Data_Cleaning,347,범행시관계_4차,B105,rel_active_n,명칭 대응
+Data_Cleaning,348,범행장소_4차,P028,,명칭 대응
+Data_Cleaning,349,범행장소구분_4차,P029,,명칭 대응
+Data_Cleaning,350,범행시간_4차,P030,,명칭 대응
+Data_Cleaning,351,범행촉발사유_4차,P031,,명칭 대응
+Data_Cleaning,352,범행촉발사유구분_4차,P032,,명칭 대응
+Data_Cleaning,353,무고여부_4차,P033,,명칭 대응
+Data_Cleaning,354,무고범죄유형_4차,P034,,명칭 대응
+Data_Cleaning,355,미수또는예비사건유형_4차,P035,,명칭 대응
+Data_Cleaning,356,가해자음주여부_4차,B116,offender_drunk_n,명칭 대응
+Data_Cleaning,357,피해자음주여부_4차,P036,,명칭 대응
+Data_Cleaning,358,상해여부_4차,P037,,명칭 대응
+Data_Cleaning,359,치료일수_4차,B118,treatment_days_n,명칭 대응
+Data_Cleaning,360,피해수준_4차,P038,,명칭 대응
+Data_Cleaning,361,위험한물건사용여부_4차,B119,weapon_n,명칭 대응
+Data_Cleaning,362,위험한물건사용유형1_4차,P039,,명칭 대응
+Data_Cleaning,363,위험한물건사용유형2_4차,P040,,명칭 대응
+Data_Cleaning,364,위험한물건사용유형3_4차,P041,,명칭 대응
+Data_Cleaning,365,위험한물건을사용한폭행방식_4차,P042,,명칭 대응
+Data_Cleaning,366,위험한물건유형_4차,P043,,명칭 대응
+Data_Cleaning,367,위험한물건사전준비여부_4차,P044,,명칭 대응
+Data_Cleaning,368,신체사용폭력유무_4차,B120,body_force_n,명칭 대응
+Data_Cleaning,369,신체사용폭력방식_4차,P045,,명칭 대응
+Data_Cleaning,370,살해또는살해시도방식_4차,P046,,명칭 대응
+Data_Cleaning,371,제압또는감금방식_4차,P047,,명칭 대응
+Data_Cleaning,372,제압또는감금방식_구체적_4차,P048,,명칭 대응
+Data_Cleaning,373,오프라인침입경로및방법_4차,P049,,명칭 대응
+Data_Cleaning,374,오프라인침입경로및방법_구체적_4차,P050,,명칭 대응
+Data_Cleaning,375,오프라인침입장소_4차,P051,,명칭 대응
+Data_Cleaning,376,정보통신망침해도구_4차,P052,,명칭 대응
+Data_Cleaning,377,정보통신망침해방법_4차,P053,,명칭 대응
+Data_Cleaning,378,정보통신망침해대상_4차,P054,,명칭 대응
+Data_Cleaning,379,손괴재물소유자_4차,P055,,명칭 대응
+Data_Cleaning,380,손괴대상물건1_4차,P056,,명칭 대응
+Data_Cleaning,381,손괴대상물건2_4차,P057,,명칭 대응
+Data_Cleaning,382,강절도대상물건및유형_4차,P058,,명칭 대응
+Data_Cleaning,383,강절도대상물건및유형_구체적_4차,P059,,명칭 대응
+Data_Cleaning,384,사기또는금전범죄유형_4차,P060,,명칭 대응
+Data_Cleaning,385,사기또는금전범죄유형세부_4차,P061,,명칭 대응
+Data_Cleaning,386,금전피해발생여부_4차,P062,,명칭 대응
+Data_Cleaning,387, 피해예상또는요구금액_4차,P063,,명칭 대응
+Data_Cleaning,388,오프라인성범죄유형_4차,P064,,명칭 대응
+Data_Cleaning,389,오프라인성범죄유형_구분_4차,P065,,명칭 대응
+Data_Cleaning,390,온라인또는디지털성범죄유형1_4차,P066,,명칭 대응
+Data_Cleaning,391,온라인또는디지털성범죄유형2_4차,P067,,명칭 대응
+Data_Cleaning,392,피해자의항거불능상태여부_4차,P068,,명칭 대응
+Data_Cleaning,393,피해자항거불능시사유_4차,P069,,명칭 대응
+Data_Cleaning,394,신고지연또는미신고사유_4차,P070,,명칭 대응
+Data_Cleaning,395,촬영내용1_4차,P071,,명칭 대응
+Data_Cleaning,396,촬영내용2_4차,P072,,명칭 대응
+Data_Cleaning,397,협박또는공갈유형1_4차,P073,,명칭 대응
+Data_Cleaning,398,협박또는공갈유형구분1_4차,P074,,명칭 대응
+Data_Cleaning,399,협박또는공갈유형2_4차,P075,,명칭 대응
+Data_Cleaning,400,협박또는공갈유형구분2_4차,P076,,명칭 대응
+Data_Cleaning,401,협박또는폭행시금전요구여부_4차,P077,,명칭 대응
+Data_Cleaning,402,협박또는공갈방식_4차,P078,,명칭 대응
+Data_Cleaning,403,금전외협박시요구사항_4차,P079,,명칭 대응
+Data_Cleaning,404,자료이용시출처_4차,P080,,명칭 대응
+Data_Cleaning,405,협박자료내용_4차,P081,,명칭 대응
+Data_Cleaning,406,유포자료내용_4차,P082,,명칭 대응
+Data_Cleaning,407,협박자료유포방식_4차,P083,,명칭 대응
+Data_Cleaning,408,유포목적자료유포방식_4차,P084,,명칭 대응
+Data_Cleaning,409,행위강요방식_4차,P085,,명칭 대응
+Data_Cleaning,410,강요된의무없는일유형1_4차,P086,,명칭 대응
+Data_Cleaning,411,강요된의무없는일유형2_4차,P087,,명칭 대응
+Data_Cleaning,412,퇴거불응장소_4차,P088,,명칭 대응
+Data_Cleaning,413,통신비밀또는정보통신망이용관련위반유형1_4차,P089,,명칭 대응
+Data_Cleaning,414,통신비밀또는정보통신망이용관련위반유형2_4차,P090,,명칭 대응
+Data_Cleaning,415,통신비밀또는정보통신망이용관련위반유형_구체적_4차,P091,,명칭 대응
+Data_Cleaning,416,위치추적기부착장소_4차,P092,,명칭 대응
+Data_Cleaning,417,피해자모욕시위치_4차,P093,,명칭 대응
+Data_Cleaning,418,피해자모욕방식_4차,P094,,명칭 대응
+Data_Cleaning,419,방화또는소훼유형_4차,P095,,명칭 대응
+Data_Cleaning,420,방화또는소훼대상_4차,P096,,명칭 대응
+Data_Cleaning,421,업무방해유형_4차,P097,,명칭 대응
+Data_Cleaning,422,은닉재물유형_4차,P098,,명칭 대응
+Data_Cleaning,423,은닉방식_4차,P099,,명칭 대응
+Data_Cleaning,424,스토킹행위유형1_4차,P100,,명칭 대응
+Data_Cleaning,425,스토킹행위유형2_4차,P101,,명칭 대응
+Data_Cleaning,426,스토킹행위유형3_4차,P102,,명칭 대응
+Data_Cleaning,427,가폭위반유형1_4차,P103,,명칭 대응
+Data_Cleaning,428,가폭위반유형2_4차,P104,,명칭 대응
+Data_Cleaning,429,명예훼손시사실적시여부_4차,P105,,명칭 대응
+Data_Cleaning,430,명예훼손내용_4차,P106,,명칭 대응
+Data_Cleaning,431,명예훼손내용_구체적_4차,P107,,명칭 대응
+Data_Cleaning,432,명예훼손방식_4차,P108,,명칭 대응
+Data_Cleaning,433,수색장소_4차,P109,,명칭 대응
+Data_Cleaning,434,행위횟수_4차,P110,,명칭 대응
+Data_Cleaning,435,범행의계획성여부_4차,B115,premeditated_n,명칭 대응
+Data_Cleaning,436,오차사건여부,P111,,명칭 대응
+Data_Cleaning,437,적용법조_5차,P019,,명칭 대응
+Data_Cleaning,438,범행위치_5차,P020,,명칭 대응
+Data_Cleaning,439,성범죄유무_5차,P021,,명칭 대응
+Data_Cleaning,440,스토킹유무_5차,P022,,명칭 대응
+Data_Cleaning,441,살해의도유무_5차,P023,,명칭 대응
+Data_Cleaning,442,유형력행사유무_5차,P024,,명칭 대응
+Data_Cleaning,443,재산및경제범죄유무_5차,P025,,명칭 대응
+Data_Cleaning,444,적용법조수_5차,P026,,명칭 대응
+Data_Cleaning,445,복합범죄유무_5차,P027,,명칭 대응
+Data_Cleaning,446,대표죄명_5차,B097,main_charge_n,명칭 대응
+Data_Cleaning,447,범행시관계_5차,B105,rel_active_n,명칭 대응
+Data_Cleaning,448,범행장소_5차,P028,,명칭 대응
+Data_Cleaning,449,범행장소구분_5차,P029,,명칭 대응
+Data_Cleaning,450,범행시간_5차,P030,,명칭 대응
+Data_Cleaning,451,범행촉발사유_5차,P031,,명칭 대응
+Data_Cleaning,452,범행촉발사유구분_5차,P032,,명칭 대응
+Data_Cleaning,453,무고여부_5차,P033,,명칭 대응
+Data_Cleaning,454,무고범죄유형_5차,P034,,명칭 대응
+Data_Cleaning,455,미수또는예비사건유형_5차,P035,,명칭 대응
+Data_Cleaning,456,가해자음주여부_5차,B116,offender_drunk_n,명칭 대응
+Data_Cleaning,457,피해자음주여부_5차,P036,,명칭 대응
+Data_Cleaning,458,상해여부_5차,P037,,명칭 대응
+Data_Cleaning,459,치료일수_5차,B118,treatment_days_n,명칭 대응
+Data_Cleaning,460,피해수준_5차,P038,,명칭 대응
+Data_Cleaning,461,위험한물건사용여부_5차,B119,weapon_n,명칭 대응
+Data_Cleaning,462,위험한물건사용유형1_5차,P039,,명칭 대응
+Data_Cleaning,463,위험한물건사용유형2_5차,P040,,명칭 대응
+Data_Cleaning,464,위험한물건사용유형3_5차,P041,,명칭 대응
+Data_Cleaning,465,위험한물건을사용한폭행방식_5차,P042,,명칭 대응
+Data_Cleaning,466,위험한물건유형_5차,P043,,명칭 대응
+Data_Cleaning,467,위험한물건사전준비여부_5차,P044,,명칭 대응
+Data_Cleaning,468,신체사용폭력유무_5차,B120,body_force_n,명칭 대응
+Data_Cleaning,469,신체사용폭력방식_5차,P045,,명칭 대응
+Data_Cleaning,470,살해또는살해시도방식_5차,P046,,명칭 대응
+Data_Cleaning,471,제압또는감금방식_5차,P047,,명칭 대응
+Data_Cleaning,472,제압또는감금방식_구체적_5차,P048,,명칭 대응
+Data_Cleaning,473,오프라인침입경로및방법_5차,P049,,명칭 대응
+Data_Cleaning,474,오프라인침입경로및방법_구체적_5차,P050,,명칭 대응
+Data_Cleaning,475,오프라인침입장소_5차,P051,,명칭 대응
+Data_Cleaning,476,정보통신망침해도구_5차,P052,,명칭 대응
+Data_Cleaning,477,정보통신망침해방법_5차,P053,,명칭 대응
+Data_Cleaning,478,정보통신망침해대상_5차,P054,,명칭 대응
+Data_Cleaning,479,손괴재물소유자_5차,P055,,명칭 대응
+Data_Cleaning,480,손괴대상물건1_5차,P056,,명칭 대응
+Data_Cleaning,481,손괴대상물건2_5차,P057,,명칭 대응
+Data_Cleaning,482,강절도대상물건및유형_5차,P058,,명칭 대응
+Data_Cleaning,483,강절도대상물건및유형_구체적_5차,P059,,명칭 대응
+Data_Cleaning,484,사기또는금전범죄유형_5차,P060,,명칭 대응
+Data_Cleaning,485,사기또는금전범죄유형세부_5차,P061,,명칭 대응
+Data_Cleaning,486,금전피해발생여부_5차,P062,,명칭 대응
+Data_Cleaning,487, 피해예상또는요구금액_5차,P063,,명칭 대응
+Data_Cleaning,488,오프라인성범죄유형_5차,P064,,명칭 대응
+Data_Cleaning,489,오프라인성범죄유형_구분_5차,P065,,명칭 대응
+Data_Cleaning,490,온라인또는디지털성범죄유형1_5차,P066,,명칭 대응
+Data_Cleaning,491,온라인또는디지털성범죄유형2_5차,P067,,명칭 대응
+Data_Cleaning,492,피해자의항거불능상태여부_5차,P068,,명칭 대응
+Data_Cleaning,493,피해자항거불능시사유_5차,P069,,명칭 대응
+Data_Cleaning,494,신고지연또는미신고사유_5차,P070,,명칭 대응
+Data_Cleaning,495,촬영내용1_5차,P071,,명칭 대응
+Data_Cleaning,496,촬영내용2_5차,P072,,명칭 대응
+Data_Cleaning,497,협박또는공갈유형1_5차,P073,,명칭 대응
+Data_Cleaning,498,협박또는공갈유형구분1_5차,P074,,명칭 대응
+Data_Cleaning,499,협박또는공갈유형2_5차,P075,,명칭 대응
+Data_Cleaning,500,협박또는공갈유형구분2_5차,P076,,명칭 대응
+Data_Cleaning,501,협박또는폭행시금전요구여부_5차,P077,,명칭 대응
+Data_Cleaning,502,협박또는공갈방식_5차,P078,,명칭 대응
+Data_Cleaning,503,금전외협박시요구사항_5차,P079,,명칭 대응
+Data_Cleaning,504,자료이용시출처_5차,P080,,명칭 대응
+Data_Cleaning,505,협박자료내용_5차,P081,,명칭 대응
+Data_Cleaning,506,유포자료내용_5차,P082,,명칭 대응
+Data_Cleaning,507,협박자료유포방식_5차,P083,,명칭 대응
+Data_Cleaning,508,유포목적자료유포방식_5차,P084,,명칭 대응
+Data_Cleaning,509,행위강요방식_5차,P085,,명칭 대응
+Data_Cleaning,510,강요된의무없는일유형1_5차,P086,,명칭 대응
+Data_Cleaning,511,강요된의무없는일유형2_5차,P087,,명칭 대응
+Data_Cleaning,512,퇴거불응장소_5차,P088,,명칭 대응
+Data_Cleaning,513,통신비밀또는정보통신망이용관련위반유형1_5차,P089,,명칭 대응
+Data_Cleaning,514,통신비밀또는정보통신망이용관련위반유형2_5차,P090,,명칭 대응
+Data_Cleaning,515,통신비밀또는정보통신망이용관련위반유형_구체적_5차,P091,,명칭 대응
+Data_Cleaning,516,위치추적기부착장소_5차,P092,,명칭 대응
+Data_Cleaning,517,피해자모욕시위치_5차,P093,,명칭 대응
+Data_Cleaning,518,피해자모욕방식_5차,P094,,명칭 대응
+Data_Cleaning,519,방화또는소훼유형_5차,P095,,명칭 대응
+Data_Cleaning,520,방화또는소훼대상_5차,P096,,명칭 대응
+Data_Cleaning,521,업무방해유형_5차,P097,,명칭 대응
+Data_Cleaning,522,은닉재물유형_5차,P098,,명칭 대응
+Data_Cleaning,523,은닉방식_5차,P099,,명칭 대응
+Data_Cleaning,524,스토킹행위유형1_5차,P100,,명칭 대응
+Data_Cleaning,525,스토킹행위유형2_5차,P101,,명칭 대응
+Data_Cleaning,526,스토킹행위유형3_5차,P102,,명칭 대응
+Data_Cleaning,527,가폭위반유형1_5차,P103,,명칭 대응
+Data_Cleaning,528,가폭위반유형2_5차,P104,,명칭 대응
+Data_Cleaning,529,명예훼손시사실적시여부_5차,P105,,명칭 대응
+Data_Cleaning,530,명예훼손내용_5차,P106,,명칭 대응
+Data_Cleaning,531,명예훼손내용_구체적_5차,P107,,명칭 대응
+Data_Cleaning,532,명예훼손방식_5차,P108,,명칭 대응
+Data_Cleaning,533,수색장소_5차,P109,,명칭 대응
+Data_Cleaning,534,행위횟수_5차,P110,,명칭 대응
+Data_Cleaning,535,범행의계획성여부_5차,B115,premeditated_n,명칭 대응
+Data_Cleaning,536,육차사건여부,P111,,명칭 대응
+Data_Cleaning,537,적용법조_6차,P019,,명칭 대응
+Data_Cleaning,538,범행위치_6차,P020,,명칭 대응
+Data_Cleaning,539,성범죄유무_6차,P021,,명칭 대응
+Data_Cleaning,540,스토킹유무_6차,P022,,명칭 대응
+Data_Cleaning,541,살해의도유무_6차,P023,,명칭 대응
+Data_Cleaning,542,유형력행사유무_6차,P024,,명칭 대응
+Data_Cleaning,543,재산및경제범죄유무_6차,P025,,명칭 대응
+Data_Cleaning,544,적용법조수_6차,P026,,명칭 대응
+Data_Cleaning,545,복합범죄유무_6차,P027,,명칭 대응
+Data_Cleaning,546,대표죄명_6차,B097,main_charge_n,명칭 대응
+Data_Cleaning,547,범행시관계_6차,B105,rel_active_n,명칭 대응
+Data_Cleaning,548,범행장소_6차,P028,,명칭 대응
+Data_Cleaning,549,범행장소구분_6차,P029,,명칭 대응
+Data_Cleaning,550,범행시간_6차,P030,,명칭 대응
+Data_Cleaning,551,범행촉발사유_6차,P031,,명칭 대응
+Data_Cleaning,552,범행촉발사유구분_6차,P032,,명칭 대응
+Data_Cleaning,553,무고여부_6차,P033,,명칭 대응
+Data_Cleaning,554,무고범죄유형_6차,P034,,명칭 대응
+Data_Cleaning,555,미수또는예비사건유형_6차,P035,,명칭 대응
+Data_Cleaning,556,가해자음주여부_6차,B116,offender_drunk_n,명칭 대응
+Data_Cleaning,557,피해자음주여부_6차,P036,,명칭 대응
+Data_Cleaning,558,상해여부_6차,P037,,명칭 대응
+Data_Cleaning,559,치료일수_6차,B118,treatment_days_n,명칭 대응
+Data_Cleaning,560,피해수준_6차,P038,,명칭 대응
+Data_Cleaning,561,위험한물건사용여부_6차,B119,weapon_n,명칭 대응
+Data_Cleaning,562,위험한물건사용유형1_6차,P039,,명칭 대응
+Data_Cleaning,563,위험한물건사용유형2_6차,P040,,명칭 대응
+Data_Cleaning,564,위험한물건사용유형3_6차,P041,,명칭 대응
+Data_Cleaning,565,위험한물건을사용한폭행방식_6차,P042,,명칭 대응
+Data_Cleaning,566,위험한물건유형_6차,P043,,명칭 대응
+Data_Cleaning,567,위험한물건사전준비여부_6차,P044,,명칭 대응
+Data_Cleaning,568,신체사용폭력유무_6차,B120,body_force_n,명칭 대응
+Data_Cleaning,569,신체사용폭력방식_6차,P045,,명칭 대응
+Data_Cleaning,570,살해또는살해시도방식_6차,P046,,명칭 대응
+Data_Cleaning,571,제압또는감금방식_6차,P047,,명칭 대응
+Data_Cleaning,572,제압또는감금방식_구체적_6차,P048,,명칭 대응
+Data_Cleaning,573,오프라인침입경로및방법_6차,P049,,명칭 대응
+Data_Cleaning,574,오프라인침입경로및방법_구체적_6차,P050,,명칭 대응
+Data_Cleaning,575,오프라인침입장소_6차,P051,,명칭 대응
+Data_Cleaning,576,정보통신망침해도구_6차,P052,,명칭 대응
+Data_Cleaning,577,정보통신망침해방법_6차,P053,,명칭 대응
+Data_Cleaning,578,정보통신망침해대상_6차,P054,,명칭 대응
+Data_Cleaning,579,손괴재물소유자_6차,P055,,명칭 대응
+Data_Cleaning,580,손괴대상물건1_6차,P056,,명칭 대응
+Data_Cleaning,581,손괴대상물건2_6차,P057,,명칭 대응
+Data_Cleaning,582,강절도대상물건및유형_6차,P058,,명칭 대응
+Data_Cleaning,583,강절도대상물건및유형_구체적_6차,P059,,명칭 대응
+Data_Cleaning,584,사기또는금전범죄유형_6차,P060,,명칭 대응
+Data_Cleaning,585,사기또는금전범죄유형세부_6차,P061,,명칭 대응
+Data_Cleaning,586,금전피해발생여부_6차,P062,,명칭 대응
+Data_Cleaning,587, 피해예상또는요구금액_6차,P063,,명칭 대응
+Data_Cleaning,588,오프라인성범죄유형_6차,P064,,명칭 대응
+Data_Cleaning,589,오프라인성범죄유형_구분_6차,P065,,명칭 대응
+Data_Cleaning,590,온라인또는디지털성범죄유형1_6차,P066,,명칭 대응
+Data_Cleaning,591,온라인또는디지털성범죄유형2_6차,P067,,명칭 대응
+Data_Cleaning,592,피해자의항거불능상태여부_6차,P068,,명칭 대응
+Data_Cleaning,593,피해자항거불능시사유_6차,P069,,명칭 대응
+Data_Cleaning,594,신고지연또는미신고사유_6차,P070,,명칭 대응
+Data_Cleaning,595,촬영내용1_6차,P071,,명칭 대응
+Data_Cleaning,596,촬영내용2_6차,P072,,명칭 대응
+Data_Cleaning,597,협박또는공갈유형1_6차,P073,,명칭 대응
+Data_Cleaning,598,협박또는공갈유형구분1_6차,P074,,명칭 대응
+Data_Cleaning,599,협박또는공갈유형2_6차,P075,,명칭 대응
+Data_Cleaning,600,협박또는공갈유형구분2_6차,P076,,명칭 대응
+Data_Cleaning,601,협박또는폭행시금전요구여부_6차,P077,,명칭 대응
+Data_Cleaning,602,협박또는공갈방식_6차,P078,,명칭 대응
+Data_Cleaning,603,금전외협박시요구사항_6차,P079,,명칭 대응
+Data_Cleaning,604,자료이용시출처_6차,P080,,명칭 대응
+Data_Cleaning,605,협박자료내용_6차,P081,,명칭 대응
+Data_Cleaning,606,유포자료내용_6차,P082,,명칭 대응
+Data_Cleaning,607,협박자료유포방식_6차,P083,,명칭 대응
+Data_Cleaning,608,유포목적자료유포방식_6차,P084,,명칭 대응
+Data_Cleaning,609,행위강요방식_6차,P085,,명칭 대응
+Data_Cleaning,610,강요된의무없는일유형1_6차,P086,,명칭 대응
+Data_Cleaning,611,강요된의무없는일유형2_6차,P087,,명칭 대응
+Data_Cleaning,612,퇴거불응장소_6차,P088,,명칭 대응
+Data_Cleaning,613,통신비밀또는정보통신망이용관련위반유형1_6차,P089,,명칭 대응
+Data_Cleaning,614,통신비밀또는정보통신망이용관련위반유형2_6차,P090,,명칭 대응
+Data_Cleaning,615,통신비밀또는정보통신망이용관련위반유형_구체적_6차,P091,,명칭 대응
+Data_Cleaning,616,위치추적기부착장소_6차,P092,,명칭 대응
+Data_Cleaning,617,피해자모욕시위치_6차,P093,,명칭 대응
+Data_Cleaning,618,피해자모욕방식_6차,P094,,명칭 대응
+Data_Cleaning,619,방화또는소훼유형_6차,P095,,명칭 대응
+Data_Cleaning,620,방화또는소훼대상_6차,P096,,명칭 대응
+Data_Cleaning,621,업무방해유형_6차,P097,,명칭 대응
+Data_Cleaning,622,은닉재물유형_6차,P098,,명칭 대응
+Data_Cleaning,623,은닉방식_6차,P099,,명칭 대응
+Data_Cleaning,624,스토킹행위유형1_6차,P100,,명칭 대응
+Data_Cleaning,625,스토킹행위유형2_6차,P101,,명칭 대응
+Data_Cleaning,626,스토킹행위유형3_6차,P102,,명칭 대응
+Data_Cleaning,627,가폭위반유형1_6차,P103,,명칭 대응
+Data_Cleaning,628,가폭위반유형2_6차,P104,,명칭 대응
+Data_Cleaning,629,명예훼손시사실적시여부_6차,P105,,명칭 대응
+Data_Cleaning,630,명예훼손내용_6차,P106,,명칭 대응
+Data_Cleaning,631,명예훼손내용_구체적_6차,P107,,명칭 대응
+Data_Cleaning,632,명예훼손방식_6차,P108,,명칭 대응
+Data_Cleaning,633,수색장소_6차,P109,,명칭 대응
+Data_Cleaning,634,행위횟수_6차,P110,,명칭 대응
+Data_Cleaning,635,범행의계획성여부_6차,B115,premeditated_n,명칭 대응
+Data_Cleaning,636,범행횟수_6차기준,P112,,명칭 대응
+Data_Cleaning,637,사건차수_6차기준,P113,,명칭 대응
+Data_Cleaning,638,사건차수_구분,P114,,명칭 대응
+Data_Cleaning,639,관계종료_일차,B042,breakup_to_first_days,명칭 대응
+Data_Cleaning,640,일차_이차,B043,gap_1to2,명칭 대응
+Data_Cleaning,641,이차_삼차,B044,gap_2to3,명칭 대응
+Data_Cleaning,642,삼차_사차,B045,gap_3to4,명칭 대응
+Data_Cleaning,643,사차_오차,B046,gap_4to5,명칭 대응
+Data_Cleaning,644,오차_육차,B047,gap_5to6,명칭 대응
+Data_Cleaning,645,첫사건부터마지막사건까지기간,B048,total_offense_span,명칭 대응
+Data_Cleaning,646,계획성_1차,B115,premeditated_n,명칭 대응
+Data_Cleaning,647,계획성_2차,B115,premeditated_n,명칭 대응
+Data_Cleaning,648,계획성_3차,B115,premeditated_n,명칭 대응
+Data_Cleaning,649,계획성_4차,B115,premeditated_n,명칭 대응
+Data_Cleaning,650,계획성_5차,B115,premeditated_n,명칭 대응
+Data_Cleaning,651,계획성_6차,B115,premeditated_n,명칭 대응
+Data_Cleaning,652,관계형태_1차,B125,in_relationship_n,명칭 대응
+Data_Cleaning,653,관계형태_2차,B125,in_relationship_n,명칭 대응
+Data_Cleaning,654,관계형태_3차,B125,in_relationship_n,명칭 대응
+Data_Cleaning,655,관계형태_4차,B125,in_relationship_n,명칭 대응
+Data_Cleaning,656,관계형태_5차,B125,in_relationship_n,명칭 대응
+Data_Cleaning,657,관계형태_6차,B125,in_relationship_n,명칭 대응
+Data_Cleaning,658,관계형태유형,P115,,명칭 대응
+Data_Cleaning,659,누범기간등중범행여부,P116,,명칭 대응
+Data_Cleaning,660,전체전과여부,B081,prior_any,명칭 대응
+Data_Cleaning,661,전과수_구분,P117,,명칭 대응
+Data_Cleaning,662,구금경험여부,B083,prior_incarceration,명칭 대응
+Data_Cleaning,663,가해자범행인정여부,B086,admit_code,명칭 대응
+Data_Cleaning,664,가해자범행반성여부,P118,,명칭 대응
+Data_Cleaning,665,가해자의범행인정또는반성여부,P119,,명칭 대응
+Data_Cleaning,666,합의외피해회복조치,P120,,명칭 대응
+Data_Cleaning,667,공탁여부,B089,deposit,명칭 대응
+Data_Cleaning,668,공탁금액_만원,B090,deposit_amount,명칭 대응
+Data_Cleaning,669,변제여부,P121,,명칭 대응
+Data_Cleaning,670,변제금액_만원,P122,,명칭 대응
+Data_Cleaning,671,피해자또는유족의용서및화해여부,P123,,명칭 대응
+Data_Cleaning,672,피해자또는유족의처벌요구,B091,victim_punishment_wish,명칭 대응
+Data_Cleaning,673,피해자또는유족과의합의여부,P124,,명칭 대응
+Data_Cleaning,674,합의금_원,P125,,명칭 대응
+Data_Cleaning,675,피해자대상전과이력여부,B084,prior_against_victim,명칭 대응
+Data_Cleaning,676,피해자대상전과수_구분,P126,,명칭 대응
+Data_Cleaning,677,피해자대상전과유형,P127,,명칭 대응
+Data_Cleaning,678,피해자대상전과시최대처벌,P128,,명칭 대응
+Data_Cleaning,679,피해자대상비전과폭력여부,P129,,명칭 대응
+Data_Cleaning,680,피해자대상비전과폭력유형,P130,,명칭 대응
+Data_Cleaning,681,삼차이상사건여부,P131,,명칭 대응
+Data_Cleaning,682,비고,B096,notes,명칭 대응
+Data_Original,1,KEY,B001,key,명칭 대응
+Data_Original,2,KEY,B001,key,명칭 대응
+Data_Original,3,판결문ID,,,대응표 명칭 미일치·추가 확인
+Data_Original,4,판결법원,,,대응표 명칭 미일치·추가 확인
+Data_Original,5,일심사건번호,,,대응표 명칭 미일치·추가 확인
+Data_Original,6,판결문링크,,,대응표 명칭 미일치·추가 확인
+Data_Original,7,일심선고일자,,,대응표 명칭 미일치·추가 확인
+Data_Original,8,가해자기호,,,대응표 명칭 미일치·추가 확인
+Data_Original,9,피해자기호,,,대응표 명칭 미일치·추가 확인
+Data_Original,10,판결서죄명,,,대응표 명칭 미일치·추가 확인
+Data_Original,11,병합여부,,,대응표 명칭 미일치·추가 확인
+Data_Original,12,해당판결문전체피해자수,,,대응표 명칭 미일치·추가 확인
+Data_Original,13,(형법적)경합여부,,,대응표 명칭 미일치·추가 확인
+Data_Original,14,판결선고(사건처리결과),,,대응표 명칭 미일치·추가 확인
+Data_Original,15,판결선고(사건처리결과)_불기소여부,,,대응표 명칭 미일치·추가 확인
+Data_Original,16,판결선고(사건처리결과)_불기소죄명,,,대응표 명칭 미일치·추가 확인
+Data_Original,17,판결선고(사건처리결과)_불기소사유,,,대응표 명칭 미일치·추가 확인
+Data_Original,18,소년범여부(소년범감경),,,대응표 명칭 미일치·추가 확인
+Data_Original,19,징역_개월,,,대응표 명칭 미일치·추가 확인
+Data_Original,20,집행유예_개월,,,대응표 명칭 미일치·추가 확인
+Data_Original,21,벌금_만원,,,대응표 명칭 미일치·추가 확인
+Data_Original,22,범죄발생지역(대표범죄또는주된사건장소),,,대응표 명칭 미일치·추가 확인
+Data_Original,23,친밀한관계범죄여부,B075,is_ipv,명칭 대응
+Data_Original,24,연관피해자발생여부,M001,,명칭 대응
+Data_Original,25,연관피해자수,M002,,명칭 대응
+Data_Original,26,연관피해자유형,M017,,명칭 대응
+Data_Original,27,연관피해자유형_구분,M003,,명칭 대응
+Data_Original,28,피해자성별,B018,victim_sex_code,명칭 대응
+Data_Original,29,피해자연령,B019,victim_age,명칭 대응
+Data_Original,30,피해자연령_구분,P002,,명칭 대응
+Data_Original,31,가해자성별,,,대응표 명칭 미일치·추가 확인
+Data_Original,32,가해자직업유무,,,대응표 명칭 미일치·추가 확인
+Data_Original,33,가해자직업_유형,,,대응표 명칭 미일치·추가 확인
+Data_Original,34,가해자연령,,,대응표 명칭 미일치·추가 확인
+Data_Original,35,가해자국적,,,대응표 명칭 미일치·추가 확인
+Data_Original,36,가해자국적_세부,,,대응표 명칭 미일치·추가 확인
+Data_Original,37,가해자정신및신체장애진단여부,P003,,명칭 대응
+Data_Original,38,대표적인가해자정신및신체장애유형,,,대응표 명칭 미일치·추가 확인
+Data_Original,39,관계시작일,B028,rel_start_date,명칭 대응
+Data_Original,40,관계종료일,B029,rel_end_date,명칭 대응
+Data_Original,41,관계유지기간_일,B030,rel_duration_days,명칭 대응
+Data_Original,42,관계유지기간_구분,P004,,명칭 대응
+Data_Original,43,관계유형,P006,,명칭 대응
+Data_Original,44,최초범행시세부관계유형,M004,,명칭 대응
+Data_Original,45,최초범행시동거유무,B026,cohabit_at_first,명칭 대응
+Data_Original,46,동거경험유무,B027,cohabit_ever,명칭 대응
+Data_Original,47,일차사건이전피해자보호조치유무,,,대응표 명칭 미일치·추가 확인
+Data_Original,48,사건이전피해자보호조치횟수_구분,,,대응표 명칭 미일치·추가 확인
+Data_Original,49,일차사건관련피해자보호조치유형,,,대응표 명칭 미일치·추가 확인
+Data_Original,50,1차사건관련피해자보호조치원인사건,,,대응표 명칭 미일치·추가 확인
+Data_Original,51,피해자보호조치통지날짜_1차이전,,,대응표 명칭 미일치·추가 확인
+Data_Original,52,피해자보호조치통지날짜_1차에서2차사이,,,대응표 명칭 미일치·추가 확인
+Data_Original,53,피해자보호조치통지날짜_2차에서3차사이,,,대응표 명칭 미일치·추가 확인
+Data_Original,54,피해자보호조치통지날짜_3차에서4차사이,,,대응표 명칭 미일치·추가 확인
+Data_Original,55,피해자보호조치통지날짜_4차에서5차사이,,,대응표 명칭 미일치·추가 확인
+Data_Original,56,피해자보호조치통지날짜_5차에서6차사이,,,대응표 명칭 미일치·추가 확인
+Data_Original,57,피해자대상적용법조,P008,,명칭 대응
+Data_Original,58,피해자대상적용법조수,P015,,명칭 대응
+Data_Original,59,피해자대상적용법조수_구분,P016,,명칭 대응
+Data_Original,60,범행위치,P017,,명칭 대응
+Data_Original,61,성범죄유무,B071,has_sex_crime,명칭 대응
+Data_Original,62,스토킹유무,B072,has_stalking,명칭 대응
+Data_Original,63,살해의도유무,B073,has_homicide_intent,명칭 대응
+Data_Original,64,유형력행사유무,B074,has_physical_force,명칭 대응
+Data_Original,65,피해자보호조치유무,B038,protect_any,명칭 대응
+Data_Original,66,금전목적유무,M013,,명칭 대응
+Data_Original,67,적용법조_1차,P019,,명칭 대응
+Data_Original,68,적용법조수_1차,P026,,명칭 대응
+Data_Original,69,복합범죄유무_1차,P027,,명칭 대응
+Data_Original,70,대표죄명_1차,B097,main_charge_n,명칭 대응
+Data_Original,71,중분류_1차,,,대응표 명칭 미일치·추가 확인
+Data_Original,72,범행시관계_1차,B105,rel_active_n,명칭 대응
+Data_Original,73,범행시작날짜_1차,,,대응표 명칭 미일치·추가 확인
+Data_Original,74,범행종료날짜_1차,,,대응표 명칭 미일치·추가 확인
+Data_Original,75,범행기간_1차,M018,,명칭 대응
+Data_Original,76,범행장소_1차,P028,,명칭 대응
+Data_Original,77,범행장소구분_1차,P029,,명칭 대응
+Data_Original,78,범행시간_1차,P030,,명칭 대응
+Data_Original,79,범행촉발사유_1차,P031,,명칭 대응
+Data_Original,80,범행촉발사유구분_1차,P032,,명칭 대응
+Data_Original,81,무고여부_1차,P033,,명칭 대응
+Data_Original,82,무고범죄유형_1차,P034,,명칭 대응
+Data_Original,83,미수또는예비사건여부_1차,,,대응표 명칭 미일치·추가 확인
+Data_Original,84,미수또는예비사건유형_1차,P035,,명칭 대응
+Data_Original,85,범행인원_1차,,,대응표 명칭 미일치·추가 확인
+Data_Original,86,공동범행시공범과의관계_1차,,,대응표 명칭 미일치·추가 확인
+Data_Original,87,가해자음주여부_1차,B116,offender_drunk_n,명칭 대응
+Data_Original,88,피해자음주여부_1차,P036,,명칭 대응
+Data_Original,89,상해여부_1차,P037,,명칭 대응
+Data_Original,90,치료일수_1차,B118,treatment_days_n,명칭 대응
+Data_Original,91,피해수준_1차,P038,,명칭 대응
+Data_Original,92,위험한물건사용여부_1차,B119,weapon_n,명칭 대응
+Data_Original,93,위험한물건사용유형1_1차,P039,,명칭 대응
+Data_Original,94,위험한물건사용유형2_1차,P040,,명칭 대응
+Data_Original,95,위험한물건사용유형3_1차,P041,,명칭 대응
+Data_Original,96,위험한물건을사용한폭행방식_1차,P042,,명칭 대응
+Data_Original,97,위험한물건유형_1차,P043,,명칭 대응
+Data_Original,98,위험한물건사전준비여부_1차,P044,,명칭 대응
+Data_Original,99,신체사용폭력유무_1차,B120,body_force_n,명칭 대응
+Data_Original,100,신체사용폭력방식_1차,P045,,명칭 대응
+Data_Original,101,살해또는살해시도방식_1차,P046,,명칭 대응
+Data_Original,102,제압또는감금방식_1차,P047,,명칭 대응
+Data_Original,103,제압또는감금방식_구체적_1차,P048,,명칭 대응
+Data_Original,104,오프라인침입경로및방법_1차,P049,,명칭 대응
+Data_Original,105,오프라인침입경로및방법_구체적_1차,P050,,명칭 대응
+Data_Original,106,오프라인침입장소_1차,P051,,명칭 대응
+Data_Original,107,정보통신망침해도구_1차,P052,,명칭 대응
+Data_Original,108,정보통신망침해방법_1차,P053,,명칭 대응
+Data_Original,109,정보통신망침해대상_1차,P054,,명칭 대응
+Data_Original,110,손괴재물소유자_1차,P055,,명칭 대응
+Data_Original,111,손괴대상물건1_1차,P056,,명칭 대응
+Data_Original,112,손괴대상물건2_1차,P057,,명칭 대응
+Data_Original,113,강절도대상물건및유형_1차,P058,,명칭 대응
+Data_Original,114,강절도대상물건및유형_구체적_1차,P059,,명칭 대응
+Data_Original,115,사기또는금전범죄유형_1차,P060,,명칭 대응
+Data_Original,116,사기또는금전범죄유형세부_1차,P061,,명칭 대응
+Data_Original,117,금전목적여부_1차,,,대응표 명칭 미일치·추가 확인
+Data_Original,118, 피해예상금액또는요구금액_1차,P063,,명칭 대응
+Data_Original,119,오프라인성범죄유형_1차,P064,,명칭 대응
+Data_Original,120,오프라인성범죄유형_구분_1차,P065,,명칭 대응
+Data_Original,121,온라인또는디지털성범죄유형_1차,,,대응표 명칭 미일치·추가 확인
+Data_Original,122,피해자의항거불능상태여부_1차,P068,,명칭 대응
+Data_Original,123,피해자항거불능시사유_1차,P069,,명칭 대응
+Data_Original,124,신고지연또는미신고사유_1차,P070,,명칭 대응
+Data_Original,125,촬영내용1_1차,P071,,명칭 대응
+Data_Original,126,촬영내용2_1차,P072,,명칭 대응
+Data_Original,127,협박또는공갈유형1_1차,P073,,명칭 대응
+Data_Original,128,협박또는공갈유형구분1_1차,P074,,명칭 대응
+Data_Original,129,협박또는공갈유형2_1차,P075,,명칭 대응
+Data_Original,130,협박또는공갈유형구분2_1차,P076,,명칭 대응
+Data_Original,131,협박또는폭행시금전요구여부_1차,P077,,명칭 대응
+Data_Original,132,협박또는공갈방식_1차,P078,,명칭 대응
+Data_Original,133,금전외협박시요구사항_1차,P079,,명칭 대응
+Data_Original,134,자료이용시출처_1차,P080,,명칭 대응
+Data_Original,135,협박자료내용_1차,P081,,명칭 대응
+Data_Original,136,유포자료내용_1차,P082,,명칭 대응
+Data_Original,137,협박자료유포방식_1차,P083,,명칭 대응
+Data_Original,138,유포목적자료유포방식_1차,P084,,명칭 대응
+Data_Original,139,행위강요방식_1차,P085,,명칭 대응
+Data_Original,140,강요된의무없는일유형1_1차,P086,,명칭 대응
+Data_Original,141,강요된의무없는일유형2_1차,P087,,명칭 대응
+Data_Original,142,퇴거불응장소_1차,P088,,명칭 대응
+Data_Original,143,통신비밀또는정보통신망관련위반유형1_1차,,,대응표 명칭 미일치·추가 확인
+Data_Original,144,통신비밀또는정보통신망관련위반유형2_1차,,,대응표 명칭 미일치·추가 확인
+Data_Original,145,통신비밀또는정보통신망관련위반유형_구체적_1차,,,대응표 명칭 미일치·추가 확인
+Data_Original,146,위치추적기부착장소_1차,P092,,명칭 대응
+Data_Original,147,피해자모욕시위치_1차,P093,,명칭 대응
+Data_Original,148,피해자모욕방식_1차,P094,,명칭 대응
+Data_Original,149,방화또는소훼대상_1차,P096,,명칭 대응
+Data_Original,150,업무방해유형_1차,P097,,명칭 대응
+Data_Original,151,은닉재물유형_1차,P098,,명칭 대응
+Data_Original,152,은닉방식_1차,P099,,명칭 대응
+Data_Original,153,스토킹행위유형1_1차,P100,,명칭 대응
+Data_Original,154,스토킹행위유형2_1차,P101,,명칭 대응
+Data_Original,155,스토킹행위유형3_1차,P102,,명칭 대응
+Data_Original,156,가폭위반유형1_1차,P103,,명칭 대응
+Data_Original,157,가폭위반유형2_1차,P104,,명칭 대응
+Data_Original,158,명예훼손시사실적시여부_1차,P105,,명칭 대응
+Data_Original,159,명예훼손내용_1차,P106,,명칭 대응
+Data_Original,160,명예훼손내용_구체적_1차,P107,,명칭 대응
+Data_Original,161,명예훼손방식_1차,P108,,명칭 대응
+Data_Original,162,수색장소_1차,P109,,명칭 대응
+Data_Original,163,범행특성갯수_1차,,,대응표 명칭 미일치·추가 확인
+Data_Original,164,행위횟수_1차,P110,,명칭 대응
+Data_Original,165,범행의계획성여부_1차,B115,premeditated_n,명칭 대응
+Data_Original,166,이차사건여부,P111,,명칭 대응
+Data_Original,167,적용법조_2차,P019,,명칭 대응
+Data_Original,168,적용법조수_2차,P026,,명칭 대응
+Data_Original,169,복합범죄유무_2차,P027,,명칭 대응
+Data_Original,170,대표죄명_2차,B097,main_charge_n,명칭 대응
+Data_Original,171,중분류_2차,,,대응표 명칭 미일치·추가 확인
+Data_Original,172,범행시관계_2차,B105,rel_active_n,명칭 대응
+Data_Original,173,범행시작날짜_2차,,,대응표 명칭 미일치·추가 확인
+Data_Original,174,범행종료날짜_2차,,,대응표 명칭 미일치·추가 확인
+Data_Original,175,범행기간_2차,,,대응표 명칭 미일치·추가 확인
+Data_Original,176,범행장소_2차,P028,,명칭 대응
+Data_Original,177,범행장소구분_2차,P029,,명칭 대응
+Data_Original,178,범행시간_2차,P030,,명칭 대응
+Data_Original,179,범행촉발사유_2차,P031,,명칭 대응
+Data_Original,180,범행촉발사유구분_2차,P032,,명칭 대응
+Data_Original,181,무고여부_2차,P033,,명칭 대응
+Data_Original,182,무고범죄유형_2차,P034,,명칭 대응
+Data_Original,183,미수또는예비사건여부_2차,,,대응표 명칭 미일치·추가 확인
+Data_Original,184,미수또는예비사건유형_2차,P035,,명칭 대응
+Data_Original,185,범행인원_2차,,,대응표 명칭 미일치·추가 확인
+Data_Original,186,공동범행시공범과의관계_2차,,,대응표 명칭 미일치·추가 확인
+Data_Original,187,가해자음주여부_2차,B116,offender_drunk_n,명칭 대응
+Data_Original,188,피해자음주여부_2차,P036,,명칭 대응
+Data_Original,189,상해여부_2차,P037,,명칭 대응
+Data_Original,190,치료일수_2차,B118,treatment_days_n,명칭 대응
+Data_Original,191,피해수준_2차,P038,,명칭 대응
+Data_Original,192,위험한물건사용여부_2차,B119,weapon_n,명칭 대응
+Data_Original,193,위험한물건사용유형1_2차,P039,,명칭 대응
+Data_Original,194,위험한물건사용유형2_2차,P040,,명칭 대응
+Data_Original,195,위험한물건사용유형3_2차,P041,,명칭 대응
+Data_Original,196,위험한물건을사용한폭행방식_2차,P042,,명칭 대응
+Data_Original,197,위험한물건유형_2차,P043,,명칭 대응
+Data_Original,198,위험한물건사전준비여부_2차,P044,,명칭 대응
+Data_Original,199,신체사용폭력유무_2차,B120,body_force_n,명칭 대응
+Data_Original,200,신체사용폭력방식_2차,P045,,명칭 대응
+Data_Original,201,살해또는살해시도방식_2차,P046,,명칭 대응
+Data_Original,202,제압또는감금방식_2차,P047,,명칭 대응
+Data_Original,203,제압또는감금방식_구체적_2차,P048,,명칭 대응
+Data_Original,204,오프라인침입경로및방법_2차,P049,,명칭 대응
+Data_Original,205,오프라인침입경로및방법_구체적_2차,P050,,명칭 대응
+Data_Original,206,오프라인침입장소_2차,P051,,명칭 대응
+Data_Original,207,정보통신망침해도구_2차,P052,,명칭 대응
+Data_Original,208,정보통신망침해방법_2차,P053,,명칭 대응
+Data_Original,209,정보통신망침해대상_2차,P054,,명칭 대응
+Data_Original,210,손괴재물소유자_2차,P055,,명칭 대응
+Data_Original,211,손괴대상물건1_2차,P056,,명칭 대응
+Data_Original,212,손괴대상물건2_2차,P057,,명칭 대응
+Data_Original,213,강절도대상물건및유형_2차,P058,,명칭 대응
+Data_Original,214,강절도대상물건및유형_구체적_2차,P059,,명칭 대응
+Data_Original,215,사기또는금전범죄유형_2차,P060,,명칭 대응
+Data_Original,216,사기또는금전범죄유형세부_2차,P061,,명칭 대응
+Data_Original,217,금전목적여부_2차,,,대응표 명칭 미일치·추가 확인
+Data_Original,218, 피해예상또는요구금액_2차,P063,,명칭 대응
+Data_Original,219,오프라인성범죄유형_2차,P064,,명칭 대응
+Data_Original,220,오프라인성범죄유형_구분_2차,P065,,명칭 대응
+Data_Original,221,온라인또는디지털성범죄유형_2차,,,대응표 명칭 미일치·추가 확인
+Data_Original,222,피해자의항거불능상태여부_2차,P068,,명칭 대응
+Data_Original,223,피해자항거불능시사유_2차,P069,,명칭 대응
+Data_Original,224,신고지연또는미신고사유_2차,P070,,명칭 대응
+Data_Original,225,촬영내용1_2차,P071,,명칭 대응
+Data_Original,226,촬영내용2_2차,P072,,명칭 대응
+Data_Original,227,협박또는공갈유형1_2차,P073,,명칭 대응
+Data_Original,228,협박또는공갈유형구분1_2차,P074,,명칭 대응
+Data_Original,229,협박또는공갈유형2_2차,P075,,명칭 대응
+Data_Original,230,협박또는공갈유형구분2_2차,P076,,명칭 대응
+Data_Original,231,협박또는폭행시금전요구여부_2차,P077,,명칭 대응
+Data_Original,232,협박또는공갈방식_2차,P078,,명칭 대응
+Data_Original,233,금전외협박시요구사항_2차,P079,,명칭 대응
+Data_Original,234,자료이용시출처_2차,P080,,명칭 대응
+Data_Original,235,협박자료내용_2차,P081,,명칭 대응
+Data_Original,236,유포자료내용_2차,P082,,명칭 대응
+Data_Original,237,협박자료유포방식_2차,P083,,명칭 대응
+Data_Original,238,유포목적자료유포방식_2차,P084,,명칭 대응
+Data_Original,239,행위강요방식_2차,P085,,명칭 대응
+Data_Original,240,강요된의무없는일유형1_2차,P086,,명칭 대응
+Data_Original,241,강요된의무없는일유형2_2차,P087,,명칭 대응
+Data_Original,242,퇴거불응장소_2차,P088,,명칭 대응
+Data_Original,243,통신비밀또는정보통신망관련위반유형1_2차,,,대응표 명칭 미일치·추가 확인
+Data_Original,244,통신비밀또는정보통신망관련위반유형2_2차,,,대응표 명칭 미일치·추가 확인
+Data_Original,245,통신비밀또는정보통신망관련위반유형_구체적_2차,,,대응표 명칭 미일치·추가 확인
+Data_Original,246,위치추적기부착장소_2차,P092,,명칭 대응
+Data_Original,247,피해자모욕시위치_2차,P093,,명칭 대응
+Data_Original,248,피해자모욕방식_2차,P094,,명칭 대응
+Data_Original,249,방화또는소훼대상_2차,P096,,명칭 대응
+Data_Original,250,업무방해유형_2차,P097,,명칭 대응
+Data_Original,251,은닉재물유형_2차,P098,,명칭 대응
+Data_Original,252,은닉방식_2차,P099,,명칭 대응
+Data_Original,253,스토킹행위유형1_2차,P100,,명칭 대응
+Data_Original,254,스토킹행위유형2_2차,P101,,명칭 대응
+Data_Original,255,스토킹행위유형3_2차,P102,,명칭 대응
+Data_Original,256,가폭위반유형1_2차,P103,,명칭 대응
+Data_Original,257,가폭위반유형2_2차,P104,,명칭 대응
+Data_Original,258,명예훼손시사실적시여부_2차,P105,,명칭 대응
+Data_Original,259,명예훼손내용_2차,P106,,명칭 대응
+Data_Original,260,명예훼손내용_구체적_2차,P107,,명칭 대응
+Data_Original,261,명예훼손방식_2차,P108,,명칭 대응
+Data_Original,262,수색장소_2차,P109,,명칭 대응
+Data_Original,263,범행특성 갯수_2차,,,대응표 명칭 미일치·추가 확인
+Data_Original,264,행위횟수_2차,P110,,명칭 대응
+Data_Original,265,범행의계획성여부_2차,B115,premeditated_n,명칭 대응
+Data_Original,266,삼차사건여부,P111,,명칭 대응
+Data_Original,267,적용법조_3차,P019,,명칭 대응
+Data_Original,268,적용법조수_3차,P026,,명칭 대응
+Data_Original,269,복합범죄유무_3차,P027,,명칭 대응
+Data_Original,270,대표죄명_3차,B097,main_charge_n,명칭 대응
+Data_Original,271,중분류_3차,,,대응표 명칭 미일치·추가 확인
+Data_Original,272,범행시관계_3차,B105,rel_active_n,명칭 대응
+Data_Original,273,범행시작날짜_3차,,,대응표 명칭 미일치·추가 확인
+Data_Original,274,범행종료날짜_3차,,,대응표 명칭 미일치·추가 확인
+Data_Original,275,범행기간_3차,,,대응표 명칭 미일치·추가 확인
+Data_Original,276,범행장소_3차,P028,,명칭 대응
+Data_Original,277,범행장소구분_3차,P029,,명칭 대응
+Data_Original,278,범행시간_3차,P030,,명칭 대응
+Data_Original,279,범행촉발사유_3차,P031,,명칭 대응
+Data_Original,280,범행촉발사유구분_3차,P032,,명칭 대응
+Data_Original,281,무고여부_3차,P033,,명칭 대응
+Data_Original,282,무고범죄유형_3차,P034,,명칭 대응
+Data_Original,283,미수또는예비사건여부_3차,,,대응표 명칭 미일치·추가 확인
+Data_Original,284,미수또는예비사건유형_3차,P035,,명칭 대응
+Data_Original,285,범행인원_3차,,,대응표 명칭 미일치·추가 확인
+Data_Original,286,공동범행시공범과의관계_3차,,,대응표 명칭 미일치·추가 확인
+Data_Original,287,가해자음주여부_3차,B116,offender_drunk_n,명칭 대응
+Data_Original,288,피해자음주여부_3차,P036,,명칭 대응
+Data_Original,289,상해여부_3차,P037,,명칭 대응
+Data_Original,290,치료일수_3차,B118,treatment_days_n,명칭 대응
+Data_Original,291,피해수준_3차,P038,,명칭 대응
+Data_Original,292,위험한물건사용여부_3차,B119,weapon_n,명칭 대응
+Data_Original,293,위험한물건사용유형1_3차,P039,,명칭 대응
+Data_Original,294,위험한물건사용유형2_3차,P040,,명칭 대응
+Data_Original,295,위험한물건사용유형3_3차,P041,,명칭 대응
+Data_Original,296,위험한물건을사용한폭행방식_3차,P042,,명칭 대응
+Data_Original,297,위험한물건유형_3차,P043,,명칭 대응
+Data_Original,298,위험한물건사전준비여부_3차,P044,,명칭 대응
+Data_Original,299,신체사용폭력유무_3차,B120,body_force_n,명칭 대응
+Data_Original,300,신체사용폭력방식_3차,P045,,명칭 대응
+Data_Original,301,살해또는살해시도방식_3차,P046,,명칭 대응
+Data_Original,302,제압또는감금방식_3차,P047,,명칭 대응
+Data_Original,303,제압또는감금방식_구체적_3차,P048,,명칭 대응
+Data_Original,304,오프라인침입경로및방법_3차,P049,,명칭 대응
+Data_Original,305,오프라인침입경로및방법_구체적_3차,P050,,명칭 대응
+Data_Original,306,오프라인침입장소_3차,P051,,명칭 대응
+Data_Original,307,정보통신망침해도구_3차,P052,,명칭 대응
+Data_Original,308,정보통신망침해방법_2차,P053,,명칭 대응
+Data_Original,309,정보통신망침해대상_3차,P054,,명칭 대응
+Data_Original,310,손괴재물소유자_3차,P055,,명칭 대응
+Data_Original,311,손괴대상물건1_3차,P056,,명칭 대응
+Data_Original,312,손괴대상물건2_3차,P057,,명칭 대응
+Data_Original,313,강절도대상물건및유형_3차,P058,,명칭 대응
+Data_Original,314,강절도대상물건및유형_구체적_3차,P059,,명칭 대응
+Data_Original,315,사기또는금전범죄유형_3차,P060,,명칭 대응
+Data_Original,316,사기또는금전범죄유형세부_3차,P061,,명칭 대응
+Data_Original,317,금전목적여부_3차,,,대응표 명칭 미일치·추가 확인
+Data_Original,318, 피해예상또는요구금액_3차,P063,,명칭 대응
+Data_Original,319,오프라인성범죄유형_3차,P064,,명칭 대응
+Data_Original,320,오프라인성범죄유형_구분_3차,P065,,명칭 대응
+Data_Original,321,온라인또는디지털성범죄유형_3차,,,대응표 명칭 미일치·추가 확인
+Data_Original,322,피해자의항거불능상태여부_3차,P068,,명칭 대응
+Data_Original,323,피해자항거불능시사유_3차,P069,,명칭 대응
+Data_Original,324,신고지연또는미신고사유_3차,P070,,명칭 대응
+Data_Original,325,촬영내용1_3차,P071,,명칭 대응
+Data_Original,326,촬영내용2_3차,P072,,명칭 대응
+Data_Original,327,협박또는공갈유형1_3차,P073,,명칭 대응
+Data_Original,328,협박또는공갈유형구분1_3차,P074,,명칭 대응
+Data_Original,329,협박또는공갈유형2_3차,P075,,명칭 대응
+Data_Original,330,협박또는공갈유형구분2_3차,P076,,명칭 대응
+Data_Original,331,협박또는폭행시금전요구여부_3차,P077,,명칭 대응
+Data_Original,332,협박또는공갈방식_3차,P078,,명칭 대응
+Data_Original,333,금전외협박시요구사항_3차,P079,,명칭 대응
+Data_Original,334,자료이용시출처_3차,P080,,명칭 대응
+Data_Original,335,협박자료내용_3차,P081,,명칭 대응
+Data_Original,336,유포자료내용_3차,P082,,명칭 대응
+Data_Original,337,협박자료유포방식_3차,P083,,명칭 대응
+Data_Original,338,유포목적자료유포방식_3차,P084,,명칭 대응
+Data_Original,339,행위강요방식_3차,P085,,명칭 대응
+Data_Original,340,강요된의무없는일유형1_3차,P086,,명칭 대응
+Data_Original,341,강요된의무없는일유형2_3차,P087,,명칭 대응
+Data_Original,342,퇴거불응장소_3차,P088,,명칭 대응
+Data_Original,343,통신비밀또는정보통신망관련위반유형1_3차,,,대응표 명칭 미일치·추가 확인
+Data_Original,344,통신비밀또는정보통신망관련위반유형2_3차,,,대응표 명칭 미일치·추가 확인
+Data_Original,345,통신비밀또는정보통신망관련위반유형_구체적_3차,,,대응표 명칭 미일치·추가 확인
+Data_Original,346,위치추적기부착장소_3차,P092,,명칭 대응
+Data_Original,347,피해자모욕시위치_3차,P093,,명칭 대응
+Data_Original,348,피해자모욕방식_3차,P094,,명칭 대응
+Data_Original,349,방화또는소훼대상_3차,P096,,명칭 대응
+Data_Original,350,업무방해유형_3차,P097,,명칭 대응
+Data_Original,351,은닉재물유형_3차,P098,,명칭 대응
+Data_Original,352,은닉방식_3차,P099,,명칭 대응
+Data_Original,353,스토킹행위유형1_3차,P100,,명칭 대응
+Data_Original,354,스토킹행위유형2_3차,P101,,명칭 대응
+Data_Original,355,스토킹행위유형3_3차,P102,,명칭 대응
+Data_Original,356,가폭위반유형1_3차,P103,,명칭 대응
+Data_Original,357,가폭위반유형2_3차,P104,,명칭 대응
+Data_Original,358,명예훼손시사실적시여부_3차,P105,,명칭 대응
+Data_Original,359,명예훼손내용_3차,P106,,명칭 대응
+Data_Original,360,명예훼손내용_구체적_3차,P107,,명칭 대응
+Data_Original,361,명예훼손방식_3차,P108,,명칭 대응
+Data_Original,362,수색장소_3차,P109,,명칭 대응
+Data_Original,363,범행특성 갯수_3차,,,대응표 명칭 미일치·추가 확인
+Data_Original,364,행위횟수_3차,P110,,명칭 대응
+Data_Original,365,범행의계획성여부_3차,B115,premeditated_n,명칭 대응
+Data_Original,366,사차사건여부,P111,,명칭 대응
+Data_Original,367,적용법조_4차,P019,,명칭 대응
+Data_Original,368,적용법조수_4차,P026,,명칭 대응
+Data_Original,369,복합범죄유무_4차,P027,,명칭 대응
+Data_Original,370,대표죄명_4차,B097,main_charge_n,명칭 대응
+Data_Original,371,중분류_4차,,,대응표 명칭 미일치·추가 확인
+Data_Original,372,범행시관계_4차,B105,rel_active_n,명칭 대응
+Data_Original,373,범행시작날짜_4차,,,대응표 명칭 미일치·추가 확인
+Data_Original,374,범행종료날짜_4차,,,대응표 명칭 미일치·추가 확인
+Data_Original,375,범행기간_4차,,,대응표 명칭 미일치·추가 확인
+Data_Original,376,범행장소_4차,P028,,명칭 대응
+Data_Original,377,범행장소구분_4차,P029,,명칭 대응
+Data_Original,378,범행시간_4차,P030,,명칭 대응
+Data_Original,379,범행촉발사유_4차,P031,,명칭 대응
+Data_Original,380,범행촉발사유구분_4차,P032,,명칭 대응
+Data_Original,381,무고여부_4차,P033,,명칭 대응
+Data_Original,382,무고범죄유형_4차,P034,,명칭 대응
+Data_Original,383,미수또는예비사건여부_4차,,,대응표 명칭 미일치·추가 확인
+Data_Original,384,미수또는예비사건유형_4차,P035,,명칭 대응
+Data_Original,385,범행인원_4차,,,대응표 명칭 미일치·추가 확인
+Data_Original,386,공동범행시공범과의관계_4차,,,대응표 명칭 미일치·추가 확인
+Data_Original,387,가해자음주여부_4차,B116,offender_drunk_n,명칭 대응
+Data_Original,388,피해자음주여부_4차,P036,,명칭 대응
+Data_Original,389,상해여부_4차,P037,,명칭 대응
+Data_Original,390,치료일수_4차,B118,treatment_days_n,명칭 대응
+Data_Original,391,피해수준_4차,P038,,명칭 대응
+Data_Original,392,위험한물건사용여부_4차,B119,weapon_n,명칭 대응
+Data_Original,393,위험한물건사용유형1_4차,P039,,명칭 대응
+Data_Original,394,위험한물건사용유형2_4차,P040,,명칭 대응
+Data_Original,395,위험한물건사용유형3_4차,P041,,명칭 대응
+Data_Original,396,위험한물건을사용한폭행방식_4차,P042,,명칭 대응
+Data_Original,397,위험한물건유형_4차,P043,,명칭 대응
+Data_Original,398,위험한물건사전준비여부_4차,P044,,명칭 대응
+Data_Original,399,신체사용폭력유무_4차,B120,body_force_n,명칭 대응
+Data_Original,400,신체사용폭력방식_4차,P045,,명칭 대응
+Data_Original,401,살해또는살해시도방식_4차,P046,,명칭 대응
+Data_Original,402,제압또는감금방식_4차,P047,,명칭 대응
+Data_Original,403,제압또는감금방식_구체적_4차,P048,,명칭 대응
+Data_Original,404,오프라인침입경로및방법_4차,P049,,명칭 대응
+Data_Original,405,오프라인침입경로및방법_구체적_4차,P050,,명칭 대응
+Data_Original,406,오프라인침입장소_4차,P051,,명칭 대응
+Data_Original,407,정보통신망침해도구_4차,P052,,명칭 대응
+Data_Original,408,정보통신망침해방법_4차,P053,,명칭 대응
+Data_Original,409,정보통신망침해대상_4차,P054,,명칭 대응
+Data_Original,410,손괴재물소유자_4차,P055,,명칭 대응
+Data_Original,411,손괴대상물건1_4차,P056,,명칭 대응
+Data_Original,412,손괴대상물건2_4차,P057,,명칭 대응
+Data_Original,413,강절도대상물건및유형_4차,P058,,명칭 대응
+Data_Original,414,강절도대상물건및유형_구체적_4차,P059,,명칭 대응
+Data_Original,415,사기또는금전범죄유형_4차,P060,,명칭 대응
+Data_Original,416,사기또는금전범죄유형세부_4차,P061,,명칭 대응
+Data_Original,417,금전목적여부_4차,,,대응표 명칭 미일치·추가 확인
+Data_Original,418, 피해예상또는요구금액_4차,P063,,명칭 대응
+Data_Original,419,오프라인성범죄유형_4차,P064,,명칭 대응
+Data_Original,420,오프라인성범죄유형_구분_4차,P065,,명칭 대응
+Data_Original,421,온라인또는디지털성범죄유형_4차,,,대응표 명칭 미일치·추가 확인
+Data_Original,422,피해자의항거불능상태여부_4차,P068,,명칭 대응
+Data_Original,423,피해자항거불능시사유_4차,P069,,명칭 대응
+Data_Original,424,신고지연또는미신고사유_4차,P070,,명칭 대응
+Data_Original,425,촬영내용1_4차,P071,,명칭 대응
+Data_Original,426,촬영내용2_4차,P072,,명칭 대응
+Data_Original,427,협박또는공갈유형1_4차,P073,,명칭 대응
+Data_Original,428,협박또는공갈유형구분1_4차,P074,,명칭 대응
+Data_Original,429,협박또는공갈유형2_4차,P075,,명칭 대응
+Data_Original,430,협박또는공갈유형구분2_4차,P076,,명칭 대응
+Data_Original,431,협박또는폭행시금전요구여부_4차,P077,,명칭 대응
+Data_Original,432,협박또는공갈방식_4차,P078,,명칭 대응
+Data_Original,433,금전외협박시요구사항_4차,P079,,명칭 대응
+Data_Original,434,자료이용시출처_4차,P080,,명칭 대응
+Data_Original,435,협박자료내용_4차,P081,,명칭 대응
+Data_Original,436,유포자료내용_4차,P082,,명칭 대응
+Data_Original,437,협박자료유포방식_4차,P083,,명칭 대응
+Data_Original,438,유포목적자료유포방식_4차,P084,,명칭 대응
+Data_Original,439,행위강요방식_4차,P085,,명칭 대응
+Data_Original,440,강요된의무없는일유형1_4차,P086,,명칭 대응
+Data_Original,441,강요된의무없는일유형2_4차,P087,,명칭 대응
+Data_Original,442,퇴거불응장소_4차,P088,,명칭 대응
+Data_Original,443,통신비밀또는정보통신망관련위반유형1_4차,,,대응표 명칭 미일치·추가 확인
+Data_Original,444,통신비밀또는정보통신망관련위반유형2_4차,,,대응표 명칭 미일치·추가 확인
+Data_Original,445,통신비밀또는정보통신망관련위반유형_구체적_4차,,,대응표 명칭 미일치·추가 확인
+Data_Original,446,위치추적기부착장소_4차,P092,,명칭 대응
+Data_Original,447,피해자모욕시위치_4차,P093,,명칭 대응
+Data_Original,448,피해자모욕방식_4차,P094,,명칭 대응
+Data_Original,449,방화또는소훼대상_4차,P096,,명칭 대응
+Data_Original,450,업무방해유형_4차,P097,,명칭 대응
+Data_Original,451,은닉재물유형_4차,P098,,명칭 대응
+Data_Original,452,은닉방식_4차,P099,,명칭 대응
+Data_Original,453,스토킹행위유형1_4차,P100,,명칭 대응
+Data_Original,454,스토킹행위유형2_4차,P101,,명칭 대응
+Data_Original,455,스토킹행위유형3_4차,P102,,명칭 대응
+Data_Original,456,가폭위반유형1_4차,P103,,명칭 대응
+Data_Original,457,가폭위반유형2_4차,P104,,명칭 대응
+Data_Original,458,명예훼손시사실적시여부_4차,P105,,명칭 대응
+Data_Original,459,명예훼손내용_4차,P106,,명칭 대응
+Data_Original,460,명예훼손내용_구체적_4차,P107,,명칭 대응
+Data_Original,461,명예훼손방식_4차,P108,,명칭 대응
+Data_Original,462,수색장소_4차,P109,,명칭 대응
+Data_Original,463,범행특성 갯수_4차,,,대응표 명칭 미일치·추가 확인
+Data_Original,464,행위횟수_4차,P110,,명칭 대응
+Data_Original,465,범행의계획성여부_4차,B115,premeditated_n,명칭 대응
+Data_Original,466,오차사건여부,P111,,명칭 대응
+Data_Original,467,적용법조_5차,P019,,명칭 대응
+Data_Original,468,적용법조수_5차,P026,,명칭 대응
+Data_Original,469,복합범죄유무_5차,P027,,명칭 대응
+Data_Original,470,대표죄명_5차,B097,main_charge_n,명칭 대응
+Data_Original,471,중분류_5차,,,대응표 명칭 미일치·추가 확인
+Data_Original,472,범행시관계_5차,B105,rel_active_n,명칭 대응
+Data_Original,473,범행시작날짜_5차,,,대응표 명칭 미일치·추가 확인
+Data_Original,474,범행종료날짜_5차,,,대응표 명칭 미일치·추가 확인
+Data_Original,475,범행기간_5차,,,대응표 명칭 미일치·추가 확인
+Data_Original,476,범행장소_5차,P028,,명칭 대응
+Data_Original,477,범행장소구분_5차,P029,,명칭 대응
+Data_Original,478,범행시간_5차,P030,,명칭 대응
+Data_Original,479,범행촉발사유_5차,P031,,명칭 대응
+Data_Original,480,범행촉발사유구분_5차,P032,,명칭 대응
+Data_Original,481,무고여부_5차,P033,,명칭 대응
+Data_Original,482,무고범죄유형_5차,P034,,명칭 대응
+Data_Original,483,미수또는예비사건여부_5차,,,대응표 명칭 미일치·추가 확인
+Data_Original,484,미수또는예비사건유형_5차,P035,,명칭 대응
+Data_Original,485,범행인원_5차,,,대응표 명칭 미일치·추가 확인
+Data_Original,486,공동범행시공범과의관계_5차,,,대응표 명칭 미일치·추가 확인
+Data_Original,487,가해자음주여부_5차,B116,offender_drunk_n,명칭 대응
+Data_Original,488,피해자음주여부_5차,P036,,명칭 대응
+Data_Original,489,상해여부_5차,P037,,명칭 대응
+Data_Original,490,치료일수_5차,B118,treatment_days_n,명칭 대응
+Data_Original,491,피해수준_5차,P038,,명칭 대응
+Data_Original,492,위험한물건사용여부_5차,B119,weapon_n,명칭 대응
+Data_Original,493,위험한물건사용유형1_5차,P039,,명칭 대응
+Data_Original,494,위험한물건사용유형2_5차,P040,,명칭 대응
+Data_Original,495,위험한물건사용유형3_5차,P041,,명칭 대응
+Data_Original,496,위험한물건을사용한폭행방식_5차,P042,,명칭 대응
+Data_Original,497,위험한물건유형_5차,P043,,명칭 대응
+Data_Original,498,위험한물건사전준비여부_5차,P044,,명칭 대응
+Data_Original,499,신체사용폭력유무_5차,B120,body_force_n,명칭 대응
+Data_Original,500,신체사용폭력방식_5차,P045,,명칭 대응
+Data_Original,501,살해또는살해시도방식_5차,P046,,명칭 대응
+Data_Original,502,제압또는감금방식_5차,P047,,명칭 대응
+Data_Original,503,제압또는감금방식_구체적_5차,P048,,명칭 대응
+Data_Original,504,오프라인침입경로및방법_5차,P049,,명칭 대응
+Data_Original,505,오프라인침입경로및방법_구체적_5차,P050,,명칭 대응
+Data_Original,506,오프라인침입장소_5차,P051,,명칭 대응
+Data_Original,507,정보통신망침해도구_5차,P052,,명칭 대응
+Data_Original,508,정보통신망침해방법_5차,P053,,명칭 대응
+Data_Original,509,정보통신망침해대상_5차,P054,,명칭 대응
+Data_Original,510,손괴재물소유자_5차,P055,,명칭 대응
+Data_Original,511,손괴대상물건1_5차,P056,,명칭 대응
+Data_Original,512,손괴대상물건2_5차,P057,,명칭 대응
+Data_Original,513,강절도대상물건및유형_5차,P058,,명칭 대응
+Data_Original,514,강절도대상물건및유형_구체적_5차,P059,,명칭 대응
+Data_Original,515,사기또는금전범죄유형_5차,P060,,명칭 대응
+Data_Original,516,사기또는금전범죄유형세부_5차,P061,,명칭 대응
+Data_Original,517,금전목적여부_5차,,,대응표 명칭 미일치·추가 확인
+Data_Original,518, 피해예상또는요구금액_5차,P063,,명칭 대응
+Data_Original,519,오프라인성범죄유형_5차,P064,,명칭 대응
+Data_Original,520,오프라인성범죄유형_구분_5차,P065,,명칭 대응
+Data_Original,521,온라인또는디지털성범죄유형_5차,,,대응표 명칭 미일치·추가 확인
+Data_Original,522,피해자의항거불능상태여부_5차,P068,,명칭 대응
+Data_Original,523,피해자항거불능시사유_5차,P069,,명칭 대응
+Data_Original,524,신고지연또는미신고사유_5차,P070,,명칭 대응
+Data_Original,525,촬영내용1_5차,P071,,명칭 대응
+Data_Original,526,촬영내용2_5차,P072,,명칭 대응
+Data_Original,527,협박또는공갈유형1_5차,P073,,명칭 대응
+Data_Original,528,협박또는공갈유형구분1_5차,P074,,명칭 대응
+Data_Original,529,협박또는공갈유형2_5차,P075,,명칭 대응
+Data_Original,530,협박또는공갈유형구분2_5차,P076,,명칭 대응
+Data_Original,531,협박또는폭행시금전요구여부_5차,P077,,명칭 대응
+Data_Original,532,협박또는공갈방식_5차,P078,,명칭 대응
+Data_Original,533,금전외협박시요구사항_5차,P079,,명칭 대응
+Data_Original,534,자료이용시출처_5차,P080,,명칭 대응
+Data_Original,535,협박자료내용_5차,P081,,명칭 대응
+Data_Original,536,유포자료내용_5차,P082,,명칭 대응
+Data_Original,537,협박자료유포방식_5차,P083,,명칭 대응
+Data_Original,538,유포목적자료유포방식_5차,P084,,명칭 대응
+Data_Original,539,행위강요방식_5차,P085,,명칭 대응
+Data_Original,540,강요된의무없는일유형1_5차,P086,,명칭 대응
+Data_Original,541,강요된의무없는일유형2_5차,P087,,명칭 대응
+Data_Original,542,퇴거불응장소_5차,P088,,명칭 대응
+Data_Original,543,통신비밀또는정보통신망관련위반유형1_5차,,,대응표 명칭 미일치·추가 확인
+Data_Original,544,통신비밀또는정보통신망관련위반유형2_5차,,,대응표 명칭 미일치·추가 확인
+Data_Original,545,통신비밀또는정보통신망관련위반유형_구체적_5차,,,대응표 명칭 미일치·추가 확인
+Data_Original,546,위치추적기부착장소_5차,P092,,명칭 대응
+Data_Original,547,피해자모욕시위치_5차,P093,,명칭 대응
+Data_Original,548,피해자모욕방식_5차,P094,,명칭 대응
+Data_Original,549,방화또는소훼대상_5차,P096,,명칭 대응
+Data_Original,550,업무방해유형_5차,P097,,명칭 대응
+Data_Original,551,은닉재물유형_5차,P098,,명칭 대응
+Data_Original,552,은닉방식_5차,P099,,명칭 대응
+Data_Original,553,스토킹행위유형1_5차,P100,,명칭 대응
+Data_Original,554,스토킹행위유형2_5차,P101,,명칭 대응
+Data_Original,555,스토킹행위유형3_5차,P102,,명칭 대응
+Data_Original,556,가폭위반유형1_5차,P103,,명칭 대응
+Data_Original,557,가폭위반유형2_5차,P104,,명칭 대응
+Data_Original,558,명예훼손시사실적시여부_5차,P105,,명칭 대응
+Data_Original,559,명예훼손내용_5차,P106,,명칭 대응
+Data_Original,560,명예훼손내용_구체적_5차,P107,,명칭 대응
+Data_Original,561,명예훼손방식_5차,P108,,명칭 대응
+Data_Original,562,수색장소_5차,P109,,명칭 대응
+Data_Original,563,범행특성 갯수_5차,,,대응표 명칭 미일치·추가 확인
+Data_Original,564,행위횟수_5차,P110,,명칭 대응
+Data_Original,565,범행의계획성여부_5차,B115,premeditated_n,명칭 대응
+Data_Original,566,육차사건여부,P111,,명칭 대응
+Data_Original,567,적용법조_6차,P019,,명칭 대응
+Data_Original,568,적용법조수_6차,P026,,명칭 대응
+Data_Original,569,복합범죄유무_6차,P027,,명칭 대응
+Data_Original,570,대표죄명_6차,B097,main_charge_n,명칭 대응
+Data_Original,571,중분류_6차,,,대응표 명칭 미일치·추가 확인
+Data_Original,572,범행시관계_6차,B105,rel_active_n,명칭 대응
+Data_Original,573,범행시작날짜_6차,,,대응표 명칭 미일치·추가 확인
+Data_Original,574,범행종료날짜_6차,,,대응표 명칭 미일치·추가 확인
+Data_Original,575,범행기간_6차,,,대응표 명칭 미일치·추가 확인
+Data_Original,576,범행장소_6차,P028,,명칭 대응
+Data_Original,577,범행장소구분_6차,P029,,명칭 대응
+Data_Original,578,범행시간_6차,P030,,명칭 대응
+Data_Original,579,범행촉발사유_6차,P031,,명칭 대응
+Data_Original,580,범행촉발사유구분_6차,P032,,명칭 대응
+Data_Original,581,무고여부_6차,P033,,명칭 대응
+Data_Original,582,무고범죄유형_6차,P034,,명칭 대응
+Data_Original,583,미수또는예비사건여부_6차,,,대응표 명칭 미일치·추가 확인
+Data_Original,584,미수또는예비사건유형_6차,P035,,명칭 대응
+Data_Original,585,범행인원_6차,,,대응표 명칭 미일치·추가 확인
+Data_Original,586,공동범행시공범과의관계_6차,,,대응표 명칭 미일치·추가 확인
+Data_Original,587,가해자음주여부_6차,B116,offender_drunk_n,명칭 대응
+Data_Original,588,피해자음주여부_6차,P036,,명칭 대응
+Data_Original,589,상해여부_6차,P037,,명칭 대응
+Data_Original,590,치료일수_6차,B118,treatment_days_n,명칭 대응
+Data_Original,591,피해수준_6차,P038,,명칭 대응
+Data_Original,592,위험한물건사용여부_6차,B119,weapon_n,명칭 대응
+Data_Original,593,위험한물건사용유형1_6차,P039,,명칭 대응
+Data_Original,594,위험한물건사용유형2_6차,P040,,명칭 대응
+Data_Original,595,위험한물건사용유형3_6차,P041,,명칭 대응
+Data_Original,596,위험한물건을사용한폭행방식_6차,P042,,명칭 대응
+Data_Original,597,위험한물건유형_6차,P043,,명칭 대응
+Data_Original,598,위험한물건사전준비여부_6차,P044,,명칭 대응
+Data_Original,599,신체사용폭력유무_6차,B120,body_force_n,명칭 대응
+Data_Original,600,신체사용폭력방식_6차,P045,,명칭 대응
+Data_Original,601,살해또는살해시도방식_6차,P046,,명칭 대응
+Data_Original,602,제압또는감금방식_6차,P047,,명칭 대응
+Data_Original,603,제압또는감금방식_구체적_6차,P048,,명칭 대응
+Data_Original,604,오프라인침입경로및방법_6차,P049,,명칭 대응
+Data_Original,605,오프라인침입경로및방법_구체적_6차,P050,,명칭 대응
+Data_Original,606,오프라인침입장소_6차,P051,,명칭 대응
+Data_Original,607,정보통신망침해도구_6차,P052,,명칭 대응
+Data_Original,608,정보통신망침해방법_6차,P053,,명칭 대응
+Data_Original,609,정보통신망침해대상_6차,P054,,명칭 대응
+Data_Original,610,손괴재물소유자_6차,P055,,명칭 대응
+Data_Original,611,손괴대상물건1_6차,P056,,명칭 대응
+Data_Original,612,손괴대상물건2_6차,P057,,명칭 대응
+Data_Original,613,강절도대상물건및유형_6차,P058,,명칭 대응
+Data_Original,614,강절도대상물건및유형_구체적_6차,P059,,명칭 대응
+Data_Original,615,사기또는금전범죄유형_6차,P060,,명칭 대응
+Data_Original,616,사기또는금전범죄유형세부_6차,P061,,명칭 대응
+Data_Original,617,금전목적여부_6차,,,대응표 명칭 미일치·추가 확인
+Data_Original,618, 피해예상또는요구금액_6차,P063,,명칭 대응
+Data_Original,619,오프라인성범죄유형_6차,P064,,명칭 대응
+Data_Original,620,오프라인성범죄유형_구분_6차,P065,,명칭 대응
+Data_Original,621,온라인또는디지털성범죄유형_6차,,,대응표 명칭 미일치·추가 확인
+Data_Original,622,피해자의항거불능상태여부_6차,P068,,명칭 대응
+Data_Original,623,피해자항거불능시사유_6차,P069,,명칭 대응
+Data_Original,624,신고지연또는미신고사유_6차,P070,,명칭 대응
+Data_Original,625,촬영내용1_6차,P071,,명칭 대응
+Data_Original,626,촬영내용2_6차,P072,,명칭 대응
+Data_Original,627,협박또는공갈유형1_6차,P073,,명칭 대응
+Data_Original,628,협박또는공갈유형구분1_6차,P074,,명칭 대응
+Data_Original,629,협박또는공갈유형2_6차,P075,,명칭 대응
+Data_Original,630,협박또는공갈유형구분2_6차,P076,,명칭 대응
+Data_Original,631,협박또는폭행시금전요구여부_6차,P077,,명칭 대응
+Data_Original,632,협박또는공갈방식_6차,P078,,명칭 대응
+Data_Original,633,금전외협박시요구사항_6차,P079,,명칭 대응
+Data_Original,634,자료이용시출처_6차,P080,,명칭 대응
+Data_Original,635,협박자료내용_1차,P081,,명칭 대응
+Data_Original,636,유포자료내용_1차,P082,,명칭 대응
+Data_Original,637,협박자료유포방식_6차,P083,,명칭 대응
+Data_Original,638,유포목적자료유포방식_6차,P084,,명칭 대응
+Data_Original,639,행위강요방식_6차,P085,,명칭 대응
+Data_Original,640,강요된의무없는일유형1_6차,P086,,명칭 대응
+Data_Original,641,강요된의무없는일유형2_6차,P087,,명칭 대응
+Data_Original,642,퇴거불응장소_6차,P088,,명칭 대응
+Data_Original,643,통신비밀또는정보통신망관련위반유형1_6차,,,대응표 명칭 미일치·추가 확인
+Data_Original,644,통신비밀또는정보통신망관련위반유형2_6차,,,대응표 명칭 미일치·추가 확인
+Data_Original,645,통신비밀또는정보통신망관련위반유형_구체적_6차,,,대응표 명칭 미일치·추가 확인
+Data_Original,646,위치추적기부착장소_6차,P092,,명칭 대응
+Data_Original,647,피해자모욕시위치_6차,P093,,명칭 대응
+Data_Original,648,피해자모욕방식_6차,P094,,명칭 대응
+Data_Original,649,방화또는소훼대상_6차,P096,,명칭 대응
+Data_Original,650,업무방해유형_6차,P097,,명칭 대응
+Data_Original,651,은닉재물유형_6차,P098,,명칭 대응
+Data_Original,652,은닉방식_6차,P099,,명칭 대응
+Data_Original,653,스토킹행위유형1_6차,P100,,명칭 대응
+Data_Original,654,스토킹행위유형2_6차,P101,,명칭 대응
+Data_Original,655,스토킹행위유형3_6차,P102,,명칭 대응
+Data_Original,656,가폭위반유형1_6차,P103,,명칭 대응
+Data_Original,657,가폭위반유형2_6차,P104,,명칭 대응
+Data_Original,658,명예훼손시사실적시여부_6차,P105,,명칭 대응
+Data_Original,659,명예훼손내용_6차,P106,,명칭 대응
+Data_Original,660,명예훼손내용_구체적_6차,P107,,명칭 대응
+Data_Original,661,명예훼손방식_6차,P108,,명칭 대응
+Data_Original,662,수색장소_6차,P109,,명칭 대응
+Data_Original,663,범행특성 갯수_6차,,,대응표 명칭 미일치·추가 확인
+Data_Original,664,행위횟수_6차,P110,,명칭 대응
+Data_Original,665,범행의계획성여부_6차,B115,premeditated_n,명칭 대응
+Data_Original,666,범행횟수_6차기준,P112,,명칭 대응
+Data_Original,667,사건차수_6차기준,P113,,명칭 대응
+Data_Original,668,사건차수_구분,P114,,명칭 대응
+Data_Original,669,피해자보호조치_일차,,,대응표 명칭 미일치·추가 확인
+Data_Original,670,피해자보호조치_이차,,,대응표 명칭 미일치·추가 확인
+Data_Original,671,피해자보호조치_삼차,,,대응표 명칭 미일치·추가 확인
+Data_Original,672,피해자보호조치_사차,,,대응표 명칭 미일치·추가 확인
+Data_Original,673,피해자보호조치_오차,,,대응표 명칭 미일치·추가 확인
+Data_Original,674,피해자보호조치_육차,,,대응표 명칭 미일치·추가 확인
+Data_Original,675,관계종료_일차,B042,breakup_to_first_days,명칭 대응
+Data_Original,676,일차_이차,B043,gap_1to2,명칭 대응
+Data_Original,677,이차_삼차,B044,gap_2to3,명칭 대응
+Data_Original,678,삼차_사차,B045,gap_3to4,명칭 대응
+Data_Original,679,사차_오차,B046,gap_4to5,명칭 대응
+Data_Original,680,오차_육차,B047,gap_5to6,명칭 대응
+Data_Original,681,총범행횟수(6차이상시별도기재),B049,total_offense_count,명칭 대응
+Data_Original,682,최종사건차수(6차이상시별도기재),B050,max_event_seq,명칭 대응
+Data_Original,683,첫사건부터마지막사건까지기간,B048,total_offense_span,명칭 대응
+Data_Original,684,계획성_1차,B115,premeditated_n,명칭 대응
+Data_Original,685,계획성_2차,B115,premeditated_n,명칭 대응
+Data_Original,686,계획성_3차,B115,premeditated_n,명칭 대응
+Data_Original,687,계획성_4차,B115,premeditated_n,명칭 대응
+Data_Original,688,계획성_5차,B115,premeditated_n,명칭 대응
+Data_Original,689,계획성_6차,B115,premeditated_n,명칭 대응
+Data_Original,690,관계형태_1차,B125,in_relationship_n,명칭 대응
+Data_Original,691,관계형태_2차,B125,in_relationship_n,명칭 대응
+Data_Original,692,관계형태_3차,B125,in_relationship_n,명칭 대응
+Data_Original,693,관계형태_4차,B125,in_relationship_n,명칭 대응
+Data_Original,694,관계형태_5차,B125,in_relationship_n,명칭 대응
+Data_Original,695,관계형태_6차,B125,in_relationship_n,명칭 대응
+Data_Original,696,관계형태유형,P115,,명칭 대응
+Data_Original,697,총피해금액,M021,,명칭 대응
+Data_Original,698,누범기간등여부,,,대응표 명칭 미일치·추가 확인
+Data_Original,699,전체전과여부,B081,prior_any,명칭 대응
+Data_Original,700,전과수_구분,P117,,명칭 대응
+Data_Original,701,동종전과유무,,,대응표 명칭 미일치·추가 확인
+Data_Original,702,동종전과횟수_구분,,,대응표 명칭 미일치·추가 확인
+Data_Original,703,이종전과유무,,,대응표 명칭 미일치·추가 확인
+Data_Original,704,이종전과횟수_구분,,,대응표 명칭 미일치·추가 확인
+Data_Original,705,가해자전과범죄대표유형,,,대응표 명칭 미일치·추가 확인
+Data_Original,706,가해자전과범죄시최대처벌,,,대응표 명칭 미일치·추가 확인
+Data_Original,707,가해자전과범죄시최대처벌_변환,,,대응표 명칭 미일치·추가 확인
+Data_Original,708,구금경험여부,B083,prior_incarceration,명칭 대응
+Data_Original,709,가해자범행인정여부,B086,admit_code,명칭 대응
+Data_Original,710,가해자범행반성여부,P118,,명칭 대응
+Data_Original,711,가해자의범행인정또는반성여부,P119,,명칭 대응
+Data_Original,712,합의외피해회복조치,P120,,명칭 대응
+Data_Original,713,공탁여부,B089,deposit,명칭 대응
+Data_Original,714,공탁금액_만원,B090,deposit_amount,명칭 대응
+Data_Original,715,변제여부,P121,,명칭 대응
+Data_Original,716,변제금액_만원,P122,,명칭 대응
+Data_Original,717,기타가해자의불리한참작사정,,,대응표 명칭 미일치·추가 확인
+Data_Original,718,기타가해자의유리한참작사정,,,대응표 명칭 미일치·추가 확인
+Data_Original,719,비고,B096,notes,명칭 대응
+Data_Original,720,KEY2,,,대응표 명칭 미일치·추가 확인
+Data_Original,721,피해자직업여부,,,대응표 명칭 미일치·추가 확인
+Data_Original,722,피해자직업_구체적,,,대응표 명칭 미일치·추가 확인
+Data_Original,723,피해자국적,,,대응표 명칭 미일치·추가 확인
+Data_Original,724,피해자국적_세부,,,대응표 명칭 미일치·추가 확인
+Data_Original,725,피해자정신및신체장애진단여부,,,대응표 명칭 미일치·추가 확인
+Data_Original,726,피해자정신장애유형,,,대응표 명칭 미일치·추가 확인
+Data_Original,727,((피해자응답)가해자외친밀한파트너존재여부,,,대응표 명칭 미일치·추가 확인
+Data_Original,728,(가해자응답)피해자외친밀한파트너존재여부,,,대응표 명칭 미일치·추가 확인
+Data_Original,729,가해자만의자녀여부,R004,,명칭 대응
+Data_Original,730,피해자만의자녀여부,R005,,명칭 대응
+Data_Original,731,공동의자녀여부,R006,,명칭 대응
+Data_Original,732,피해자의저항또는대응,,,대응표 명칭 미일치·추가 확인
+Data_Original,733,피해자또는유족의용서및화해여부,P123,,명칭 대응
+Data_Original,734,(피해자또는유족)정신적고통,R001,,명칭 대응
+Data_Original,735,(피해자또는유족)피해회복여부,R002,,명칭 대응
+Data_Original,736,(피해자또는유족)피해수준(신체),R003,,명칭 대응
+Data_Original,737,피해자또는유족의처벌요구,B091,victim_punishment_wish,명칭 대응
+Data_Original,738,피해자또는유족과의합의여부,P124,,명칭 대응
+Data_Original,739,합의금_원,P125,,명칭 대응
+Data_Original,740,피해자대상전과이력여부,B084,prior_against_victim,명칭 대응
+Data_Original,741,피해자대상전과수_구분,P126,,명칭 대응
+Data_Original,742,피해자대상전과유형,P127,,명칭 대응
+Data_Original,743,피해자대상전과시최대처벌,P128,,명칭 대응
+Data_Original,744,피해자대상비전과폭력여부,P129,,명칭 대응
+Data_Original,745,피해자대상비전과폭력유형,P130,,명칭 대응
+Data_Original,746,비고,B096,notes,명칭 대응
+Data_Cleaning_text,1,피해자성별,B018,victim_sex_code,명칭 대응
+Data_Cleaning_text,2,피해자연령,B019,victim_age,명칭 대응
+Data_Cleaning_text,3,피해자연령_구분,P002,,명칭 대응
+Data_Cleaning_text,4,관계시작일,B028,rel_start_date,명칭 대응
+Data_Cleaning_text,5,관계종료일,B029,rel_end_date,명칭 대응
+Data_Cleaning_text,6,관계유지기간_일,B030,rel_duration_days,명칭 대응
+Data_Cleaning_text,7,관계유지기간_구분,P004,,명칭 대응
+Data_Cleaning_text,8,관계유형,P006,,명칭 대응
+Data_Cleaning_text,9,최초범행시세부관계유형,M004,,명칭 대응
+Data_Cleaning_text,10,최초범행시동거유무,B026,cohabit_at_first,명칭 대응
+Data_Cleaning_text,11,동거경험유무,B027,cohabit_ever,명칭 대응
+Data_Cleaning_text,12,피해자대상적용법조,P008,,명칭 대응
+Data_Cleaning_text,13,피해자대상적용법조수,P015,,명칭 대응
+Data_Cleaning_text,14,피해자대상적용법조수_구분,P016,,명칭 대응
+Data_Cleaning_text,15,범행위치,P017,,명칭 대응
+Data_Cleaning_text,16,성범죄유무,B071,has_sex_crime,명칭 대응
+Data_Cleaning_text,17,스토킹유무,B072,has_stalking,명칭 대응
+Data_Cleaning_text,18,살해의도유무,B073,has_homicide_intent,명칭 대응
+Data_Cleaning_text,19,유형력행사유무,B074,has_physical_force,명칭 대응
+Data_Cleaning_text,20,피해자보호조치유무,B038,protect_any,명칭 대응
+Data_Cleaning_text,21,금전목적유무,M013,,명칭 대응
+Data_Cleaning_text,22,적용법조_1차,P019,,명칭 대응
+Data_Cleaning_text,23,적용법조수_1차,P026,,명칭 대응
+Data_Cleaning_text,24,복합범죄유무_1차,P027,,명칭 대응
+Data_Cleaning_text,25,대표죄명_1차,B097,main_charge_n,명칭 대응
+Data_Cleaning_text,26,범행시관계_1차,B105,rel_active_n,명칭 대응
+Data_Cleaning_text,27,범행장소_1차,P028,,명칭 대응
+Data_Cleaning_text,28,범행장소구분_1차,P029,,명칭 대응
+Data_Cleaning_text,29,범행시간_1차,P030,,명칭 대응
+Data_Cleaning_text,30,범행촉발사유_1차,P031,,명칭 대응
+Data_Cleaning_text,31,범행촉발사유구분_1차,P032,,명칭 대응
+Data_Cleaning_text,32,무고여부_1차,P033,,명칭 대응
+Data_Cleaning_text,33,무고범죄유형_1차,P034,,명칭 대응
+Data_Cleaning_text,34,미수또는예비사건여부_1차,,,대응표 명칭 미일치·추가 확인
+Data_Cleaning_text,35,미수또는예비사건유형_1차,P035,,명칭 대응
+Data_Cleaning_text,36,범행인원_1차,,,대응표 명칭 미일치·추가 확인
+Data_Cleaning_text,37,공동범행시공범과의관계_1차,,,대응표 명칭 미일치·추가 확인
+Data_Cleaning_text,38,가해자음주여부_1차,B116,offender_drunk_n,명칭 대응
+Data_Cleaning_text,39,피해자음주여부_1차,P036,,명칭 대응
+Data_Cleaning_text,40,상해여부_1차,P037,,명칭 대응
+Data_Cleaning_text,41,치료일수_1차,B118,treatment_days_n,명칭 대응
+Data_Cleaning_text,42,피해수준_1차,P038,,명칭 대응
+Data_Cleaning_text,43,위험한물건사용여부_1차,B119,weapon_n,명칭 대응
+Data_Cleaning_text,44,위험한물건사용유형1_1차,P039,,명칭 대응
+Data_Cleaning_text,45,위험한물건사용유형2_1차,P040,,명칭 대응
+Data_Cleaning_text,46,위험한물건사용유형3_1차,P041,,명칭 대응
+Data_Cleaning_text,47,위험한물건을사용한폭행방식_1차,P042,,명칭 대응
+Data_Cleaning_text,48,위험한물건유형_1차,P043,,명칭 대응
+Data_Cleaning_text,49,위험한물건사전준비여부_1차,P044,,명칭 대응
+Data_Cleaning_text,50,신체사용폭력유무_1차,B120,body_force_n,명칭 대응
+Data_Cleaning_text,51,신체사용폭력방식_1차,P045,,명칭 대응
+Data_Cleaning_text,52,살해또는살해시도방식_1차,P046,,명칭 대응
+Data_Cleaning_text,53,제압또는감금방식_1차,P047,,명칭 대응
+Data_Cleaning_text,54,제압또는감금방식_구체적_1차,P048,,명칭 대응
+Data_Cleaning_text,55,오프라인침입경로및방법_1차,P049,,명칭 대응
+Data_Cleaning_text,56,오프라인침입경로및방법_구체적_1차,P050,,명칭 대응
+Data_Cleaning_text,57,오프라인침입장소_1차,P051,,명칭 대응
+Data_Cleaning_text,58,정보통신망침해도구_1차,P052,,명칭 대응
+Data_Cleaning_text,59,정보통신망침해방법_1차,P053,,명칭 대응
+Data_Cleaning_text,60,정보통신망침해대상_1차,P054,,명칭 대응
+Data_Cleaning_text,61,손괴재물소유자_1차,P055,,명칭 대응
+Data_Cleaning_text,62,손괴대상물건1_1차,P056,,명칭 대응
+Data_Cleaning_text,63,손괴대상물건2_1차,P057,,명칭 대응
+Data_Cleaning_text,64,강절도대상물건및유형_1차,P058,,명칭 대응
+Data_Cleaning_text,65,강절도대상물건및유형_구체적_1차,P059,,명칭 대응
+Data_Cleaning_text,66,사기또는금전범죄유형_1차,P060,,명칭 대응
+Data_Cleaning_text,67,사기또는금전범죄유형세부_1차,P061,,명칭 대응
+Data_Cleaning_text,68,금전목적여부_1차,,,대응표 명칭 미일치·추가 확인
+Data_Cleaning_text,69, 피해예상금액또는요구금액_1차,P063,,명칭 대응
+Data_Cleaning_text,70,오프라인성범죄유형_1차,P064,,명칭 대응
+Data_Cleaning_text,71,오프라인성범죄유형_구분_1차,P065,,명칭 대응
+Data_Cleaning_text,72,온라인또는디지털성범죄유형_1차,,,대응표 명칭 미일치·추가 확인
+Data_Cleaning_text,73,피해자의항거불능상태여부_1차,P068,,명칭 대응
+Data_Cleaning_text,74,피해자항거불능시사유_1차,P069,,명칭 대응
+Data_Cleaning_text,75,신고지연또는미신고사유_1차,P070,,명칭 대응
+Data_Cleaning_text,76,촬영내용1_1차,P071,,명칭 대응
+Data_Cleaning_text,77,촬영내용2_1차,P072,,명칭 대응
+Data_Cleaning_text,78,협박또는공갈유형1_1차,P073,,명칭 대응
+Data_Cleaning_text,79,협박또는공갈유형구분1_1차,P074,,명칭 대응
+Data_Cleaning_text,80,협박또는공갈유형2_1차,P075,,명칭 대응
+Data_Cleaning_text,81,협박또는공갈유형구분2_1차,P076,,명칭 대응
+Data_Cleaning_text,82,협박또는폭행시금전요구여부_1차,P077,,명칭 대응
+Data_Cleaning_text,83,협박또는공갈방식_1차,P078,,명칭 대응
+Data_Cleaning_text,84,금전외협박시요구사항_1차,P079,,명칭 대응
+Data_Cleaning_text,85,자료이용시출처_1차,P080,,명칭 대응
+Data_Cleaning_text,86,협박자료내용_1차,P081,,명칭 대응
+Data_Cleaning_text,87,유포자료내용_1차,P082,,명칭 대응
+Data_Cleaning_text,88,협박자료유포방식_1차,P083,,명칭 대응
+Data_Cleaning_text,89,유포목적자료유포방식_1차,P084,,명칭 대응
+Data_Cleaning_text,90,행위강요방식_1차,P085,,명칭 대응
+Data_Cleaning_text,91,강요된의무없는일유형1_1차,P086,,명칭 대응
+Data_Cleaning_text,92,강요된의무없는일유형2_1차,P087,,명칭 대응
+Data_Cleaning_text,93,퇴거불응장소_1차,P088,,명칭 대응
+Data_Cleaning_text,94,통신비밀또는정보통신망관련위반유형1_1차,,,대응표 명칭 미일치·추가 확인
+Data_Cleaning_text,95,통신비밀또는정보통신망관련위반유형2_1차,,,대응표 명칭 미일치·추가 확인
+Data_Cleaning_text,96,통신비밀또는정보통신망관련위반유형_구체적_1차,,,대응표 명칭 미일치·추가 확인
+Data_Cleaning_text,97,위치추적기부착장소_1차,P092,,명칭 대응
+Data_Cleaning_text,98,피해자모욕시위치_1차,P093,,명칭 대응
+Data_Cleaning_text,99,피해자모욕방식_1차,P094,,명칭 대응
+Data_Cleaning_text,100,방화또는소훼대상_1차,P096,,명칭 대응
+Data_Cleaning_text,101,업무방해유형_1차,P097,,명칭 대응
+Data_Cleaning_text,102,은닉재물유형_1차,P098,,명칭 대응
+Data_Cleaning_text,103,은닉방식_1차,P099,,명칭 대응
+Data_Cleaning_text,104,스토킹행위유형1_1차,P100,,명칭 대응
+Data_Cleaning_text,105,스토킹행위유형2_1차,P101,,명칭 대응
+Data_Cleaning_text,106,스토킹행위유형3_1차,P102,,명칭 대응
+Data_Cleaning_text,107,가폭위반유형1_1차,P103,,명칭 대응
+Data_Cleaning_text,108,가폭위반유형2_1차,P104,,명칭 대응
+Data_Cleaning_text,109,명예훼손시사실적시여부_1차,P105,,명칭 대응
+Data_Cleaning_text,110,명예훼손내용_1차,P106,,명칭 대응
+Data_Cleaning_text,111,명예훼손내용_구체적_1차,P107,,명칭 대응
+Data_Cleaning_text,112,명예훼손방식_1차,P108,,명칭 대응
+Data_Cleaning_text,113,수색장소_1차,P109,,명칭 대응
+Data_Cleaning_text,114,행위횟수_1차,P110,,명칭 대응
+Data_Cleaning_text,115,범행의계획성여부_1차,B115,premeditated_n,명칭 대응
+Data_Cleaning_text,116,이차사건여부,P111,,명칭 대응
+Data_Cleaning_text,117,적용법조_2차,P019,,명칭 대응
+Data_Cleaning_text,118,적용법조수_2차,P026,,명칭 대응
+Data_Cleaning_text,119,복합범죄유무_2차,P027,,명칭 대응
+Data_Cleaning_text,120,대표죄명_2차,B097,main_charge_n,명칭 대응
+Data_Cleaning_text,121,범행시관계_2차,B105,rel_active_n,명칭 대응
+Data_Cleaning_text,122,범행장소_2차,P028,,명칭 대응
+Data_Cleaning_text,123,범행장소구분_2차,P029,,명칭 대응
+Data_Cleaning_text,124,범행시간_2차,P030,,명칭 대응
+Data_Cleaning_text,125,범행촉발사유_2차,P031,,명칭 대응
+Data_Cleaning_text,126,범행촉발사유구분_2차,P032,,명칭 대응
+Data_Cleaning_text,127,무고여부_2차,P033,,명칭 대응
+Data_Cleaning_text,128,무고범죄유형_2차,P034,,명칭 대응
+Data_Cleaning_text,129,미수또는예비사건여부_2차,,,대응표 명칭 미일치·추가 확인
+Data_Cleaning_text,130,미수또는예비사건유형_2차,P035,,명칭 대응
+Data_Cleaning_text,131,범행인원_2차,,,대응표 명칭 미일치·추가 확인
+Data_Cleaning_text,132,공동범행시공범과의관계_2차,,,대응표 명칭 미일치·추가 확인
+Data_Cleaning_text,133,가해자음주여부_2차,B116,offender_drunk_n,명칭 대응
+Data_Cleaning_text,134,피해자음주여부_2차,P036,,명칭 대응
+Data_Cleaning_text,135,상해여부_2차,P037,,명칭 대응
+Data_Cleaning_text,136,치료일수_2차,B118,treatment_days_n,명칭 대응
+Data_Cleaning_text,137,피해수준_2차,P038,,명칭 대응
+Data_Cleaning_text,138,위험한물건사용여부_2차,B119,weapon_n,명칭 대응
+Data_Cleaning_text,139,위험한물건사용유형1_2차,P039,,명칭 대응
+Data_Cleaning_text,140,위험한물건사용유형2_2차,P040,,명칭 대응
+Data_Cleaning_text,141,위험한물건사용유형3_2차,P041,,명칭 대응
+Data_Cleaning_text,142,위험한물건을사용한폭행방식_2차,P042,,명칭 대응
+Data_Cleaning_text,143,위험한물건유형_2차,P043,,명칭 대응
+Data_Cleaning_text,144,위험한물건사전준비여부_2차,P044,,명칭 대응
+Data_Cleaning_text,145,신체사용폭력유무_2차,B120,body_force_n,명칭 대응
+Data_Cleaning_text,146,신체사용폭력방식_2차,P045,,명칭 대응
+Data_Cleaning_text,147,살해또는살해시도방식_2차,P046,,명칭 대응
+Data_Cleaning_text,148,제압또는감금방식_2차,P047,,명칭 대응
+Data_Cleaning_text,149,제압또는감금방식_구체적_2차,P048,,명칭 대응
+Data_Cleaning_text,150,오프라인침입경로및방법_2차,P049,,명칭 대응
+Data_Cleaning_text,151,오프라인침입경로및방법_구체적_2차,P050,,명칭 대응
+Data_Cleaning_text,152,오프라인침입장소_2차,P051,,명칭 대응
+Data_Cleaning_text,153,정보통신망침해도구_2차,P052,,명칭 대응
+Data_Cleaning_text,154,정보통신망침해방법_2차,P053,,명칭 대응
+Data_Cleaning_text,155,정보통신망침해대상_2차,P054,,명칭 대응
+Data_Cleaning_text,156,손괴재물소유자_2차,P055,,명칭 대응
+Data_Cleaning_text,157,손괴대상물건1_2차,P056,,명칭 대응
+Data_Cleaning_text,158,손괴대상물건2_2차,P057,,명칭 대응
+Data_Cleaning_text,159,강절도대상물건및유형_2차,P058,,명칭 대응
+Data_Cleaning_text,160,강절도대상물건및유형_구체적_2차,P059,,명칭 대응
+Data_Cleaning_text,161,사기또는금전범죄유형_2차,P060,,명칭 대응
+Data_Cleaning_text,162,사기또는금전범죄유형세부_2차,P061,,명칭 대응
+Data_Cleaning_text,163,금전목적여부_2차,,,대응표 명칭 미일치·추가 확인
+Data_Cleaning_text,164, 피해예상또는요구금액_2차,P063,,명칭 대응
+Data_Cleaning_text,165,오프라인성범죄유형_2차,P064,,명칭 대응
+Data_Cleaning_text,166,오프라인성범죄유형_구분_2차,P065,,명칭 대응
+Data_Cleaning_text,167,온라인또는디지털성범죄유형_2차,,,대응표 명칭 미일치·추가 확인
+Data_Cleaning_text,168,피해자의항거불능상태여부_2차,P068,,명칭 대응
+Data_Cleaning_text,169,피해자항거불능시사유_2차,P069,,명칭 대응
+Data_Cleaning_text,170,신고지연또는미신고사유_2차,P070,,명칭 대응
+Data_Cleaning_text,171,촬영내용1_2차,P071,,명칭 대응
+Data_Cleaning_text,172,촬영내용2_2차,P072,,명칭 대응
+Data_Cleaning_text,173,협박또는공갈유형1_2차,P073,,명칭 대응
+Data_Cleaning_text,174,협박또는공갈유형구분1_2차,P074,,명칭 대응
+Data_Cleaning_text,175,협박또는공갈유형2_2차,P075,,명칭 대응
+Data_Cleaning_text,176,협박또는공갈유형구분2_2차,P076,,명칭 대응
+Data_Cleaning_text,177,협박또는폭행시금전요구여부_2차,P077,,명칭 대응
+Data_Cleaning_text,178,협박또는공갈방식_2차,P078,,명칭 대응
+Data_Cleaning_text,179,금전외협박시요구사항_2차,P079,,명칭 대응
+Data_Cleaning_text,180,자료이용시출처_2차,P080,,명칭 대응
+Data_Cleaning_text,181,협박자료내용_2차,P081,,명칭 대응
+Data_Cleaning_text,182,유포자료내용_2차,P082,,명칭 대응
+Data_Cleaning_text,183,협박자료유포방식_2차,P083,,명칭 대응
+Data_Cleaning_text,184,유포목적자료유포방식_2차,P084,,명칭 대응
+Data_Cleaning_text,185,행위강요방식_2차,P085,,명칭 대응
+Data_Cleaning_text,186,강요된의무없는일유형1_2차,P086,,명칭 대응
+Data_Cleaning_text,187,강요된의무없는일유형2_2차,P087,,명칭 대응
+Data_Cleaning_text,188,퇴거불응장소_2차,P088,,명칭 대응
+Data_Cleaning_text,189,통신비밀또는정보통신망관련위반유형1_2차,,,대응표 명칭 미일치·추가 확인
+Data_Cleaning_text,190,통신비밀또는정보통신망관련위반유형2_2차,,,대응표 명칭 미일치·추가 확인
+Data_Cleaning_text,191,통신비밀또는정보통신망관련위반유형_구체적_2차,,,대응표 명칭 미일치·추가 확인
+Data_Cleaning_text,192,위치추적기부착장소_2차,P092,,명칭 대응
+Data_Cleaning_text,193,피해자모욕시위치_2차,P093,,명칭 대응
+Data_Cleaning_text,194,피해자모욕방식_2차,P094,,명칭 대응
+Data_Cleaning_text,195,방화또는소훼대상_2차,P096,,명칭 대응
+Data_Cleaning_text,196,업무방해유형_2차,P097,,명칭 대응
+Data_Cleaning_text,197,은닉재물유형_2차,P098,,명칭 대응
+Data_Cleaning_text,198,은닉방식_2차,P099,,명칭 대응
+Data_Cleaning_text,199,스토킹행위유형1_2차,P100,,명칭 대응
+Data_Cleaning_text,200,스토킹행위유형2_2차,P101,,명칭 대응
+Data_Cleaning_text,201,스토킹행위유형3_2차,P102,,명칭 대응
+Data_Cleaning_text,202,가폭위반유형1_2차,P103,,명칭 대응
+Data_Cleaning_text,203,가폭위반유형2_2차,P104,,명칭 대응
+Data_Cleaning_text,204,명예훼손시사실적시여부_2차,P105,,명칭 대응
+Data_Cleaning_text,205,명예훼손내용_2차,P106,,명칭 대응
+Data_Cleaning_text,206,명예훼손내용_구체적_2차,P107,,명칭 대응
+Data_Cleaning_text,207,명예훼손방식_2차,P108,,명칭 대응
+Data_Cleaning_text,208,수색장소_2차,P109,,명칭 대응
+Data_Cleaning_text,209,행위횟수_2차,P110,,명칭 대응
+Data_Cleaning_text,210,범행의계획성여부_2차,B115,premeditated_n,명칭 대응
+Data_Cleaning_text,211,삼차사건여부,P111,,명칭 대응
+Data_Cleaning_text,212,적용법조_3차,P019,,명칭 대응
+Data_Cleaning_text,213,적용법조수_3차,P026,,명칭 대응
+Data_Cleaning_text,214,복합범죄유무_3차,P027,,명칭 대응
+Data_Cleaning_text,215,대표죄명_3차,B097,main_charge_n,명칭 대응
+Data_Cleaning_text,216,범행시관계_3차,B105,rel_active_n,명칭 대응
+Data_Cleaning_text,217,범행장소_3차,P028,,명칭 대응
+Data_Cleaning_text,218,범행장소구분_3차,P029,,명칭 대응
+Data_Cleaning_text,219,범행시간_3차,P030,,명칭 대응
+Data_Cleaning_text,220,범행촉발사유_3차,P031,,명칭 대응
+Data_Cleaning_text,221,범행촉발사유구분_3차,P032,,명칭 대응
+Data_Cleaning_text,222,무고여부_3차,P033,,명칭 대응
+Data_Cleaning_text,223,무고범죄유형_3차,P034,,명칭 대응
+Data_Cleaning_text,224,미수또는예비사건여부_3차,,,대응표 명칭 미일치·추가 확인
+Data_Cleaning_text,225,미수또는예비사건유형_3차,P035,,명칭 대응
+Data_Cleaning_text,226,범행인원_3차,,,대응표 명칭 미일치·추가 확인
+Data_Cleaning_text,227,공동범행시공범과의관계_3차,,,대응표 명칭 미일치·추가 확인
+Data_Cleaning_text,228,가해자음주여부_3차,B116,offender_drunk_n,명칭 대응
+Data_Cleaning_text,229,피해자음주여부_3차,P036,,명칭 대응
+Data_Cleaning_text,230,상해여부_3차,P037,,명칭 대응
+Data_Cleaning_text,231,치료일수_3차,B118,treatment_days_n,명칭 대응
+Data_Cleaning_text,232,피해수준_3차,P038,,명칭 대응
+Data_Cleaning_text,233,위험한물건사용여부_3차,B119,weapon_n,명칭 대응
+Data_Cleaning_text,234,위험한물건사용유형1_3차,P039,,명칭 대응
+Data_Cleaning_text,235,위험한물건사용유형2_3차,P040,,명칭 대응
+Data_Cleaning_text,236,위험한물건사용유형3_3차,P041,,명칭 대응
+Data_Cleaning_text,237,위험한물건을사용한폭행방식_3차,P042,,명칭 대응
+Data_Cleaning_text,238,위험한물건유형_3차,P043,,명칭 대응
+Data_Cleaning_text,239,위험한물건사전준비여부_3차,P044,,명칭 대응
+Data_Cleaning_text,240,신체사용폭력유무_3차,B120,body_force_n,명칭 대응
+Data_Cleaning_text,241,신체사용폭력방식_3차,P045,,명칭 대응
+Data_Cleaning_text,242,살해또는살해시도방식_3차,P046,,명칭 대응
+Data_Cleaning_text,243,제압또는감금방식_3차,P047,,명칭 대응
+Data_Cleaning_text,244,제압또는감금방식_구체적_3차,P048,,명칭 대응
+Data_Cleaning_text,245,오프라인침입경로및방법_3차,P049,,명칭 대응
+Data_Cleaning_text,246,오프라인침입경로및방법_구체적_3차,P050,,명칭 대응
+Data_Cleaning_text,247,오프라인침입장소_3차,P051,,명칭 대응
+Data_Cleaning_text,248,정보통신망침해도구_3차,P052,,명칭 대응
+Data_Cleaning_text,249,정보통신망침해방법_2차,P053,,명칭 대응
+Data_Cleaning_text,250,정보통신망침해대상_3차,P054,,명칭 대응
+Data_Cleaning_text,251,손괴재물소유자_3차,P055,,명칭 대응
+Data_Cleaning_text,252,손괴대상물건1_3차,P056,,명칭 대응
+Data_Cleaning_text,253,손괴대상물건2_3차,P057,,명칭 대응
+Data_Cleaning_text,254,강절도대상물건및유형_3차,P058,,명칭 대응
+Data_Cleaning_text,255,강절도대상물건및유형_구체적_3차,P059,,명칭 대응
+Data_Cleaning_text,256,사기또는금전범죄유형_3차,P060,,명칭 대응
+Data_Cleaning_text,257,사기또는금전범죄유형세부_3차,P061,,명칭 대응
+Data_Cleaning_text,258,금전목적여부_3차,,,대응표 명칭 미일치·추가 확인
+Data_Cleaning_text,259, 피해예상또는요구금액_3차,P063,,명칭 대응
+Data_Cleaning_text,260,오프라인성범죄유형_3차,P064,,명칭 대응
+Data_Cleaning_text,261,오프라인성범죄유형_구분_3차,P065,,명칭 대응
+Data_Cleaning_text,262,온라인또는디지털성범죄유형_3차,,,대응표 명칭 미일치·추가 확인
+Data_Cleaning_text,263,피해자의항거불능상태여부_3차,P068,,명칭 대응
+Data_Cleaning_text,264,피해자항거불능시사유_3차,P069,,명칭 대응
+Data_Cleaning_text,265,신고지연또는미신고사유_3차,P070,,명칭 대응
+Data_Cleaning_text,266,촬영내용1_3차,P071,,명칭 대응
+Data_Cleaning_text,267,촬영내용2_3차,P072,,명칭 대응
+Data_Cleaning_text,268,협박또는공갈유형1_3차,P073,,명칭 대응
+Data_Cleaning_text,269,협박또는공갈유형구분1_3차,P074,,명칭 대응
+Data_Cleaning_text,270,협박또는공갈유형2_3차,P075,,명칭 대응
+Data_Cleaning_text,271,협박또는공갈유형구분2_3차,P076,,명칭 대응
+Data_Cleaning_text,272,협박또는폭행시금전요구여부_3차,P077,,명칭 대응
+Data_Cleaning_text,273,협박또는공갈방식_3차,P078,,명칭 대응
+Data_Cleaning_text,274,금전외협박시요구사항_3차,P079,,명칭 대응
+Data_Cleaning_text,275,자료이용시출처_3차,P080,,명칭 대응
+Data_Cleaning_text,276,협박자료내용_3차,P081,,명칭 대응
+Data_Cleaning_text,277,유포자료내용_3차,P082,,명칭 대응
+Data_Cleaning_text,278,협박자료유포방식_3차,P083,,명칭 대응
+Data_Cleaning_text,279,유포목적자료유포방식_3차,P084,,명칭 대응
+Data_Cleaning_text,280,행위강요방식_3차,P085,,명칭 대응
+Data_Cleaning_text,281,강요된의무없는일유형1_3차,P086,,명칭 대응
+Data_Cleaning_text,282,강요된의무없는일유형2_3차,P087,,명칭 대응
+Data_Cleaning_text,283,퇴거불응장소_3차,P088,,명칭 대응
+Data_Cleaning_text,284,통신비밀또는정보통신망관련위반유형1_3차,,,대응표 명칭 미일치·추가 확인
+Data_Cleaning_text,285,통신비밀또는정보통신망관련위반유형2_3차,,,대응표 명칭 미일치·추가 확인
+Data_Cleaning_text,286,통신비밀또는정보통신망관련위반유형_구체적_3차,,,대응표 명칭 미일치·추가 확인
+Data_Cleaning_text,287,위치추적기부착장소_3차,P092,,명칭 대응
+Data_Cleaning_text,288,피해자모욕시위치_3차,P093,,명칭 대응
+Data_Cleaning_text,289,피해자모욕방식_3차,P094,,명칭 대응
+Data_Cleaning_text,290,방화또는소훼대상_3차,P096,,명칭 대응
+Data_Cleaning_text,291,업무방해유형_3차,P097,,명칭 대응
+Data_Cleaning_text,292,은닉재물유형_3차,P098,,명칭 대응
+Data_Cleaning_text,293,은닉방식_3차,P099,,명칭 대응
+Data_Cleaning_text,294,스토킹행위유형1_3차,P100,,명칭 대응
+Data_Cleaning_text,295,스토킹행위유형2_3차,P101,,명칭 대응
+Data_Cleaning_text,296,스토킹행위유형3_3차,P102,,명칭 대응
+Data_Cleaning_text,297,가폭위반유형1_3차,P103,,명칭 대응
+Data_Cleaning_text,298,가폭위반유형2_3차,P104,,명칭 대응
+Data_Cleaning_text,299,명예훼손시사실적시여부_3차,P105,,명칭 대응
+Data_Cleaning_text,300,명예훼손내용_3차,P106,,명칭 대응
+Data_Cleaning_text,301,명예훼손내용_구체적_3차,P107,,명칭 대응
+Data_Cleaning_text,302,명예훼손방식_3차,P108,,명칭 대응
+Data_Cleaning_text,303,수색장소_3차,P109,,명칭 대응
+Data_Cleaning_text,304,행위횟수_3차,P110,,명칭 대응
+Data_Cleaning_text,305,범행의계획성여부_3차,B115,premeditated_n,명칭 대응
+Data_Cleaning_text,306,사차사건여부,P111,,명칭 대응
+Data_Cleaning_text,307,적용법조_4차,P019,,명칭 대응
+Data_Cleaning_text,308,적용법조수_4차,P026,,명칭 대응
+Data_Cleaning_text,309,복합범죄유무_4차,P027,,명칭 대응
+Data_Cleaning_text,310,대표죄명_4차,B097,main_charge_n,명칭 대응
+Data_Cleaning_text,311,범행시관계_4차,B105,rel_active_n,명칭 대응
+Data_Cleaning_text,312,범행장소_4차,P028,,명칭 대응
+Data_Cleaning_text,313,범행장소구분_4차,P029,,명칭 대응
+Data_Cleaning_text,314,범행시간_4차,P030,,명칭 대응
+Data_Cleaning_text,315,범행촉발사유_4차,P031,,명칭 대응
+Data_Cleaning_text,316,범행촉발사유구분_4차,P032,,명칭 대응
+Data_Cleaning_text,317,무고여부_4차,P033,,명칭 대응
+Data_Cleaning_text,318,무고범죄유형_4차,P034,,명칭 대응
+Data_Cleaning_text,319,미수또는예비사건여부_4차,,,대응표 명칭 미일치·추가 확인
+Data_Cleaning_text,320,미수또는예비사건유형_4차,P035,,명칭 대응
+Data_Cleaning_text,321,범행인원_4차,,,대응표 명칭 미일치·추가 확인
+Data_Cleaning_text,322,공동범행시공범과의관계_4차,,,대응표 명칭 미일치·추가 확인
+Data_Cleaning_text,323,가해자음주여부_4차,B116,offender_drunk_n,명칭 대응
+Data_Cleaning_text,324,피해자음주여부_4차,P036,,명칭 대응
+Data_Cleaning_text,325,상해여부_4차,P037,,명칭 대응
+Data_Cleaning_text,326,치료일수_4차,B118,treatment_days_n,명칭 대응
+Data_Cleaning_text,327,피해수준_4차,P038,,명칭 대응
+Data_Cleaning_text,328,위험한물건사용여부_4차,B119,weapon_n,명칭 대응
+Data_Cleaning_text,329,위험한물건사용유형1_4차,P039,,명칭 대응
+Data_Cleaning_text,330,위험한물건사용유형2_4차,P040,,명칭 대응
+Data_Cleaning_text,331,위험한물건사용유형3_4차,P041,,명칭 대응
+Data_Cleaning_text,332,위험한물건을사용한폭행방식_4차,P042,,명칭 대응
+Data_Cleaning_text,333,위험한물건유형_4차,P043,,명칭 대응
+Data_Cleaning_text,334,위험한물건사전준비여부_4차,P044,,명칭 대응
+Data_Cleaning_text,335,신체사용폭력유무_4차,B120,body_force_n,명칭 대응
+Data_Cleaning_text,336,신체사용폭력방식_4차,P045,,명칭 대응
+Data_Cleaning_text,337,살해또는살해시도방식_4차,P046,,명칭 대응
+Data_Cleaning_text,338,제압또는감금방식_4차,P047,,명칭 대응
+Data_Cleaning_text,339,제압또는감금방식_구체적_4차,P048,,명칭 대응
+Data_Cleaning_text,340,오프라인침입경로및방법_4차,P049,,명칭 대응
+Data_Cleaning_text,341,오프라인침입경로및방법_구체적_4차,P050,,명칭 대응
+Data_Cleaning_text,342,오프라인침입장소_4차,P051,,명칭 대응
+Data_Cleaning_text,343,정보통신망침해도구_4차,P052,,명칭 대응
+Data_Cleaning_text,344,정보통신망침해방법_4차,P053,,명칭 대응
+Data_Cleaning_text,345,정보통신망침해대상_4차,P054,,명칭 대응
+Data_Cleaning_text,346,손괴재물소유자_4차,P055,,명칭 대응
+Data_Cleaning_text,347,손괴대상물건1_4차,P056,,명칭 대응
+Data_Cleaning_text,348,손괴대상물건2_4차,P057,,명칭 대응
+Data_Cleaning_text,349,강절도대상물건및유형_4차,P058,,명칭 대응
+Data_Cleaning_text,350,강절도대상물건및유형_구체적_4차,P059,,명칭 대응
+Data_Cleaning_text,351,사기또는금전범죄유형_4차,P060,,명칭 대응
+Data_Cleaning_text,352,사기또는금전범죄유형세부_4차,P061,,명칭 대응
+Data_Cleaning_text,353,금전목적여부_4차,,,대응표 명칭 미일치·추가 확인
+Data_Cleaning_text,354, 피해예상또는요구금액_4차,P063,,명칭 대응
+Data_Cleaning_text,355,오프라인성범죄유형_4차,P064,,명칭 대응
+Data_Cleaning_text,356,오프라인성범죄유형_구분_4차,P065,,명칭 대응
+Data_Cleaning_text,357,온라인또는디지털성범죄유형_4차,,,대응표 명칭 미일치·추가 확인
+Data_Cleaning_text,358,피해자의항거불능상태여부_4차,P068,,명칭 대응
+Data_Cleaning_text,359,피해자항거불능시사유_4차,P069,,명칭 대응
+Data_Cleaning_text,360,신고지연또는미신고사유_4차,P070,,명칭 대응
+Data_Cleaning_text,361,촬영내용1_4차,P071,,명칭 대응
+Data_Cleaning_text,362,촬영내용2_4차,P072,,명칭 대응
+Data_Cleaning_text,363,협박또는공갈유형1_4차,P073,,명칭 대응
+Data_Cleaning_text,364,협박또는공갈유형구분1_4차,P074,,명칭 대응
+Data_Cleaning_text,365,협박또는공갈유형2_4차,P075,,명칭 대응
+Data_Cleaning_text,366,협박또는공갈유형구분2_4차,P076,,명칭 대응
+Data_Cleaning_text,367,협박또는폭행시금전요구여부_4차,P077,,명칭 대응
+Data_Cleaning_text,368,협박또는공갈방식_4차,P078,,명칭 대응
+Data_Cleaning_text,369,금전외협박시요구사항_4차,P079,,명칭 대응
+Data_Cleaning_text,370,자료이용시출처_4차,P080,,명칭 대응
+Data_Cleaning_text,371,협박자료내용_4차,P081,,명칭 대응
+Data_Cleaning_text,372,유포자료내용_4차,P082,,명칭 대응
+Data_Cleaning_text,373,협박자료유포방식_4차,P083,,명칭 대응
+Data_Cleaning_text,374,유포목적자료유포방식_4차,P084,,명칭 대응
+Data_Cleaning_text,375,행위강요방식_4차,P085,,명칭 대응
+Data_Cleaning_text,376,강요된의무없는일유형1_4차,P086,,명칭 대응
+Data_Cleaning_text,377,강요된의무없는일유형2_4차,P087,,명칭 대응
+Data_Cleaning_text,378,퇴거불응장소_4차,P088,,명칭 대응
+Data_Cleaning_text,379,통신비밀또는정보통신망관련위반유형1_4차,,,대응표 명칭 미일치·추가 확인
+Data_Cleaning_text,380,통신비밀또는정보통신망관련위반유형2_4차,,,대응표 명칭 미일치·추가 확인
+Data_Cleaning_text,381,통신비밀또는정보통신망관련위반유형_구체적_4차,,,대응표 명칭 미일치·추가 확인
+Data_Cleaning_text,382,위치추적기부착장소_4차,P092,,명칭 대응
+Data_Cleaning_text,383,피해자모욕시위치_4차,P093,,명칭 대응
+Data_Cleaning_text,384,피해자모욕방식_4차,P094,,명칭 대응
+Data_Cleaning_text,385,방화또는소훼대상_4차,P096,,명칭 대응
+Data_Cleaning_text,386,업무방해유형_4차,P097,,명칭 대응
+Data_Cleaning_text,387,은닉재물유형_4차,P098,,명칭 대응
+Data_Cleaning_text,388,은닉방식_4차,P099,,명칭 대응
+Data_Cleaning_text,389,스토킹행위유형1_4차,P100,,명칭 대응
+Data_Cleaning_text,390,스토킹행위유형2_4차,P101,,명칭 대응
+Data_Cleaning_text,391,스토킹행위유형3_4차,P102,,명칭 대응
+Data_Cleaning_text,392,가폭위반유형1_4차,P103,,명칭 대응
+Data_Cleaning_text,393,가폭위반유형2_4차,P104,,명칭 대응
+Data_Cleaning_text,394,명예훼손시사실적시여부_4차,P105,,명칭 대응
+Data_Cleaning_text,395,명예훼손내용_4차,P106,,명칭 대응
+Data_Cleaning_text,396,명예훼손내용_구체적_4차,P107,,명칭 대응
+Data_Cleaning_text,397,명예훼손방식_4차,P108,,명칭 대응
+Data_Cleaning_text,398,수색장소_4차,P109,,명칭 대응
+Data_Cleaning_text,399,행위횟수_4차,P110,,명칭 대응
+Data_Cleaning_text,400,범행의계획성여부_4차,B115,premeditated_n,명칭 대응
+Data_Cleaning_text,401,오차사건여부,P111,,명칭 대응
+Data_Cleaning_text,402,적용법조_5차,P019,,명칭 대응
+Data_Cleaning_text,403,적용법조수_5차,P026,,명칭 대응
+Data_Cleaning_text,404,복합범죄유무_5차,P027,,명칭 대응
+Data_Cleaning_text,405,대표죄명_5차,B097,main_charge_n,명칭 대응
+Data_Cleaning_text,406,범행시관계_5차,B105,rel_active_n,명칭 대응
+Data_Cleaning_text,407,범행장소_5차,P028,,명칭 대응
+Data_Cleaning_text,408,범행장소구분_5차,P029,,명칭 대응
+Data_Cleaning_text,409,범행시간_5차,P030,,명칭 대응
+Data_Cleaning_text,410,범행촉발사유_5차,P031,,명칭 대응
+Data_Cleaning_text,411,범행촉발사유구분_5차,P032,,명칭 대응
+Data_Cleaning_text,412,무고여부_5차,P033,,명칭 대응
+Data_Cleaning_text,413,무고범죄유형_5차,P034,,명칭 대응
+Data_Cleaning_text,414,미수또는예비사건여부_5차,,,대응표 명칭 미일치·추가 확인
+Data_Cleaning_text,415,미수또는예비사건유형_5차,P035,,명칭 대응
+Data_Cleaning_text,416,범행인원_5차,,,대응표 명칭 미일치·추가 확인
+Data_Cleaning_text,417,공동범행시공범과의관계_5차,,,대응표 명칭 미일치·추가 확인
+Data_Cleaning_text,418,가해자음주여부_5차,B116,offender_drunk_n,명칭 대응
+Data_Cleaning_text,419,피해자음주여부_5차,P036,,명칭 대응
+Data_Cleaning_text,420,상해여부_5차,P037,,명칭 대응
+Data_Cleaning_text,421,치료일수_5차,B118,treatment_days_n,명칭 대응
+Data_Cleaning_text,422,피해수준_5차,P038,,명칭 대응
+Data_Cleaning_text,423,위험한물건사용여부_5차,B119,weapon_n,명칭 대응
+Data_Cleaning_text,424,위험한물건사용유형1_5차,P039,,명칭 대응
+Data_Cleaning_text,425,위험한물건사용유형2_5차,P040,,명칭 대응
+Data_Cleaning_text,426,위험한물건사용유형3_5차,P041,,명칭 대응
+Data_Cleaning_text,427,위험한물건을사용한폭행방식_5차,P042,,명칭 대응
+Data_Cleaning_text,428,위험한물건유형_5차,P043,,명칭 대응
+Data_Cleaning_text,429,위험한물건사전준비여부_5차,P044,,명칭 대응
+Data_Cleaning_text,430,신체사용폭력유무_5차,B120,body_force_n,명칭 대응
+Data_Cleaning_text,431,신체사용폭력방식_5차,P045,,명칭 대응
+Data_Cleaning_text,432,살해또는살해시도방식_5차,P046,,명칭 대응
+Data_Cleaning_text,433,제압또는감금방식_5차,P047,,명칭 대응
+Data_Cleaning_text,434,제압또는감금방식_구체적_5차,P048,,명칭 대응
+Data_Cleaning_text,435,오프라인침입경로및방법_5차,P049,,명칭 대응
+Data_Cleaning_text,436,오프라인침입경로및방법_구체적_5차,P050,,명칭 대응
+Data_Cleaning_text,437,오프라인침입장소_5차,P051,,명칭 대응
+Data_Cleaning_text,438,정보통신망침해도구_5차,P052,,명칭 대응
+Data_Cleaning_text,439,정보통신망침해방법_5차,P053,,명칭 대응
+Data_Cleaning_text,440,정보통신망침해대상_5차,P054,,명칭 대응
+Data_Cleaning_text,441,손괴재물소유자_5차,P055,,명칭 대응
+Data_Cleaning_text,442,손괴대상물건1_5차,P056,,명칭 대응
+Data_Cleaning_text,443,손괴대상물건2_5차,P057,,명칭 대응
+Data_Cleaning_text,444,강절도대상물건및유형_5차,P058,,명칭 대응
+Data_Cleaning_text,445,강절도대상물건및유형_구체적_5차,P059,,명칭 대응
+Data_Cleaning_text,446,사기또는금전범죄유형_5차,P060,,명칭 대응
+Data_Cleaning_text,447,사기또는금전범죄유형세부_5차,P061,,명칭 대응
+Data_Cleaning_text,448,금전목적여부_5차,,,대응표 명칭 미일치·추가 확인
+Data_Cleaning_text,449, 피해예상또는요구금액_5차,P063,,명칭 대응
+Data_Cleaning_text,450,오프라인성범죄유형_5차,P064,,명칭 대응
+Data_Cleaning_text,451,오프라인성범죄유형_구분_5차,P065,,명칭 대응
+Data_Cleaning_text,452,온라인또는디지털성범죄유형_5차,,,대응표 명칭 미일치·추가 확인
+Data_Cleaning_text,453,피해자의항거불능상태여부_5차,P068,,명칭 대응
+Data_Cleaning_text,454,피해자항거불능시사유_5차,P069,,명칭 대응
+Data_Cleaning_text,455,신고지연또는미신고사유_5차,P070,,명칭 대응
+Data_Cleaning_text,456,촬영내용1_5차,P071,,명칭 대응
+Data_Cleaning_text,457,촬영내용2_5차,P072,,명칭 대응
+Data_Cleaning_text,458,협박또는공갈유형1_5차,P073,,명칭 대응
+Data_Cleaning_text,459,협박또는공갈유형구분1_5차,P074,,명칭 대응
+Data_Cleaning_text,460,협박또는공갈유형2_5차,P075,,명칭 대응
+Data_Cleaning_text,461,협박또는공갈유형구분2_5차,P076,,명칭 대응
+Data_Cleaning_text,462,협박또는폭행시금전요구여부_5차,P077,,명칭 대응
+Data_Cleaning_text,463,협박또는공갈방식_5차,P078,,명칭 대응
+Data_Cleaning_text,464,금전외협박시요구사항_5차,P079,,명칭 대응
+Data_Cleaning_text,465,자료이용시출처_5차,P080,,명칭 대응
+Data_Cleaning_text,466,협박자료내용_5차,P081,,명칭 대응
+Data_Cleaning_text,467,유포자료내용_5차,P082,,명칭 대응
+Data_Cleaning_text,468,협박자료유포방식_5차,P083,,명칭 대응
+Data_Cleaning_text,469,유포목적자료유포방식_5차,P084,,명칭 대응
+Data_Cleaning_text,470,행위강요방식_5차,P085,,명칭 대응
+Data_Cleaning_text,471,강요된의무없는일유형1_5차,P086,,명칭 대응
+Data_Cleaning_text,472,강요된의무없는일유형2_5차,P087,,명칭 대응
+Data_Cleaning_text,473,퇴거불응장소_5차,P088,,명칭 대응
+Data_Cleaning_text,474,통신비밀또는정보통신망관련위반유형1_5차,,,대응표 명칭 미일치·추가 확인
+Data_Cleaning_text,475,통신비밀또는정보통신망관련위반유형2_5차,,,대응표 명칭 미일치·추가 확인
+Data_Cleaning_text,476,통신비밀또는정보통신망관련위반유형_구체적_5차,,,대응표 명칭 미일치·추가 확인
+Data_Cleaning_text,477,위치추적기부착장소_5차,P092,,명칭 대응
+Data_Cleaning_text,478,피해자모욕시위치_5차,P093,,명칭 대응
+Data_Cleaning_text,479,피해자모욕방식_5차,P094,,명칭 대응
+Data_Cleaning_text,480,방화또는소훼대상_5차,P096,,명칭 대응
+Data_Cleaning_text,481,업무방해유형_5차,P097,,명칭 대응
+Data_Cleaning_text,482,은닉재물유형_5차,P098,,명칭 대응
+Data_Cleaning_text,483,은닉방식_5차,P099,,명칭 대응
+Data_Cleaning_text,484,스토킹행위유형1_5차,P100,,명칭 대응
+Data_Cleaning_text,485,스토킹행위유형2_5차,P101,,명칭 대응
+Data_Cleaning_text,486,스토킹행위유형3_5차,P102,,명칭 대응
+Data_Cleaning_text,487,가폭위반유형1_5차,P103,,명칭 대응
+Data_Cleaning_text,488,가폭위반유형2_5차,P104,,명칭 대응
+Data_Cleaning_text,489,명예훼손시사실적시여부_5차,P105,,명칭 대응
+Data_Cleaning_text,490,명예훼손내용_5차,P106,,명칭 대응
+Data_Cleaning_text,491,명예훼손내용_구체적_5차,P107,,명칭 대응
+Data_Cleaning_text,492,명예훼손방식_5차,P108,,명칭 대응
+Data_Cleaning_text,493,수색장소_5차,P109,,명칭 대응
+Data_Cleaning_text,494,행위횟수_5차,P110,,명칭 대응
+Data_Cleaning_text,495,범행의계획성여부_5차,B115,premeditated_n,명칭 대응
+Data_Cleaning_text,496,육차사건여부,P111,,명칭 대응
+Data_Cleaning_text,497,적용법조_6차,P019,,명칭 대응
+Data_Cleaning_text,498,적용법조수_6차,P026,,명칭 대응
+Data_Cleaning_text,499,복합범죄유무_6차,P027,,명칭 대응
+Data_Cleaning_text,500,대표죄명_6차,B097,main_charge_n,명칭 대응
+Data_Cleaning_text,501,범행시관계_6차,B105,rel_active_n,명칭 대응
+Data_Cleaning_text,502,범행장소_6차,P028,,명칭 대응
+Data_Cleaning_text,503,범행장소구분_6차,P029,,명칭 대응
+Data_Cleaning_text,504,범행시간_6차,P030,,명칭 대응
+Data_Cleaning_text,505,범행촉발사유_6차,P031,,명칭 대응
+Data_Cleaning_text,506,범행촉발사유구분_6차,P032,,명칭 대응
+Data_Cleaning_text,507,무고여부_6차,P033,,명칭 대응
+Data_Cleaning_text,508,무고범죄유형_6차,P034,,명칭 대응
+Data_Cleaning_text,509,미수또는예비사건여부_6차,,,대응표 명칭 미일치·추가 확인
+Data_Cleaning_text,510,미수또는예비사건유형_6차,P035,,명칭 대응
+Data_Cleaning_text,511,범행인원_6차,,,대응표 명칭 미일치·추가 확인
+Data_Cleaning_text,512,공동범행시공범과의관계_6차,,,대응표 명칭 미일치·추가 확인
+Data_Cleaning_text,513,가해자음주여부_6차,B116,offender_drunk_n,명칭 대응
+Data_Cleaning_text,514,피해자음주여부_6차,P036,,명칭 대응
+Data_Cleaning_text,515,상해여부_6차,P037,,명칭 대응
+Data_Cleaning_text,516,치료일수_6차,B118,treatment_days_n,명칭 대응
+Data_Cleaning_text,517,피해수준_6차,P038,,명칭 대응
+Data_Cleaning_text,518,위험한물건사용여부_6차,B119,weapon_n,명칭 대응
+Data_Cleaning_text,519,위험한물건사용유형1_6차,P039,,명칭 대응
+Data_Cleaning_text,520,위험한물건사용유형2_6차,P040,,명칭 대응
+Data_Cleaning_text,521,위험한물건사용유형3_6차,P041,,명칭 대응
+Data_Cleaning_text,522,위험한물건을사용한폭행방식_6차,P042,,명칭 대응
+Data_Cleaning_text,523,위험한물건유형_6차,P043,,명칭 대응
+Data_Cleaning_text,524,위험한물건사전준비여부_6차,P044,,명칭 대응
+Data_Cleaning_text,525,신체사용폭력유무_6차,B120,body_force_n,명칭 대응
+Data_Cleaning_text,526,신체사용폭력방식_6차,P045,,명칭 대응
+Data_Cleaning_text,527,살해또는살해시도방식_6차,P046,,명칭 대응
+Data_Cleaning_text,528,제압또는감금방식_6차,P047,,명칭 대응
+Data_Cleaning_text,529,제압또는감금방식_구체적_6차,P048,,명칭 대응
+Data_Cleaning_text,530,오프라인침입경로및방법_6차,P049,,명칭 대응
+Data_Cleaning_text,531,오프라인침입경로및방법_구체적_6차,P050,,명칭 대응
+Data_Cleaning_text,532,오프라인침입장소_6차,P051,,명칭 대응
+Data_Cleaning_text,533,정보통신망침해도구_6차,P052,,명칭 대응
+Data_Cleaning_text,534,정보통신망침해방법_6차,P053,,명칭 대응
+Data_Cleaning_text,535,정보통신망침해대상_6차,P054,,명칭 대응
+Data_Cleaning_text,536,손괴재물소유자_6차,P055,,명칭 대응
+Data_Cleaning_text,537,손괴대상물건1_6차,P056,,명칭 대응
+Data_Cleaning_text,538,손괴대상물건2_6차,P057,,명칭 대응
+Data_Cleaning_text,539,강절도대상물건및유형_6차,P058,,명칭 대응
+Data_Cleaning_text,540,강절도대상물건및유형_구체적_6차,P059,,명칭 대응
+Data_Cleaning_text,541,사기또는금전범죄유형_6차,P060,,명칭 대응
+Data_Cleaning_text,542,사기또는금전범죄유형세부_6차,P061,,명칭 대응
+Data_Cleaning_text,543,금전목적여부_6차,,,대응표 명칭 미일치·추가 확인
+Data_Cleaning_text,544, 피해예상또는요구금액_6차,P063,,명칭 대응
+Data_Cleaning_text,545,오프라인성범죄유형_6차,P064,,명칭 대응
+Data_Cleaning_text,546,오프라인성범죄유형_구분_6차,P065,,명칭 대응
+Data_Cleaning_text,547,온라인또는디지털성범죄유형_6차,,,대응표 명칭 미일치·추가 확인
+Data_Cleaning_text,548,피해자의항거불능상태여부_6차,P068,,명칭 대응
+Data_Cleaning_text,549,피해자항거불능시사유_6차,P069,,명칭 대응
+Data_Cleaning_text,550,신고지연또는미신고사유_6차,P070,,명칭 대응
+Data_Cleaning_text,551,촬영내용1_6차,P071,,명칭 대응
+Data_Cleaning_text,552,촬영내용2_6차,P072,,명칭 대응
+Data_Cleaning_text,553,협박또는공갈유형1_6차,P073,,명칭 대응
+Data_Cleaning_text,554,협박또는공갈유형구분1_6차,P074,,명칭 대응
+Data_Cleaning_text,555,협박또는공갈유형2_6차,P075,,명칭 대응
+Data_Cleaning_text,556,협박또는공갈유형구분2_6차,P076,,명칭 대응
+Data_Cleaning_text,557,협박또는폭행시금전요구여부_6차,P077,,명칭 대응
+Data_Cleaning_text,558,협박또는공갈방식_6차,P078,,명칭 대응
+Data_Cleaning_text,559,금전외협박시요구사항_6차,P079,,명칭 대응
+Data_Cleaning_text,560,자료이용시출처_6차,P080,,명칭 대응
+Data_Cleaning_text,561,협박자료내용_1차,P081,,명칭 대응
+Data_Cleaning_text,562,유포자료내용_1차,P082,,명칭 대응
+Data_Cleaning_text,563,협박자료유포방식_6차,P083,,명칭 대응
+Data_Cleaning_text,564,유포목적자료유포방식_6차,P084,,명칭 대응
+Data_Cleaning_text,565,행위강요방식_6차,P085,,명칭 대응
+Data_Cleaning_text,566,강요된의무없는일유형1_6차,P086,,명칭 대응
+Data_Cleaning_text,567,강요된의무없는일유형2_6차,P087,,명칭 대응
+Data_Cleaning_text,568,퇴거불응장소_6차,P088,,명칭 대응
+Data_Cleaning_text,569,통신비밀또는정보통신망관련위반유형1_6차,,,대응표 명칭 미일치·추가 확인
+Data_Cleaning_text,570,통신비밀또는정보통신망관련위반유형2_6차,,,대응표 명칭 미일치·추가 확인
+Data_Cleaning_text,571,통신비밀또는정보통신망관련위반유형_구체적_6차,,,대응표 명칭 미일치·추가 확인
+Data_Cleaning_text,572,위치추적기부착장소_6차,P092,,명칭 대응
+Data_Cleaning_text,573,피해자모욕시위치_6차,P093,,명칭 대응
+Data_Cleaning_text,574,피해자모욕방식_6차,P094,,명칭 대응
+Data_Cleaning_text,575,방화또는소훼대상_6차,P096,,명칭 대응
+Data_Cleaning_text,576,업무방해유형_6차,P097,,명칭 대응
+Data_Cleaning_text,577,은닉재물유형_6차,P098,,명칭 대응
+Data_Cleaning_text,578,은닉방식_6차,P099,,명칭 대응
+Data_Cleaning_text,579,스토킹행위유형1_6차,P100,,명칭 대응
+Data_Cleaning_text,580,스토킹행위유형2_6차,P101,,명칭 대응
+Data_Cleaning_text,581,스토킹행위유형3_6차,P102,,명칭 대응
+Data_Cleaning_text,582,가폭위반유형1_6차,P103,,명칭 대응
+Data_Cleaning_text,583,가폭위반유형2_6차,P104,,명칭 대응
+Data_Cleaning_text,584,명예훼손시사실적시여부_6차,P105,,명칭 대응
+Data_Cleaning_text,585,명예훼손내용_6차,P106,,명칭 대응
+Data_Cleaning_text,586,명예훼손내용_구체적_6차,P107,,명칭 대응
+Data_Cleaning_text,587,명예훼손방식_6차,P108,,명칭 대응
+Data_Cleaning_text,588,수색장소_6차,P109,,명칭 대응
+Data_Cleaning_text,589,행위횟수_6차,P110,,명칭 대응
+Data_Cleaning_text,590,범행의계획성여부_6차,B115,premeditated_n,명칭 대응
+Data_Cleaning_text,591,범행횟수_6차기준,P112,,명칭 대응
+Data_Cleaning_text,592,사건차수_6차기준,P113,,명칭 대응
+Data_Cleaning_text,593,사건차수_구분,P114,,명칭 대응
+Data_Cleaning_text,594,관계종료_일차,B042,breakup_to_first_days,명칭 대응
+Data_Cleaning_text,595,일차_이차,B043,gap_1to2,명칭 대응
+Data_Cleaning_text,596,이차_삼차,B044,gap_2to3,명칭 대응
+Data_Cleaning_text,597,삼차_사차,B045,gap_3to4,명칭 대응
+Data_Cleaning_text,598,사차_오차,B046,gap_4to5,명칭 대응
+Data_Cleaning_text,599,오차_육차,B047,gap_5to6,명칭 대응
+Data_Cleaning_text,600,총범행횟수,,,대응표 명칭 미일치·추가 확인
+Data_Cleaning_text,601,최종사건차수,,,대응표 명칭 미일치·추가 확인
+Data_Cleaning_text,602,첫사건부터마지막사건까지기간,B048,total_offense_span,명칭 대응
+Data_Cleaning_text,603,계획성_1차,B115,premeditated_n,명칭 대응
+Data_Cleaning_text,604,계획성_2차,B115,premeditated_n,명칭 대응
+Data_Cleaning_text,605,계획성_3차,B115,premeditated_n,명칭 대응
+Data_Cleaning_text,606,계획성_4차,B115,premeditated_n,명칭 대응
+Data_Cleaning_text,607,계획성_5차,B115,premeditated_n,명칭 대응
+Data_Cleaning_text,608,계획성_6차,B115,premeditated_n,명칭 대응
+Data_Cleaning_text,609,관계형태_1차,B125,in_relationship_n,명칭 대응
+Data_Cleaning_text,610,관계형태_2차,B125,in_relationship_n,명칭 대응
+Data_Cleaning_text,611,관계형태_3차,B125,in_relationship_n,명칭 대응
+Data_Cleaning_text,612,관계형태_4차,B125,in_relationship_n,명칭 대응
+Data_Cleaning_text,613,관계형태_5차,B125,in_relationship_n,명칭 대응
+Data_Cleaning_text,614,관계형태_6차,B125,in_relationship_n,명칭 대응
+Data_Cleaning_text,615,관계형태유형,P115,,명칭 대응
+Data_Cleaning_text,616,총피해금액,M021,,명칭 대응
+Data_Cleaning_text,617,누범기간등중범행여부,P116,,명칭 대응
+Data_Cleaning_text,618,전체전과여부,B081,prior_any,명칭 대응
+Data_Cleaning_text,619,전과수_구분,P117,,명칭 대응
+Data_Cleaning_text,620,구금경험여부,B083,prior_incarceration,명칭 대응
+Data_Cleaning_text,621,가해자범행인정여부,B086,admit_code,명칭 대응
+Data_Cleaning_text,622,가해자범행반성여부,P118,,명칭 대응
+Data_Cleaning_text,623,가해자의범행인정또는반성여부,P119,,명칭 대응
+Data_Cleaning_text,624,합의외피해회복조치,P120,,명칭 대응
+Data_Cleaning_text,625,공탁여부,B089,deposit,명칭 대응
+Data_Cleaning_text,626,공탁금액_만원,B090,deposit_amount,명칭 대응
+Data_Cleaning_text,627,변제여부,P121,,명칭 대응
+Data_Cleaning_text,628,변제금액_만원,P122,,명칭 대응
+Data_Cleaning_text,629,피해자또는유족의용서및화해여부,P123,,명칭 대응
+Data_Cleaning_text,630,피해자또는유족의처벌요구,B091,victim_punishment_wish,명칭 대응
+Data_Cleaning_text,631,피해자또는유족과의합의여부,P124,,명칭 대응
+Data_Cleaning_text,632,합의금_원,P125,,명칭 대응
+Data_Cleaning_text,633,피해자대상전과이력여부,B084,prior_against_victim,명칭 대응
+Data_Cleaning_text,634,피해자대상전과수_구분,P126,,명칭 대응
+Data_Cleaning_text,635,피해자대상전과유형,P127,,명칭 대응
+Data_Cleaning_text,636,피해자대상전과시최대처벌,P128,,명칭 대응
+Data_Cleaning_text,637,피해자대상비전과폭력여부,P129,,명칭 대응
+Data_Cleaning_text,638,피해자대상비전과폭력유형,P130,,명칭 대응
+Data_Cleaning_text,639,비고,B096,notes,명칭 대응

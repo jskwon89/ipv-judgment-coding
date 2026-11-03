@@ -1,0 +1,1189 @@
+﻿단위,변수명,상태,셀수
+관계쌍,breakup_to_first_days,coded,214
+관계쌍,breakup_to_first_days,held_source,25
+관계쌍,breakup_to_first_days,not_applicable,149
+관계쌍,breakup_to_first_days,reviewed_missing,395
+관계쌍,breakup_to_last_days,coded,216
+관계쌍,breakup_to_last_days,held_source,22
+관계쌍,breakup_to_last_days,not_applicable,149
+관계쌍,breakup_to_last_days,reviewed_missing,396
+관계쌍,cc_digital_control,coded,63
+관계쌍,cc_digital_control,held_definition,19
+관계쌍,cc_digital_control,held_source,5
+관계쌍,cc_digital_control,reviewed_not_reported,696
+관계쌍,cc_digital_control_detail,coded,57
+관계쌍,cc_digital_control_detail,held_definition,21
+관계쌍,cc_digital_control_detail,held_source,4
+관계쌍,cc_digital_control_detail,reviewed_not_reported,701
+관계쌍,cc_digital_total,coded,633
+관계쌍,cc_digital_total,held_source,150
+관계쌍,cc_economic_control,coded,81
+관계쌍,cc_economic_control,held_definition,48
+관계쌍,cc_economic_control,held_source,13
+관계쌍,cc_economic_control,reviewed_not_reported,641
+관계쌍,cc_economic_digital,coded,44
+관계쌍,cc_economic_digital,held_definition,32
+관계쌍,cc_economic_digital,held_source,12
+관계쌍,cc_economic_digital,reviewed_not_reported,695
+관계쌍,cc_emotional_abuse,coded,192
+관계쌍,cc_emotional_abuse,held_definition,15
+관계쌍,cc_emotional_abuse,held_source,3
+관계쌍,cc_emotional_abuse,reviewed_not_reported,573
+관계쌍,cc_emotional_digital,coded,160
+관계쌍,cc_emotional_digital,held_definition,7
+관계쌍,cc_emotional_digital,held_source,4
+관계쌍,cc_emotional_digital,reviewed_not_reported,612
+관계쌍,cc_intimidation,coded,339
+관계쌍,cc_intimidation,held_definition,24
+관계쌍,cc_intimidation,held_source,6
+관계쌍,cc_intimidation,reviewed_not_reported,414
+관계쌍,cc_intimidation_digital,coded,170
+관계쌍,cc_intimidation_digital,held_definition,7
+관계쌍,cc_intimidation_digital,held_source,3
+관계쌍,cc_intimidation_digital,reviewed_not_reported,603
+관계쌍,cc_isolation,coded,80
+관계쌍,cc_isolation,held_definition,8
+관계쌍,cc_isolation,held_source,4
+관계쌍,cc_isolation,reviewed_not_reported,691
+관계쌍,cc_isolation_digital,coded,55
+관계쌍,cc_isolation_digital,held_source,5
+관계쌍,cc_isolation_digital,reviewed_not_reported,723
+관계쌍,cc_physical_control,coded,164
+관계쌍,cc_physical_control,held_definition,17
+관계쌍,cc_physical_control,held_source,2
+관계쌍,cc_physical_control,reviewed_not_reported,600
+관계쌍,cc_physical_control_digital,coded,22
+관계쌍,cc_physical_control_digital,held_definition,3
+관계쌍,cc_physical_control_digital,held_source,1
+관계쌍,cc_physical_control_digital,reviewed_not_reported,757
+관계쌍,cc_refusal_digital,coded,220
+관계쌍,cc_refusal_digital,held_definition,23
+관계쌍,cc_refusal_digital,held_source,4
+관계쌍,cc_refusal_digital,reviewed_not_reported,536
+관계쌍,cc_refusal_to_separate,coded,239
+관계쌍,cc_refusal_to_separate,held_definition,39
+관계쌍,cc_refusal_to_separate,held_source,1
+관계쌍,cc_refusal_to_separate,reviewed_not_reported,504
+관계쌍,cc_reputation_digital,coded,174
+관계쌍,cc_reputation_digital,held_definition,11
+관계쌍,cc_reputation_digital,held_source,9
+관계쌍,cc_reputation_digital,reviewed_not_reported,589
+관계쌍,cc_reputation_threat,coded,195
+관계쌍,cc_reputation_threat,held_definition,13
+관계쌍,cc_reputation_threat,held_source,7
+관계쌍,cc_reputation_threat,reviewed_not_reported,568
+관계쌍,cc_surveillance,coded,116
+관계쌍,cc_surveillance,held_definition,28
+관계쌍,cc_surveillance,held_source,6
+관계쌍,cc_surveillance,reviewed_not_reported,633
+관계쌍,cc_surveillance_digital,coded,61
+관계쌍,cc_surveillance_digital,held_definition,24
+관계쌍,cc_surveillance_digital,held_source,9
+관계쌍,cc_surveillance_digital,reviewed_not_reported,689
+관계쌍,cc_total,coded,575
+관계쌍,cc_total,held_source,208
+관계쌍,charges_all,coded,750
+관계쌍,charges_all,held_definition,1
+관계쌍,charges_all,not_applicable,32
+관계쌍,child_joint,coded,48
+관계쌍,child_joint,held_definition,1
+관계쌍,child_joint,held_source,23
+관계쌍,child_joint,not_applicable,161
+관계쌍,child_joint,reviewed_not_reported,550
+관계쌍,child_offender_only,coded,16
+관계쌍,child_offender_only,held_source,5
+관계쌍,child_offender_only,not_applicable,4
+관계쌍,child_offender_only,reviewed_not_reported,758
+관계쌍,child_victim_only,coded,17
+관계쌍,child_victim_only,held_source,5
+관계쌍,child_victim_only,not_applicable,4
+관계쌍,child_victim_only,reviewed_not_reported,757
+관계쌍,cohabit_at_first,coded,121
+관계쌍,cohabit_at_first,held_definition,2
+관계쌍,cohabit_at_first,held_source,10
+관계쌍,cohabit_at_first,not_applicable,157
+관계쌍,cohabit_at_first,reviewed_missing,1
+관계쌍,cohabit_at_first,reviewed_not_reported,492
+관계쌍,cohabit_ever,coded,133
+관계쌍,cohabit_ever,held_definition,2
+관계쌍,cohabit_ever,held_source,9
+관계쌍,cohabit_ever,not_applicable,157
+관계쌍,cohabit_ever,reviewed_missing,1
+관계쌍,cohabit_ever,reviewed_not_reported,481
+관계쌍,deposit,coded,85
+관계쌍,deposit,held_definition,1
+관계쌍,deposit,held_source,3
+관계쌍,deposit,reviewed_not_reported,694
+관계쌍,deposit_amount,coded,46
+관계쌍,deposit_amount,held_definition,1
+관계쌍,deposit_amount,held_source,5
+관계쌍,deposit_amount,not_applicable,24
+관계쌍,deposit_amount,reviewed_missing,706
+관계쌍,deposit_amount,reviewed_not_reported,1
+관계쌍,dyad_key,coded,783
+관계쌍,escalation_detail,held_definition,783
+관계쌍,escalation_present,held_definition,783
+관계쌍,events_truncated,coded,720
+관계쌍,events_truncated,held_definition,7
+관계쌍,events_truncated,held_source,56
+관계쌍,exclude_as_associated_row,coded,773
+관계쌍,exclude_as_associated_row,held_definition,1
+관계쌍,exclude_as_associated_row,held_source,1
+관계쌍,exclude_as_associated_row,not_applicable,8
+관계쌍,gap_1to2,coded,352
+관계쌍,gap_1to2,held_definition,5
+관계쌍,gap_1to2,held_source,54
+관계쌍,gap_1to2,not_applicable,371
+관계쌍,gap_1to2,reviewed_not_reported,1
+관계쌍,gap_2to3,coded,227
+관계쌍,gap_2to3,held_definition,3
+관계쌍,gap_2to3,held_source,44
+관계쌍,gap_2to3,not_applicable,509
+관계쌍,gap_3to4,coded,159
+관계쌍,gap_3to4,held_definition,3
+관계쌍,gap_3to4,held_source,41
+관계쌍,gap_3to4,not_applicable,579
+관계쌍,gap_3to4,reviewed_not_reported,1
+관계쌍,gap_4to5,coded,122
+관계쌍,gap_4to5,held_definition,3
+관계쌍,gap_4to5,held_source,40
+관계쌍,gap_4to5,not_applicable,617
+관계쌍,gap_4to5,reviewed_not_reported,1
+관계쌍,gap_5to6,coded,84
+관계쌍,gap_5to6,held_definition,2
+관계쌍,gap_5to6,held_source,41
+관계쌍,gap_5to6,not_applicable,656
+관계쌍,gap_6to7,coded,67
+관계쌍,gap_6to7,held_definition,2
+관계쌍,gap_6to7,held_source,40
+관계쌍,gap_6to7,not_applicable,674
+관계쌍,gap_7to8,coded,58
+관계쌍,gap_7to8,held_definition,2
+관계쌍,gap_7to8,held_source,40
+관계쌍,gap_7to8,not_applicable,683
+관계쌍,gap_8to9,coded,53
+관계쌍,gap_8to9,held_definition,2
+관계쌍,gap_8to9,held_source,40
+관계쌍,gap_8to9,not_applicable,688
+관계쌍,gap_9to10,coded,46
+관계쌍,gap_9to10,held_definition,2
+관계쌍,gap_9to10,held_source,40
+관계쌍,gap_9to10,not_applicable,695
+관계쌍,gap_trend,coded,701
+관계쌍,gap_trend,held_definition,6
+관계쌍,gap_trend,held_source,75
+관계쌍,gap_trend,reviewed_not_reported,1
+관계쌍,gap_trend_code,coded,701
+관계쌍,gap_trend_code,held_definition,6
+관계쌍,gap_trend_code,held_source,75
+관계쌍,gap_trend_code,reviewed_not_reported,1
+관계쌍,has_homicide_intent,coded,134
+관계쌍,has_homicide_intent,held_definition,636
+관계쌍,has_homicide_intent,reviewed_not_reported,13
+관계쌍,has_physical_force,coded,781
+관계쌍,has_physical_force,held_source,2
+관계쌍,has_sex_crime,coded,772
+관계쌍,has_sex_crime,held_definition,1
+관계쌍,has_sex_crime,reviewed_not_reported,10
+관계쌍,has_stalking,coded,747
+관계쌍,has_stalking,held_definition,27
+관계쌍,has_stalking,reviewed_not_reported,9
+관계쌍,ipv_repeat_event,기존값 파생,554
+관계쌍,ipv_repeat_event,원문판정 미완료,229
+관계쌍,is_ipv,coded,781
+관계쌍,is_ipv,held_definition,1
+관계쌍,is_ipv,held_source,1
+관계쌍,is_ipv_direct,coded,780
+관계쌍,is_ipv_direct,held_definition,1
+관계쌍,is_ipv_direct,held_source,2
+관계쌍,key,coded,783
+관계쌍,linked_dyad_key,coded,114
+관계쌍,linked_dyad_key,held_definition,1
+관계쌍,linked_dyad_key,not_applicable,668
+관계쌍,max_event_seq,coded,711
+관계쌍,max_event_seq,held_definition,7
+관계쌍,max_event_seq,held_source,63
+관계쌍,max_event_seq,not_applicable,2
+관계쌍,mean_gap_days,coded,342
+관계쌍,mean_gap_days,held_definition,6
+관계쌍,mean_gap_days,held_source,72
+관계쌍,mean_gap_days,not_applicable,363
+관계쌍,n_events_total,coded,709
+관계쌍,n_events_total,held_definition,7
+관계쌍,n_events_total,held_source,67
+관계쌍,notes,coded,768
+관계쌍,notes,reviewed_missing,4
+관계쌍,notes,reviewed_not_reported,11
+관계쌍,original_link_evidence,not_applicable,783
+관계쌍,original_link_status,not_applicable,783
+관계쌍,original_source_row,not_applicable,783
+관계쌍,p1_eligible,coded,8
+관계쌍,p1_eligible,원문판정 미완료,775
+관계쌍,p2_eligible,coded,8
+관계쌍,p2_eligible,원문판정 미완료,775
+관계쌍,phd_meta_금전목적유무,원문판정 미완료,783
+관계쌍,phd_meta_금전피해발생유무,원문판정 미완료,783
+관계쌍,phd_meta_연관피해자발생여부,원문판정 미완료,783
+관계쌍,phd_meta_연관피해자수,원문판정 미완료,783
+관계쌍,phd_meta_연관피해자유형,원문판정 미완료,783
+관계쌍,phd_meta_연관피해자유형_구분,원문판정 미완료,783
+관계쌍,phd_meta_첫사건부터육차사건까지평균기간,원문판정 미완료,783
+관계쌍,phd_meta_총피해금액,원문판정 미완료,783
+관계쌍,phd_meta_최초범행시세부관계유형,원문판정 미완료,783
+관계쌍,phd_original_가해자만의자녀여부,기존값 파생,15
+관계쌍,phd_original_가해자만의자녀여부,원문판정 미완료,768
+관계쌍,phd_original_공동의자녀여부,기존값 파생,47
+관계쌍,phd_original_공동의자녀여부,원문판정 미완료,736
+관계쌍,phd_original_정신적고통,원문판정 미완료,783
+관계쌍,phd_original_피해수준_신체,원문판정 미완료,783
+관계쌍,phd_original_피해자만의자녀여부,기존값 파생,16
+관계쌍,phd_original_피해자만의자녀여부,원문판정 미완료,767
+관계쌍,phd_original_피해회복여부,원문판정 미완료,783
+관계쌍,phd_관계유지기간_구분,원문판정 미완료,783
+관계쌍,phd_관계유형,기존값 파생,341
+관계쌍,phd_관계유형,원문판정 미완료,442
+관계쌍,phd_관계유형_구분,원문판정 미완료,783
+관계쌍,phd_관계형태유형,원문판정 미완료,783
+관계쌍,phd_범행위치,원문판정 미완료,783
+관계쌍,phd_범행횟수_6차기준,6차 이내 행위수 확정,14
+관계쌍,phd_범행횟수_6차기준,원문판정 미완료,769
+관계쌍,phd_변제금액_만원,원문판정 미완료,783
+관계쌍,phd_변제여부,원문판정 미완료,783
+관계쌍,phd_사건차수_6차기준,원문판정 미완료,783
+관계쌍,phd_사건차수_구분,원문판정 미완료,783
+관계쌍,phd_삼차이상사건여부,기존값 파생,554
+관계쌍,phd_삼차이상사건여부,원문판정 미완료,229
+관계쌍,phd_재산및경제범죄유무,원문판정 미완료,783
+관계쌍,phd_피해자대상비전과폭력여부,원문판정 미완료,783
+관계쌍,phd_피해자대상비전과폭력유형,원문판정 미완료,783
+관계쌍,phd_피해자대상적용법조,원문판정 미완료,783
+관계쌍,phd_피해자대상적용법조수,원문판정 미완료,783
+관계쌍,phd_피해자대상적용법조수_구분,원문판정 미완료,783
+관계쌍,phd_피해자대상전과수_구분,원문판정 미완료,783
+관계쌍,phd_피해자대상전과시최대처벌,원문판정 미완료,783
+관계쌍,phd_피해자대상전과유형,원문판정 미완료,783
+관계쌍,phd_피해자또는유족과의합의여부,원문 개별판정,1
+관계쌍,phd_피해자또는유족과의합의여부,원문판정 미완료,782
+관계쌍,phd_피해자또는유족의용서및화해여부,원문판정 미완료,783
+관계쌍,phd_합의금_원,원문 개별판정,1
+관계쌍,phd_합의금_원,원문판정 미완료,782
+관계쌍,phd_합의외피해회복조치,원문판정 미완료,783
+관계쌍,prior_against_victim,coded,3
+관계쌍,prior_against_victim,held_source,2
+관계쌍,prior_against_victim,reviewed_not_reported,778
+관계쌍,protect_any,coded,124
+관계쌍,protect_any,held_definition,6
+관계쌍,protect_any,held_source,6
+관계쌍,protect_any,reviewed_not_reported,647
+관계쌍,protect_breach,coded,104
+관계쌍,protect_breach,held_definition,3
+관계쌍,protect_breach,held_source,8
+관계쌍,protect_breach,reviewed_not_reported,668
+관계쌍,protect_pre_first,coded,88
+관계쌍,protect_pre_first,held_definition,3
+관계쌍,protect_pre_first,held_source,14
+관계쌍,protect_pre_first,reviewed_not_reported,678
+관계쌍,protect_to_next_days,coded,2
+관계쌍,protect_to_next_days,held_definition,63
+관계쌍,protect_to_next_days,held_source,2
+관계쌍,protect_to_next_days,not_applicable,716
+관계쌍,punishment_wish_reversed,coded,59
+관계쌍,punishment_wish_reversed,held_source,3
+관계쌍,punishment_wish_reversed,reviewed_missing,623
+관계쌍,punishment_wish_reversed,reviewed_not_reported,98
+관계쌍,rel_duration_days,coded,130
+관계쌍,rel_duration_days,held_definition,1
+관계쌍,rel_duration_days,held_source,20
+관계쌍,rel_duration_days,not_applicable,144
+관계쌍,rel_duration_days,reviewed_missing,488
+관계쌍,rel_end_context,coded,18
+관계쌍,rel_end_context,held_source,1
+관계쌍,rel_end_context,not_applicable,149
+관계쌍,rel_end_context,reviewed_missing,612
+관계쌍,rel_end_context,reviewed_not_reported,3
+관계쌍,rel_end_date,coded,225
+관계쌍,rel_end_date,held_source,24
+관계쌍,rel_end_date,not_applicable,149
+관계쌍,rel_end_date,reviewed_missing,378
+관계쌍,rel_end_date,reviewed_not_reported,7
+관계쌍,rel_end_type,coded,36
+관계쌍,rel_end_type,held_source,1
+관계쌍,rel_end_type,not_applicable,148
+관계쌍,rel_end_type,reviewed_missing,591
+관계쌍,rel_end_type,reviewed_not_reported,7
+관계쌍,rel_end_type_code,coded,50
+관계쌍,rel_end_type_code,held_definition,2
+관계쌍,rel_end_type_code,held_schema,2
+관계쌍,rel_end_type_code,held_source,2
+관계쌍,rel_end_type_code,not_applicable,149
+관계쌍,rel_end_type_code,reviewed_missing,576
+관계쌍,rel_end_type_code,reviewed_not_reported,2
+관계쌍,rel_start_date,coded,179
+관계쌍,rel_start_date,held_definition,2
+관계쌍,rel_start_date,held_source,25
+관계쌍,rel_start_date,not_applicable,148
+관계쌍,rel_start_date,reviewed_missing,415
+관계쌍,rel_start_date,reviewed_not_reported,14
+관계쌍,rel_start_to_first_days,coded,164
+관계쌍,rel_start_to_first_days,held_definition,1
+관계쌍,rel_start_to_first_days,held_source,24
+관계쌍,rel_start_to_first_days,not_applicable,148
+관계쌍,rel_start_to_first_days,reviewed_missing,431
+관계쌍,rel_start_to_first_days,reviewed_not_reported,15
+관계쌍,rel_status_first,coded,285
+관계쌍,rel_status_first,held_definition,5
+관계쌍,rel_status_first,held_schema,1
+관계쌍,rel_status_first,held_source,46
+관계쌍,rel_status_first,not_applicable,162
+관계쌍,rel_status_first,reviewed_missing,281
+관계쌍,rel_status_first,reviewed_not_reported,3
+관계쌍,rel_subtype_first,coded,757
+관계쌍,rel_subtype_first,held_definition,2
+관계쌍,rel_subtype_first,held_source,21
+관계쌍,rel_subtype_first,not_applicable,2
+관계쌍,rel_subtype_first,reviewed_not_reported,1
+관계쌍,rel_type,coded,782
+관계쌍,rel_type,held_definition,1
+관계쌍,rel_type_code,coded,769
+관계쌍,rel_type_code,held_definition,2
+관계쌍,rel_type_code,held_schema,8
+관계쌍,rel_type_code,held_source,3
+관계쌍,rel_type_code,not_applicable,1
+관계쌍,rel_type_first_code,coded,741
+관계쌍,rel_type_first_code,held_definition,3
+관계쌍,rel_type_first_code,held_schema,9
+관계쌍,rel_type_first_code,held_source,24
+관계쌍,rel_type_first_code,not_applicable,6
+관계쌍,related_link_basis,coded,161
+관계쌍,related_link_basis,not_applicable,622
+관계쌍,related_link_status,coded,162
+관계쌍,related_link_status,not_applicable,621
+관계쌍,related_row_role,coded,162
+관계쌍,related_row_role,not_applicable,621
+관계쌍,settlement,coded,311
+관계쌍,settlement,held_definition,3
+관계쌍,settlement,held_source,6
+관계쌍,settlement,reviewed_missing,4
+관계쌍,settlement,reviewed_not_reported,459
+관계쌍,severe_punishment_plea,coded,77
+관계쌍,severe_punishment_plea,held_definition,3
+관계쌍,severe_punishment_plea,held_source,4
+관계쌍,severe_punishment_plea,reviewed_missing,597
+관계쌍,severe_punishment_plea,reviewed_not_reported,102
+관계쌍,severity_first,coded,579
+관계쌍,severity_first,held_definition,128
+관계쌍,severity_first,held_schema,8
+관계쌍,severity_first,held_source,12
+관계쌍,severity_first,not_applicable,56
+관계쌍,severity_last,coded,547
+관계쌍,severity_last,held_definition,168
+관계쌍,severity_last,held_schema,7
+관계쌍,severity_last,held_source,13
+관계쌍,severity_last,not_applicable,48
+관계쌍,severity_max,coded,545
+관계쌍,severity_max,held_definition,192
+관계쌍,severity_max,held_schema,8
+관계쌍,severity_max,held_source,6
+관계쌍,severity_max,not_applicable,32
+관계쌍,third_party_control_route,coded,253
+관계쌍,third_party_control_route,held_definition,4
+관계쌍,third_party_control_route,held_source,10
+관계쌍,third_party_control_route,reviewed_not_reported,516
+관계쌍,third_party_count,coded,175
+관계쌍,third_party_count,held_definition,4
+관계쌍,third_party_count,held_source,172
+관계쌍,third_party_count,reviewed_not_reported,432
+관계쌍,third_party_direct_harm,coded,102
+관계쌍,third_party_direct_harm,held_source,4
+관계쌍,third_party_direct_harm,reviewed_not_reported,677
+관계쌍,third_party_evidence,coded,773
+관계쌍,third_party_evidence,not_applicable,10
+관계쌍,third_party_harm_detail,coded,56
+관계쌍,third_party_harm_detail,held_source,15
+관계쌍,third_party_harm_detail,not_applicable,712
+관계쌍,third_party_involved,coded,324
+관계쌍,third_party_involved,held_definition,6
+관계쌍,third_party_involved,held_source,20
+관계쌍,third_party_involved,reviewed_not_reported,433
+관계쌍,third_party_mental_suffering,coded,46
+관계쌍,third_party_mental_suffering,reviewed_not_reported,737
+관계쌍,third_party_physical_harm,coded,41
+관계쌍,third_party_physical_harm,held_source,1
+관계쌍,third_party_physical_harm,reviewed_not_reported,741
+관계쌍,third_party_property_harm,coded,26
+관계쌍,third_party_property_harm,held_source,1
+관계쌍,third_party_property_harm,reviewed_not_reported,756
+관계쌍,third_party_threat_target,coded,76
+관계쌍,third_party_threat_target,held_definition,4
+관계쌍,third_party_threat_target,held_source,7
+관계쌍,third_party_threat_target,reviewed_not_reported,696
+관계쌍,third_party_type_codes,coded,181
+관계쌍,third_party_type_codes,held_definition,8
+관계쌍,third_party_type_codes,held_schema,71
+관계쌍,third_party_type_codes,held_source,73
+관계쌍,third_party_type_codes,not_applicable,450
+관계쌍,third_party_type_text,coded,308
+관계쌍,third_party_type_text,held_source,13
+관계쌍,third_party_type_text,not_applicable,462
+관계쌍,total_offense_count,held_source,1
+관계쌍,total_offense_count,not_applicable,782
+관계쌍,total_offense_span,coded,731
+관계쌍,total_offense_span,held_definition,6
+관계쌍,total_offense_span,held_source,44
+관계쌍,total_offense_span,reviewed_not_reported,2
+관계쌍,victim_punishment_wish,coded,340
+관계쌍,victim_punishment_wish,held_definition,19
+관계쌍,victim_punishment_wish,held_source,17
+관계쌍,victim_punishment_wish,reviewed_not_reported,407
+사건차수,D_contact,v2 승인값,726
+사건차수,D_contact,원문판정 미완료,2180
+사건차수,D_isolation,v2 승인값,726
+사건차수,D_isolation,원문판정 미완료,2180
+사건차수,D_money,v2 승인값,726
+사건차수,D_money,원문판정 미완료,2180
+사건차수,D_movement,v2 승인값,726
+사건차수,D_movement,원문판정 미완료,2180
+사건차수,D_other,v2 승인값,726
+사건차수,D_other,원문판정 미완료,2180
+사건차수,D_relation,v2 승인값,726
+사건차수,D_relation,원문판정 미완료,2180
+사건차수,D_report,v2 승인값,726
+사건차수,D_report,원문판정 미완료,2180
+사건차수,D_report_info,v2 승인값,726
+사건차수,D_report_info,원문판정 미완료,2180
+사건차수,D_sexual,v2 승인값,726
+사건차수,D_sexual,원문판정 미완료,2180
+사건차수,D_work,v2 승인값,726
+사건차수,D_work,원문판정 미완료,2180
+사건차수,M_account,v2 승인값,726
+사건차수,M_account,원문판정 미완료,2180
+사건차수,M_account_dig,v2 승인값,726
+사건차수,M_account_dig,원문판정 미완료,2180
+사건차수,M_account_off,v2 승인값,726
+사건차수,M_account_off,원문판정 미완료,2180
+사건차수,M_contact,v2 승인값,726
+사건차수,M_contact,원문판정 미완료,2180
+사건차수,M_contact_dig,v2 승인값,726
+사건차수,M_contact_dig,원문판정 미완료,2180
+사건차수,M_contact_off,v2 승인값,726
+사건차수,M_contact_off,원문판정 미완료,2180
+사건차수,M_economic,v2 승인값,726
+사건차수,M_economic,원문판정 미완료,2180
+사건차수,M_economic_dig,v2 승인값,726
+사건차수,M_economic_dig,원문판정 미완료,2180
+사건차수,M_economic_off,v2 승인값,726
+사건차수,M_economic_off,원문판정 미완료,2180
+사건차수,M_emotional,v2 승인값,726
+사건차수,M_emotional,원문판정 미완료,2180
+사건차수,M_emotional_dig,v2 승인값,726
+사건차수,M_emotional_dig,원문판정 미완료,2180
+사건차수,M_emotional_off,v2 승인값,726
+사건차수,M_emotional_off,원문판정 미완료,2180
+사건차수,M_other,v2 승인값,726
+사건차수,M_other,원문판정 미완료,2180
+사건차수,M_other_dig,v2 승인값,726
+사건차수,M_other_dig,원문판정 미완료,2180
+사건차수,M_other_off,v2 승인값,726
+사건차수,M_other_off,원문판정 미완료,2180
+사건차수,M_physical,v2 승인값,726
+사건차수,M_physical,원문판정 미완료,2180
+사건차수,M_physical_dig,v2 승인값,726
+사건차수,M_physical_dig,원문판정 미완료,2180
+사건차수,M_physical_off,v2 승인값,726
+사건차수,M_physical_off,원문판정 미완료,2180
+사건차수,M_reputation,v2 승인값,726
+사건차수,M_reputation,원문판정 미완료,2180
+사건차수,M_reputation_dig,v2 승인값,726
+사건차수,M_reputation_dig,원문판정 미완료,2180
+사건차수,M_reputation_off,v2 승인값,726
+사건차수,M_reputation_off,원문판정 미완료,2180
+사건차수,M_surveil,v2 승인값,726
+사건차수,M_surveil,원문판정 미완료,2180
+사건차수,M_surveil_dig,v2 승인값,726
+사건차수,M_surveil_dig,원문판정 미완료,2180
+사건차수,M_surveil_off,v2 승인값,726
+사건차수,M_surveil_off,원문판정 미완료,2180
+사건차수,M_thirdparty,v2 승인값,726
+사건차수,M_thirdparty,원문판정 미완료,2180
+사건차수,M_thirdparty_dig,v2 승인값,726
+사건차수,M_thirdparty_dig,원문판정 미완료,2180
+사건차수,M_thirdparty_off,v2 승인값,726
+사건차수,M_thirdparty_off,원문판정 미완료,2180
+사건차수,M_threat,v2 승인값,726
+사건차수,M_threat,원문판정 미완료,2180
+사건차수,M_threat_dig,v2 승인값,726
+사건차수,M_threat_dig,원문판정 미완료,2180
+사건차수,M_threat_off,v2 승인값,726
+사건차수,M_threat_off,원문판정 미완료,2180
+사건차수,body_force_n,coded,551
+사건차수,body_force_n,held_source,1
+사건차수,body_force_n,reviewed_not_reported,2354
+사건차수,body_force_type_n,coded,453
+사건차수,body_force_type_n,held_source,1
+사건차수,body_force_type_n,not_applicable,2452
+사건차수,cc_event,v2 승인값,726
+사건차수,cc_event,원문판정 미완료,2180
+사건차수,cc_event_detail,v2 승인값,726
+사건차수,cc_event_detail,원문판정 미완료,2180
+사건차수,charge_cat_N,coded,2676
+사건차수,charge_cat_N,not_applicable,230
+사건차수,charge_cat_n,coded,2676
+사건차수,charge_cat_n,not_applicable,230
+사건차수,charge_cat_na,coded,2670
+사건차수,charge_cat_na,held_definition,3
+사건차수,charge_cat_na,held_schema,3
+사건차수,charge_cat_na,not_applicable,230
+사건차수,charge_cat_nb,coded,353
+사건차수,charge_cat_nb,held_definition,3
+사건차수,charge_cat_nb,held_schema,3
+사건차수,charge_cat_nb,not_applicable,2547
+사건차수,charge_code_na,coded,2285
+사건차수,charge_code_na,held_definition,16
+사건차수,charge_code_na,held_schema,377
+사건차수,charge_code_na,not_applicable,228
+사건차수,charge_code_nb,coded,224
+사건차수,charge_code_nb,held_definition,12
+사건차수,charge_code_nb,held_schema,106
+사건차수,charge_code_nb,held_source,6
+사건차수,charge_code_nb,not_applicable,2558
+사건차수,charge_law_n,coded,2662
+사건차수,charge_law_n,held_source,14
+사건차수,charge_law_n,not_applicable,230
+사건차수,coder_note,v2 승인값,726
+사건차수,coder_note,원문판정 미완료,2180
+사건차수,date_imputed_n,coded,2887
+사건차수,date_imputed_n,held_source,17
+사건차수,date_imputed_n,reviewed_not_reported,2
+사건차수,days_from_breakup_n,coded,1163
+사건차수,days_from_breakup_n,held_source,60
+사건차수,days_from_breakup_n,not_applicable,326
+사건차수,days_from_breakup_n,reviewed_missing,1357
+사건차수,death_n,coded,30
+사건차수,death_n,held_definition,1
+사건차수,death_n,held_source,3
+사건차수,death_n,reviewed_missing,2536
+사건차수,death_n,reviewed_not_reported,336
+사건차수,digital_means_n,coded,1852
+사건차수,digital_means_n,held_definition,3
+사건차수,digital_means_n,held_source,31
+사건차수,digital_means_n,reviewed_missing,21
+사건차수,digital_means_n,reviewed_not_reported,999
+사건차수,event_analysis_scope,분석범위 표시,2906
+사건차수,event_duration_n,coded,2833
+사건차수,event_duration_n,held_source,71
+사건차수,event_duration_n,reviewed_not_reported,2
+사건차수,event_end_N,coded,2832
+사건차수,event_end_N,held_source,72
+사건차수,event_end_N,reviewed_not_reported,2
+사건차수,event_end_n,coded,2832
+사건차수,event_end_n,held_source,72
+사건차수,event_end_n,reviewed_not_reported,2
+사건차수,event_key,coded,2906
+사건차수,event_location_cat_n,coded,2846
+사건차수,event_location_cat_n,held_source,1
+사건차수,event_location_cat_n,reviewed_missing,59
+사건차수,event_seq,coded,2348
+사건차수,event_seq,held_definition,2
+사건차수,event_seq,held_source,556
+사건차수,event_start_N,coded,2837
+사건차수,event_start_N,held_source,67
+사건차수,event_start_N,reviewed_not_reported,2
+사건차수,event_start_n,coded,2837
+사건차수,event_start_n,held_source,67
+사건차수,event_start_n,reviewed_not_reported,2
+사건차수,event_time_raw,기존 차수근거 전사,140
+사건차수,event_time_raw,원문판정 미완료,2766
+사건차수,evidence_demand,v2 승인값,726
+사건차수,evidence_demand,원문판정 미완료,2180
+사건차수,evidence_link,v2 승인값,726
+사건차수,evidence_link,원문판정 미완료,2180
+사건차수,evidence_means,v2 승인값,726
+사건차수,evidence_means,원문판정 미완료,2180
+사건차수,harm_level_n,coded,306
+사건차수,harm_level_n,held_definition,2
+사건차수,harm_level_n,held_source,2467
+사건차수,harm_level_n,reviewed_not_reported,131
+사건차수,in_relationship_n,coded,2098
+사건차수,in_relationship_n,held_definition,19
+사건차수,in_relationship_n,held_source,453
+사건차수,in_relationship_n,not_applicable,333
+사건차수,in_relationship_n,reviewed_missing,3
+사건차수,indirect_contact_protected_family,원문 개별판정,1
+사건차수,indirect_contact_protected_family,원문판정 미완료,2905
+사건차수,injury_n,coded,208
+사건차수,injury_n,held_source,2395
+사건차수,injury_n,reviewed_not_reported,303
+사건차수,injury_source_note_n,coded,2906
+사건차수,ipv_benefit_received_won,원문판정 미완료,2906
+사건차수,ipv_coercive_deception,원문판정 미완료,2906
+사건차수,ipv_delivery_channel,원문판정 미완료,2798
+사건차수,ipv_delivery_channel,확인된 경로·일부,108
+사건차수,ipv_forced_funding,원문판정 미완료,2906
+사건차수,ipv_impersonated_identity,원문판정 미완료,2906
+사건차수,ipv_transfer_route,원문판정 미완료,2906
+사건차수,life_threatening_act_n,coded,97
+사건차수,life_threatening_act_n,held_definition,19
+사건차수,life_threatening_act_n,held_source,26
+사건차수,life_threatening_act_n,reviewed_missing,2388
+사건차수,life_threatening_act_n,reviewed_not_reported,376
+사건차수,link,v2 승인값,726
+사건차수,link,원문판정 미완료,2180
+사건차수,link_pairs,v2 승인값,726
+사건차수,link_pairs,원문판정 미완료,2180
+사건차수,loc_code_na,coded,2845
+사건차수,loc_code_na,held_source,2
+사건차수,loc_code_na,reviewed_missing,59
+사건차수,loc_code_nb,coded,596
+사건차수,loc_code_nb,held_source,1
+사건차수,loc_code_nb,not_applicable,2309
+사건차수,loc_na,coded,2845
+사건차수,loc_na,held_source,2
+사건차수,loc_na,reviewed_missing,59
+사건차수,loc_nb,coded,596
+사건차수,loc_nb,held_source,1
+사건차수,loc_nb,not_applicable,2309
+사건차수,loss_of_consciousness_n,coded,19
+사건차수,loss_of_consciousness_n,held_definition,3
+사건차수,loss_of_consciousness_n,reviewed_missing,2547
+사건차수,loss_of_consciousness_n,reviewed_not_reported,337
+사건차수,main_charge_n,coded,2676
+사건차수,main_charge_n,not_applicable,230
+사건차수,mental_injury_n,coded,18
+사건차수,mental_injury_n,held_source,5
+사건차수,mental_injury_n,reviewed_missing,2546
+사건차수,mental_injury_n,reviewed_not_reported,337
+사건차수,n_demands,v2 승인값,726
+사건차수,n_demands,원문판정 미완료,2180
+사건차수,n_means,v2 승인값,726
+사건차수,n_means,원문판정 미완료,2180
+사건차수,offender_drunk_n,coded,78
+사건차수,offender_drunk_n,held_source,11
+사건차수,offender_drunk_n,reviewed_missing,1
+사건차수,offender_drunk_n,reviewed_not_reported,2816
+사건차수,phd_meta_공동범행시공범과의관계_N,원문판정 미완료,2906
+사건차수,phd_meta_관계종료_N,원문판정 미완료,2906
+사건차수,phd_meta_미수또는예비사건여부_N,원문판정 미완료,2906
+사건차수,phd_meta_범행기간_N,기존값 파생,2263
+사건차수,phd_meta_범행기간_N,원문판정 미완료,643
+사건차수,phd_meta_범행인원_N,원문판정 미완료,2906
+사건차수,phd_meta_범행장소분석_N,원문판정 미완료,2906
+사건차수,phd_meta_범행촉발사유분석_N,원문판정 미완료,2906
+사건차수,phd_meta_범행특성갯수_N,원문판정 미완료,2906
+사건차수,phd_meta_온라인또는디지털성범죄유형_N,원문판정 미완료,2906
+사건차수,phd_meta_자료유포방식_N,원문판정 미완료,2906
+사건차수,phd_meta_피해자보호조치_N,원문판정 미완료,2906
+사건차수,phd_meta_행위강요여부__N,원문판정 미완료,2906
+사건차수,phd_가폭위반유형1_N,원문판정 미완료,2906
+사건차수,phd_가폭위반유형2_N,원문판정 미완료,2906
+사건차수,phd_강요된의무없는일유형1_N,원문판정 미완료,2906
+사건차수,phd_강요된의무없는일유형2_N,원문판정 미완료,2906
+사건차수,phd_강절도대상물건및유형_N,원문판정 미완료,2906
+사건차수,phd_강절도대상물건및유형_구체적_N,원문판정 미완료,2906
+사건차수,phd_금전외협박시요구사항_N,원문판정 미완료,2906
+사건차수,phd_금전피해발생여부_N,원문판정 미완료,2906
+사건차수,phd_명예훼손내용_N,원문판정 미완료,2906
+사건차수,phd_명예훼손내용_구체적_N,원문판정 미완료,2906
+사건차수,phd_명예훼손방식_N,원문판정 미완료,2906
+사건차수,phd_명예훼손시사실적시여부_N,기존값 파생,6
+사건차수,phd_명예훼손시사실적시여부_N,원문 개별판정,2
+사건차수,phd_명예훼손시사실적시여부_N,원문판정 미완료,2898
+사건차수,phd_무고범죄유형_N,원문판정 미완료,2906
+사건차수,phd_무고여부_N,원문판정 미완료,2906
+사건차수,phd_미수또는예비사건유형_N,원문판정 미완료,2906
+사건차수,phd_방화또는소훼대상_N,원문판정 미완료,2906
+사건차수,phd_방화또는소훼유형_N,원문판정 미완료,2906
+사건차수,phd_범죄발생지역(대표범죄또는주된사건장소),원문판정 미완료,2906
+사건차수,phd_범행시간_N,기존 시각 파생,51
+사건차수,phd_범행시간_N,원문판정 미완료,2855
+사건차수,phd_범행위치_N,원문판정 미완료,2906
+사건차수,phd_범행장소_N,원문판정 미완료,2906
+사건차수,phd_범행장소구분_N,원문판정 미완료,2906
+사건차수,phd_범행촉발사유_N,원문판정 미완료,2906
+사건차수,phd_범행촉발사유구분_N,원문판정 미완료,2906
+사건차수,phd_복합범죄유무_N,원문판정 미완료,2906
+사건차수,phd_사건발생여부_N,원문판정 미완료,2906
+사건차수,phd_사건일_N,원문판정 미완료,2906
+사건차수,phd_사기또는금전범죄유형_N,원문판정 미완료,2906
+사건차수,phd_사기또는금전범죄유형세부_N,원문판정 미완료,2906
+사건차수,phd_살해또는살해시도방식_N,원문판정 미완료,2906
+사건차수,phd_살해의도유무_N,원문판정 미완료,2906
+사건차수,phd_상해여부_N,원문판정 미완료,2906
+사건차수,phd_성범죄유무_N,기존값 파생,137
+사건차수,phd_성범죄유무_N,원문판정 미완료,2769
+사건차수,phd_손괴대상물건1_N,기존 차수근거 파생,6
+사건차수,phd_손괴대상물건1_N,원문 개별판정,1
+사건차수,phd_손괴대상물건1_N,원문판정 미완료,2899
+사건차수,phd_손괴대상물건2_N,원문판정 미완료,2906
+사건차수,phd_손괴재물소유자_N,원문 개별판정,1
+사건차수,phd_손괴재물소유자_N,원문판정 미완료,2905
+사건차수,phd_수색장소_N,원문판정 미완료,2906
+사건차수,phd_스토킹유무_N,기존값 파생,538
+사건차수,phd_스토킹유무_N,원문판정 미완료,2368
+사건차수,phd_스토킹행위유형1_N,원문판정 미완료,2906
+사건차수,phd_스토킹행위유형2_N,원문판정 미완료,2906
+사건차수,phd_스토킹행위유형3_N,원문판정 미완료,2906
+사건차수,phd_신고지연또는미신고사유_N,원문판정 미완료,2906
+사건차수,phd_신체사용폭력방식_N,원문판정 미완료,2906
+사건차수,phd_업무방해유형_N,원문판정 미완료,2906
+사건차수,phd_오프라인성범죄유형_N,원문판정 미완료,2906
+사건차수,phd_오프라인성범죄유형_구분_N,원문판정 미완료,2906
+사건차수,phd_오프라인침입경로및방법_N,기존 차수근거 파생,3
+사건차수,phd_오프라인침입경로및방법_N,원문판정 미완료,2903
+사건차수,phd_오프라인침입경로및방법_구체적_N,원문판정 미완료,2906
+사건차수,phd_오프라인침입장소_N,원문판정 미완료,2906
+사건차수,phd_온라인또는디지털성범죄유형1_N,원문판정 미완료,2906
+사건차수,phd_온라인또는디지털성범죄유형2_N,원문판정 미완료,2906
+사건차수,phd_위치추적기부착장소_N,기존 차수근거 파생,1
+사건차수,phd_위치추적기부착장소_N,원문 개별판정,1
+사건차수,phd_위치추적기부착장소_N,원문판정 미완료,2904
+사건차수,phd_위험한물건사용유형1_N,원문 개별판정,2
+사건차수,phd_위험한물건사용유형1_N,원문판정 미완료,2904
+사건차수,phd_위험한물건사용유형2_N,원문판정 미완료,2906
+사건차수,phd_위험한물건사용유형3_N,원문판정 미완료,2906
+사건차수,phd_위험한물건사전준비여부_N,원문판정 미완료,2906
+사건차수,phd_위험한물건유형_N,원문 개별판정,2
+사건차수,phd_위험한물건유형_N,원문판정 미완료,2904
+사건차수,phd_위험한물건을사용한폭행방식_N,원문판정 미완료,2906
+사건차수,phd_유포목적자료유포방식_N,원문판정 미완료,2906
+사건차수,phd_유포자료내용_N,원문판정 미완료,2906
+사건차수,phd_유형력행사유무_N,원문판정 미완료,2906
+사건차수,phd_은닉방식_N,원문판정 미완료,2906
+사건차수,phd_은닉재물유형_N,기존 차수근거 파생,3
+사건차수,phd_은닉재물유형_N,원문판정 미완료,2903
+사건차수,phd_자료이용시출처_N,원문판정 미완료,2906
+사건차수,phd_재산및경제범죄유무_N,기존값 파생,846
+사건차수,phd_재산및경제범죄유무_N,원문판정 미완료,2060
+사건차수,phd_적용법조_N,기존값 파생,2368
+사건차수,phd_적용법조_N,원문판정 미완료,538
+사건차수,phd_적용법조수_N,원문판정 미완료,2906
+사건차수,phd_정보통신망침해대상_N,원문판정 미완료,2906
+사건차수,phd_정보통신망침해도구_N,원문판정 미완료,2906
+사건차수,phd_정보통신망침해방법_N,원문판정 미완료,2906
+사건차수,phd_제압또는감금방식_N,원문판정 미완료,2906
+사건차수,phd_제압또는감금방식_구체적_N,원문 개별판정,1
+사건차수,phd_제압또는감금방식_구체적_N,원문판정 미완료,2905
+사건차수,phd_촬영내용1_N,원문판정 미완료,2906
+사건차수,phd_촬영내용2_N,원문판정 미완료,2906
+사건차수,phd_통신비밀또는정보통신망이용관련위반유형1_N,원문판정 미완료,2906
+사건차수,phd_통신비밀또는정보통신망이용관련위반유형2_N,원문판정 미완료,2906
+사건차수,phd_통신비밀또는정보통신망이용관련위반유형_구체적_N,원문판정 미완료,2906
+사건차수,phd_퇴거불응장소_N,원문 개별판정,1
+사건차수,phd_퇴거불응장소_N,원문판정 미완료,2905
+사건차수,phd_피해수준_N,원문판정 미완료,2906
+사건차수,phd_피해예상또는요구금액_N,원문 개별판정,1
+사건차수,phd_피해예상또는요구금액_N,원문판정 미완료,2905
+사건차수,phd_피해자모욕방식_N,원문판정 미완료,2906
+사건차수,phd_피해자모욕시위치_N,원문판정 미완료,2906
+사건차수,phd_피해자음주여부_N,원문판정 미완료,2906
+사건차수,phd_피해자의항거불능상태여부_N,원문판정 미완료,2906
+사건차수,phd_피해자항거불능시사유_N,원문판정 미완료,2906
+사건차수,phd_행위강요방식_N,원문판정 미완료,2906
+사건차수,phd_행위횟수_N,원문판정 미완료,2906
+사건차수,phd_협박또는공갈방식_N,원문판정 미완료,2906
+사건차수,phd_협박또는공갈유형1_N,원문판정 미완료,2906
+사건차수,phd_협박또는공갈유형2_N,원문판정 미완료,2906
+사건차수,phd_협박또는공갈유형구분1_N,원문판정 미완료,2906
+사건차수,phd_협박또는공갈유형구분2_N,원문판정 미완료,2906
+사건차수,phd_협박또는폭행시금전요구여부_N,원문판정 미완료,2906
+사건차수,phd_협박자료내용_N,원문판정 미완료,2906
+사건차수,phd_협박자료유포방식_N,원문판정 미완료,2906
+사건차수,physical_injury_confirmed_n,coded,209
+사건차수,physical_injury_confirmed_n,reviewed_missing,2394
+사건차수,physical_injury_confirmed_n,reviewed_not_reported,303
+사건차수,premeditated_n,coded,25
+사건차수,premeditated_n,held_definition,2550
+사건차수,premeditated_n,held_source,1
+사건차수,premeditated_n,reviewed_not_reported,330
+사건차수,ptsd_confirmed_n,coded,18
+사건차수,ptsd_confirmed_n,held_source,1
+사건차수,ptsd_confirmed_n,reviewed_missing,2550
+사건차수,ptsd_confirmed_n,reviewed_not_reported,337
+사건차수,rel_active_n,coded,2098
+사건차수,rel_active_n,held_definition,19
+사건차수,rel_active_n,held_source,453
+사건차수,rel_active_n,not_applicable,333
+사건차수,rel_active_n,reviewed_missing,3
+사건차수,rel_at_event_n,coded,2770
+사건차수,rel_at_event_n,held_definition,18
+사건차수,rel_at_event_n,held_source,118
+사건차수,rel_type_at_n,coded,2706
+사건차수,rel_type_at_n,held_definition,18
+사건차수,rel_type_at_n,held_schema,18
+사건차수,rel_type_at_n,held_source,164
+사건차수,row_type,v2 승인값,726
+사건차수,row_type,원문판정 미완료,2180
+사건차수,safety_device_function_knowledge,원문 개별판정,2
+사건차수,safety_device_function_knowledge,원문판정 미완료,2904
+사건차수,safety_device_interference,원문 개별판정,2
+사건차수,safety_device_interference,원문판정 미완료,2904
+사건차수,severity_n,coded,2217
+사건차수,severity_n,held_definition,437
+사건차수,severity_n,held_schema,13
+사건차수,severity_n,held_source,9
+사건차수,severity_n,not_applicable,230
+사건차수,stalk_type1_n,coded,275
+사건차수,stalk_type1_n,not_applicable,2631
+사건차수,threat_type1_n,coded,204
+사건차수,threat_type1_n,held_source,4
+사건차수,threat_type1_n,not_applicable,2591
+사건차수,threat_type1_n,reviewed_not_reported,107
+사건차수,treatment_days_converted_n,coded,431
+사건차수,treatment_days_converted_n,held_source,1
+사건차수,treatment_days_converted_n,not_applicable,2474
+사건차수,treatment_days_n,coded,120
+사건차수,treatment_days_n,held_source,2
+사건차수,treatment_days_n,not_applicable,2725
+사건차수,treatment_days_n,reviewed_missing,59
+사건차수,treatment_duration_raw_n,coded,105
+사건차수,treatment_duration_raw_n,not_applicable,2725
+사건차수,treatment_duration_raw_n,reviewed_missing,76
+사건차수,treatment_weeks_n,coded,91
+사건차수,treatment_weeks_n,held_source,2
+사건차수,treatment_weeks_n,not_applicable,2726
+사건차수,treatment_weeks_n,reviewed_missing,87
+사건차수,trigger_broad_n,coded,2809
+사건차수,trigger_broad_n,held_definition,59
+사건차수,trigger_broad_n,held_source,30
+사건차수,trigger_broad_n,reviewed_missing,1
+사건차수,trigger_broad_n,reviewed_not_reported,7
+사건차수,trigger_cat_n,coded,2898
+사건차수,trigger_cat_n,reviewed_missing,1
+사건차수,trigger_cat_n,reviewed_not_reported,7
+사건차수,weapon_n,coded,357
+사건차수,weapon_n,held_definition,3
+사건차수,weapon_n,held_source,12
+사건차수,weapon_n,reviewed_not_reported,2534
+사건차수,판정방식,v2 승인값,726
+사건차수,판정방식,원문판정 미완료,2180
+판결문,actual_property_loss_won,원문판정 미완료,621
+판결문,associated_case_numbers,표제대조,621
+판결문,case_id,coded,621
+판결문,case_no,coded,621
+판결문,case_no_heading,표제대조,621
+판결문,co_offending,원문판정 미완료,621
+판결문,court,coded,621
+판결문,criminal_case_numbers,표제대조,621
+판결문,defendant_count,원문 개별판정,13
+판결문,defendant_count,표제 명시,608
+판결문,disposition,coded,621
+판결문,disposition_1st,coded,613
+판결문,disposition_1st,not_applicable,8
+판결문,disposition_code,coded,591
+판결문,disposition_code,held_definition,6
+판결문,disposition_code,held_schema,24
+판결문,disposition_code_1st,coded,584
+판결문,disposition_code_1st,held_definition,5
+판결문,disposition_code_1st,held_schema,24
+판결문,disposition_code_1st,not_applicable,8
+판결문,document_id,표제대조,621
+판결문,final_instance,coded,518
+판결문,final_instance,reviewed_missing,94
+판결문,final_instance,reviewed_not_reported,9
+판결문,fine_10k,coded,160
+판결문,fine_10k,held_definition,1
+판결문,fine_10k,held_schema,5
+판결문,fine_10k,not_applicable,455
+판결문,fine_10k_1st,coded,157
+판결문,fine_10k_1st,held_definition,1
+판결문,fine_10k_1st,held_schema,5
+판결문,fine_10k_1st,not_applicable,458
+판결문,funds_recovered_won,원문판정 미완료,621
+판결문,judgment_charge,원문판정 미완료,621
+판결문,judgment_date,coded,621
+판결문,judgment_id,coded,621
+판결문,judgment_year,기존일자 파생,621
+판결문,kicj_b1_1,원문판정 미완료,621
+판결문,kicj_b1_2,원문판정 미완료,621
+판결문,kicj_b1_3_01,원문판정 미완료,621
+판결문,kicj_b1_3_02,원문판정 미완료,621
+판결문,kicj_b1_4,원문판정 미완료,621
+판결문,kicj_b1_5,기존값 파생,101
+판결문,kicj_b1_5,원문판정 미완료,464
+판결문,kicj_b1_5,표제 명시,56
+판결문,kicj_c3_2_01,원문판정 미완료,621
+판결문,kicj_c3_2_02,원문판정 미완료,621
+판결문,kicj_c3_2_03,원문판정 미완료,621
+판결문,kicj_c3_2_04,원문판정 미완료,621
+판결문,kicj_c3_2_05,원문판정 미완료,621
+판결문,kicj_c3_2_06,원문판정 미완료,621
+판결문,kicj_c3_2_07,원문판정 미완료,621
+판결문,kicj_c3_2_08,원문판정 미완료,621
+판결문,kicj_c3_2_etc,원문판정 미완료,621
+판결문,kicj_c3_3,원문판정 미완료,621
+판결문,kicj_c3_3_01,원문판정 미완료,621
+판결문,kicj_c3_4,원문판정 미완료,621
+판결문,kicj_c3_4_01,원문판정 미완료,621
+판결문,kicj_c3_6_01,원문판정 미완료,621
+판결문,kicj_c3_6_02,원문판정 미완료,621
+판결문,kicj_d1,원문판정 미완료,621
+판결문,kicj_dup_group,원문판정 미완료,621
+판결문,kicj_e3,원문판정 미완료,621
+판결문,kicj_e5,원문판정 미완료,621
+판결문,merged,coded,139
+판결문,merged,reviewed_missing,482
+판결문,participant_n,원문판정 미완료,621
+판결문,phd_벌금_만원,원문판정 미완료,621
+판결문,phd_일심사건번호,원문판정 미완료,621
+판결문,phd_일심선고일자,원문판정 미완료,621
+판결문,phd_집행유예_개월,원문판정 미완료,621
+판결문,phd_징역_개월,원문판정 미완료,621
+판결문,phd_판결서죄명,원문판정 미완료,621
+판결문,prison_months,coded,432
+판결문,prison_months,held_definition,2
+판결문,prison_months,held_schema,5
+판결문,prison_months,not_applicable,182
+판결문,prison_months_1st,coded,428
+판결문,prison_months_1st,held_definition,2
+판결문,prison_months_1st,held_schema,5
+판결문,prison_months_1st,not_applicable,186
+판결문,probation_months,coded,327
+판결문,probation_months,held_definition,2
+판결문,probation_months,held_schema,4
+판결문,probation_months,not_applicable,288
+판결문,probation_months_1st,coded,321
+판결문,probation_months_1st,held_definition,2
+판결문,probation_months_1st,held_schema,4
+판결문,probation_months_1st,not_applicable,294
+판결문,recovery_of_funds,원문판정 미완료,621
+판결문,sentencing_text,coded,512
+판결문,sentencing_text,reviewed_missing,106
+판결문,sentencing_text,reviewed_not_reported,3
+판결문,total_victims,coded,608
+판결문,total_victims,held_definition,3
+판결문,total_victims,held_source,9
+판결문,total_victims,reviewed_missing,1
+판결문,victim_recovery_status,원문판정 미완료,621
+피고인,admit,coded,130
+피고인,admit,held_source,1
+피고인,admit,reviewed_missing,503
+피고인,admit,reviewed_not_reported,2
+피고인,admit_code,coded,384
+피고인,admit_code,held_definition,56
+피고인,admit_code,held_source,39
+피고인,admit_code,reviewed_not_reported,157
+피고인,aggravating_other,coded,21
+피고인,aggravating_other,reviewed_missing,615
+피고인,co_offending,원문판정 미완료,636
+피고인,defense_counsel_type,원문판정 미완료,340
+피고인,defense_counsel_type,표제 명시,296
+피고인,deposit,원문판정 미완료,636
+피고인,deposit_won,원문판정 미완료,636
+피고인,ipv_amount_sentencing,원문판정 미완료,636
+피고인,judgment_charge,원문판정 미완료,636
+피고인,juvenile,coded,4
+피고인,juvenile,reviewed_missing,5
+피고인,juvenile,reviewed_not_reported,627
+피고인,kicj_b1_1,원문판정 미완료,636
+피고인,kicj_b1_2,원문판정 미완료,636
+피고인,kicj_b1_3_01,원문판정 미완료,636
+피고인,kicj_b1_3_02,원문판정 미완료,636
+피고인,kicj_b1_4,원문판정 미완료,636
+피고인,kicj_b2_1_01,원문판정 미완료,331
+피고인,kicj_b2_1_01,주문 명시,305
+피고인,kicj_b2_1_02,원문판정 미완료,343
+피고인,kicj_b2_1_02,주문 명시,293
+피고인,kicj_b2_2_01,원문판정 미완료,246
+피고인,kicj_b2_2_01,주문 명시,390
+피고인,kicj_b2_2_02,원문판정 미완료,246
+피고인,kicj_b2_2_02,주문 명시,390
+피고인,kicj_b2_2_03,원문판정 미완료,636
+피고인,kicj_b2_2_04,원문판정 미완료,636
+피고인,kicj_b2_3_01,원문판정 미완료,491
+피고인,kicj_b2_3_01,주문 명시,145
+피고인,kicj_b2_3_02,원문판정 미완료,491
+피고인,kicj_b2_3_02,주문 명시,145
+피고인,kicj_b2_4_01,원문판정 미완료,636
+피고인,kicj_b2_5_01,원문판정 미완료,636
+피고인,kicj_b2_6_01,원문판정 미완료,636
+피고인,kicj_b2_7_01,원문판정 미완료,631
+피고인,kicj_b2_7_01,주문 명시,5
+피고인,kicj_b2_8_01,원문판정 미완료,636
+피고인,kicj_b2_9_01,원문판정 미완료,636
+피고인,kicj_b2_9_02,원문판정 미완료,636
+피고인,kicj_b3_1_01,완결 주문 내 해당 처분 미기재,444
+피고인,kicj_b3_1_01,원문판정 미완료,52
+피고인,kicj_b3_1_01,주문 명시,140
+피고인,kicj_b3_1_02,구조적 비해당,444
+피고인,kicj_b3_1_02,원문판정 미완료,192
+피고인,kicj_b3_2_01,완결 주문 내 해당 처분 미기재,500
+피고인,kicj_b3_2_01,원문판정 미완료,49
+피고인,kicj_b3_2_01,주문 명시,87
+피고인,kicj_b3_2_02,구조적 비해당,500
+피고인,kicj_b3_2_02,원문판정 미완료,49
+피고인,kicj_b3_2_02,주문 명시,87
+피고인,kicj_b3_3_01,완결 주문 내 해당 처분 미기재,477
+피고인,kicj_b3_3_01,원문판정 미완료,57
+피고인,kicj_b3_3_01,주문 명시,102
+피고인,kicj_b3_3_02,구조적 비해당,477
+피고인,kicj_b3_3_02,원문판정 미완료,159
+피고인,kicj_b3_4_01,완결 주문 내 해당 처분 미기재,588
+피고인,kicj_b3_4_01,원문판정 미완료,46
+피고인,kicj_b3_4_01,주문 명시,2
+피고인,kicj_b3_4_02,구조적 비해당,588
+피고인,kicj_b3_4_02,원문판정 미완료,46
+피고인,kicj_b3_4_02,주문 명시,2
+피고인,kicj_b3_5_01,완결 주문 내 해당 처분 미기재,453
+피고인,kicj_b3_5_01,원문판정 미완료,45
+피고인,kicj_b3_5_01,주문 명시,138
+피고인,kicj_b3_6_01,완결 주문 내 해당 처분 미기재,497
+피고인,kicj_b3_6_01,원문판정 미완료,55
+피고인,kicj_b3_6_01,주문 명시,84
+피고인,kicj_b3_7_01,원문판정 미완료,636
+피고인,kicj_b3_7_02,원문판정 미완료,636
+피고인,kicj_b3_8_01,원문판정 미완료,636
+피고인,kicj_b3_8_etc,원문판정 미완료,636
+피고인,kicj_b5_1,승인된 양형근거 파생,5
+피고인,kicj_b5_1,원문판정 미완료,631
+피고인,kicj_b5_10,원문판정 미완료,636
+피고인,kicj_b5_11,원문판정 미완료,636
+피고인,kicj_b5_11_etc,원문판정 미완료,636
+피고인,kicj_b5_2,승인된 양형근거 파생,6
+피고인,kicj_b5_2,원문판정 미완료,630
+피고인,kicj_b5_3,승인된 양형근거 파생,3
+피고인,kicj_b5_3,원문판정 미완료,633
+피고인,kicj_b5_4,승인된 양형근거 파생,1
+피고인,kicj_b5_4,원문판정 미완료,635
+피고인,kicj_b5_5,원문판정 미완료,636
+피고인,kicj_b5_6,승인된 양형근거 파생,12
+피고인,kicj_b5_6,원문판정 미완료,624
+피고인,kicj_b5_7,원문판정 미완료,636
+피고인,kicj_b5_9,원문판정 미완료,636
+피고인,kicj_b6_1,승인된 양형근거 파생,1
+피고인,kicj_b6_1,원문판정 미완료,635
+피고인,kicj_b6_10,원문판정 미완료,636
+피고인,kicj_b6_11,원문판정 미완료,636
+피고인,kicj_b6_12,원문판정 미완료,636
+피고인,kicj_b6_13,원문판정 미완료,636
+피고인,kicj_b6_13_etc,원문판정 미완료,636
+피고인,kicj_b6_2,원문판정 미완료,636
+피고인,kicj_b6_3,승인된 양형근거 파생,3
+피고인,kicj_b6_3,원문판정 미완료,633
+피고인,kicj_b6_4,승인된 양형근거 파생,5
+피고인,kicj_b6_4,원문판정 미완료,631
+피고인,kicj_b6_5,원문판정 미완료,636
+피고인,kicj_b6_6,원문판정 미완료,636
+피고인,kicj_b6_7,원문판정 미완료,636
+피고인,kicj_b6_8,원문판정 미완료,636
+피고인,kicj_c1_01,원문판정 미완료,636
+피고인,kicj_c1_03,원문판정 미완료,636
+피고인,kicj_c1_1,원문판정 미완료,636
+피고인,kicj_c1_2,원문판정 미완료,636
+피고인,kicj_c2,원문판정 미완료,636
+피고인,kicj_c2_1,원문판정 미완료,636
+피고인,kicj_c2_1_5,원문판정 미완료,636
+피고인,kicj_c2_2,원문판정 미완료,636
+피고인,kicj_c2_2_4,원문판정 미완료,636
+피고인,kicj_c3_2_01,원문판정 미완료,636
+피고인,kicj_c3_2_02,원문판정 미완료,636
+피고인,kicj_c3_2_03,원문판정 미완료,636
+피고인,kicj_c3_2_04,원문판정 미완료,636
+피고인,kicj_c3_2_05,원문판정 미완료,636
+피고인,kicj_c3_2_06,원문판정 미완료,636
+피고인,kicj_c3_2_07,원문판정 미완료,636
+피고인,kicj_c3_2_08,원문판정 미완료,636
+피고인,kicj_c3_2_etc,원문판정 미완료,636
+피고인,kicj_c3_3,원문판정 미완료,636
+피고인,kicj_c3_3_01,원문판정 미완료,636
+피고인,kicj_c3_4,원문판정 미완료,636
+피고인,kicj_c3_4_01,원문판정 미완료,636
+피고인,kicj_c3_6_01,원문판정 미완료,636
+피고인,kicj_c3_6_02,원문판정 미완료,636
+피고인,kicj_d1,원문판정 미완료,636
+피고인,kicj_record_id,현행 연결키 전사,636
+피고인,law_firm_present,원문판정 미완료,521
+피고인,law_firm_present,표제 명시,115
+피고인,mitigating_other,coded,26
+피고인,mitigating_other,reviewed_missing,610
+피고인,offender_age,coded,7
+피고인,offender_age,reviewed_missing,621
+피고인,offender_age,reviewed_not_reported,8
+피고인,offender_disability,coded,20
+피고인,offender_disability,held_source,3
+피고인,offender_disability,reviewed_not_reported,613
+피고인,offender_employed,coded,6
+피고인,offender_employed,reviewed_missing,4
+피고인,offender_employed,reviewed_not_reported,626
+피고인,offender_id,coded,636
+피고인,offender_key,coded,636
+피고인,offender_nationality,reviewed_missing,621
+피고인,offender_nationality,reviewed_not_reported,15
+피고인,offender_sex,coded,98
+피고인,offender_sex,reviewed_missing,525
+피고인,offender_sex,reviewed_not_reported,13
+피고인,offender_sex_code,coded,98
+피고인,offender_sex_code,reviewed_missing,525
+피고인,offender_sex_code,reviewed_not_reported,13
+피고인,participant_n,원문판정 미완료,636
+피고인,phd_(형법적)경합여부,원문판정 미완료,636
+피고인,phd_가해자국적_세부,원문판정 미완료,636
+피고인,phd_가해자범행반성여부,원문판정 미완료,636
+피고인,phd_가해자의범행인정또는반성여부,원문판정 미완료,636
+피고인,phd_가해자전과범죄대표유형,원문판정 미완료,636
+피고인,phd_가해자전과범죄시최대처벌,원문판정 미완료,636
+피고인,phd_가해자전과범죄시최대처벌_변환,원문판정 미완료,636
+피고인,phd_가해자정신및신체장애진단여부,원문판정 미완료,636
+피고인,phd_가해자직업_유형,원문판정 미완료,636
+피고인,phd_누범기간등중범행여부,원문판정 미완료,636
+피고인,phd_대표적인가해자정신및신체장애유형,원문판정 미완료,636
+피고인,phd_동종전과횟수_구분,원문판정 미완료,636
+피고인,phd_소년범여부(소년범감경),원문판정 미완료,636
+피고인,phd_이종전과유무,원문판정 미완료,636
+피고인,phd_이종전과횟수_구분,원문판정 미완료,636
+피고인,phd_전과수_구분,원문판정 미완료,636
+피고인,prior_any,coded,313
+피고인,prior_any,held_definition,5
+피고인,prior_any,held_source,78
+피고인,prior_any,reviewed_missing,2
+피고인,prior_any,reviewed_not_reported,238
+피고인,prior_incarceration,coded,7
+피고인,prior_incarceration,held_definition,515
+피고인,prior_incarceration,held_source,4
+피고인,prior_incarceration,reviewed_not_reported,110
+피고인,prior_same,coded,295
+피고인,prior_same,held_definition,26
+피고인,prior_same,held_source,72
+피고인,prior_same,reviewed_not_reported,243
+피고인,remorse,coded,285
+피고인,remorse,held_definition,13
+피고인,remorse,held_source,2
+피고인,remorse,reviewed_not_reported,336
+피고인,retained_counsel_n,원문판정 미완료,636
+피해관계×조치,phd_1차사건관련피해자보호조치원인사건,원문판정 미완료,165
+피해관계×조치,phd_사건이전피해자보호조치횟수_구분,원문판정 미완료,165
+피해관계×조치,phd_일차사건관련피해자보호조치유형,원문판정 미완료,165
+피해관계×조치,phd_피해자보호조치통지날짜_1차에서2차사이,원문판정 미완료,165
+피해관계×조치,phd_피해자보호조치통지날짜_1차이전,원문판정 미완료,165
+피해관계×조치,phd_피해자보호조치통지날짜_2차에서3차사이,원문판정 미완료,165
+피해관계×조치,phd_피해자보호조치통지날짜_3차에서4차사이,원문판정 미완료,165
+피해관계×조치,phd_피해자보호조치통지날짜_4차에서5차사이,원문판정 미완료,165
+피해관계×조치,phd_피해자보호조치통지날짜_5차에서6차사이,원문판정 미완료,165
+피해관계×진술자,phd_((피해자응답)가해자외친밀한파트너존재여부,원문판정 미완료,1230
+피해관계×진술자,phd_(가해자응답)피해자외친밀한파트너존재여부,원문판정 미완료,1230
+피해자,actual_property_loss_won,원문판정 미완료,781
+피해자,funds_recovered_won,원문판정 미완료,781
+피해자,kicj_e3,원문판정 미완료,781
+피해자,kicj_e5,원문판정 미완료,781
+피해자,kicj_record_id,현행 연결키 전사,781
+피해자,phd_피해자국적,원문판정 미완료,781
+피해자,phd_피해자국적_세부,원문판정 미완료,781
+피해자,phd_피해자연령_구분,원문판정 미완료,781
+피해자,phd_피해자의저항또는대응,원문판정 미완료,781
+피해자,phd_피해자정신및신체장애진단여부,원문판정 미완료,781
+피해자,phd_피해자정신장애유형,원문판정 미완료,781
+피해자,phd_피해자직업_구체적,원문판정 미완료,781
+피해자,phd_피해자직업여부,원문판정 미완료,781
+피해자,recovery_of_funds,원문판정 미완료,781
+피해자,victim_age,coded,589
+피해자,victim_age,held_definition,3
+피해자,victim_age,held_source,3
+피해자,victim_age,reviewed_missing,185
+피해자,victim_age,reviewed_not_reported,1
+피해자,victim_id,coded,781
+피해자,victim_key,coded,781
+피해자,victim_recovery_status,원문판정 미완료,781
+피해자,victim_sex,coded,641
+피해자,victim_sex,reviewed_missing,138
+피해자,victim_sex,reviewed_not_reported,2
+피해자,victim_sex_code,coded,641
+피해자,victim_sex_code,reviewed_missing,138
+피해자,victim_sex_code,reviewed_not_reported,2

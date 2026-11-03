@@ -1,0 +1,702 @@
+﻿파일,열,공개처리,공란처리한 비정형값 수
+통합_관계쌍.csv,문서ID,원값,0
+통합_관계쌍.csv,법원,원값,0
+통합_관계쌍.csv,대표사건번호,원값,0
+통합_관계쌍.csv,표제확인번호,원값,0
+통합_관계쌍.csv,단위ID,원값,0
+통합_관계쌍.csv,key,자유서술 열 제외,783
+통합_관계쌍.csv,rel_type,자유서술 열 제외,782
+통합_관계쌍.csv,rel_type_code,원값,0
+통합_관계쌍.csv,rel_subtype_first,자유서술 열 제외,757
+통합_관계쌍.csv,rel_type_first_code,원값,0
+통합_관계쌍.csv,rel_status_first,원값,0
+통합_관계쌍.csv,cohabit_at_first,원값,0
+통합_관계쌍.csv,cohabit_ever,원값,0
+통합_관계쌍.csv,rel_start_date,원값,0
+통합_관계쌍.csv,rel_end_date,원값,0
+통합_관계쌍.csv,rel_duration_days,원값,0
+통합_관계쌍.csv,rel_end_type,자유서술 열 제외,36
+통합_관계쌍.csv,rel_end_type_code,원값,0
+통합_관계쌍.csv,rel_end_context,원문·자유서술 열 제외,18
+통합_관계쌍.csv,child_offender_only,원값,0
+통합_관계쌍.csv,child_victim_only,원값,0
+통합_관계쌍.csv,child_joint,원값,0
+통합_관계쌍.csv,protect_pre_first,원값,0
+통합_관계쌍.csv,protect_any,원값,0
+통합_관계쌍.csv,protect_breach,원값,0
+통합_관계쌍.csv,protect_to_next_days,원값,0
+통합_관계쌍.csv,rel_start_to_first_days,원값,0
+통합_관계쌍.csv,breakup_to_first_days,원값,0
+통합_관계쌍.csv,gap_1to2,원값,0
+통합_관계쌍.csv,gap_2to3,원값,0
+통합_관계쌍.csv,gap_3to4,원값,0
+통합_관계쌍.csv,gap_4to5,원값,0
+통합_관계쌍.csv,gap_5to6,원값,0
+통합_관계쌍.csv,total_offense_span,원값,0
+통합_관계쌍.csv,total_offense_count,원값,0
+통합_관계쌍.csv,max_event_seq,원값,0
+통합_관계쌍.csv,breakup_to_last_days,원값,0
+통합_관계쌍.csv,mean_gap_days,원값,0
+통합_관계쌍.csv,gap_trend,자유서술 열 제외,701
+통합_관계쌍.csv,gap_trend_code,원값,0
+통합_관계쌍.csv,cc_surveillance,원값,0
+통합_관계쌍.csv,cc_isolation,원값,0
+통합_관계쌍.csv,cc_intimidation,원값,0
+통합_관계쌍.csv,cc_emotional_abuse,원값,0
+통합_관계쌍.csv,cc_digital_control,원값,0
+통합_관계쌍.csv,cc_reputation_threat,원값,0
+통합_관계쌍.csv,cc_refusal_to_separate,원값,0
+통합_관계쌍.csv,cc_physical_control,원값,0
+통합_관계쌍.csv,cc_economic_control,원값,0
+통합_관계쌍.csv,cc_total,원값,0
+통합_관계쌍.csv,escalation_present,원값,0
+통합_관계쌍.csv,escalation_detail,원값,0
+통합_관계쌍.csv,severity_first,원값,0
+통합_관계쌍.csv,severity_last,원값,0
+통합_관계쌍.csv,severity_max,원값,0
+통합_관계쌍.csv,charges_all,자유서술 열 제외,750
+통합_관계쌍.csv,has_sex_crime,원값,0
+통합_관계쌍.csv,has_stalking,원값,0
+통합_관계쌍.csv,has_homicide_intent,원값,0
+통합_관계쌍.csv,has_physical_force,원값,0
+통합_관계쌍.csv,is_ipv,원값,0
+통합_관계쌍.csv,prior_against_victim,원값,0
+통합_관계쌍.csv,deposit,원값,0
+통합_관계쌍.csv,deposit_amount,원값,0
+통합_관계쌍.csv,victim_punishment_wish,원값,0
+통합_관계쌍.csv,settlement,원값,0
+통합_관계쌍.csv,notes,원문·자유서술 열 제외,768
+통합_관계쌍.csv,is_ipv_direct,원값,0
+통합_관계쌍.csv,gap_6to7,원값,0
+통합_관계쌍.csv,gap_7to8,원값,0
+통합_관계쌍.csv,gap_8to9,원값,0
+통합_관계쌍.csv,gap_9to10,원값,0
+통합_관계쌍.csv,cc_surveillance_digital,원값,0
+통합_관계쌍.csv,cc_intimidation_digital,원값,0
+통합_관계쌍.csv,cc_reputation_digital,원값,0
+통합_관계쌍.csv,cc_refusal_digital,원값,0
+통합_관계쌍.csv,cc_emotional_digital,원값,0
+통합_관계쌍.csv,cc_digital_control_detail,원값,0
+통합_관계쌍.csv,cc_isolation_digital,원값,0
+통합_관계쌍.csv,cc_economic_digital,원값,0
+통합_관계쌍.csv,cc_physical_control_digital,원값,0
+통합_관계쌍.csv,cc_digital_total,원값,0
+통합_관계쌍.csv,dyad_key,자유서술 열 제외,783
+통합_관계쌍.csv,n_events_total,원값,0
+통합_관계쌍.csv,events_truncated,원값,0
+통합_관계쌍.csv,severe_punishment_plea,원값,0
+통합_관계쌍.csv,punishment_wish_reversed,원값,0
+통합_관계쌍.csv,third_party_involved,원값,0
+통합_관계쌍.csv,third_party_count,원값,0
+통합_관계쌍.csv,third_party_type_codes,구조화 값만,70
+통합_관계쌍.csv,third_party_type_text,원문·자유서술 열 제외,308
+통합_관계쌍.csv,third_party_direct_harm,원값,0
+통합_관계쌍.csv,third_party_control_route,원값,0
+통합_관계쌍.csv,third_party_physical_harm,원값,0
+통합_관계쌍.csv,third_party_mental_suffering,원값,0
+통합_관계쌍.csv,third_party_property_harm,원값,0
+통합_관계쌍.csv,third_party_threat_target,원값,0
+통합_관계쌍.csv,third_party_harm_detail,자유서술 열 제외,56
+통합_관계쌍.csv,third_party_evidence,원문·자유서술 열 제외,773
+통합_관계쌍.csv,linked_dyad_key,자유서술 열 제외,114
+통합_관계쌍.csv,related_link_status,자유서술 열 제외,162
+통합_관계쌍.csv,related_row_role,자유서술 열 제외,162
+통합_관계쌍.csv,exclude_as_associated_row,원값,0
+통합_관계쌍.csv,related_link_basis,원문·자유서술 열 제외,161
+통합_관계쌍.csv,original_source_row,원문·자유서술 열 제외,0
+통합_관계쌍.csv,original_link_status,원값,0
+통합_관계쌍.csv,original_link_evidence,원문·자유서술 열 제외,0
+통합_관계쌍.csv,p1_eligible,원값,0
+통합_관계쌍.csv,p2_eligible,원값,0
+통합_관계쌍.csv,phd_관계유지기간_구분,원값,0
+통합_관계쌍.csv,phd_관계유형,원값,0
+통합_관계쌍.csv,phd_관계유형_구분,원값,0
+통합_관계쌍.csv,phd_피해자대상적용법조,원값,0
+통합_관계쌍.csv,phd_피해자대상적용법조수,원값,0
+통합_관계쌍.csv,phd_피해자대상적용법조수_구분,원값,0
+통합_관계쌍.csv,phd_범행위치,원값,0
+통합_관계쌍.csv,phd_재산및경제범죄유무,원값,0
+통합_관계쌍.csv,phd_범행횟수_6차기준,원값,0
+통합_관계쌍.csv,phd_사건차수_6차기준,원값,0
+통합_관계쌍.csv,phd_사건차수_구분,원값,0
+통합_관계쌍.csv,phd_관계형태유형,원값,0
+통합_관계쌍.csv,phd_합의외피해회복조치,원값,0
+통합_관계쌍.csv,phd_변제여부,원값,0
+통합_관계쌍.csv,phd_변제금액_만원,원값,0
+통합_관계쌍.csv,phd_피해자또는유족의용서및화해여부,원값,0
+통합_관계쌍.csv,phd_피해자또는유족과의합의여부,원값,0
+통합_관계쌍.csv,phd_합의금_원,원값,0
+통합_관계쌍.csv,phd_피해자대상전과수_구분,원값,0
+통합_관계쌍.csv,phd_피해자대상전과유형,원값,0
+통합_관계쌍.csv,phd_피해자대상전과시최대처벌,원값,0
+통합_관계쌍.csv,phd_피해자대상비전과폭력여부,원값,0
+통합_관계쌍.csv,phd_피해자대상비전과폭력유형,원값,0
+통합_관계쌍.csv,phd_삼차이상사건여부,원값,0
+통합_관계쌍.csv,phd_meta_연관피해자발생여부,원값,0
+통합_관계쌍.csv,phd_meta_연관피해자수,원값,0
+통합_관계쌍.csv,phd_meta_연관피해자유형_구분,원값,0
+통합_관계쌍.csv,phd_meta_최초범행시세부관계유형,원값,0
+통합_관계쌍.csv,phd_meta_금전피해발생유무,원값,0
+통합_관계쌍.csv,phd_meta_금전목적유무,원값,0
+통합_관계쌍.csv,phd_meta_첫사건부터육차사건까지평균기간,원값,0
+통합_관계쌍.csv,phd_meta_연관피해자유형,원값,0
+통합_관계쌍.csv,phd_meta_총피해금액,원값,0
+통합_관계쌍.csv,phd_original_정신적고통,원값,0
+통합_관계쌍.csv,phd_original_피해회복여부,원값,0
+통합_관계쌍.csv,phd_original_피해수준_신체,원값,0
+통합_관계쌍.csv,phd_original_가해자만의자녀여부,원값,0
+통합_관계쌍.csv,phd_original_피해자만의자녀여부,원값,0
+통합_관계쌍.csv,phd_original_공동의자녀여부,원값,0
+통합_관계쌍.csv,ipv_repeat_event,원값,0
+통합_사건차수.csv,문서ID,원값,0
+통합_사건차수.csv,법원,원값,0
+통합_사건차수.csv,대표사건번호,원값,0
+통합_사건차수.csv,표제확인번호,원값,0
+통합_사건차수.csv,단위ID,원값,0
+통합_사건차수.csv,main_charge_n,자유서술 열 제외,2676
+통합_사건차수.csv,charge_cat_n,자유서술 열 제외,2676
+통합_사건차수.csv,charge_cat_na,자유서술 열 제외,2670
+통합_사건차수.csv,charge_code_na,원값,0
+통합_사건차수.csv,charge_cat_nb,자유서술 열 제외,353
+통합_사건차수.csv,charge_code_nb,구조화 값만,4
+통합_사건차수.csv,rel_at_event_n,자유서술 열 제외,2770
+통합_사건차수.csv,rel_type_at_n,원값,0
+통합_사건차수.csv,rel_active_n,원값,0
+통합_사건차수.csv,event_start_n,원값,0
+통합_사건차수.csv,event_end_n,원값,0
+통합_사건차수.csv,event_location_cat_n,자유서술 열 제외,2846
+통합_사건차수.csv,loc_na,자유서술 열 제외,2845
+통합_사건차수.csv,loc_code_na,원값,0
+통합_사건차수.csv,loc_nb,자유서술 열 제외,596
+통합_사건차수.csv,loc_code_nb,원값,0
+통합_사건차수.csv,trigger_cat_n,자유서술 열 제외,2898
+통합_사건차수.csv,trigger_broad_n,원값,0
+통합_사건차수.csv,premeditated_n,원값,0
+통합_사건차수.csv,offender_drunk_n,원값,0
+통합_사건차수.csv,injury_n,원값,0
+통합_사건차수.csv,treatment_days_n,원값,0
+통합_사건차수.csv,weapon_n,원값,0
+통합_사건차수.csv,body_force_n,원값,0
+통합_사건차수.csv,body_force_type_n,구조화 값만,398
+통합_사건차수.csv,stalk_type1_n,자유서술 열 제외,275
+통합_사건차수.csv,threat_type1_n,자유서술 열 제외,204
+통합_사건차수.csv,severity_n,원값,0
+통합_사건차수.csv,in_relationship_n,원값,0
+통합_사건차수.csv,days_from_breakup_n,원값,0
+통합_사건차수.csv,digital_means_n,원값,0
+통합_사건차수.csv,charge_law_n,구조화 값만,2655
+통합_사건차수.csv,harm_level_n,원값,0
+통합_사건차수.csv,event_duration_n,원값,0
+통합_사건차수.csv,date_imputed_n,구조화 값만,77
+통합_사건차수.csv,event_key,자유서술 열 제외,2906
+통합_사건차수.csv,event_seq,원값,0
+통합_사건차수.csv,treatment_duration_raw_n,원문·자유서술 열 제외,105
+통합_사건차수.csv,treatment_days_converted_n,원값,0
+통합_사건차수.csv,physical_injury_confirmed_n,원값,0
+통합_사건차수.csv,loss_of_consciousness_n,원값,0
+통합_사건차수.csv,life_threatening_act_n,원값,0
+통합_사건차수.csv,death_n,원값,0
+통합_사건차수.csv,mental_injury_n,원값,0
+통합_사건차수.csv,ptsd_confirmed_n,원값,0
+통합_사건차수.csv,injury_source_note_n,원문·자유서술 열 제외,2906
+통합_사건차수.csv,treatment_weeks_n,원값,0
+통합_사건차수.csv,phd_사건일_N,원값,0
+통합_사건차수.csv,phd_적용법조_N,구조화 값만,2366
+통합_사건차수.csv,phd_범행위치_N,원값,0
+통합_사건차수.csv,phd_성범죄유무_N,원값,0
+통합_사건차수.csv,phd_스토킹유무_N,원값,0
+통합_사건차수.csv,phd_살해의도유무_N,원값,0
+통합_사건차수.csv,phd_유형력행사유무_N,원값,0
+통합_사건차수.csv,phd_재산및경제범죄유무_N,원값,0
+통합_사건차수.csv,phd_적용법조수_N,원값,0
+통합_사건차수.csv,phd_복합범죄유무_N,원값,0
+통합_사건차수.csv,phd_범행장소_N,원값,0
+통합_사건차수.csv,phd_범행장소구분_N,원값,0
+통합_사건차수.csv,phd_범행시간_N,원값,0
+통합_사건차수.csv,phd_범행촉발사유_N,원값,0
+통합_사건차수.csv,phd_범행촉발사유구분_N,원값,0
+통합_사건차수.csv,phd_무고여부_N,원값,0
+통합_사건차수.csv,phd_무고범죄유형_N,원값,0
+통합_사건차수.csv,phd_미수또는예비사건유형_N,원값,0
+통합_사건차수.csv,phd_피해자음주여부_N,원값,0
+통합_사건차수.csv,phd_상해여부_N,원값,0
+통합_사건차수.csv,phd_피해수준_N,원값,0
+통합_사건차수.csv,phd_위험한물건사용유형1_N,원값,0
+통합_사건차수.csv,phd_위험한물건사용유형2_N,원값,0
+통합_사건차수.csv,phd_위험한물건사용유형3_N,원값,0
+통합_사건차수.csv,phd_위험한물건을사용한폭행방식_N,원값,0
+통합_사건차수.csv,phd_위험한물건유형_N,원값,0
+통합_사건차수.csv,phd_위험한물건사전준비여부_N,원값,0
+통합_사건차수.csv,phd_신체사용폭력방식_N,원값,0
+통합_사건차수.csv,phd_살해또는살해시도방식_N,원값,0
+통합_사건차수.csv,phd_제압또는감금방식_N,원값,0
+통합_사건차수.csv,phd_제압또는감금방식_구체적_N,자유서술 열 제외,1
+통합_사건차수.csv,phd_오프라인침입경로및방법_N,원값,0
+통합_사건차수.csv,phd_오프라인침입경로및방법_구체적_N,원값,0
+통합_사건차수.csv,phd_오프라인침입장소_N,원값,0
+통합_사건차수.csv,phd_정보통신망침해도구_N,원값,0
+통합_사건차수.csv,phd_정보통신망침해방법_N,원값,0
+통합_사건차수.csv,phd_정보통신망침해대상_N,원값,0
+통합_사건차수.csv,phd_손괴재물소유자_N,원값,0
+통합_사건차수.csv,phd_손괴대상물건1_N,원값,0
+통합_사건차수.csv,phd_손괴대상물건2_N,원값,0
+통합_사건차수.csv,phd_강절도대상물건및유형_N,원값,0
+통합_사건차수.csv,phd_강절도대상물건및유형_구체적_N,원값,0
+통합_사건차수.csv,phd_사기또는금전범죄유형_N,원값,0
+통합_사건차수.csv,phd_사기또는금전범죄유형세부_N,원값,0
+통합_사건차수.csv,phd_금전피해발생여부_N,원값,0
+통합_사건차수.csv,phd_피해예상또는요구금액_N,자유서술 열 제외,1
+통합_사건차수.csv,phd_오프라인성범죄유형_N,원값,0
+통합_사건차수.csv,phd_오프라인성범죄유형_구분_N,원값,0
+통합_사건차수.csv,phd_온라인또는디지털성범죄유형1_N,원값,0
+통합_사건차수.csv,phd_온라인또는디지털성범죄유형2_N,원값,0
+통합_사건차수.csv,phd_피해자의항거불능상태여부_N,원값,0
+통합_사건차수.csv,phd_피해자항거불능시사유_N,원값,0
+통합_사건차수.csv,phd_신고지연또는미신고사유_N,원값,0
+통합_사건차수.csv,phd_촬영내용1_N,원값,0
+통합_사건차수.csv,phd_촬영내용2_N,원값,0
+통합_사건차수.csv,phd_협박또는공갈유형1_N,원값,0
+통합_사건차수.csv,phd_협박또는공갈유형구분1_N,원값,0
+통합_사건차수.csv,phd_협박또는공갈유형2_N,원값,0
+통합_사건차수.csv,phd_협박또는공갈유형구분2_N,원값,0
+통합_사건차수.csv,phd_협박또는폭행시금전요구여부_N,원값,0
+통합_사건차수.csv,phd_협박또는공갈방식_N,원값,0
+통합_사건차수.csv,phd_금전외협박시요구사항_N,원값,0
+통합_사건차수.csv,phd_자료이용시출처_N,원값,0
+통합_사건차수.csv,phd_협박자료내용_N,원값,0
+통합_사건차수.csv,phd_유포자료내용_N,원값,0
+통합_사건차수.csv,phd_협박자료유포방식_N,원값,0
+통합_사건차수.csv,phd_유포목적자료유포방식_N,원값,0
+통합_사건차수.csv,phd_행위강요방식_N,원값,0
+통합_사건차수.csv,phd_강요된의무없는일유형1_N,원값,0
+통합_사건차수.csv,phd_강요된의무없는일유형2_N,원값,0
+통합_사건차수.csv,phd_퇴거불응장소_N,원값,0
+통합_사건차수.csv,phd_통신비밀또는정보통신망이용관련위반유형1_N,원값,0
+통합_사건차수.csv,phd_통신비밀또는정보통신망이용관련위반유형2_N,원값,0
+통합_사건차수.csv,phd_통신비밀또는정보통신망이용관련위반유형_구체적_N,원값,0
+통합_사건차수.csv,phd_위치추적기부착장소_N,원값,0
+통합_사건차수.csv,phd_피해자모욕시위치_N,원값,0
+통합_사건차수.csv,phd_피해자모욕방식_N,원값,0
+통합_사건차수.csv,phd_방화또는소훼유형_N,원값,0
+통합_사건차수.csv,phd_방화또는소훼대상_N,원값,0
+통합_사건차수.csv,phd_업무방해유형_N,원값,0
+통합_사건차수.csv,phd_은닉재물유형_N,원값,0
+통합_사건차수.csv,phd_은닉방식_N,원값,0
+통합_사건차수.csv,phd_스토킹행위유형1_N,원값,0
+통합_사건차수.csv,phd_스토킹행위유형2_N,원값,0
+통합_사건차수.csv,phd_스토킹행위유형3_N,원값,0
+통합_사건차수.csv,phd_가폭위반유형1_N,원값,0
+통합_사건차수.csv,phd_가폭위반유형2_N,원값,0
+통합_사건차수.csv,phd_명예훼손시사실적시여부_N,원값,0
+통합_사건차수.csv,phd_명예훼손내용_N,원값,0
+통합_사건차수.csv,phd_명예훼손내용_구체적_N,원값,0
+통합_사건차수.csv,phd_명예훼손방식_N,원값,0
+통합_사건차수.csv,phd_수색장소_N,원값,0
+통합_사건차수.csv,phd_행위횟수_N,원값,0
+통합_사건차수.csv,phd_사건발생여부_N,원값,0
+통합_사건차수.csv,phd_meta_미수또는예비사건여부_N,원값,0
+통합_사건차수.csv,phd_meta_범행인원_N,원값,0
+통합_사건차수.csv,phd_meta_공동범행시공범과의관계_N,원값,0
+통합_사건차수.csv,phd_meta_온라인또는디지털성범죄유형_N,원값,0
+통합_사건차수.csv,phd_meta_자료유포방식_N,원값,0
+통합_사건차수.csv,phd_meta_행위강요여부__N,원값,0
+통합_사건차수.csv,phd_meta_범행특성갯수_N,원값,0
+통합_사건차수.csv,phd_meta_피해자보호조치_N,원값,0
+통합_사건차수.csv,phd_meta_관계종료_N,원값,0
+통합_사건차수.csv,phd_meta_범행기간_N,원값,0
+통합_사건차수.csv,phd_meta_범행장소분석_N,원값,0
+통합_사건차수.csv,phd_meta_범행촉발사유분석_N,원값,0
+통합_사건차수.csv,phd_범죄발생지역(대표범죄또는주된사건장소),원값,0
+통합_사건차수.csv,charge_cat_N,자유서술 열 제외,2676
+통합_사건차수.csv,event_start_N,원값,0
+통합_사건차수.csv,event_end_N,원값,0
+통합_사건차수.csv,ipv_delivery_channel,자유서술 열 제외,108
+통합_사건차수.csv,ipv_impersonated_identity,원값,0
+통합_사건차수.csv,ipv_coercive_deception,원값,0
+통합_사건차수.csv,ipv_forced_funding,원값,0
+통합_사건차수.csv,ipv_transfer_route,원값,0
+통합_사건차수.csv,ipv_benefit_received_won,원값,0
+통합_사건차수.csv,safety_device_interference,자유서술 열 제외,2
+통합_사건차수.csv,safety_device_function_knowledge,자유서술 열 제외,2
+통합_사건차수.csv,indirect_contact_protected_family,자유서술 열 제외,1
+통합_사건차수.csv,event_time_raw,원문·자유서술 열 제외,140
+통합_사건차수.csv,event_analysis_scope,원값,0
+통합_사건차수.csv,row_type,원값,0
+통합_사건차수.csv,cc_event_detail,원값,0
+통합_사건차수.csv,M_threat,원값,0
+통합_사건차수.csv,M_threat_dig,원값,0
+통합_사건차수.csv,M_threat_off,원값,0
+통합_사건차수.csv,M_reputation,원값,0
+통합_사건차수.csv,M_reputation_dig,원값,0
+통합_사건차수.csv,M_reputation_off,원값,0
+통합_사건차수.csv,M_emotional,원값,0
+통합_사건차수.csv,M_emotional_dig,원값,0
+통합_사건차수.csv,M_emotional_off,원값,0
+통합_사건차수.csv,M_physical,원값,0
+통합_사건차수.csv,M_physical_dig,원값,0
+통합_사건차수.csv,M_physical_off,원값,0
+통합_사건차수.csv,M_surveil,원값,0
+통합_사건차수.csv,M_surveil_dig,원값,0
+통합_사건차수.csv,M_surveil_off,원값,0
+통합_사건차수.csv,M_account,원값,0
+통합_사건차수.csv,M_account_dig,원값,0
+통합_사건차수.csv,M_account_off,원값,0
+통합_사건차수.csv,M_contact,원값,0
+통합_사건차수.csv,M_contact_dig,원값,0
+통합_사건차수.csv,M_contact_off,원값,0
+통합_사건차수.csv,M_economic,원값,0
+통합_사건차수.csv,M_economic_dig,원값,0
+통합_사건차수.csv,M_economic_off,원값,0
+통합_사건차수.csv,M_thirdparty,원값,0
+통합_사건차수.csv,M_thirdparty_dig,원값,0
+통합_사건차수.csv,M_thirdparty_off,원값,0
+통합_사건차수.csv,M_other,원값,0
+통합_사건차수.csv,M_other_dig,원값,0
+통합_사건차수.csv,M_other_off,원값,0
+통합_사건차수.csv,D_relation,원값,0
+통합_사건차수.csv,D_contact,원값,0
+통합_사건차수.csv,D_isolation,원값,0
+통합_사건차수.csv,D_movement,원값,0
+통합_사건차수.csv,D_money,원값,0
+통합_사건차수.csv,D_report,원값,0
+통합_사건차수.csv,D_sexual,원값,0
+통합_사건차수.csv,D_work,원값,0
+통합_사건차수.csv,D_report_info,원값,0
+통합_사건차수.csv,D_other,원값,0
+통합_사건차수.csv,link,원값,0
+통합_사건차수.csv,link_pairs,원값,0
+통합_사건차수.csv,cc_event,원값,0
+통합_사건차수.csv,n_means,원값,0
+통합_사건차수.csv,n_demands,원값,0
+통합_사건차수.csv,evidence_means,원문·자유서술 열 제외,574
+통합_사건차수.csv,evidence_demand,원문·자유서술 열 제외,93
+통합_사건차수.csv,evidence_link,원문·자유서술 열 제외,58
+통합_사건차수.csv,coder_note,원문·자유서술 열 제외,565
+통합_사건차수.csv,판정방식,원값,0
+통합_판결문.csv,문서ID,원값,0
+통합_판결문.csv,법원,원값,0
+통합_판결문.csv,대표사건번호,원값,0
+통합_판결문.csv,표제확인번호,원값,0
+통합_판결문.csv,단위ID,원값,0
+통합_판결문.csv,document_id,원값,0
+통합_판결문.csv,court,원값,0
+통합_판결문.csv,case_no,원값,0
+통합_판결문.csv,judgment_date,원값,0
+통합_판결문.csv,final_instance,자유서술 열 제외,518
+통합_판결문.csv,merged,원값,0
+통합_판결문.csv,total_victims,원값,0
+통합_판결문.csv,disposition,자유서술 열 제외,621
+통합_판결문.csv,disposition_code,원값,0
+통합_판결문.csv,prison_months,원값,0
+통합_판결문.csv,probation_months,원값,0
+통합_판결문.csv,fine_10k,원값,0
+통합_판결문.csv,sentencing_text,원문·자유서술 열 제외,512
+통합_판결문.csv,disposition_1st,자유서술 열 제외,613
+통합_판결문.csv,disposition_code_1st,원값,0
+통합_판결문.csv,prison_months_1st,원값,0
+통합_판결문.csv,probation_months_1st,원값,0
+통합_판결문.csv,fine_10k_1st,원값,0
+통합_판결문.csv,judgment_id,원값,0
+통합_판결문.csv,case_id,원값,0
+통합_판결문.csv,phd_일심사건번호,원값,0
+통합_판결문.csv,phd_일심선고일자,원값,0
+통합_판결문.csv,phd_판결서죄명,원값,0
+통합_판결문.csv,phd_징역_개월,원값,0
+통합_판결문.csv,phd_집행유예_개월,원값,0
+통합_판결문.csv,phd_벌금_만원,원값,0
+통합_판결문.csv,case_no_heading,원값,0
+통합_판결문.csv,judgment_year,원값,0
+통합_판결문.csv,defendant_count,원값,0
+통합_판결문.csv,kicj_dup_group,원값,0
+통합_판결문.csv,judgment_charge,원값,0
+통합_판결문.csv,kicj_b1_1,원값,0
+통합_판결문.csv,kicj_b1_2,원값,0
+통합_판결문.csv,kicj_b1_3_01,원값,0
+통합_판결문.csv,kicj_b1_3_02,원값,0
+통합_판결문.csv,kicj_b1_4,원값,0
+통합_판결문.csv,kicj_b1_5,원값,0
+통합_판결문.csv,co_offending,원값,0
+통합_판결문.csv,participant_n,원값,0
+통합_판결문.csv,kicj_c3_2_01,원값,0
+통합_판결문.csv,kicj_c3_2_02,원값,0
+통합_판결문.csv,kicj_c3_2_03,원값,0
+통합_판결문.csv,kicj_c3_2_04,원값,0
+통합_판결문.csv,kicj_c3_2_05,원값,0
+통합_판결문.csv,kicj_c3_2_06,원값,0
+통합_판결문.csv,kicj_c3_2_07,원값,0
+통합_판결문.csv,kicj_c3_2_08,원값,0
+통합_판결문.csv,kicj_c3_2_etc,원값,0
+통합_판결문.csv,kicj_c3_3,원값,0
+통합_판결문.csv,kicj_c3_3_01,원값,0
+통합_판결문.csv,kicj_c3_4,원값,0
+통합_판결문.csv,kicj_c3_4_01,원값,0
+통합_판결문.csv,kicj_c3_6_01,원값,0
+통합_판결문.csv,kicj_c3_6_02,원값,0
+통합_판결문.csv,kicj_d1,원값,0
+통합_판결문.csv,actual_property_loss_won,원값,0
+통합_판결문.csv,kicj_e3,원값,0
+통합_판결문.csv,victim_recovery_status,원값,0
+통합_판결문.csv,kicj_e5,원값,0
+통합_판결문.csv,recovery_of_funds,원값,0
+통합_판결문.csv,funds_recovered_won,원값,0
+통합_판결문.csv,criminal_case_numbers,원값,0
+통합_판결문.csv,associated_case_numbers,원값,0
+통합_피고인.csv,문서ID,원값,0
+통합_피고인.csv,법원,원값,0
+통합_피고인.csv,대표사건번호,원값,0
+통합_피고인.csv,표제확인번호,원값,0
+통합_피고인.csv,단위ID,원값,0
+통합_피고인.csv,offender_id,자유서술 열 제외,636
+통합_피고인.csv,offender_sex,자유서술 열 제외,98
+통합_피고인.csv,offender_sex_code,원값,0
+통합_피고인.csv,offender_age,원값,0
+통합_피고인.csv,offender_employed,원값,0
+통합_피고인.csv,offender_nationality,원값,0
+통합_피고인.csv,offender_disability,원값,0
+통합_피고인.csv,juvenile,원값,0
+통합_피고인.csv,prior_any,원값,0
+통합_피고인.csv,prior_same,원값,0
+통합_피고인.csv,prior_incarceration,원값,0
+통합_피고인.csv,admit,자유서술 열 제외,130
+통합_피고인.csv,admit_code,원값,0
+통합_피고인.csv,remorse,원값,0
+통합_피고인.csv,aggravating_other,원문·자유서술 열 제외,21
+통합_피고인.csv,mitigating_other,원문·자유서술 열 제외,26
+통합_피고인.csv,offender_key,자유서술 열 제외,636
+통합_피고인.csv,phd_가해자정신및신체장애진단여부,원값,0
+통합_피고인.csv,phd_누범기간등중범행여부,원값,0
+통합_피고인.csv,phd_전과수_구분,원값,0
+통합_피고인.csv,phd_가해자범행반성여부,원값,0
+통합_피고인.csv,phd_가해자의범행인정또는반성여부,원값,0
+통합_피고인.csv,phd_(형법적)경합여부,원값,0
+통합_피고인.csv,phd_소년범여부(소년범감경),원값,0
+통합_피고인.csv,phd_가해자직업_유형,원값,0
+통합_피고인.csv,phd_가해자국적_세부,원값,0
+통합_피고인.csv,phd_대표적인가해자정신및신체장애유형,원값,0
+통합_피고인.csv,phd_동종전과횟수_구분,원값,0
+통합_피고인.csv,phd_이종전과유무,원값,0
+통합_피고인.csv,phd_이종전과횟수_구분,원값,0
+통합_피고인.csv,phd_가해자전과범죄대표유형,원값,0
+통합_피고인.csv,phd_가해자전과범죄시최대처벌,원값,0
+통합_피고인.csv,phd_가해자전과범죄시최대처벌_변환,원값,0
+통합_피고인.csv,kicj_record_id,자유서술 열 제외,636
+통합_피고인.csv,judgment_charge,원값,0
+통합_피고인.csv,kicj_b1_1,원값,0
+통합_피고인.csv,kicj_b1_2,원값,0
+통합_피고인.csv,kicj_b1_3_01,원값,0
+통합_피고인.csv,kicj_b1_3_02,원값,0
+통합_피고인.csv,kicj_b1_4,원값,0
+통합_피고인.csv,kicj_b2_1_01,원값,0
+통합_피고인.csv,kicj_b2_1_02,원값,0
+통합_피고인.csv,kicj_b2_2_01,원값,0
+통합_피고인.csv,kicj_b2_2_02,원값,0
+통합_피고인.csv,kicj_b2_2_03,원값,0
+통합_피고인.csv,kicj_b2_2_04,원값,0
+통합_피고인.csv,kicj_b2_3_01,원값,0
+통합_피고인.csv,kicj_b2_3_02,원값,0
+통합_피고인.csv,kicj_b2_4_01,원값,0
+통합_피고인.csv,kicj_b2_5_01,원값,0
+통합_피고인.csv,kicj_b2_6_01,원값,0
+통합_피고인.csv,kicj_b2_7_01,원값,0
+통합_피고인.csv,kicj_b2_8_01,원값,0
+통합_피고인.csv,kicj_b2_9_01,원값,0
+통합_피고인.csv,kicj_b2_9_02,원값,0
+통합_피고인.csv,kicj_b3_1_01,원값,0
+통합_피고인.csv,kicj_b3_1_02,원값,0
+통합_피고인.csv,kicj_b3_2_01,원값,0
+통합_피고인.csv,kicj_b3_2_02,원값,0
+통합_피고인.csv,kicj_b3_3_01,원값,0
+통합_피고인.csv,kicj_b3_3_02,원값,0
+통합_피고인.csv,kicj_b3_4_01,원값,0
+통합_피고인.csv,kicj_b3_4_02,원값,0
+통합_피고인.csv,kicj_b3_5_01,원값,0
+통합_피고인.csv,kicj_b3_6_01,원값,0
+통합_피고인.csv,kicj_b3_7_01,원값,0
+통합_피고인.csv,kicj_b3_7_02,원값,0
+통합_피고인.csv,kicj_b3_8_01,원값,0
+통합_피고인.csv,kicj_b3_8_etc,원값,0
+통합_피고인.csv,defense_counsel_type,원값,0
+통합_피고인.csv,retained_counsel_n,원값,0
+통합_피고인.csv,law_firm_present,원값,0
+통합_피고인.csv,kicj_b5_1,원값,0
+통합_피고인.csv,kicj_b5_2,원값,0
+통합_피고인.csv,kicj_b5_3,원값,0
+통합_피고인.csv,kicj_b5_4,원값,0
+통합_피고인.csv,kicj_b5_5,원값,0
+통합_피고인.csv,kicj_b5_6,원값,0
+통합_피고인.csv,kicj_b5_7,원값,0
+통합_피고인.csv,kicj_b5_9,원값,0
+통합_피고인.csv,kicj_b5_10,원값,0
+통합_피고인.csv,kicj_b5_11,원값,0
+통합_피고인.csv,kicj_b5_11_etc,원값,0
+통합_피고인.csv,kicj_b6_1,원값,0
+통합_피고인.csv,kicj_b6_2,원값,0
+통합_피고인.csv,kicj_b6_3,원값,0
+통합_피고인.csv,kicj_b6_4,원값,0
+통합_피고인.csv,kicj_b6_5,원값,0
+통합_피고인.csv,kicj_b6_6,원값,0
+통합_피고인.csv,kicj_b6_7,원값,0
+통합_피고인.csv,kicj_b6_8,원값,0
+통합_피고인.csv,kicj_b6_10,원값,0
+통합_피고인.csv,kicj_b6_11,원값,0
+통합_피고인.csv,kicj_b6_12,원값,0
+통합_피고인.csv,kicj_b6_13,원값,0
+통합_피고인.csv,kicj_b6_13_etc,원값,0
+통합_피고인.csv,kicj_c1_01,원값,0
+통합_피고인.csv,kicj_c1_03,원값,0
+통합_피고인.csv,kicj_c1_1,원값,0
+통합_피고인.csv,kicj_c1_2,원값,0
+통합_피고인.csv,kicj_c2,원값,0
+통합_피고인.csv,kicj_c2_1,원값,0
+통합_피고인.csv,kicj_c2_1_5,원값,0
+통합_피고인.csv,kicj_c2_2,원값,0
+통합_피고인.csv,kicj_c2_2_4,원값,0
+통합_피고인.csv,co_offending,원값,0
+통합_피고인.csv,participant_n,원값,0
+통합_피고인.csv,kicj_c3_2_01,원값,0
+통합_피고인.csv,kicj_c3_2_02,원값,0
+통합_피고인.csv,kicj_c3_2_03,원값,0
+통합_피고인.csv,kicj_c3_2_04,원값,0
+통합_피고인.csv,kicj_c3_2_05,원값,0
+통합_피고인.csv,kicj_c3_2_06,원값,0
+통합_피고인.csv,kicj_c3_2_07,원값,0
+통합_피고인.csv,kicj_c3_2_08,원값,0
+통합_피고인.csv,kicj_c3_2_etc,원값,0
+통합_피고인.csv,kicj_c3_3,원값,0
+통합_피고인.csv,kicj_c3_3_01,원값,0
+통합_피고인.csv,kicj_c3_4,원값,0
+통합_피고인.csv,kicj_c3_4_01,원값,0
+통합_피고인.csv,kicj_c3_6_01,원값,0
+통합_피고인.csv,kicj_c3_6_02,원값,0
+통합_피고인.csv,kicj_d1,원값,0
+통합_피고인.csv,deposit,원값,0
+통합_피고인.csv,deposit_won,원값,0
+통합_피고인.csv,ipv_amount_sentencing,원값,0
+통합_피해관계×조치.csv,문서ID,원값,0
+통합_피해관계×조치.csv,법원,원값,0
+통합_피해관계×조치.csv,대표사건번호,원값,0
+통합_피해관계×조치.csv,표제확인번호,원값,0
+통합_피해관계×조치.csv,단위ID,원값,0
+통합_피해관계×조치.csv,phd_사건이전피해자보호조치횟수_구분,원값,0
+통합_피해관계×조치.csv,phd_일차사건관련피해자보호조치유형,원값,0
+통합_피해관계×조치.csv,phd_1차사건관련피해자보호조치원인사건,원값,0
+통합_피해관계×조치.csv,phd_피해자보호조치통지날짜_1차이전,원값,0
+통합_피해관계×조치.csv,phd_피해자보호조치통지날짜_1차에서2차사이,원값,0
+통합_피해관계×조치.csv,phd_피해자보호조치통지날짜_2차에서3차사이,원값,0
+통합_피해관계×조치.csv,phd_피해자보호조치통지날짜_3차에서4차사이,원값,0
+통합_피해관계×조치.csv,phd_피해자보호조치통지날짜_4차에서5차사이,원값,0
+통합_피해관계×조치.csv,phd_피해자보호조치통지날짜_5차에서6차사이,원값,0
+통합_피해관계×진술자.csv,문서ID,원값,0
+통합_피해관계×진술자.csv,법원,원값,0
+통합_피해관계×진술자.csv,대표사건번호,원값,0
+통합_피해관계×진술자.csv,표제확인번호,원값,0
+통합_피해관계×진술자.csv,단위ID,원값,0
+통합_피해관계×진술자.csv,phd_((피해자응답)가해자외친밀한파트너존재여부,원값,0
+통합_피해관계×진술자.csv,phd_(가해자응답)피해자외친밀한파트너존재여부,원값,0
+통합_피해자.csv,문서ID,원값,0
+통합_피해자.csv,법원,원값,0
+통합_피해자.csv,대표사건번호,원값,0
+통합_피해자.csv,표제확인번호,원값,0
+통합_피해자.csv,단위ID,원값,0
+통합_피해자.csv,victim_id,자유서술 열 제외,781
+통합_피해자.csv,victim_sex,자유서술 열 제외,641
+통합_피해자.csv,victim_sex_code,원값,0
+통합_피해자.csv,victim_age,원값,0
+통합_피해자.csv,victim_key,자유서술 열 제외,781
+통합_피해자.csv,phd_피해자연령_구분,원값,0
+통합_피해자.csv,phd_피해자직업여부,원값,0
+통합_피해자.csv,phd_피해자직업_구체적,원값,0
+통합_피해자.csv,phd_피해자국적,원값,0
+통합_피해자.csv,phd_피해자국적_세부,원값,0
+통합_피해자.csv,phd_피해자정신및신체장애진단여부,원값,0
+통합_피해자.csv,phd_피해자정신장애유형,원값,0
+통합_피해자.csv,phd_피해자의저항또는대응,원값,0
+통합_피해자.csv,kicj_record_id,자유서술 열 제외,781
+통합_피해자.csv,actual_property_loss_won,원값,0
+통합_피해자.csv,kicj_e3,원값,0
+통합_피해자.csv,victim_recovery_status,원값,0
+통합_피해자.csv,kicj_e5,원값,0
+통합_피해자.csv,recovery_of_funds,원값,0
+통합_피해자.csv,funds_recovered_won,원값,0
+수단요구_726.csv,법원,원값,0
+수단요구_726.csv,대표사건번호,원값,0
+수단요구_726.csv,문서ID,원값,0
+수단요구_726.csv,관계쌍ID,원값,0
+수단요구_726.csv,사건ID,원값,0
+수단요구_726.csv,관계내차수,원값,0
+수단요구_726.csv,관계유지,원값,0
+수단요구_726.csv,디지털수단,원값,0
+수단요구_726.csv,기존통제,원값,0
+수단요구_726.csv,근거쪽,원문·자유서술 열 제외,726
+수단요구_726.csv,row_type,원값,0
+수단요구_726.csv,cc_event_detail,원값,0
+수단요구_726.csv,M_threat,원값,0
+수단요구_726.csv,M_threat_dig,원값,0
+수단요구_726.csv,M_threat_off,원값,0
+수단요구_726.csv,M_reputation,원값,0
+수단요구_726.csv,M_reputation_dig,원값,0
+수단요구_726.csv,M_reputation_off,원값,0
+수단요구_726.csv,M_emotional,원값,0
+수단요구_726.csv,M_emotional_dig,원값,0
+수단요구_726.csv,M_emotional_off,원값,0
+수단요구_726.csv,M_physical,원값,0
+수단요구_726.csv,M_physical_dig,원값,0
+수단요구_726.csv,M_physical_off,원값,0
+수단요구_726.csv,M_surveil,원값,0
+수단요구_726.csv,M_surveil_dig,원값,0
+수단요구_726.csv,M_surveil_off,원값,0
+수단요구_726.csv,M_account,원값,0
+수단요구_726.csv,M_account_dig,원값,0
+수단요구_726.csv,M_account_off,원값,0
+수단요구_726.csv,M_contact,원값,0
+수단요구_726.csv,M_contact_dig,원값,0
+수단요구_726.csv,M_contact_off,원값,0
+수단요구_726.csv,M_economic,원값,0
+수단요구_726.csv,M_economic_dig,원값,0
+수단요구_726.csv,M_economic_off,원값,0
+수단요구_726.csv,M_thirdparty,원값,0
+수단요구_726.csv,M_thirdparty_dig,원값,0
+수단요구_726.csv,M_thirdparty_off,원값,0
+수단요구_726.csv,M_other,원값,0
+수단요구_726.csv,M_other_dig,원값,0
+수단요구_726.csv,M_other_off,원값,0
+수단요구_726.csv,D_relation,원값,0
+수단요구_726.csv,D_contact,원값,0
+수단요구_726.csv,D_isolation,원값,0
+수단요구_726.csv,D_movement,원값,0
+수단요구_726.csv,D_money,원값,0
+수단요구_726.csv,D_report,원값,0
+수단요구_726.csv,D_sexual,원값,0
+수단요구_726.csv,D_work,원값,0
+수단요구_726.csv,D_report_info,원값,0
+수단요구_726.csv,D_other,원값,0
+수단요구_726.csv,link,원값,0
+수단요구_726.csv,link_pairs,원값,0
+수단요구_726.csv,cc_event,원값,0
+수단요구_726.csv,n_means,원값,0
+수단요구_726.csv,n_demands,원값,0
+수단요구_726.csv,evidence_means,원문·자유서술 열 제외,574
+수단요구_726.csv,evidence_demand,원문·자유서술 열 제외,93
+수단요구_726.csv,evidence_link,원문·자유서술 열 제외,58
+수단요구_726.csv,coder_note,원문·자유서술 열 제외,565
+수단요구_726.csv,판정방식,원값,0
+06_6차이내_행위수대조.csv,문서ID,원값,0
+06_6차이내_행위수대조.csv,법원,원값,0
+06_6차이내_행위수대조.csv,대표사건번호,원값,0
+06_6차이내_행위수대조.csv,관계쌍ID,원값,0
+06_6차이내_행위수대조.csv,확정합계,원값,0
+06_6차이내_행위수대조.csv,검토상태,원값,0
+06_6차이내_행위수대조.csv,차수별 중복제거 횟수,원문·자유서술 열 제외,15
+06_6차이내_행위수대조.csv,원시행 근거,원문·자유서술 열 제외,15
+01_판결문번호대장.csv,문서ID,원값,0
+01_판결문번호대장.csv,법원,원값,0
+01_판결문번호대장.csv,등록사건번호,원값,0
+01_판결문번호대장.csv,대표사건번호,원값,0
+01_판결문번호대장.csv,표제확인번호,원값,0
+01_판결문번호대장.csv,대조상태,원값,0
+01_판결문번호대장.csv,형사표제번호,원값,0
+01_판결문번호대장.csv,부수표제번호,원값,0
+01_판결문번호대장.csv,선고일,원값,0
+01_판결문번호대장.csv,표제근거,원문·자유서술 열 제외,621
+01_판결문번호대장.csv,원문PDF,원문·자유서술 열 제외,621
+01_판결문번호대장.csv,SHA256,원문·자유서술 열 제외,621
